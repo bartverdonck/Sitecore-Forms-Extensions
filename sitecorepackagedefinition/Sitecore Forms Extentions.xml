@@ -1,0 +1,129 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>Sitecore Forms Extentions</PackageName>
+      <Author>Bart Verdonck</Author>
+      <Version>1.0</Version>
+      <Revision />
+      <License />
+      <Comment />
+      <Attributes />
+      <Readme />
+      <Publisher>The Reference</Publisher>
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xitems>
+      <Entries>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailToFixedAddress/{F26D0FA8-6057-40B7-A6BB-0A661DF5A980}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailToFixedAddress/PageSettings/{5C537847-F3D7-47D8-8BBE-E7934F675F9D}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailToFixedAddress/PageSettings/Form/{BA9BE3F5-BA1A-4662-BFB2-4B8EC2B78647}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailToFixedAddress/PageSettings/Form/Message/{43AD8A97-6AC0-4950-A95A-E89E1D6B2F82}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailToFixedAddress/PageSettings/Form/To/{73FA0B53-4427-4569-AE1C-EA2C100B268D}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailToFixedAddress/PageSettings/GenericErrorMessage/{91B953BF-EE62-40D9-B33A-E1FA9E5541E0}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailToFixedAddress/PageSettings/HeaderSubtitle/{F42153B9-1254-4422-8449-5F1BA77A136D}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailToFixedAddress/PageSettings/HeaderTitle/{EEE49B84-4539-489D-9545-A2250C9C5BF3}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailToFixedAddress/PageSettings/MessagesDataSource/{1861240E-9214-499A-8740-8048482CA65C}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailToFixedAddress/PageSettings/Stylesheet/{ED31A020-9FD9-4FF2-93E1-162CFA33FE75}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailToFixedAddress/PageSettings/UnauthorizedErrorMessage/{A624CE42-33EF-45A4-8134-8C5D68B11396}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailToFixedAddress/PageSettings/ValueNotInListText/{3294EDA0-9225-4E09-99B7-982B813B6645}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/UpdateContact/{1A3B8856-C5CC-44AD-B2AF-5A493C7A1D06}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/UpdateContact/PageSettings/{05621F88-B47A-4A96-86AB-406CE7F0697C}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/UpdateContact/PageSettings/HeaderSubtitle/{82504EAB-11C4-4237-A539-EF11CA5ADAA4}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/UpdateContact/PageSettings/HeaderTitle/{74EF3EFD-2A3C-4DEF-B18A-3CB0863206B8}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/UpdateContact/PageSettings/MapContactForm/{4659D39F-DB1D-4676-9680-B85536AD3A61}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/UpdateContact/PageSettings/MapContactForm/Email/{124DAAA5-C3DE-45D7-AB5A-C18D5148D938}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/UpdateContact/PageSettings/MapContactForm/FirstName/{B15AFF03-0A13-4287-91EF-3E0927A2DE70}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/UpdateContact/PageSettings/MapContactForm/LastName/{0AB90FB3-D3B6-47E6-8C83-914E74C080AE}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/UpdateContact/PageSettings/Stylesheet/{03537154-F09A-479E-828B-5F1AE15E7669}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/UpdateContact/PageSettings/ValueNotInListText/{F71C31CE-DF36-471F-A099-6A6BEF82D5A3}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Core</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/system/Settings/Forms/Submit Actions/Send Email To Fixed Address/{2AD30A50-23D4-440D-915E-91BB0EA875FC}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Submit Actions/Update Contact/{1E409BBD-AAFA-4E7E-A20E-E2C630F28C62}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Master</Name>
+    </xitems>
+    <xfiles>
+      <Entries>
+        <x-item>/App_Config/Include/Feature/FormsExtentions/Feature.FormsExtentions.DependencyInjection.config</x-item>
+        <x-item>/App_Config/Include/Feature/FormsExtentions/Feature.FormsExtentions.Processors.config</x-item>
+        <x-item>/bin/Feature.FormsExtentions.dll</x-item>
+        <x-item>/sitecore/shell/client/Applications/FormsBuilder/Layouts/Actions/SendEmailToFixedAddress.js</x-item>
+        <x-item>/sitecore/shell/client/Applications/FormsBuilder/Layouts/Actions/UpdateContact.js</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms />
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Files</Name>
+    </xfiles>
+    <xitems>
+      <Entries>
+        <x-item>/web/sitecore/system/Settings/Forms/Submit Actions/Send Email To Fixed Address/{2AD30A50-23D4-440D-915E-91BB0EA875FC}/invariant/0</x-item>
+        <x-item>/web/sitecore/system/Settings/Forms/Submit Actions/Update Contact/{1E409BBD-AAFA-4E7E-A20E-E2C630F28C62}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Web</Name>
+    </xitems>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>
