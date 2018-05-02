@@ -22,5 +22,5 @@ Download the module under "downloads" and install as sitecore package. No config
 > For detailed info, check my blogposts on http://onelittlespark.bartverdonck.be/category/sitecore-forms-extentions/
 
 ### Send Email To Fixed Address
-- Create an automated message in EXM, you can use the token $formFields$ to render the entire form results or use $form_*fieldName*$ to add the fields individually
+- Create an automated message in EXM, you can use the token $formFields$ to render the entire form results or use $form_**fieldName**$ to add the fields individually
 - Create a sitecore form, add the send email to fixed address action to your submit button. Enter a fixed email adress to send the form to, and choose your email campaign to be send out.
