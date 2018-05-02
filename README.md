@@ -1,6 +1,6 @@
 # Sitecore-Forms-Extentions
 
-> Check my blogposts on http://onelittlespark.bartverdonck.be/ for detailed information on usage.
+> Check my blogposts on http://onelittlespark.bartverdonck.be/category/sitecore-forms-extentions/ for detailed information on usage.
 
 ## Why
 The new Sitecore Forms module that came with Sitecore 9 is a very promissing tool that allows content editors to add custom forms to their website.
