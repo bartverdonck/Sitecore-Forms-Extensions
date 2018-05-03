@@ -1,7 +1,7 @@
 <project>
   <Metadata>
     <metadata>
-      <PackageName>Sitecore Forms Extentions</PackageName>
+      <PackageName>Sitecore Forms Extensions</PackageName>
       <Author>Bart Verdonck</Author>
       <Version>1.0</Version>
       <Revision />
@@ -86,9 +86,9 @@
     </xitems>
     <xfiles>
       <Entries>
-        <x-item>/App_Config/Include/Feature/FormsExtentions/Feature.FormsExtentions.DependencyInjection.config</x-item>
-        <x-item>/App_Config/Include/Feature/FormsExtentions/Feature.FormsExtentions.Processors.config</x-item>
-        <x-item>/bin/Feature.FormsExtentions.dll</x-item>
+        <x-item>/App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.DependencyInjection.config</x-item>
+        <x-item>/App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.Processors.config</x-item>
+        <x-item>/bin/Feature.FormsExtensions.dll</x-item>
         <x-item>/sitecore/shell/client/Applications/FormsBuilder/Layouts/Actions/SendEmailToFixedAddress.js</x-item>
         <x-item>/sitecore/shell/client/Applications/FormsBuilder/Layouts/Actions/UpdateContact.js</x-item>
       </Entries>

@@ -1,6 +1,6 @@
-# Sitecore-Forms-Extentions
+# Sitecore-Forms-Extensions
 
-> Check my blogposts on http://onelittlespark.bartverdonck.be/category/sitecore-forms-extentions/ for detailed information on usage.
+> Check my blogposts on http://onelittlespark.bartverdonck.be/category/sitecore-forms-extensions/ for detailed information on usage.
 
 ## Why
 The new Sitecore Forms module that came with Sitecore 9 is a very promissing tool that allows content editors to add custom forms to their website.
@@ -19,7 +19,7 @@ The module is tested and compatible with Sitecore 9.0 - Update 1. Older versions
 Download the module under "downloads" and install as sitecore package. No configuration is required.
 
 ## Usage
-> For detailed info, check my blogposts on http://onelittlespark.bartverdonck.be/category/sitecore-forms-extentions/
+> For detailed info, check my blogposts on http://onelittlespark.bartverdonck.be/category/sitecore-forms-extensions/
 
 ### Send Email To Fixed Address
 - Create an automated message in EXM, you can use the token $formFields$ to render the entire form results or use $form_**fieldName**$ to add the fields individually
