@@ -1,0 +1,26 @@
+﻿@using System.Web.Mvc.Html
+@using Sitecore.ExperienceForms.Mvc.Html
+@model Feature.FormsExtensions.Fields.ReCaptcha.ReCaptchaModel
+@{
+    var fieldId = Html.IdFor(m => Model.CaptchaValue);
+}
+<div id="@(fieldId)_wrapper"></div>
+<input id="@fieldId" name="@Html.NameFor(m => Model.CaptchaValue)" type="hidden"
+        @Html.GenerateUnobtrusiveValidationAttributes(m => m.CaptchaValue) />
+    @Html.ValidationMessageFor(m => Model.CaptchaValue)
+
+<script type="text/javascript">
+    var _captchaInput = window.document.getElementById('@fieldId');
+    var onloadCallback = function() {
+        window.grecaptcha.render('@(fieldId)_wrapper', {
+            'sitekey': '@Model.CaptchaPublicKey',
+            'callback': function(token) {
+                _captchaInput.value = token;
+            },
+            'expired-callback': function (args) {
+                _captchaInput.value = '';
+            }
+        });
+    };
+</script>
+<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>

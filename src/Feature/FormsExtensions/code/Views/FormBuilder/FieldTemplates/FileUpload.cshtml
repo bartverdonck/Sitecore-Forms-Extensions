@@ -1,0 +1,16 @@
+﻿@using System.Web.Mvc.Html
+@using Sitecore.ExperienceForms.Mvc.Html
+@model Feature.FormsExtensions.Fields.FileUpload.FileUploadModel
+
+<label for="@Html.IdFor(m => Model.File)" class="@Model.LabelCssClass">@Html.DisplayTextFor(t => Model.Title)</label>
+<input id="@Html.IdFor(m => Model.File)"
+       name="@Html.NameFor(m => Model.File)"
+       class="@Model.CssClass"
+       type="file"
+       value="@Model.File"
+       data-sc-tracking="@Model.IsTrackingEnabled"
+       data-sc-field-name="@Model.Name"
+       @Html.GenerateUnobtrusiveValidationAttributes(m => m.File) />
+
+@Html.GenerateUnobtrusiveValidationAttributes(m => m.Value)
+@Html.ValidationMessageFor(m => Model.File)

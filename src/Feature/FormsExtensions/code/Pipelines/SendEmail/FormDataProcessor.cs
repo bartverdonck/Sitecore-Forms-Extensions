@@ -7,7 +7,7 @@ using Newtonsoft.Json.Linq;
 using Sitecore.EmailCampaign.Cm.Pipelines.SendEmail;
 using Sitecore.Modules.EmailCampaign.Messages;
 
-namespace Feature.FormsExtensions.Exm.Pipelines
+namespace Feature.FormsExtensions.Pipelines.SendEmail
 {
     public class FormDataProcessor
     {

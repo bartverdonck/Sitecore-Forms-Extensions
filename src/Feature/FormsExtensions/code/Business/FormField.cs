@@ -11,10 +11,4 @@ namespace Feature.FormsExtensions.Business
         public IList<FormFieldValue> ValueList { get; set; }
         
     }
-
-    public class FormFieldValue
-    {
-        public Guid Id { get; set; }
-        public string Name { get; set; }
-    }
 }

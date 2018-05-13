@@ -77,6 +77,9 @@
     <Reference Include="Sitecore.ExperienceForms, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.ExperienceForms.NoReferences.9.0.171219\lib\NET462\Sitecore.ExperienceForms.dll</HintPath>
     </Reference>
+    <Reference Include="Sitecore.ExperienceForms.Mvc, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Sitecore.ExperienceForms.Mvc.NoReferences.9.0.171219\lib\NET462\Sitecore.ExperienceForms.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.Kernel, Version=11.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.Kernel.NoReferences.9.0.171219\lib\NET462\Sitecore.Kernel.dll</HintPath>
     </Reference>
@@ -99,11 +102,26 @@
       <HintPath>..\..\..\..\packages\Sitecore.XConnect.Collection.Model.NoReferences.9.0.171219\lib\NET462\Sitecore.XConnect.Collection.Model.dll</HintPath>
     </Reference>
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http, Version=4.1.1.2, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\System.Net.Http.4.3.3\lib\net46\System.Net.Http.dll</HintPath>
+    </Reference>
     <Reference Include="System.Reflection, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\System.Reflection.4.1.0\lib\net462\System.Reflection.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.Extensions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\System.Runtime.Extensions.4.1.0\lib\net462\System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\System.Security.Cryptography.Algorithms.4.3.0\lib\net461\System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\System.Security.Cryptography.Encoding.4.3.0\lib\net46\System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\System.Security.Cryptography.Primitives.4.3.0\lib\net46\System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\System.Security.Cryptography.X509Certificates.4.3.0\lib\net461\System.Security.Cryptography.X509Certificates.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -117,8 +135,8 @@
     <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.Helpers.dll</HintPath>
     </Reference>
-    <Reference Include="System.Web.Mvc, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\Microsoft.AspNet.Mvc.5.2.4\lib\net45\System.Web.Mvc.dll</HintPath>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Microsoft.AspNet.Razor.3.2.4\lib\net45\System.Web.Razor.dll</HintPath>
@@ -142,9 +160,23 @@
     <Compile Include="ApplicationSettings\Constants.cs" />
     <Compile Include="Business\FormField.cs" />
     <Compile Include="Business\FormFieldConverter.cs" />
+    <Compile Include="Business\FormFieldValue.cs" />
     <Compile Include="Business\IFormFieldConverter.cs" />
-    <Compile Include="Exm\Pipelines\FormDataProcessor.cs" />
+    <Compile Include="Pipelines\SendEmail\FormDataProcessor.cs" />
+    <Compile Include="Business\FileUpload\FileSystemFileUploadStorageProvider.cs" />
+    <Compile Include="Fields\FileUpload\FileUploadModel.cs" />
+    <Compile Include="Business\FileUpload\IStoredFile.cs" />
+    <Compile Include="Business\FileUpload\StoredFile.cs" />
+    <Compile Include="Fields\ReCaptcha\ReCaptchaModel.cs" />
+    <Compile Include="Fields\ReCaptcha\ReCaptchaValidationAttribute.cs" />
+    <Compile Include="Fields\ValueNotValidatedInputViewModel.cs" />
     <Compile Include="FormsComponentConfigurator.cs" />
+    <Compile Include="Business\ReCaptcha\AsyncHelpers.cs" />
+    <Compile Include="Business\ReCaptcha\IReCaptchaService.cs" />
+    <Compile Include="Business\ReCaptcha\ReCaptchaResponse.cs" />
+    <Compile Include="Business\ReCaptcha\ReCaptchaService.cs" />
+    <Compile Include="Business\FileUpload\IFileUploadStorageProvider.cs" />
+    <Compile Include="Pipelines\ExecuteSubmit\StoreFileUploads.cs" />
     <Compile Include="XDb\Model\IBasicContact.cs" />
     <Compile Include="XDb\Model\IServiceContact.cs" />
     <Compile Include="XDb\Model\IXDbContact.cs" />
@@ -164,11 +196,18 @@
   <ItemGroup>
     <Content Include="packages.config" />
     <Content Include="App_Config\Include\Feature\FormsExtensions\Feature.FormsExtensions.Processors.config" />
+    <Content Include="sitecore modules\Web\ExperienceForms\scripts\jquery.unobtrusive-ajax.min.js" />
+    <None Include="sitecore modules\Web\ExperienceForms\scripts\jquery.unobtrusive-ajax.js" />
     <Content Include="sitecore\shell\client\Applications\FormsBuilder\Layouts\Actions\SendEmailToFixedAddress.js" />
     <Content Include="sitecore\shell\client\Applications\FormsBuilder\Layouts\Actions\UpdateContact.js" />
     <Content Include="App_Config\Include\Feature\FormsExtensions\Feature.FormsExtensions.DependencyInjection.config" />
+    <Content Include="App_Config\Include\Feature\FormsExtensions\Feature.FormsExtensions.Settings.config">
+      <SubType>Designer</SubType>
+    </Content>
     <None Include="Properties\PublishProfiles\01_Local.pubxml" />
     <None Include="Properties\PublishProfiles\02_Release.pubxml" />
+    <Content Include="Views\FormBuilder\FieldTemplates\ReCaptcha.cshtml" />
+    <Content Include="Views\FormBuilder\FieldTemplates\FileUpload.cshtml" />
     <None Include="web.config" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>

@@ -44,6 +44,7 @@ namespace Feature.FormsExtensions.SubmitActions
             return new ContactIdentifier(serviceContact.IdentifierSource, serviceContact.IdentifierValue, ContactIdentifierType.Known);
         }
 
+
         protected override bool Execute(SendEmailToFixedAddressData data, FormSubmitContext formSubmitContext)
         {
             if (data.MessageId == Guid.Empty)
