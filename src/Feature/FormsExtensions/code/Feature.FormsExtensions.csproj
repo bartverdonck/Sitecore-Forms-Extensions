@@ -161,6 +161,7 @@
     <Compile Include="Business\FormField.cs" />
     <Compile Include="Business\FormFieldConverter.cs" />
     <Compile Include="Business\FormFieldValue.cs" />
+    <Compile Include="Business\Html\ScriptStore.cs" />
     <Compile Include="Business\IFormFieldConverter.cs" />
     <Compile Include="Pipelines\SendEmail\FormDataProcessor.cs" />
     <Compile Include="Business\FileUpload\FileSystemFileUploadStorageProvider.cs" />
@@ -196,6 +197,7 @@
   <ItemGroup>
     <Content Include="packages.config" />
     <Content Include="App_Config\Include\Feature\FormsExtensions\Feature.FormsExtensions.Processors.config" />
+    <Content Include="sitecore modules\Web\ExperienceForms\scripts\formsextensions.validate.js" />
     <Content Include="sitecore modules\Web\ExperienceForms\scripts\jquery.unobtrusive-ajax.min.js" />
     <None Include="sitecore modules\Web\ExperienceForms\scripts\jquery.unobtrusive-ajax.js" />
     <Content Include="sitecore\shell\client\Applications\FormsBuilder\Layouts\Actions\SendEmailToFixedAddress.js" />
