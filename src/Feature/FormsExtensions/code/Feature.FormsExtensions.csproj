@@ -164,6 +164,8 @@
     <Compile Include="Business\FormFieldValue.cs" />
     <Compile Include="Business\Html\ScriptStore.cs" />
     <Compile Include="Business\IFormFieldConverter.cs" />
+    <Compile Include="Fields\FileUpload\FileSizeValidation.cs" />
+    <Compile Include="Fields\FileUpload\ContentTypeValidation.cs" />
     <Compile Include="Pipelines\SendEmail\FormDataProcessor.cs" />
     <Compile Include="Business\FileUpload\FileSystemFileUploadStorageProvider.cs" />
     <Compile Include="Fields\FileUpload\FileUploadModel.cs" />
