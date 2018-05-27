@@ -16,7 +16,7 @@ namespace Feature.FormsExtensions
             serviceCollection.AddSingleton<IXDbService, XDbService>();
             serviceCollection.AddSingleton<IXDbContactRepository, XDbContactRepository>();
             serviceCollection.AddSingleton<IReCaptchaService, ReCaptchaService>(provider=>new ReCaptchaService(Sitecore.Configuration.Settings.GetSetting("GoogleCaptchaPrivateKey")));
-            serviceCollection.AddSingleton<IFileUploadStorageProvider, FileSystemFileUploadStorageProvider>();
+            serviceCollection.AddSingleton<IFileUploadStorageProviderFactory, FileUploadStorageProviderFactory>();
         }
     }
 }

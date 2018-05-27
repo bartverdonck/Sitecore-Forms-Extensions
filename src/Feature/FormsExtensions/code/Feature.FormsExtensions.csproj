@@ -158,6 +158,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApplicationSettings\Constants.cs" />
+    <Compile Include="Business\FileUpload\FileUploadStorageProviderFactory.cs" />
     <Compile Include="Business\FormField.cs" />
     <Compile Include="Business\FormFieldConverter.cs" />
     <Compile Include="Business\FormFieldValue.cs" />
@@ -199,6 +200,9 @@
     <Content Include="App_Config\Include\Feature\FormsExtensions\Feature.FormsExtensions.Processors.config" />
     <Content Include="sitecore modules\Web\ExperienceForms\scripts\formsextensions.validate.js" />
     <Content Include="sitecore modules\Web\ExperienceForms\scripts\jquery.unobtrusive-ajax.min.js" />
+    <Content Include="App_Config\Include\Feature\FormsExtensions\Feature.FormsExtensions.FileUploadStorageProviders.config">
+      <SubType>Designer</SubType>
+    </Content>
     <None Include="sitecore modules\Web\ExperienceForms\scripts\jquery.unobtrusive-ajax.js" />
     <Content Include="sitecore\shell\client\Applications\FormsBuilder\Layouts\Actions\SendEmailToFixedAddress.js" />
     <Content Include="sitecore\shell\client\Applications\FormsBuilder\Layouts\Actions\UpdateContact.js" />
