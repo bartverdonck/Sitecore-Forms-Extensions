@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Feature.FormsExtensions.Business.FileUpload;
 using Sitecore.ExperienceForms.Models;
 
 namespace Feature.FormsExtensions.Business
@@ -41,6 +42,9 @@ namespace Feature.FormsExtensions.Business
                 {
                     formField.ValueList.Add(CreateFormFieldValue(valueItemObject));
                 }
+            }else if (valueObject is IStoredFile storedFile)
+            {
+                formField.Value = CreateFormFieldValue(storedFile.Url);
             }
             else
             {
