@@ -23,11 +23,11 @@ The module is tested and compatible with Sitecore 9.0 - Update 1. Older versions
 Download the module under "downloads" and install as sitecore package.
 2 config files should be patched:
 - *Feature.FormsExtensions.Settings.config*
--- GoogleCaptchaPublicKey
--- GoogleCaptchaPrivateKey
+  - GoogleCaptchaPublicKey
+  - GoogleCaptchaPrivateKey
 - *Feature.FormsExtensions.FileUploadStorageProviders.config* Enable one of the FileUploadStorageProviders and fill in the attributes.
--- FileSystemFileUploadStorageProvider: Requires a path to store the files and an URL format to download the uploaded file afterwards.
--- AzureBlobStorageFileUploadStorageProvider: Requires BlobStorage ConnectionString and name of the blobcontainer. The connection string can be found in Azure on the Storage Account resource under "Access Keys"
+  - FileSystemFileUploadStorageProvider: Requires a path to store the files and an URL format to download the uploaded file afterwards.
+  - AzureBlobStorageFileUploadStorageProvider: Requires BlobStorage ConnectionString and name of the blobcontainer. The connection string can be found in Azure on the Storage Account resource under "Access Keys"
 
 
 ## Usage
@@ -40,5 +40,11 @@ Download the module under "downloads" and install as sitecore package.
 ### Google Captcha Control
 Form Editors can just put this control on to their form. No additional configuration required.
 
-### Form Upload Control
+### File Upload Control
 Form Editors can just put this control on to their form. No additional configuration required. Files are stored according to the installed fileuploadstorageprovider. (see installation)
+
+### Content Type Validator
+This validator is linked to the file upload control and allows to enter a list of allowed content types. Files with other content types will be refused.
+
+### File Size Validtor
+This validator is linked to the file upload control and checks the file size. If the file is larger then the entered value, it will be refused.
