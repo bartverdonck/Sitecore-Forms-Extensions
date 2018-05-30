@@ -26,7 +26,7 @@ namespace Feature.FormsExtensions.Fields.FileUpload
         public override ValidationResult Validate(object value)
         {
             var postedFile = (HttpPostedFileBase) value;
-            if (postedFile.ContentLength > MaxFileSize)
+            if (postedFile!=null && postedFile.ContentLength > MaxFileSize)
             {
                 return new ValidationResult(FormatMessage(MaxFileSize));
             }

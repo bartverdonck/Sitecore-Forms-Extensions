@@ -5,12 +5,11 @@
 @model Feature.FormsExtensions.Fields.ReCaptcha.ReCaptchaModel
 @{
     var fieldId = Html.IdFor(m => Model.CaptchaValue);
-    Html.AddScript(ScriptStore.CaptchaScriptKey, new MvcHtmlString("<script src=\"https://www.google.com/recaptcha/api.js\" async defer></script>"));
     Html.AddScript(ScriptStore.ValidateScriptKey, new MvcHtmlString("<script src=\"/sitecore%20modules/Web/ExperienceForms/scripts/formsextensions.validate.js\"></script>"));
 }
 <div id="@(fieldId)_wrapper"></div>
 <input id="@fieldId" name="@Html.NameFor(m => Model.CaptchaValue)" type="hidden"
-       @Html.GenerateUnobtrusiveValidationAttributes(m => m.CaptchaValue) />
+        @Html.GenerateUnobtrusiveValidationAttributes(m => m.CaptchaValue) />
 @Html.ValidationMessageFor(m => Model.CaptchaValue)
 
 <script type="text/javascript">

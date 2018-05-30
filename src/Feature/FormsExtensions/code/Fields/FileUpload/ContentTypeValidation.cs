@@ -26,7 +26,7 @@ namespace Feature.FormsExtensions.Fields.FileUpload
         public override ValidationResult Validate(object value)
         {
             var postedFile = (HttpPostedFileBase) value;
-            if (AllowedContentTypes.Contains(postedFile.ContentType))
+            if (postedFile==null || AllowedContentTypes.Contains(postedFile.ContentType))
             {
                 return ValidationResult.Success;
             }
