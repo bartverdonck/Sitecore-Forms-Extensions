@@ -200,6 +200,9 @@
     <Compile Include="Business\ReCaptcha\ReCaptchaService.cs" />
     <Compile Include="Business\FileUpload\IFileUploadStorageProvider.cs" />
     <Compile Include="Pipelines\ExecuteSubmit\StoreFileUploads.cs" />
+    <Compile Include="SubmitActions\SendEmail.cs" />
+    <Compile Include="SubmitActions\SendEmailToFieldValue.cs" />
+    <Compile Include="SubmitActions\SendEmailExtendedData.cs" />
     <Compile Include="XDb\Model\IBasicContact.cs" />
     <Compile Include="XDb\Model\IServiceContact.cs" />
     <Compile Include="XDb\Model\IXDbContact.cs" />
@@ -225,6 +228,7 @@
       <SubType>Designer</SubType>
     </Content>
     <None Include="sitecore modules\Web\ExperienceForms\scripts\jquery.unobtrusive-ajax.js" />
+    <Content Include="sitecore\shell\client\Applications\FormsBuilder\Layouts\Actions\SendEmailExtended.js" />
     <Content Include="sitecore\shell\client\Applications\FormsBuilder\Layouts\Actions\SendEmailToFixedAddress.js" />
     <Content Include="sitecore\shell\client\Applications\FormsBuilder\Layouts\Actions\UpdateContact.js" />
     <Content Include="App_Config\Include\Feature\FormsExtensions\Feature.FormsExtensions.DependencyInjection.config" />
