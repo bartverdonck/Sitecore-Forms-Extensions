@@ -8,6 +8,8 @@ The new Sitecore Forms module that came with Sitecore 9 is a very promissing too
 This module aims to add some functionality to this forms creator.
 
 ## What
+### 1.2
+- *Send Email*, Custom Submit Action: Replacement for Send Email to Fixed Address. This new action support sending mails to a fixed backoffice email address, the email of the current identified contact or to a value of the form. The values from the form are passed to EXM as custom tokens and can be used in the email.
 
 ### 1.1
 - *Google ReCaptcha v2*, Custom Form Element: Add this field on your form to secure your form by adding a Google Recaptcha v2 control into your form.
