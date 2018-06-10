@@ -47,8 +47,14 @@ namespace Feature.FormsExtensions.XDb.Repository
             {
                 return;
             }
-            personalInfoFacet.FirstName = basicContact.FirstName;
-            personalInfoFacet.LastName = basicContact.LastName;
+            if (!string.IsNullOrEmpty(basicContact.FirstName))
+            {
+                personalInfoFacet.FirstName = basicContact.FirstName;
+            }
+            if (!string.IsNullOrEmpty(basicContact.LastName))
+            {
+                personalInfoFacet.LastName = basicContact.LastName;
+            }
             client.SetPersonal(contact, personalInfoFacet);
         }
         

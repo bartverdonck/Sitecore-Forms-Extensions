@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using Feature.FormsExtensions.XDb;
 using Feature.FormsExtensions.XDb.Model;
+using Microsoft.Extensions.DependencyInjection;
+using Sitecore.DependencyInjection;
 using Sitecore.Diagnostics;
 using Sitecore.ExperienceForms.Models;
 using Sitecore.ExperienceForms.Processing;
@@ -14,6 +16,10 @@ namespace Feature.FormsExtensions.SubmitActions
     {
         private readonly IXDbService xDbService;
 
+
+        public UpdateContact(ISubmitActionData submitActionData) : this(submitActionData, ServiceLocator.ServiceProvider.GetService<IXDbService>())
+        {
+        }
         public UpdateContact(ISubmitActionData submitActionData, IXDbService xDbService) : base(submitActionData)
         {
             this.xDbService = xDbService;
