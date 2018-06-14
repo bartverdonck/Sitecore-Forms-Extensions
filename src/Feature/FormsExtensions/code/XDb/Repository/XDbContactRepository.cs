@@ -8,19 +8,18 @@ namespace Feature.FormsExtensions.XDb.Repository
 {
     public class XDbContactRepository : IXDbContactRepository
     {
-        public void UpdateXDbContact(IBasicContact basicContact)
+        public void UpdateXDbContact(IXDbContact basicContact)
         {
             using (var client = SitecoreXConnectClientConfiguration.GetClient())
             {
                 var reference = new IdentifiedContactReference(basicContact.IdentifierSource, basicContact.IdentifierValue);
                 var xDbContact = client.Get(reference, new ContactExpandOptions(CollectionModel.FacetKeys.PersonalInformation, CollectionModel.FacetKeys.EmailAddressList));
-                SetPersonalInformation(xDbContact, basicContact, client);
                 SetEmail(xDbContact, basicContact, client);
                 client.Submit();
             }
         }
 
-        public void UpdateServiceContact(IServiceContact serviceContact)
+        public void UpdateOrCreateXDbContact(IXDbContact serviceContact)
         {
             using (var client = SitecoreXConnectClientConfiguration.GetClient())
             {
@@ -33,29 +32,12 @@ namespace Feature.FormsExtensions.XDb.Repository
                     client.AddContact(contact);
                     client.Submit();
                 }
+                else if (contact.Emails()?.PreferredEmail.SmtpAddress != serviceContact.Email)
+                {
+                    SetEmail(contact, serviceContact, client);
+                    client.Submit();
+                }
             }
-        }
-
-        private static void SetPersonalInformation(Contact contact, IBasicContact basicContact, IXdbContext client)
-        {
-            if (string.IsNullOrEmpty(basicContact.FirstName) && string.IsNullOrEmpty(basicContact.LastName))
-            {
-                return;
-            }
-            var personalInfoFacet = contact.Personal() ?? new PersonalInformation();
-            if (personalInfoFacet.FirstName == basicContact.FirstName && personalInfoFacet.LastName == basicContact.LastName)
-            {
-                return;
-            }
-            if (!string.IsNullOrEmpty(basicContact.FirstName))
-            {
-                personalInfoFacet.FirstName = basicContact.FirstName;
-            }
-            if (!string.IsNullOrEmpty(basicContact.LastName))
-            {
-                personalInfoFacet.LastName = basicContact.LastName;
-            }
-            client.SetPersonal(contact, personalInfoFacet);
         }
         
         private static void SetEmail(Contact contact, IXDbContact xDbContact, IXdbContext client)

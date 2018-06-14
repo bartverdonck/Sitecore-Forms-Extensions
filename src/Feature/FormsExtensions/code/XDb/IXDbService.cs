@@ -4,7 +4,7 @@ namespace Feature.FormsExtensions.XDb
 {
     public interface IXDbService
     {
-        void IdentifyCurrent(IBasicContact contact);
-        void CreateIfNotExists(IServiceContact contact);
+        void IdentifyCurrent(IXDbContact contact);
+        void UpdateOrCreate(IXDbContact contact);
     }
 }

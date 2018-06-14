@@ -4,8 +4,8 @@ namespace Feature.FormsExtensions.XDb.Repository
 {
     public interface IXDbContactRepository
     {
-        void UpdateXDbContact(IBasicContact contact);
+        void UpdateXDbContact(IXDbContact contact);
 
-        void UpdateServiceContact(IServiceContact serviceContact);
+        void UpdateOrCreateXDbContact(IXDbContact contact);
     }
 }

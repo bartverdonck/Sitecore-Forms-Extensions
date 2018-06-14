@@ -188,6 +188,7 @@
     <Compile Include="Business\IFormFieldConverter.cs" />
     <Compile Include="Fields\FileUpload\FileSizeValidation.cs" />
     <Compile Include="Fields\FileUpload\ContentTypeValidation.cs" />
+    <Compile Include="Pipelines\PipelineTest.cs" />
     <Compile Include="Pipelines\SendEmail\FormDataProcessor.cs" />
     <Compile Include="Business\FileUpload\FileSystemFileUploadStorageProvider.cs" />
     <Compile Include="Fields\FileUpload\FileUploadModel.cs" />
@@ -210,15 +211,11 @@
     <Compile Include="SubmitActions\SendEmail\IExtractSendToContactIdentierHandler.cs" />
     <Compile Include="SubmitActions\SendEmail\SendEmailExtended.cs" />
     <Compile Include="SubmitActions\SendEmail\SendEmailExtendedData.cs" />
-    <Compile Include="XDb\Model\IBasicContact.cs" />
-    <Compile Include="XDb\Model\IServiceContact.cs" />
+    <Compile Include="XDb\FormsExtensionsXDbContactFactory.cs" />
+    <Compile Include="XDb\IXDbContactFactory.cs" />
     <Compile Include="XDb\Model\IXDbContact.cs" />
-    <Compile Include="XDb\Model\BasicContact.cs" />
-    <Compile Include="XDb\Model\ServiceContact.cs" />
-    <Compile Include="XDb\Model\XDbContact.cs" />
+    <Compile Include="XDb\Model\FormsExtensionsXDbContact.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SubmitActions\UpdateContact.cs" />
-    <Compile Include="SubmitActions\UpdateContactData.cs" />
     <Compile Include="XDb\Repository\IXDbContactRepository.cs" />
     <Compile Include="XDb\IXDbService.cs" />
     <Compile Include="XDb\Repository\XDbContactRepository.cs" />
@@ -234,7 +231,6 @@
     </Content>
     <None Include="sitecore modules\Web\ExperienceForms\scripts\jquery.unobtrusive-ajax.js" />
     <Content Include="sitecore\shell\client\Applications\FormsBuilder\Layouts\Actions\SendEmailExtended.js" />
-    <Content Include="sitecore\shell\client\Applications\FormsBuilder\Layouts\Actions\UpdateContact.js" />
     <Content Include="App_Config\Include\Feature\FormsExtensions\Feature.FormsExtensions.DependencyInjection.config" />
     <Content Include="App_Config\Include\Feature\FormsExtensions\Feature.FormsExtensions.Settings.config">
       <SubType>Designer</SubType>

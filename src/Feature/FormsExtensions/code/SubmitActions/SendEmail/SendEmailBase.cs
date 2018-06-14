@@ -61,6 +61,7 @@ namespace Feature.FormsExtensions.SubmitActions.SendEmail
             automatedMessage.ContactIdentifier = toContact;
             automatedMessage.MessageId = messageId;
             automatedMessage.CustomTokens = customTokens;
+            automatedMessage.TargetLanguage = Sitecore.Context.Language.Name;
             clientApiService.SendAutomatedMessage(automatedMessage);
         }
 

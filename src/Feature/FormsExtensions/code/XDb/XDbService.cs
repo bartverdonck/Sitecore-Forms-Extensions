@@ -14,17 +14,17 @@ namespace Feature.FormsExtensions.XDb
             this.xDbContactRepository = xDbContactRepository;
         }
 
-        public void IdentifyCurrent(IBasicContact contact)
+        public void IdentifyCurrent(IXDbContact contact)
         {
             CheckIdentifier(contact);
             Tracker.Current.Session.IdentifyAs(contact.IdentifierSource, contact.IdentifierValue);
             xDbContactRepository.UpdateXDbContact(contact);
         }
         
-        public void CreateIfNotExists(IServiceContact contact)
+        public void UpdateOrCreate(IXDbContact contact)
         {
             CheckIdentifier(contact);
-            xDbContactRepository.UpdateServiceContact(contact);
+            xDbContactRepository.UpdateOrCreateXDbContact(contact);
         }
 
         private static void CheckIdentifier(IXDbContact contact)

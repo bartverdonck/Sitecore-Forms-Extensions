@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using Feature.FormsExtensions.XDb;
-using Feature.FormsExtensions.XDb.Model;
 using Sitecore.ExperienceForms.Models;
 using Sitecore.ExperienceForms.Processing;
 using Sitecore.ExM.Framework.Diagnostics;
@@ -14,11 +13,13 @@ namespace Feature.FormsExtensions.SubmitActions.SendEmail
     {
         private readonly ILogger logger;
         private readonly IXDbService xDbService;
+        private readonly IXDbContactFactory contactFactory;
 
-        public FieldValueContactIdentierHandler(ILogger logger, IXDbService xDbService)
+        public FieldValueContactIdentierHandler(ILogger logger, IXDbService xDbService, IXDbContactFactory contactFactory)
         {
             this.logger = logger;
             this.xDbService = xDbService;
+            this.contactFactory = contactFactory;
         }
 
         public IList<ContactIdentifier> GetContacts(SendEmailExtendedData data, FormSubmitContext formSubmitContext)
@@ -44,15 +45,15 @@ namespace Feature.FormsExtensions.SubmitActions.SendEmail
 
         private ContactIdentifier IdentifyAndUpdateEmailContact(string toAddress)
         {
-            var basicContact = new BasicContact {Email = toAddress};
+            var basicContact = contactFactory.CreateContact(toAddress);
             xDbService.IdentifyCurrent(basicContact);
             return new ContactIdentifier(basicContact.IdentifierSource, basicContact.IdentifierValue, ContactIdentifierType.Known);
         }
 
         protected virtual ContactIdentifier GetServiceContactIdentifier(string address)
         {
-            IServiceContact serviceContact = new ServiceContact(address);
-            xDbService.CreateIfNotExists(serviceContact);
+            var serviceContact = contactFactory.CreateContact(address);
+            xDbService.UpdateOrCreate(serviceContact);
             return new ContactIdentifier(serviceContact.IdentifierSource, serviceContact.IdentifierValue, ContactIdentifierType.Known);
         }
 
