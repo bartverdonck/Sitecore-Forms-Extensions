@@ -10,8 +10,10 @@ This module aims to add some functionality to this forms creator.
 ## What
 ### 1.3
 - The libraries integration with xDB had a refactoring. The update contact custom save action was removed. The forms extensions only focusses on the email address.
-- Introduction of the IXDbContactFactory. <register serviceType="Feature.FormsExtensions.XDb.IXDbContactFactory, Feature.FormsExtensions" implementationType="Feature.FormsExtensions.XDb.FormsExtensionsXDbContactFactory, Feature.FormsExtensions" lifetime="Singleton" /> You can provide your own implementation here to use your own IdentifierSource and IdentifierValue to fetch contacts from xDB. The module comes with a default implementation that uses "email" as identifiersource and uses the email as its identiefiervalue.
-
+- Introduction of the IXDbContactFactory. You can provide your own implementation here to use your own IdentifierSource and IdentifierValue to fetch contacts from xDB. The module comes with a default implementation that uses "email" as identifiersource and uses the email as its identiefiervalue.
+```xml
+<register serviceType="Feature.FormsExtensions.XDb.IXDbContactFactory, Feature.FormsExtensions" implementationType="Feature.FormsExtensions.XDb.FormsExtensionsXDbContactFactory, Feature.FormsExtensions" lifetime="Singleton" /> 
+```
 
 ### 1.2
 - *Send Email*, Custom Submit Action: Replacement for Send Email to Fixed Address. This new action support sending mails to a fixed backoffice email address, the email of the current identified contact or to a value of the form. The values from the form are passed to EXM as custom tokens and can be used in the email.
