@@ -2,6 +2,7 @@
 using Feature.FormsExtensions.Business;
 using Feature.FormsExtensions.Business.FileUpload;
 using Feature.FormsExtensions.Business.ReCaptcha;
+using Feature.FormsExtensions.Pipelines.PrefillForm;
 using Feature.FormsExtensions.SubmitActions.SendEmail;
 using Feature.FormsExtensions.XDb;
 using Feature.FormsExtensions.XDb.Repository;
@@ -22,6 +23,7 @@ namespace Feature.FormsExtensions
             serviceCollection.AddSingleton<CurrentContactContactIdentierHandler, CurrentContactContactIdentierHandler>();
             serviceCollection.AddSingleton<FieldValueContactIdentierHandler, FieldValueContactIdentierHandler>();
             serviceCollection.AddSingleton<FixedAddressContactIdentierHandler, FixedAddressContactIdentierHandler>();
+            serviceCollection.AddSingleton<IPrefillTokenMapFactory, PrefillTokenMapFactory>();
         }
     }
 }

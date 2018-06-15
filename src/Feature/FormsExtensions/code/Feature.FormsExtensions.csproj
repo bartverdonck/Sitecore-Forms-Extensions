@@ -107,6 +107,12 @@
     <Reference Include="Sitecore.Mvc.Analytics, Version=11.6.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.Mvc.Analytics.NoReferences.9.0.171219\lib\NET462\Sitecore.Mvc.Analytics.dll</HintPath>
     </Reference>
+    <Reference Include="Sitecore.Services.Core, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Sitecore.Services.Core.NoReferences.9.0.171219\lib\NET462\Sitecore.Services.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Services.Infrastructure, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Sitecore.Services.Infrastructure.NoReferences.9.0.171219\lib\NET462\Sitecore.Services.Infrastructure.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.XConnect, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.XConnect.NoReferences.9.0.171219\lib\NET462\Sitecore.XConnect.dll</HintPath>
     </Reference>
@@ -122,6 +128,9 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Net.Http, Version=4.1.1.2, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\System.Net.Http.4.3.3\lib\net46\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
     </Reference>
     <Reference Include="System.Reflection, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\System.Reflection.4.1.0\lib\net462\System.Reflection.dll</HintPath>
@@ -156,6 +165,9 @@
     <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.Helpers.dll</HintPath>
     </Reference>
+    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
     </Reference>
@@ -188,7 +200,15 @@
     <Compile Include="Business\IFormFieldConverter.cs" />
     <Compile Include="Fields\FileUpload\FileSizeValidation.cs" />
     <Compile Include="Fields\FileUpload\ContentTypeValidation.cs" />
-    <Compile Include="Pipelines\PipelineTest.cs" />
+    <Compile Include="Fields\Prefill\IPrefillToken.cs" />
+    <Compile Include="Fields\Prefill\StringInputViewWithPrefillTokenModel.cs" />
+    <Compile Include="Pipelines\PrefillForm\IPrefillFormTokenHandler.cs" />
+    <Compile Include="Pipelines\PrefillForm\IPrefillTokenMapFactory.cs" />
+    <Compile Include="Pipelines\PrefillForm\PrefillFormArgs.cs" />
+    <Compile Include="Pipelines\PrefillForm\PrefillTokenMapApiController.cs" />
+    <Compile Include="Pipelines\PrefillForm\PrefillTokenMapFactory.cs" />
+    <Compile Include="Pipelines\PrefillForm\XDbTokenHandlerLoader.cs" />
+    <Compile Include="Pipelines\RenderField\LoadPrefillField.cs" />
     <Compile Include="Pipelines\SendEmail\FormDataProcessor.cs" />
     <Compile Include="Business\FileUpload\FileSystemFileUploadStorageProvider.cs" />
     <Compile Include="Fields\FileUpload\FileUploadModel.cs" />
@@ -237,6 +257,7 @@
     </Content>
     <None Include="Properties\PublishProfiles\01_Local.pubxml" />
     <None Include="Properties\PublishProfiles\02_Release.pubxml" />
+    <Content Include="sitecore\shell\client\Applications\FormsBuilder\Layouts\PropertyGridForm\PropertyGridForm.js" />
     <Content Include="Views\FormBuilder\FieldTemplates\ReCaptcha.cshtml" />
     <Content Include="Views\FormBuilder\FieldTemplates\FileUpload.cshtml" />
     <None Include="web.config" />
