@@ -2,6 +2,7 @@
 using Feature.FormsExtensions.XDb.Model;
 using Feature.FormsExtensions.XDb.Repository;
 using Sitecore.Analytics;
+using Sitecore.XConnect;
 
 namespace Feature.FormsExtensions.XDb
 {
@@ -18,19 +19,35 @@ namespace Feature.FormsExtensions.XDb
         {
             CheckIdentifier(contact);
             Tracker.Current.Session.IdentifyAs(contact.IdentifierSource, contact.IdentifierValue);
-            xDbContactRepository.UpdateXDbContact(contact);
-        }
-        
-        public void UpdateOrCreate(IXDbContact contact)
-        {
-            CheckIdentifier(contact);
-            xDbContactRepository.UpdateOrCreateXDbContact(contact);
         }
 
-        public IDetailedXDbContact GetCurrentContact()
+        public void ReloadContactDataIntoSession()
         {
-            var identifiersCount = Tracker.Current.Contact.Identifiers.Count;
-            throw new NotImplementedException();
+            xDbContactRepository.ReloadContactDataIntoSession();
+        }
+
+        public void UpdateEmail(IXDbContactWithEmail contact)
+        {
+            CheckIdentifier(contact);
+            xDbContactRepository.UpdateXDbContactEmail(contact);
+        }
+        
+        public void UpdateOrCreateServiceContact(IXDbContactWithEmail contact)
+        {
+            CheckIdentifier(contact);
+            xDbContactRepository.UpdateOrCreateXDbServiceContactWithEmail(contact);
+        }
+
+        public void UpdateCurrentContactFacets(ContactExpandOptions expandOptions, Action<Contact> updateFacets)
+        {
+            if (Tracker.Current == null || Tracker.Current.Contact == null)
+                return;
+            if (Tracker.Current.Contact.IsNew)
+            {
+                xDbContactRepository.SaveNewContactToCollectionDb(Tracker.Current.Contact);
+            }
+            var trackerIdentifier = new IdentifiedContactReference(Sitecore.Analytics.XConnect.DataAccess.Constants.IdentifierSource, Sitecore.Analytics.Tracker.Current.Contact.ContactId.ToString("N"));
+            xDbContactRepository.UpdateContactFacets(trackerIdentifier,expandOptions,updateFacets);
         }
 
         private static void CheckIdentifier(IXDbContact contact)

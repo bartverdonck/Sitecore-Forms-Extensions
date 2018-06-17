@@ -77,6 +77,9 @@
     <Reference Include="Sitecore.Analytics.Model, Version=11.40.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.Analytics.Model.NoReferences.9.0.171219\lib\NET462\Sitecore.Analytics.Model.dll</HintPath>
     </Reference>
+    <Reference Include="Sitecore.Analytics.XConnect, Version=11.18.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Sitecore.Analytics.XConnect.NoReferences.9.0.171219\lib\NET462\Sitecore.Analytics.XConnect.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.EmailCampaign, Version=6.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.EmailCampaign.NoReferences.9.0.171219\lib\NET462\Sitecore.EmailCampaign.dll</HintPath>
     </Reference>
@@ -200,16 +203,28 @@
     <Compile Include="Business\IFormFieldConverter.cs" />
     <Compile Include="Business\PrefillToken\ITokenHandlerResult.cs" />
     <Compile Include="Business\PrefillToken\NoTokenValueFoundResult.cs" />
+    <Compile Include="Business\PrefillToken\PrefillTokenKey.cs" />
     <Compile Include="Business\PrefillToken\TokenValueFoundResult.cs" />
+    <Compile Include="Business\PrefillToken\xDbTokenHandlers\BaseXDbTokenHandler.cs" />
+    <Compile Include="Business\PrefillToken\xDbTokenHandlers\ContactPersonalInfo\XDbBirthDateTokenHandler.cs" />
+    <Compile Include="Business\PrefillToken\xDbTokenHandlers\ContactPersonalInfo\XDbGenderTokenHandler.cs" />
+    <Compile Include="Business\PrefillToken\xDbTokenHandlers\ContactPersonalInfo\XDbJobTitleTokenHandler.cs" />
+    <Compile Include="Business\PrefillToken\xDbTokenHandlers\ContactPersonalInfo\XDbMiddleNameTokenHandler.cs" />
+    <Compile Include="Business\PrefillToken\xDbTokenHandlers\ContactPersonalInfo\XDbNickNameTokenHandler.cs" />
+    <Compile Include="Business\PrefillToken\xDbTokenHandlers\ContactPersonalInfo\XDbSuffixTokenHandler.cs" />
+    <Compile Include="Business\PrefillToken\xDbTokenHandlers\ContactPersonalInfo\XDbSurNameTokenHandler.cs" />
+    <Compile Include="Business\PrefillToken\xDbTokenHandlers\ContactPersonalInfo\XDbTitleTokenHandler.cs" />
     <Compile Include="Fields\FileUpload\FileSizeValidation.cs" />
     <Compile Include="Fields\FileUpload\ContentTypeValidation.cs" />
     <Compile Include="Fields\Prefill\IPrefillToken.cs" />
     <Compile Include="Fields\Prefill\StringInputViewWithPrefillTokenModel.cs" />
     <Compile Include="Business\PrefillToken\IPrefillTokenHandler.cs" />
     <Compile Include="Business\PrefillToken\IPrefillTokenMapFactory.cs" />
+    <Compile Include="Pipelines\ExecuteSubmit\StorePrefillTokenValues.cs" />
     <Compile Include="Pipelines\LoadPrefillTokenHandlers\LoadPrefillTokenHandlersArgs.cs" />
     <Compile Include="Business\PrefillToken\PrefillTokenMapApiController.cs" />
     <Compile Include="Business\PrefillToken\PrefillTokenMapFactory.cs" />
+    <Compile Include="Business\PrefillToken\xDbTokenHandlers\ContactPersonalInfo\XDbFirstNameTokenHandler.cs" />
     <Compile Include="Pipelines\LoadPrefillTokenHandlers\XDbTokenHandlerLoader.cs" />
     <Compile Include="Pipelines\RenderField\ReplacePrefillToken.cs" />
     <Compile Include="Pipelines\SendEmail\FormDataProcessor.cs" />
@@ -227,6 +242,8 @@
     <Compile Include="Business\ReCaptcha\ReCaptchaService.cs" />
     <Compile Include="Business\FileUpload\IFileUploadStorageProvider.cs" />
     <Compile Include="Pipelines\ExecuteSubmit\StoreFileUploads.cs" />
+    <Compile Include="SubmitActions\IdentifyContact\IdentifyContactAction.cs" />
+    <Compile Include="SubmitActions\IdentifyContact\IdentifyContactData.cs" />
     <Compile Include="SubmitActions\SendEmail\SendEmailBase.cs" />
     <Compile Include="SubmitActions\SendEmail\CurrentContactContactIdentierHandler.cs" />
     <Compile Include="SubmitActions\SendEmail\FieldValueContactIdentierHandler.cs" />
@@ -253,6 +270,7 @@
       <SubType>Designer</SubType>
     </Content>
     <None Include="sitecore modules\Web\ExperienceForms\scripts\jquery.unobtrusive-ajax.js" />
+    <Content Include="sitecore\shell\client\Applications\FormsBuilder\Layouts\Actions\IdentifyContact.js" />
     <Content Include="sitecore\shell\client\Applications\FormsBuilder\Layouts\Actions\SendEmailExtended.js" />
     <Content Include="App_Config\Include\Feature\FormsExtensions\Feature.FormsExtensions.DependencyInjection.config" />
     <Content Include="App_Config\Include\Feature\FormsExtensions\Feature.FormsExtensions.Settings.config">

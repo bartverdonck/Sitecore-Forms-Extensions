@@ -1,14 +1,19 @@
-﻿using Feature.FormsExtensions.XDb.Model;
+﻿using System;
+using Feature.FormsExtensions.XDb.Model;
+using Sitecore.Analytics;
+using Sitecore.Analytics.Model;
+using Sitecore.Analytics.Tracking;
 using Sitecore.XConnect;
 using Sitecore.XConnect.Client;
 using Sitecore.XConnect.Client.Configuration;
 using Sitecore.XConnect.Collection.Model;
+using Contact = Sitecore.XConnect.Contact;
 
 namespace Feature.FormsExtensions.XDb.Repository
 {
     public class XDbContactRepository : IXDbContactRepository
     {
-        public void UpdateXDbContact(IXDbContact basicContact)
+        public void UpdateXDbContactEmail(IXDbContactWithEmail basicContact)
         {
             using (var client = SitecoreXConnectClientConfiguration.GetClient())
             {
@@ -19,7 +24,45 @@ namespace Feature.FormsExtensions.XDb.Repository
             }
         }
 
-        public void UpdateOrCreateXDbContact(IXDbContact serviceContact)
+        public void UpdateContactFacets(IdentifiedContactReference reference, ContactExpandOptions expandOptions, Action<Contact> updateFacets)
+        {
+            using (var client = SitecoreXConnectClientConfiguration.GetClient())
+            {
+                var xDbContact = client.Get(reference, expandOptions);
+                if (xDbContact != null)
+                {
+                    updateFacets(xDbContact);
+                    client.Submit();
+                }
+            }
+        }
+
+        public void SaveNewContactToCollectionDb(Sitecore.Analytics.Tracking.Contact contact)
+        {
+            if (CreateContactManager() is ContactManager manager)
+            {
+                contact.ContactSaveMode = ContactSaveMode.AlwaysSave;
+                manager.SaveContactToCollectionDb(Tracker.Current.Contact);
+            }
+        }
+
+        private static object CreateContactManager()
+        {
+            return Sitecore.Configuration.Factory.CreateObject("tracking/contactManager", true);
+        }
+
+        public void ReloadContactDataIntoSession()
+        {
+            if (Tracker.Current.Contact == null)
+                return;
+            if (CreateContactManager() is ContactManager manager)
+            {
+                manager.RemoveFromSession(Tracker.Current.Contact.ContactId);
+                Tracker.Current.Session.Contact = manager.LoadContact(Tracker.Current.Contact.ContactId);
+            }
+        }
+
+        public void UpdateOrCreateXDbServiceContactWithEmail(IXDbContactWithEmail serviceContact)
         {
             using (var client = SitecoreXConnectClientConfiguration.GetClient())
             {
@@ -40,7 +83,7 @@ namespace Feature.FormsExtensions.XDb.Repository
             }
         }
         
-        private static void SetEmail(Contact contact, IXDbContact xDbContact, IXdbContext client)
+        private static void SetEmail(Contact contact, IXDbContactWithEmail xDbContact, IXdbContext client)
         {
             if (string.IsNullOrEmpty(xDbContact.Email))
             {

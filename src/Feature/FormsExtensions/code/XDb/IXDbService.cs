@@ -1,15 +1,16 @@
-﻿using Feature.FormsExtensions.XDb.Model;
+﻿using System;
+using Feature.FormsExtensions.XDb.Model;
+using Sitecore.XConnect;
 
 namespace Feature.FormsExtensions.XDb
 {
     public interface IXDbService
     {
         void IdentifyCurrent(IXDbContact contact);
-        void UpdateOrCreate(IXDbContact contact);
-        IDetailedXDbContact GetCurrentContact();
+        void UpdateEmail(IXDbContactWithEmail contact);
+        void UpdateOrCreateServiceContact(IXDbContactWithEmail contact);
+        void UpdateCurrentContactFacets(ContactExpandOptions expandOptions, Action<Contact> updateFacets);
+        void ReloadContactDataIntoSession();
     }
 
-    public interface IDetailedXDbContact
-    {
-    }
 }

@@ -6,9 +6,9 @@ namespace Feature.FormsExtensions.Business.PrefillToken
 {
     public class PrefillTokenMapFactory : IPrefillTokenMapFactory
     {
-        private Dictionary<string, IPrefillTokenHandler> prefillTokenMap;
+        private Dictionary<PrefillTokenKey, IPrefillTokenHandler> prefillTokenMap;
 
-        public Dictionary<string, IPrefillTokenHandler> GetPrefillTokenMap()
+        public Dictionary<PrefillTokenKey, IPrefillTokenHandler> GetPrefillTokenMap()
         {
             if (prefillTokenMap == null)
             {

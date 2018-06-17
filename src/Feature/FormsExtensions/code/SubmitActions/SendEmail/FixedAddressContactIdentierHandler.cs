@@ -32,8 +32,8 @@ namespace Feature.FormsExtensions.SubmitActions.SendEmail
 
         protected virtual ContactIdentifier GetContactIdentifier(string address)
         {
-            var serviceContact = xDbContactFactory.CreateContact(address);
-            xDbService.UpdateOrCreate(serviceContact);
+            var serviceContact = xDbContactFactory.CreateContactWithEmail(address);
+            xDbService.UpdateOrCreateServiceContact(serviceContact);
             return new ContactIdentifier(serviceContact.IdentifierSource, serviceContact.IdentifierValue, ContactIdentifierType.Known);
         }
     }

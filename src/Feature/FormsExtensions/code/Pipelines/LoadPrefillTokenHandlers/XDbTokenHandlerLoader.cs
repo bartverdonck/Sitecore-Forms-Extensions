@@ -1,8 +1,6 @@
 ﻿using Feature.FormsExtensions.Business.PrefillToken;
+using Feature.FormsExtensions.Business.PrefillToken.xDbTokenHandlers.ContactPersonalInfo;
 using Feature.FormsExtensions.XDb;
-using Sitecore.Analytics;
-using Sitecore.Analytics.Model;
-using Sitecore.Analytics.Model.Entities;
 using Sitecore.Mvc.Pipelines;
 
 namespace Feature.FormsExtensions.Pipelines.LoadPrefillTokenHandlers
@@ -18,33 +16,29 @@ namespace Feature.FormsExtensions.Pipelines.LoadPrefillTokenHandlers
 
         public override void Process(LoadPrefillTokenHandlersArgs args)
         {
-            args.TokenHandlers.Add("token.test", new XDbFirstNameTokenHandler());
-            args.TokenHandlers.Add("token.test2", new XDbFirstNameTokenHandler());
+            AddPersonalInfoHandlers(args);
         }
-    }
 
-    public class XDbFirstNameTokenHandler : IPrefillTokenHandler {
-
-        public ITokenHandlerResult GetTokenValue()
+        private void AddPersonalInfoHandlers(LoadPrefillTokenHandlersArgs args)
         {
-            if (!Tracker.Enabled)
-                return new NoTokenValueFoundResult();
-            if (!Tracker.IsActive)
-                return new NoTokenValueFoundResult();
-            if (Tracker.Current?.Contact == null)
-                return new NoTokenValueFoundResult();
-            if (Tracker.Current.Contact.IdentificationLevel != ContactIdentificationLevel.Known)
-                return new NoTokenValueFoundResult();
-            var personalContactFacet = Tracker.Current.Contact.Facets["Personal"] as IContactPersonalInfo;
-            if (personalContactFacet == null)
-                return new NoTokenValueFoundResult();
-            return new TokenValueFoundResult(personalContactFacet.FirstName);
+            args.TokenHandlers.Add(new PrefillTokenKey("sfe.xdb.pi.birthdate", "xDb Profile: Birthdate"),
+                new XDbSurNameTokenHandler(xDbService));
+            args.TokenHandlers.Add(new PrefillTokenKey("sfe.xdb.pi.firstName", "xDb Profile: First Name"),
+                new XDbFirstNameTokenHandler(xDbService));
+            args.TokenHandlers.Add(new PrefillTokenKey("sfe.xdb.pi.gender", "xDb Profile: Gender"),
+                new XDbGenderTokenHandler(xDbService));
+            args.TokenHandlers.Add(new PrefillTokenKey("sfe.xdb.pi.jobTitle", "xDb Profile: Job Title"),
+                new XDbJobTitleTokenHandler(xDbService));
+            args.TokenHandlers.Add(new PrefillTokenKey("sfe.xdb.pi.middleName", "xDb Profile: Middle Name"),
+                new XDbMiddleNameTokenHandler(xDbService));
+            args.TokenHandlers.Add(new PrefillTokenKey("sfe.xdb.pi.nickName", "xDb Profile: Nick Name"),
+                new XDbNickNameTokenHandler(xDbService));
+            args.TokenHandlers.Add(new PrefillTokenKey("sfe.xdb.pi.suffix", "xDb Profile: Suffix"),
+                new XDbSuffixTokenHandler(xDbService));
+            args.TokenHandlers.Add(new PrefillTokenKey("sfe.xdb.pi.surname", "xDb Profile: Surname"),
+                new XDbSurNameTokenHandler(xDbService));
+            args.TokenHandlers.Add(new PrefillTokenKey("sfe.xdb.pi.title", "xDb Profile: Title"),
+                new XDbTitleTokenHandler(xDbService));
         }
-
-        public void StoreTokenValue(object newValue)
-        {
-            throw new System.NotImplementedException();
-        }
-
     }
 }

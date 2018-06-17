@@ -26,10 +26,10 @@ namespace Feature.FormsExtensions.Pipelines.RenderField
             }
 
             var tokenMap = prefillTokenMapFactory.GetPrefillTokenMap();
-            if (tokenMap == null || !tokenMap.ContainsKey(prefillTokenModel.PrefillToken))
+            if (tokenMap == null || !tokenMap.ContainsKey(new PrefillTokenKey(prefillTokenModel.PrefillToken)))
                 return;
 
-            var tokenHandler = tokenMap[prefillTokenModel.PrefillToken];
+            var tokenHandler = tokenMap[new PrefillTokenKey(prefillTokenModel.PrefillToken)];
             if (tokenHandler == null)
             {
                 return;

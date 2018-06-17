@@ -1,5 +1,7 @@
 ﻿using System.Linq;
 using System.Web.Http;
+using Microsoft.Extensions.DependencyInjection;
+using Sitecore.DependencyInjection;
 using Sitecore.Services.Core;
 using Sitecore.Services.Infrastructure.Web.Http;
 
@@ -10,6 +12,10 @@ namespace Feature.FormsExtensions.Business.PrefillToken
     {
         private readonly IPrefillTokenMapFactory prefillTokenMapFactory;
 
+        public PrefillTokenMapApiController():this(ServiceLocator.ServiceProvider.GetService<IPrefillTokenMapFactory>())
+        {
+        }
+
         public PrefillTokenMapApiController(IPrefillTokenMapFactory prefillTokenMapFactory)
         {
             this.prefillTokenMapFactory = prefillTokenMapFactory;
@@ -19,14 +25,8 @@ namespace Feature.FormsExtensions.Business.PrefillToken
         [Route("sitecore/api/scformsextension/tokenmap")]
         public IHttpActionResult GetTokenMap()
         {
-            var keys = prefillTokenMapFactory.GetPrefillTokenMap().Keys.Select(x => new PrefillTokenDto(){Id=x, Name = x});
+            var keys = prefillTokenMapFactory.GetPrefillTokenMap().Keys.ToList();//.Select(x => new PrefillTokenKey(){Id=x, Name = x});
             return Ok(keys);
         }
-    }
-
-    public class PrefillTokenDto
-    {
-        public string Id { get; set; }
-        public string Name { get; set; }
     }
 }

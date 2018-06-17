@@ -6,11 +6,11 @@ namespace Feature.FormsExtensions.Pipelines.LoadPrefillTokenHandlers
 {
     public class LoadPrefillTokenHandlersArgs : MvcPipelineArgs
     {
-        public Dictionary<string, IPrefillTokenHandler> TokenHandlers { get; set; }
+        public Dictionary<PrefillTokenKey, IPrefillTokenHandler> TokenHandlers { get; set; }
 
         public LoadPrefillTokenHandlersArgs()
         {
-            TokenHandlers = new Dictionary<string, IPrefillTokenHandler>();
+            TokenHandlers = new Dictionary<PrefillTokenKey, IPrefillTokenHandler>();
         }
     }
 }

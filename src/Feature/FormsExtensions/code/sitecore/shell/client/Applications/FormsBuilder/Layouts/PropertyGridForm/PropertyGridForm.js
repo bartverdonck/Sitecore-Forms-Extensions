@@ -29,32 +29,30 @@
                 this.datasourceControl = formEditorUtils.getFormControl(this.PropertiesForm, "isDynamic");
                 propertyGridApp.loadDone(this, !!this.datasourceControl);
 				
-				if(this.PropertiesForm.PrefillValue){
-					this.PropertiesForm.PrefillValue.on("change:SelectedItem", this.changedPrefillToken, this);
+				if(this.PropertiesForm.PrefillToken){
+                    this.PropertiesForm.PrefillToken.on("change:SelectedItem", this.changedPrefillToken, this);
 				}				
             },
 			
 			tokensChanged: function(items) {
-				if(this.PropertiesForm.PrefillValue){
-					this.setDynamicData(this.PropertiesForm.PrefillValue, items, this.PropertiesForm.BindingTarget.prefillToken);
+                if (this.PropertiesForm.PrefillToken){
+                    this.setDynamicData(this.PropertiesForm.PrefillToken, items, this.PropertiesForm.BindingTarget.prefillToken);
 				}
 			},
 			
 			changedPrefillToken:function(){
-				this.PropertiesForm.FormData.prefillToken = this.PropertiesForm.PrefillValue.SelectedValue;
+                this.PropertiesForm.FormData.prefillToken = this.PropertiesForm.PrefillToken.SelectedValue;
 			},
 
 			setDynamicData: function(listComponent, data, currentValue) {				
 				var items = data.slice(0);
-				items.unshift({ Id: "", Name: "" });
+				items.unshift({ Id: "", Label: "" });
 
 				if (currentValue && !_.findWhere(items, { Id: currentValue })) {
-					items.unshift({
-						Id: "",
-						Name: currentValue +
-							" - " +
-							(this.ValueNotInListText.Text || "value not in the selection list")
-					});
+				    items.unshift({
+                        Id: currentValue,
+				        Label: currentValue + " - value not in the selection list"
+				});
 
 					listComponent.DynamicData = items;
 					$(listComponent.el).find('option').eq(0).css("font-style", "italic");
