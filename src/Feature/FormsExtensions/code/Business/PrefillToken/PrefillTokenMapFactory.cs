@@ -1,17 +1,18 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
+using Feature.FormsExtensions.Pipelines.LoadPrefillTokenHandlers;
 using Sitecore.Pipelines;
 
-namespace Feature.FormsExtensions.Pipelines.PrefillForm
+namespace Feature.FormsExtensions.Business.PrefillToken
 {
     public class PrefillTokenMapFactory : IPrefillTokenMapFactory
     {
-        private Dictionary<string, IPrefillFormTokenHandler> prefillTokenMap;
+        private Dictionary<string, IPrefillTokenHandler> prefillTokenMap;
 
-        public Dictionary<string, IPrefillFormTokenHandler> GetPrefillTokenMap()
+        public Dictionary<string, IPrefillTokenHandler> GetPrefillTokenMap()
         {
             if (prefillTokenMap == null)
             {
-                var prefillFormArgs = new PrefillFormArgs();
+                var prefillFormArgs = new LoadPrefillTokenHandlersArgs();
                 CorePipeline.Run("forms.loadPrefillTokenHandlers", prefillFormArgs, false);
                 prefillTokenMap = prefillFormArgs.TokenHandlers;
             }

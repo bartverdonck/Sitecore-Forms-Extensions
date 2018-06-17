@@ -3,7 +3,7 @@ using System.Web.Http;
 using Sitecore.Services.Core;
 using Sitecore.Services.Infrastructure.Web.Http;
 
-namespace Feature.FormsExtensions.Pipelines.PrefillForm
+namespace Feature.FormsExtensions.Business.PrefillToken
 {
     [ServicesController]
     public class PrefillTokenMapApiController : ServicesApiController

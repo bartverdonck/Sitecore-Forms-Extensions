@@ -27,6 +27,12 @@ namespace Feature.FormsExtensions.XDb
             xDbContactRepository.UpdateOrCreateXDbContact(contact);
         }
 
+        public IDetailedXDbContact GetCurrentContact()
+        {
+            var identifiersCount = Tracker.Current.Contact.Identifiers.Count;
+            throw new NotImplementedException();
+        }
+
         private static void CheckIdentifier(IXDbContact contact)
         {
             if (string.IsNullOrEmpty(contact.IdentifierSource) || string.IsNullOrEmpty(contact.IdentifierValue))

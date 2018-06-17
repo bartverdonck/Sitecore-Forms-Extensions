@@ -6,5 +6,10 @@ namespace Feature.FormsExtensions.XDb
     {
         void IdentifyCurrent(IXDbContact contact);
         void UpdateOrCreate(IXDbContact contact);
+        IDetailedXDbContact GetCurrentContact();
+    }
+
+    public interface IDetailedXDbContact
+    {
     }
 }
