@@ -8,6 +8,7 @@ using Sitecore.XConnect.Client;
 using Sitecore.XConnect.Client.Configuration;
 using Sitecore.XConnect.Collection.Model;
 using Contact = Sitecore.XConnect.Contact;
+using Facet = Sitecore.XConnect.Facet;
 
 namespace Feature.FormsExtensions.XDb.Repository
 {
@@ -31,7 +32,27 @@ namespace Feature.FormsExtensions.XDb.Repository
                 var xDbContact = client.Get(reference, expandOptions);
                 if (xDbContact != null)
                 {
+                    //xDbContact.GetFacet<PersonalInformation>()
                     updateFacets(xDbContact);
+                    client.Submit();
+                }
+            }
+        }
+        
+        public void UpdateContactFacet<T>(IdentifiedContactReference reference, ContactExpandOptions expandOptions, Action<T> updateFacets, Func<T> createFacet) where T : Facet
+        {
+            using (var client = SitecoreXConnectClientConfiguration.GetClient())
+            {
+                var xDbContact = client.Get(reference, expandOptions);
+                if (xDbContact != null)
+                {
+                    var facet = xDbContact.GetFacet<T>();
+                    if (facet == null)
+                    {
+                        facet = createFacet();
+                        client.SetFacet(xDbContact, facet);
+                    }
+                    updateFacets(facet);
                     client.Submit();
                 }
             }

@@ -3,6 +3,7 @@ using Feature.FormsExtensions.XDb.Model;
 using Feature.FormsExtensions.XDb.Repository;
 using Sitecore.Analytics;
 using Sitecore.XConnect;
+using Facet = Sitecore.XConnect.Facet;
 
 namespace Feature.FormsExtensions.XDb
 {
@@ -38,7 +39,12 @@ namespace Feature.FormsExtensions.XDb
             xDbContactRepository.UpdateOrCreateXDbServiceContactWithEmail(contact);
         }
 
-        public void UpdateCurrentContactFacets(ContactExpandOptions expandOptions, Action<Contact> updateFacets)
+        public void UpdateCurrentContactFacet<T>(string facetKey, Action<T> updateFacets) where T : Facet, new()
+        {
+            UpdateCurrentContactFacet(facetKey, updateFacets, ()=>new T());
+        }
+
+        public void UpdateCurrentContactFacet<T>(string facetKey, Action<T> updateFacets, Func<T> createFacet) where T : Facet
         {
             if (Tracker.Current == null || Tracker.Current.Contact == null)
                 return;
@@ -47,7 +53,7 @@ namespace Feature.FormsExtensions.XDb
                 xDbContactRepository.SaveNewContactToCollectionDb(Tracker.Current.Contact);
             }
             var trackerIdentifier = new IdentifiedContactReference(Sitecore.Analytics.XConnect.DataAccess.Constants.IdentifierSource, Sitecore.Analytics.Tracker.Current.Contact.ContactId.ToString("N"));
-            xDbContactRepository.UpdateContactFacets(trackerIdentifier,expandOptions,updateFacets);
+            xDbContactRepository.UpdateContactFacet(trackerIdentifier, new ContactExpandOptions(facetKey), updateFacets, createFacet);
         }
 
         private static void CheckIdentifier(IXDbContact contact)

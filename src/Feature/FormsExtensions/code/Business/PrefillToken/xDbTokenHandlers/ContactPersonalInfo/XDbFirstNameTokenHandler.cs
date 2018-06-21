@@ -1,35 +1,25 @@
 ﻿using Feature.FormsExtensions.XDb;
-using Sitecore.Analytics.Model.Entities;
-using Sitecore.XConnect;
 using Sitecore.XConnect.Collection.Model;
 
 namespace Feature.FormsExtensions.Business.PrefillToken.xDbTokenHandlers.ContactPersonalInfo
 {
-    public class XDbFirstNameTokenHandler : BaseXDbTokenHandler<IContactPersonalInfo>
+    public class XDbFirstNameTokenHandler : PersonalInformationTokenHandler
     {
-        private readonly IXDbService xDbService;
-
-        public XDbFirstNameTokenHandler(IXDbService xDbService)
+        public XDbFirstNameTokenHandler(IXDbService xDbService) : base(xDbService)
         {
-            this.xDbService = xDbService;
         }
-
-        protected override string GetFacetKey()
+        
+        protected override ITokenHandlerResult GetTokenValueFromFacet(PersonalInformation facet)
         {
-            return CollectionModel.FacetKeys.PersonalInformation;
-        }
-
-        protected override ITokenHandlerResult GetTokenValueFromFacet(IContactPersonalInfo contactPersonalInfo)
-        {
-            if (string.IsNullOrEmpty(contactPersonalInfo.FirstName))
+            if (string.IsNullOrEmpty(facet.FirstName))
                 return new NoTokenValueFoundResult();
-            return new TokenValueFoundResult(contactPersonalInfo.FirstName);
+            return new TokenValueFoundResult(facet.FirstName);
         }
-
+        
         public override void StoreTokenValue(object newValue)
         {
             if(newValue is string firstName) {
-                xDbService.UpdateCurrentContactFacets(new ContactExpandOptions(GetFacetKey()),x=>x.Personal().FirstName=firstName);
+                UpdateFacet(x=>x.FirstName=firstName);
             }
         }
     }

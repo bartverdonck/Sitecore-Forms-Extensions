@@ -1,38 +1,29 @@
 ﻿using Feature.FormsExtensions.XDb;
-using Sitecore.Analytics.Model.Entities;
-using Sitecore.XConnect;
 using Sitecore.XConnect.Collection.Model;
 
 namespace Feature.FormsExtensions.Business.PrefillToken.xDbTokenHandlers.ContactPersonalInfo
 {
-    public class XDbBirthDateTokenHandler : BaseXDbTokenHandler<IContactPersonalInfo>
+    public class XDbBirthDateTokenHandler : PersonalInformationTokenHandler
     {
-        private readonly IXDbService xDbService;
-
-        public XDbBirthDateTokenHandler(IXDbService xDbService)
+        public XDbBirthDateTokenHandler(IXDbService xDbService) : base(xDbService)
         {
-            this.xDbService = xDbService;
         }
-
-        protected override string GetFacetKey()
+        
+        protected override ITokenHandlerResult GetTokenValueFromFacet(PersonalInformation facet)
         {
-            return CollectionModel.FacetKeys.PersonalInformation;
-        }
-
-        protected override ITokenHandlerResult GetTokenValueFromFacet(IContactPersonalInfo contactPersonalInfo)
-        {
-            if (contactPersonalInfo.BirthDate.HasValue)
+            if (facet.Birthdate.HasValue)
                 return new NoTokenValueFoundResult();
             // ReSharper disable once PossibleInvalidOperationException
-            return new TokenValueFoundResult(contactPersonalInfo.BirthDate.Value);
+            return new TokenValueFoundResult(facet.Birthdate.Value);
         }
-
+        
         public override void StoreTokenValue(object newValue)
         {
             if (newValue is System.DateTime birthDate)
             {
-                xDbService.UpdateCurrentContactFacets(new ContactExpandOptions(GetFacetKey()), x => x.Personal().Birthdate = birthDate);
+                UpdateFacet(x=>x.Birthdate=birthDate);
             }
         }
+        
     }
 }

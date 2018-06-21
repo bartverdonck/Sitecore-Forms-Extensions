@@ -3,7 +3,7 @@
     <metadata>
       <PackageName>Sitecore Forms Extensions</PackageName>
       <Author>Bart Verdonck</Author>
-      <Version>1.3</Version>
+      <Version>1.4</Version>
       <Revision />
       <License />
       <Comment />
@@ -31,6 +31,8 @@
         <x-item>/Views/FormBuilder/FieldTemplates/FileUpload.cshtml</x-item>
         <x-item>/Views/FormBuilder/FieldTemplates/ReCaptcha.cshtml</x-item>
         <x-item>/sitecore/shell/client/Applications/FormsBuilder/Layouts/Actions/SendEmailExtended.js</x-item>
+        <x-item>/sitecore/shell/client/Applications/FormsBuilder/Layouts/PropertyGridForm/PropertyGridForm.js</x-item>
+        <x-item>/sitecore/shell/client/Applications/FormsBuilder/Layouts/Actions/IdentifyContact.js</x-item>
       </Entries>
       <Converter>
         <FileToEntryConverter>
@@ -205,6 +207,72 @@
       <Include />
       <Exclude />
       <Name>Base Structure</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/{A599EC5D-3541-44E3-9651-9E9A35908D4F}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Details/PrefillValue/{57FAB774-3142-4786-821B-C74E000073BB}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/PrefillTokensDataSource/{86B49D11-00F5-471A-B287-98FACB236520}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/SingleLineText/Details/{5B641532-78E1-4F8F-93C1-8ED7D1CEAA69}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Input/Data/Prefill Token/{793CA155-9AB6-4163-8E6A-25D51AED5011}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Field Types/Basic/Date/{38137D30-7B2A-47D5-BBD8-133252C01B28}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Field Types/Basic/Email/{04C39CAC-8976-4910-BE0D-879ED3368429}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Field Types/Basic/Multiple-Line Text/{A296A1C1-0DA0-4493-A92E-B8191F43AEC6}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Field Types/Basic/Number/{5B153FC0-FC3F-474F-8CB8-233FB1BEF292}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Field Types/Basic/Single-Line Text/{4EE89EA7-CEFE-4C8E-8532-467EF64591FC}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Field Types/Basic/Telephone/{DF74F55B-47E6-4D1C-92F8-B0D46A7B2704}/invariant/0</x-item>
+        <x-item>/web/sitecore/system/Settings/Forms/Field Types/Basic/Date/{38137D30-7B2A-47D5-BBD8-133252C01B28}/invariant/0</x-item>
+        <x-item>/web/sitecore/system/Settings/Forms/Field Types/Basic/Email/{04C39CAC-8976-4910-BE0D-879ED3368429}/invariant/0</x-item>
+        <x-item>/web/sitecore/system/Settings/Forms/Field Types/Basic/Multiple-Line Text/{A296A1C1-0DA0-4493-A92E-B8191F43AEC6}/invariant/0</x-item>
+        <x-item>/web/sitecore/system/Settings/Forms/Field Types/Basic/Number/{5B153FC0-FC3F-474F-8CB8-233FB1BEF292}/invariant/0</x-item>
+        <x-item>/web/sitecore/system/Settings/Forms/Field Types/Basic/Single-Line Text/{4EE89EA7-CEFE-4C8E-8532-467EF64591FC}/invariant/0</x-item>
+        <x-item>/web/sitecore/system/Settings/Forms/Field Types/Basic/Telephone/{DF74F55B-47E6-4D1C-92F8-B0D46A7B2704}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Input/Data/Prefill Token/{793CA155-9AB6-4163-8E6A-25D51AED5011}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Submit Actions/Identify Contact/{2CA5D70E-7D8F-4D76-AF9B-E92BB734ACEE}/invariant/0</x-item>
+        <x-item>/web/sitecore/system/Settings/Forms/Submit Actions/Identify Contact/{2CA5D70E-7D8F-4D76-AF9B-E92BB734ACEE}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Prefill Fields</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/{8D885E46-C631-411A-A37F-1D5B99FE8878}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/PageSettings/{F91A0696-976F-4564-8813-F011225970CC}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/PageSettings/GenericErrorMessage/{A4DC0A8F-3992-4E61-9E8E-0E12EBCBA925}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/PageSettings/HeaderSubtitle/{C4893536-ECCA-4F0F-B57B-28F02BE0D81B}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/PageSettings/HeaderTitle/{80C39129-1F47-487B-B508-027965CCCF85}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/PageSettings/MessagesDataSource/{108889BA-B6E0-41F6-B0B6-6237C21E40AB}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/PageSettings/SettingsForm/{B956C08E-595E-4D52-B405-30BCE60F4F69}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/PageSettings/SettingsForm/FieldIdentifyContactId/{3834D277-EAB8-4C5A-BADF-1C44390C7D60}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/PageSettings/Stylesheet/{9F27A46D-4B0E-4379-BBF2-73DA342477A2}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/PageSettings/UnauthorizedErrorMessage/{B7C62CCD-D3E2-457E-8850-81175C0C4AEC}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/PageSettings/ValueNotInListText/{F9E8FA8A-D861-4B4B-A3D6-19398B521EA5}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Identify Contact</Name>
     </xitems>
   </Sources>
   <Converter>
