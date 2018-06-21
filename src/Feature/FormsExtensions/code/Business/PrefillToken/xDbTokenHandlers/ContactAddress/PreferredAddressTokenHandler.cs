@@ -1,5 +1,4 @@
-﻿using System;
-using Feature.FormsExtensions.XDb;
+﻿using Feature.FormsExtensions.XDb;
 using Sitecore.XConnect.Collection.Model;
 
 namespace Feature.FormsExtensions.Business.PrefillToken.xDbTokenHandlers.ContactAddress
@@ -17,7 +16,7 @@ namespace Feature.FormsExtensions.Business.PrefillToken.xDbTokenHandlers.Contact
 
         protected override AddressList CreateFacet()
         {
-            return new AddressList(new Address(), Sitecore.Configuration.Settings.GetSetting("XDbPreferedAddressList", "preferred"));
+            return new AddressList(new Address(), Sitecore.Configuration.Settings.GetSetting("XDbPreferredAddress", "preferred"));
         }
         protected override ITokenHandlerResult GetTokenValueFromFacet(AddressList facet)
         {
