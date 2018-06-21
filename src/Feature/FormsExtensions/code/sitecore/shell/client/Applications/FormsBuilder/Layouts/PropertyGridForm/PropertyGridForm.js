@@ -22,44 +22,36 @@
                     "properties:ApplyChanges": this.applyChanges,
                     "dynamicdatasource:Select": this.selectDynamicDatasource
                 }, this);
-				
             },
 
             initialized: function () {
                 this.datasourceControl = formEditorUtils.getFormControl(this.PropertiesForm, "isDynamic");
                 propertyGridApp.loadDone(this, !!this.datasourceControl);
 				
-				if(this.PropertiesForm.PrefillToken){
-                    this.PropertiesForm.PrefillToken.on("change:SelectedItem", this.changedPrefillToken, this);
+				if(this.PropertiesForm.BindingToken){
+                    this.PropertiesForm.BindingToken.on("change:SelectedItem", this.changedBindingToken, this);
 				}				
             },
 			
 			tokensChanged: function(items) {
-                if (this.PropertiesForm.PrefillToken){
-                    this.setDynamicData(this.PropertiesForm.PrefillToken, items, this.PropertiesForm.BindingTarget.prefillToken);
+                if (this.PropertiesForm.BindingToken){
+                    this.setDynamicData(this.PropertiesForm.BindingToken, items, this.PropertiesForm.BindingTarget.bindingToken);
 				}
 			},
 			
-			changedPrefillToken:function(){
-                this.PropertiesForm.FormData.prefillToken = this.PropertiesForm.PrefillToken.SelectedValue;
+            changedBindingToken:function(){
+                this.PropertiesForm.FormData.bindingToken = this.PropertiesForm.BindingToken.SelectedValue;
 			},
 
 			setDynamicData: function(listComponent, data, currentValue) {				
-				var items = data.slice(0);
-				items.unshift({ Id: "", Label: "" });
+			    var items = data.slice(0);
 
-				if (currentValue && !_.findWhere(items, { Id: currentValue })) {
-				    items.unshift({
-                        Id: currentValue,
-				        Label: currentValue + " - value not in the selection list"
-				});
-
-					listComponent.DynamicData = items;
-					$(listComponent.el).find('option').eq(0).css("font-style", "italic");
-				} else {
-					listComponent.DynamicData = items;
-					listComponent.SelectedValue = currentValue;
-				}
+			    if (currentValue && !_.findWhere(items, { Id: currentValue })) {
+			        listComponent.DynamicData = items;
+			    } else {
+			        listComponent.DynamicData = items;
+			        listComponent.SelectedValue = currentValue;
+			    }
 			},
 
             loadDone: function () {

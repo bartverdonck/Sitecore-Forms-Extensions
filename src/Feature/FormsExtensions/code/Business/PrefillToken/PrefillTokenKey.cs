@@ -4,18 +4,20 @@ namespace Feature.FormsExtensions.Business.PrefillToken
 {
     public class PrefillTokenKey : IEquatable<PrefillTokenKey>
     {
-        public PrefillTokenKey(string id, string label)
+        public PrefillTokenKey(string category, string id, string label)
         {
             Id = id;
             Label = label;
+            Category = category;
         }
 
-        public PrefillTokenKey(string id) : this(id,id)
+        public PrefillTokenKey(string id) : this(id,id,id)
         {
         }
 
         public string Id { get; }
         public string Label { get; }
+        public string Category { get; }
 
         public bool Equals(PrefillTokenKey other)
         {

@@ -235,8 +235,8 @@
     <Compile Include="Business\PrefillToken\xDbTokenHandlers\PreferredEmailTokenHandler.cs" />
     <Compile Include="Fields\FileUpload\FileSizeValidation.cs" />
     <Compile Include="Fields\FileUpload\ContentTypeValidation.cs" />
-    <Compile Include="Fields\Prefill\IPrefillToken.cs" />
-    <Compile Include="Fields\Prefill\StringInputViewWithPrefillTokenModel.cs" />
+    <Compile Include="Fields\Bindings\IBindingSettings.cs" />
+    <Compile Include="Fields\Bindings\StringInputViewWithBindingsTokenModel.cs" />
     <Compile Include="Business\PrefillToken\IPrefillTokenHandler.cs" />
     <Compile Include="Business\PrefillToken\IPrefillTokenMapFactory.cs" />
     <Compile Include="Pipelines\ExecuteSubmit\StorePrefillTokenValues.cs" />

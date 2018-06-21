@@ -16,20 +16,20 @@ namespace Feature.FormsExtensions.Pipelines.RenderField
 
         public override void Process(RenderFieldEventArgs args)
         {
-            if (!(args.ViewModel is IPrefillToken prefillTokenModel))
+            if (!(args.ViewModel is IBindingSettings bindingSettings))
             {
                 return;
             }
-            if (string.IsNullOrEmpty(prefillTokenModel.PrefillToken))
+            if (string.IsNullOrEmpty(bindingSettings.BindingToken))
             {
                 return;
             }
 
             var tokenMap = prefillTokenMapFactory.GetPrefillTokenMap();
-            if (tokenMap == null || !tokenMap.ContainsKey(new PrefillTokenKey(prefillTokenModel.PrefillToken)))
+            if (tokenMap == null || !tokenMap.ContainsKey(new PrefillTokenKey(bindingSettings.BindingToken)))
                 return;
 
-            var tokenHandler = tokenMap[new PrefillTokenKey(prefillTokenModel.PrefillToken)];
+            var tokenHandler = tokenMap[new PrefillTokenKey(bindingSettings.BindingToken)];
             if (tokenHandler == null)
             {
                 return;

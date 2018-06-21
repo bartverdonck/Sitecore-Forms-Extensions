@@ -25,19 +25,19 @@ namespace Feature.FormsExtensions.Pipelines.ExecuteSubmit
             var valuesUpdated = false;
             foreach (var fieldModel in args.FormSubmitContext.Fields)
             {
-                if (!(fieldModel is IPrefillToken prefillTokenModel))
+                if (!(fieldModel is IBindingSettings bindingSettings))
                 {
                     continue;
                 }
-                if (string.IsNullOrEmpty(prefillTokenModel.PrefillToken))
+                if (string.IsNullOrEmpty(bindingSettings.BindingToken))
                 {
                     continue;
                 }
-                if (!tokenMap.ContainsKey(new PrefillTokenKey(prefillTokenModel.PrefillToken)))
+                if (!tokenMap.ContainsKey(new PrefillTokenKey(bindingSettings.BindingToken)))
                 {
                     continue;
                 }
-                var tokenHandler = tokenMap[new PrefillTokenKey(prefillTokenModel.PrefillToken)];
+                var tokenHandler = tokenMap[new PrefillTokenKey(bindingSettings.BindingToken)];
 
                 var property = fieldModel.GetType().GetProperty("Value");
                 if (property == null)
