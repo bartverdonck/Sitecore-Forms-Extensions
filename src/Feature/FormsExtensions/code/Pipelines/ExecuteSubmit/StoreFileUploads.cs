@@ -14,7 +14,6 @@ namespace Feature.FormsExtensions.Pipelines.ExecuteSubmit
             this.fileUploadStorageProviderFactory = fileUploadStorageProviderFactory;
         }
 
-
         public override void Process(ExecuteSubmitActionsEventArgs args)
         {
             foreach (var field in args.FormSubmitContext.Fields)

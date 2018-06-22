@@ -14,8 +14,8 @@
             initialize: function () {
                 this.defineProperty("ContextItem", null);
                 this.defineProperty("AllowedValidations", []);
-				this.PrefillTokensDataSource.on("change:DynamicData", this.tokensChanged, this);
-				this.PrefillTokensDataSource.on("error", this.tokensChanged, this);
+                this.FieldBindingTokensDataSource.on("change:DynamicData", this.tokensChanged, this);
+                this.FieldBindingTokensDataSource.on("error", this.tokensChanged, this);
                 this.on({
                     "loaded": this.loadDone,
                     "change:ContextItem": this.initProperties,

@@ -3,7 +3,7 @@ using Sitecore.ExperienceForms.Mvc.Models.Fields;
 
 namespace Feature.FormsExtensions.Fields.Bindings
 {
-    public class StringInputViewWithBindingsTokenModel : StringInputViewModel, IBindingSettings
+    public class NumberViewWithBindingsTokenModel : NumberViewModel, IBindingSettings
     {
         public string BindingToken { get; set; }
         public bool PrefillBindingValue { get; set; }

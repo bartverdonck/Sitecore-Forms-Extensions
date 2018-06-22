@@ -1,6 +1,6 @@
-﻿namespace Feature.FormsExtensions.Fields.Prefill
+﻿namespace Feature.FormsExtensions.Fields.Bindings
 {
-    internal interface IBindingSettings
+    public interface IBindingSettings
     {
         string BindingToken { get; set; }
         bool PrefillBindingValue { get; set; }

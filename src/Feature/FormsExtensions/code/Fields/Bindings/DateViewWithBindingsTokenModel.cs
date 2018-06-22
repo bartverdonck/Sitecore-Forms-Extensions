@@ -1,9 +1,10 @@
-﻿using Sitecore.Data.Items;
+﻿using Sitecore;
+using Sitecore.Data.Items;
 using Sitecore.ExperienceForms.Mvc.Models.Fields;
 
 namespace Feature.FormsExtensions.Fields.Bindings
 {
-    public class StringInputViewWithBindingsTokenModel : StringInputViewModel, IBindingSettings
+    public class DateViewWithBindingsTokenModel : DateViewModel, IBindingSettings
     {
         public string BindingToken { get; set; }
         public bool PrefillBindingValue { get; set; }
