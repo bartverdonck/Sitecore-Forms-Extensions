@@ -1,11 +1,12 @@
 ﻿using System.Linq;
 using System.Web.Http;
+using Feature.FormsExtensions.Business.FieldBindings;
 using Microsoft.Extensions.DependencyInjection;
 using Sitecore.DependencyInjection;
 using Sitecore.Services.Core;
 using Sitecore.Services.Infrastructure.Web.Http;
 
-namespace Feature.FormsExtensions.Business.FieldBindings
+namespace Feature.FormsExtensions.Controllers
 {
     [ServicesController]
     public class FieldBindingMapApiController : ServicesApiController
@@ -26,6 +27,7 @@ namespace Feature.FormsExtensions.Business.FieldBindings
         public IHttpActionResult GetFieldBindingTokenMap()
         {
             var keys = fieldBindingMapFactory.GetFieldBindingTokenMap().Keys.ToList();
+            keys.Sort(new FieldBindingTokenKeyAlpabetSorter());
             return Ok(keys);
         }
     }

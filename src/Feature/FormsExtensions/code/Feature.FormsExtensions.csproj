@@ -194,6 +194,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApplicationSettings\Constants.cs" />
+    <Compile Include="Business\FieldBindings\FieldBindingTokenKeyAlpabetSorter.cs" />
     <Compile Include="Business\FileUpload\AzureBlobStorageFileUploadStorageProvider.cs" />
     <Compile Include="Business\FileUpload\FileUploadStorageProviderFactory.cs" />
     <Compile Include="Business\FormField.cs" />
@@ -246,7 +247,7 @@
     <Compile Include="Business\FieldBindings\IFieldBindingMapFactory.cs" />
     <Compile Include="Pipelines\ExecuteSubmit\StoreFieldBindingValues.cs" />
     <Compile Include="Pipelines\LoadFieldBindingHandlers\LoadFieldBindingHandlersArgs.cs" />
-    <Compile Include="Business\FieldBindings\FieldBindingMapApiController.cs" />
+    <Compile Include="Controllers\FieldBindingMapApiController.cs" />
     <Compile Include="Business\FieldBindings\FieldBindingMapFactory.cs" />
     <Compile Include="Business\FieldBindings\xDbBindingHandlers\ContactPersonalInfo\XDbFirstNameBindingHandler.cs" />
     <Compile Include="Pipelines\LoadFieldBindingHandlers\XDbFieldBindingHandlerLoader.cs" />
@@ -287,7 +288,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-    <Content Include="App_Config\Include\Feature\FormsExtensions\Feature.FormsExtensions.Processors.config" />
+    <Content Include="App_Config\Include\Feature\FormsExtensions\Feature.FormsExtensions.Processors.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="sitecore modules\Web\ExperienceForms\scripts\formsextensions.validate.js" />
     <Content Include="sitecore modules\Web\ExperienceForms\scripts\jquery.unobtrusive-ajax.min.js" />
     <Content Include="App_Config\Include\Feature\FormsExtensions\Feature.FormsExtensions.FileUploadStorageProviders.config">

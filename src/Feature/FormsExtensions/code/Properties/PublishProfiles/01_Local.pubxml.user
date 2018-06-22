@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Projects\Sitecore Forms Extentions\Source\src\Feature\FormsExtensions\code\../../../../../Testsite</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.DependencyInjection.config">
+      <publishTime>06/14/2018 13:23:42</publishTime>
+    </File>
+    <File Include="App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.FileUploadStorageProviders.config">
+      <publishTime>05/30/2018 14:46:16</publishTime>
+    </File>
+    <File Include="App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.Processors.config">
+      <publishTime>06/22/2018 17:24:01</publishTime>
+    </File>
+    <File Include="App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.Settings.config">
+      <publishTime>06/21/2018 14:07:25</publishTime>
+    </File>
+    <File Include="App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.Tracker.config">
+      <publishTime>06/22/2018 11:42:43</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.Data.Edm.resources.dll">
+      <publishTime>01/02/2017 14:00:38</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.Data.OData.resources.dll">
+      <publishTime>01/02/2017 14:00:22</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.Data.Services.Client.resources.dll">
+      <publishTime>01/02/2017 14:00:18</publishTime>
+    </File>
+    <File Include="bin/de/System.Spatial.resources.dll">
+      <publishTime>01/02/2017 14:00:14</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.Data.Edm.resources.dll">
+      <publishTime>01/02/2017 14:00:38</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.Data.OData.resources.dll">
+      <publishTime>01/02/2017 14:00:22</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.Data.Services.Client.resources.dll">
+      <publishTime>01/02/2017 14:00:18</publishTime>
+    </File>
+    <File Include="bin/es/System.Spatial.resources.dll">
+      <publishTime>01/02/2017 14:00:14</publishTime>
+    </File>
+    <File Include="bin/Feature.FormsExtensions.dll">
+      <publishTime>06/22/2018 20:15:21</publishTime>
+    </File>
+    <File Include="bin/Feature.FormsExtensions.pdb">
+      <publishTime>06/22/2018 20:15:21</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.Data.Edm.resources.dll">
+      <publishTime>01/02/2017 14:00:38</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.Data.OData.resources.dll">
+      <publishTime>01/02/2017 14:00:22</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.Data.Services.Client.resources.dll">
+      <publishTime>01/02/2017 14:00:18</publishTime>
+    </File>
+    <File Include="bin/fr/System.Spatial.resources.dll">
+      <publishTime>01/02/2017 14:00:14</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.Data.Edm.resources.dll">
+      <publishTime>01/02/2017 14:00:38</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.Data.OData.resources.dll">
+      <publishTime>01/02/2017 14:00:22</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.Data.Services.Client.resources.dll">
+      <publishTime>01/02/2017 14:00:18</publishTime>
+    </File>
+    <File Include="bin/it/System.Spatial.resources.dll">
+      <publishTime>01/02/2017 14:00:14</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.Data.Edm.resources.dll">
+      <publishTime>01/02/2017 14:00:38</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.Data.OData.resources.dll">
+      <publishTime>01/02/2017 14:00:22</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.Data.Services.Client.resources.dll">
+      <publishTime>01/02/2017 14:00:18</publishTime>
+    </File>
+    <File Include="bin/ja/System.Spatial.resources.dll">
+      <publishTime>01/02/2017 14:00:14</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.Data.Edm.resources.dll">
+      <publishTime>01/02/2017 14:00:38</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.Data.OData.resources.dll">
+      <publishTime>01/02/2017 14:00:22</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.Data.Services.Client.resources.dll">
+      <publishTime>01/02/2017 14:00:18</publishTime>
+    </File>
+    <File Include="bin/ko/System.Spatial.resources.dll">
+      <publishTime>01/02/2017 14:00:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Azure.KeyVault.Core.dll">
+      <publishTime>07/29/2015 12:56:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Data.Edm.dll">
+      <publishTime>01/02/2017 14:00:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Data.OData.dll">
+      <publishTime>01/02/2017 14:00:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Data.Services.Client.dll">
+      <publishTime>01/02/2017 14:00:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <publishTime>06/22/2016 09:14:56</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.DependencyInjection.dll">
+      <publishTime>06/22/2016 09:14:56</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/Microsoft.WindowsAzure.Storage.dll">
+      <publishTime>12/14/2017 12:57:12</publishTime>
+    </File>
+    <File Include="bin/Microsoft.WindowsAzure.Storage.pdb">
+      <publishTime>12/14/2017 12:57:12</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>06/13/2016 23:06:14</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.Data.Edm.resources.dll">
+      <publishTime>01/02/2017 14:00:38</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.Data.OData.resources.dll">
+      <publishTime>01/02/2017 14:00:22</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.Data.Services.Client.resources.dll">
+      <publishTime>01/02/2017 14:00:20</publishTime>
+    </File>
+    <File Include="bin/ru/System.Spatial.resources.dll">
+      <publishTime>01/02/2017 14:00:14</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Analytics.dll">
+      <publishTime>01/18/2018 16:18:18</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Analytics.Model.dll">
+      <publishTime>01/18/2018 16:18:24</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Analytics.XConnect.dll">
+      <publishTime>01/18/2018 16:18:58</publishTime>
+    </File>
+    <File Include="bin/Sitecore.EmailCampaign.Cd.dll">
+      <publishTime>01/18/2018 16:23:24</publishTime>
+    </File>
+    <File Include="bin/Sitecore.EmailCampaign.Cm.dll">
+      <publishTime>01/18/2018 16:23:30</publishTime>
+    </File>
+    <File Include="bin/Sitecore.EmailCampaign.dll">
+      <publishTime>01/18/2018 16:23:42</publishTime>
+    </File>
+    <File Include="bin/Sitecore.EmailCampaign.Model.dll">
+      <publishTime>01/18/2018 16:23:54</publishTime>
+    </File>
+    <File Include="bin/Sitecore.ExM.Framework.dll">
+      <publishTime>01/18/2018 16:24:32</publishTime>
+    </File>
+    <File Include="bin/Sitecore.ExperienceForms.dll">
+      <publishTime>01/18/2018 16:26:42</publishTime>
+    </File>
+    <File Include="bin/Sitecore.ExperienceForms.Mvc.dll">
+      <publishTime>01/18/2018 16:26:48</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Kernel.dll">
+      <publishTime>01/18/2018 14:05:13</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Mvc.Analytics.dll">
+      <publishTime>01/18/2018 14:05:53</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Mvc.dll">
+      <publishTime>01/18/2018 14:06:19</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Services.Core.dll">
+      <publishTime>01/18/2018 16:32:58</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Services.Infrastructure.dll">
+      <publishTime>01/18/2018 16:33:04</publishTime>
+    </File>
+    <File Include="bin/Sitecore.XConnect.Client.Configuration.dll">
+      <publishTime>01/18/2018 16:35:10</publishTime>
+    </File>
+    <File Include="bin/Sitecore.XConnect.Client.dll">
+      <publishTime>01/18/2018 16:35:16</publishTime>
+    </File>
+    <File Include="bin/Sitecore.XConnect.Collection.Model.dll">
+      <publishTime>01/18/2018 16:35:24</publishTime>
+    </File>
+    <File Include="bin/Sitecore.XConnect.dll">
+      <publishTime>01/18/2018 16:35:34</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.dll">
+      <publishTime>05/09/2017 14:54:18</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>01/28/2015 04:02:42</publishTime>
+    </File>
+    <File Include="bin/System.Reflection.dll">
+      <publishTime>11/06/2016 23:14:32</publishTime>
+    </File>
+    <File Include="bin/System.Runtime.Extensions.dll">
+      <publishTime>11/06/2016 23:14:28</publishTime>
+    </File>
+    <File Include="bin/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>05/11/2016 04:57:14</publishTime>
+    </File>
+    <File Include="bin/System.Security.Cryptography.Encoding.dll">
+      <publishTime>05/11/2016 04:57:08</publishTime>
+    </File>
+    <File Include="bin/System.Security.Cryptography.Primitives.dll">
+      <publishTime>05/11/2016 04:57:18</publishTime>
+    </File>
+    <File Include="bin/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>05/11/2016 04:57:18</publishTime>
+    </File>
+    <File Include="bin/System.Spatial.dll">
+      <publishTime>01/02/2017 14:00:14</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>01/02/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>01/28/2015 04:02:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>01/28/2015 04:02:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>01/02/2018 12:16:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>01/02/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>01/02/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>01/02/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.Data.Edm.resources.dll">
+      <publishTime>01/02/2017 14:00:38</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.Data.OData.resources.dll">
+      <publishTime>01/02/2017 14:00:22</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.Data.Services.Client.resources.dll">
+      <publishTime>01/02/2017 14:00:18</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Spatial.resources.dll">
+      <publishTime>01/02/2017 14:00:14</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.Data.Edm.resources.dll">
+      <publishTime>01/02/2017 14:00:38</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.Data.OData.resources.dll">
+      <publishTime>01/02/2017 14:00:22</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.Data.Services.Client.resources.dll">
+      <publishTime>01/02/2017 14:00:18</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/System.Spatial.resources.dll">
+      <publishTime>01/02/2017 14:00:14</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>06/17/2018 16:54:21</publishTime>
+    </File>
+    <File Include="sitecore modules/Web/ExperienceForms/scripts/formsextensions.validate.js">
+      <publishTime>05/30/2018 13:43:34</publishTime>
+    </File>
+    <File Include="sitecore modules/Web/ExperienceForms/scripts/jquery.unobtrusive-ajax.min.js">
+      <publishTime>05/30/2018 13:43:34</publishTime>
+    </File>
+    <File Include="sitecore/shell/client/Applications/FormsBuilder/Layouts/Actions/IdentifyContact.js">
+      <publishTime>06/17/2018 14:01:06</publishTime>
+    </File>
+    <File Include="sitecore/shell/client/Applications/FormsBuilder/Layouts/Actions/SendEmailExtended.js">
+      <publishTime>06/10/2018 23:24:01</publishTime>
+    </File>
+    <File Include="sitecore/shell/client/Applications/FormsBuilder/Layouts/PropertyGridForm/PropertyGridForm.js">
+      <publishTime>06/21/2018 18:21:07</publishTime>
+    </File>
+    <File Include="Views/FormBuilder/FieldTemplates/FileUpload.cshtml">
+      <publishTime>05/30/2018 13:43:34</publishTime>
+    </File>
+    <File Include="Views/FormBuilder/FieldTemplates/ReCaptcha.cshtml">
+      <publishTime>05/30/2018 13:43:34</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

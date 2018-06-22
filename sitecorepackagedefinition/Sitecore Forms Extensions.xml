@@ -23,8 +23,6 @@
         <x-item>/App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.Processors.config</x-item>
         <x-item>/App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.Settings.config</x-item>
         <x-item>/bin/Feature.FormsExtensions.dll</x-item>
-        <x-item>/bin/Microsoft.WindowsAzure.Storage.dll</x-item>
-        <x-item>/bin/System.Net.Http.dll</x-item>
         <x-item>/sitecore modules/Web/ExperienceForms/scripts/formsextensions.validate.js</x-item>
         <x-item>/sitecore modules/Web/ExperienceForms/scripts/jquery.unobtrusive-ajax.min.js</x-item>
         <x-item>/sitecore/shell/client/Applications/FormsBuilder/Layouts/Actions/UpdateContact.js</x-item>
@@ -33,6 +31,7 @@
         <x-item>/sitecore/shell/client/Applications/FormsBuilder/Layouts/Actions/SendEmailExtended.js</x-item>
         <x-item>/sitecore/shell/client/Applications/FormsBuilder/Layouts/PropertyGridForm/PropertyGridForm.js</x-item>
         <x-item>/sitecore/shell/client/Applications/FormsBuilder/Layouts/Actions/IdentifyContact.js</x-item>
+        <x-item>/App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.Tracker.config</x-item>
       </Entries>
       <Converter>
         <FileToEntryConverter>
@@ -210,48 +209,6 @@
     </xitems>
     <xitems>
       <Entries>
-        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/{A599EC5D-3541-44E3-9651-9E9A35908D4F}/invariant/0</x-item>
-        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Details/PrefillValue/{57FAB774-3142-4786-821B-C74E000073BB}/invariant/0</x-item>
-        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/PrefillTokensDataSource/{86B49D11-00F5-471A-B287-98FACB236520}/invariant/0</x-item>
-        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/SingleLineText/Details/{5B641532-78E1-4F8F-93C1-8ED7D1CEAA69}/invariant/0</x-item>
-        <x-item>/master/sitecore/templates/System/Forms/Fields/Input/Data/Prefill Token/{793CA155-9AB6-4163-8E6A-25D51AED5011}/invariant/0</x-item>
-        <x-item>/master/sitecore/system/Settings/Forms/Field Types/Basic/Date/{38137D30-7B2A-47D5-BBD8-133252C01B28}/invariant/0</x-item>
-        <x-item>/master/sitecore/system/Settings/Forms/Field Types/Basic/Email/{04C39CAC-8976-4910-BE0D-879ED3368429}/invariant/0</x-item>
-        <x-item>/master/sitecore/system/Settings/Forms/Field Types/Basic/Multiple-Line Text/{A296A1C1-0DA0-4493-A92E-B8191F43AEC6}/invariant/0</x-item>
-        <x-item>/master/sitecore/system/Settings/Forms/Field Types/Basic/Number/{5B153FC0-FC3F-474F-8CB8-233FB1BEF292}/invariant/0</x-item>
-        <x-item>/master/sitecore/system/Settings/Forms/Field Types/Basic/Single-Line Text/{4EE89EA7-CEFE-4C8E-8532-467EF64591FC}/invariant/0</x-item>
-        <x-item>/master/sitecore/system/Settings/Forms/Field Types/Basic/Telephone/{DF74F55B-47E6-4D1C-92F8-B0D46A7B2704}/invariant/0</x-item>
-        <x-item>/web/sitecore/system/Settings/Forms/Field Types/Basic/Date/{38137D30-7B2A-47D5-BBD8-133252C01B28}/invariant/0</x-item>
-        <x-item>/web/sitecore/system/Settings/Forms/Field Types/Basic/Email/{04C39CAC-8976-4910-BE0D-879ED3368429}/invariant/0</x-item>
-        <x-item>/web/sitecore/system/Settings/Forms/Field Types/Basic/Multiple-Line Text/{A296A1C1-0DA0-4493-A92E-B8191F43AEC6}/invariant/0</x-item>
-        <x-item>/web/sitecore/system/Settings/Forms/Field Types/Basic/Number/{5B153FC0-FC3F-474F-8CB8-233FB1BEF292}/invariant/0</x-item>
-        <x-item>/web/sitecore/system/Settings/Forms/Field Types/Basic/Single-Line Text/{4EE89EA7-CEFE-4C8E-8532-467EF64591FC}/invariant/0</x-item>
-        <x-item>/web/sitecore/system/Settings/Forms/Field Types/Basic/Telephone/{DF74F55B-47E6-4D1C-92F8-B0D46A7B2704}/invariant/0</x-item>
-        <x-item>/web/sitecore/templates/System/Forms/Fields/Input/Data/Prefill Token/{793CA155-9AB6-4163-8E6A-25D51AED5011}/invariant/0</x-item>
-        <x-item>/master/sitecore/system/Settings/Forms/Submit Actions/Identify Contact/{2CA5D70E-7D8F-4D76-AF9B-E92BB734ACEE}/invariant/0</x-item>
-        <x-item>/web/sitecore/system/Settings/Forms/Submit Actions/Identify Contact/{2CA5D70E-7D8F-4D76-AF9B-E92BB734ACEE}/invariant/0</x-item>
-      </Entries>
-      <SkipVersions>False</SkipVersions>
-      <Converter>
-        <ItemToEntryConverter>
-          <Transforms>
-            <InstallerConfigurationTransform>
-              <Options>
-                <BehaviourOptions>
-                  <ItemMode>Undefined</ItemMode>
-                  <ItemMergeMode>Undefined</ItemMergeMode>
-                </BehaviourOptions>
-              </Options>
-            </InstallerConfigurationTransform>
-          </Transforms>
-        </ItemToEntryConverter>
-      </Converter>
-      <Include />
-      <Exclude />
-      <Name>Prefill Fields</Name>
-    </xitems>
-    <xitems>
-      <Entries>
         <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/{8D885E46-C631-411A-A37F-1D5B99FE8878}/invariant/0</x-item>
         <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/PageSettings/{F91A0696-976F-4564-8813-F011225970CC}/invariant/0</x-item>
         <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/PageSettings/GenericErrorMessage/{A4DC0A8F-3992-4E61-9E8E-0E12EBCBA925}/invariant/0</x-item>
@@ -263,16 +220,390 @@
         <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/PageSettings/Stylesheet/{9F27A46D-4B0E-4379-BBF2-73DA342477A2}/invariant/0</x-item>
         <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/PageSettings/UnauthorizedErrorMessage/{B7C62CCD-D3E2-457E-8850-81175C0C4AEC}/invariant/0</x-item>
         <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/PageSettings/ValueNotInListText/{F9E8FA8A-D861-4B4B-A3D6-19398B521EA5}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Submit Actions/Identify Contact/{2CA5D70E-7D8F-4D76-AF9B-E92BB734ACEE}/invariant/0</x-item>
+        <x-item>/web/sitecore/system/Settings/Forms/Submit Actions/Identify Contact/{2CA5D70E-7D8F-4D76-AF9B-E92BB734ACEE}/invariant/0</x-item>
       </Entries>
       <SkipVersions>False</SkipVersions>
       <Converter>
         <ItemToEntryConverter>
-          <Transforms />
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Merge</ItemMode>
+                  <ItemMergeMode>Append</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
         </ItemToEntryConverter>
       </Converter>
       <Include />
       <Exclude />
       <Name>Identify Contact</Name>
+    </xitems>
+    <xfiles>
+      <Entries>
+        <x-item>/bin/Microsoft.WindowsAzure.Storage.dll</x-item>
+        <x-item>/bin/System.Net.Http.dll</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Skip</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>External DLL's</Name>
+    </xfiles>
+    <xitems>
+      <Entries>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/{A599EC5D-3541-44E3-9651-9E9A35908D4F}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/{5ED1D26C-5A78-42B7-BC71-796EE427FE8B}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/{B482225C-84E1-4CB4-B98F-C318CFB6AA42}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Advanced/{AF941DBD-81FC-40C3-B4ED-46E1273363B8}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Advanced/AllowSave/{9C04D42A-6B41-4347-9681-AE8A41A3A99F}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Advanced/PerformanceTracking/{40CCC9E0-3A12-497E-87E8-812698FAB4F0}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Bindings/{74B59F07-E28E-4524-B812-6F0EAA84E5A2}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Bindings/BindingToken/{57FAB774-3142-4786-821B-C74E000073BB}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Bindings/PrefillBindingValue/{68FFC441-B0AA-436F-AD22-CA67FAB004F9}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Bindings/StoreBindingValue/{F5EE5165-C5A6-47D8-818A-722BF8440CB3}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Details/{4F00022D-6AED-405D-8CA2-F8C07AB13181}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Details/AllowedContentTypes/{46B02E63-F5FB-49BF-8AAE-9B4C9E0FA17D}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Details/DefaultValue/{45237C46-3DF0-4F9F-9AD3-4B7A8B678A7D}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Details/FieldName/{362DF97E-0B79-477E-906A-F830DF8D882D}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Details/Label/{FF5E82DD-DE3F-4CFF-B7ED-CC57ACBF5031}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Details/MaxFileSize/{2B387B38-2F20-4896-AD23-3866DF60B25B}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Details/MaxTextLength/{88F4330D-9A53-43EF-B173-2937945FDD5D}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Details/MinTextLength/{3AC01BCB-FF1A-4BD5-BDBC-EA4DB9BE8215}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Details/PlaceholderText/{3C873F0C-CFF4-4B1A-B8BC-DD4AEC5005BA}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Sections/{86549632-95D4-4163-8663-6EFA23F4D53D}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Sections/AdvancedSettings/{F25FE53F-2114-4E33-981D-B2F3469B4374}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Sections/BindingsExpander/{2BD30615-7264-4EFD-8CFC-1A4DF3417363}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Sections/DetailsExpander/{D19B6A60-0E25-41B8-9FF8-9316AC03DA21}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Sections/ListItemsExpander/{D4DEB9AA-E4CA-4223-BBBF-DCF4EBE8348B}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Sections/StylingExpander/{05946781-641F-42D2-B981-9FC823DA1FEF}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Sections/SubmitActionsExpander/{67784A3F-BD80-4172-8745-89F5FD3E6F65}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Sections/ValidationExpander/{D5E30763-0423-405B-910C-5CFE3D3CD738}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Styling/{26138300-E1ED-4E77-A8A1-DF7F2FFD9ED9}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Styling/CssClass/{F2BAB943-AECB-4B62-8E7E-1D3FC8B993F5}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Styling/LabelCssClass/{34471672-7E8B-42FF-85D7-73759BD5C49A}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Validation/{9A08BB97-6036-4D6E-931B-99B563EE1CA3}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Validation/FieldImportance/{28A726CF-E532-4020-8FEF-F4329978210F}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Validation/FieldValidation/{44763D7A-90F1-4759-8F88-B0D70603CB81}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/FieldBindingTokensDataSource/{86B49D11-00F5-471A-B287-98FACB236520}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/RequiredFieldErrorText/{25932619-AE67-44F6-BF66-AEEB69184C98}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/{0E723521-4594-4785-AECE-CEB7BB2FB4E0}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Button/{56BA3012-7B18-4DF3-B736-CF481A059C15}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Button/Details/{794FCA80-763A-488F-BFB2-25E644F83549}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Button/Details/NavigationStep/{4E3C1C39-01D7-4C93-BF66-14E8542BDE07}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Button/Styling/{24A89DFD-CE34-4DCC-B3B3-94468078EB69}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Button/SubmitActions/{5344E1C1-B585-4FB3-B915-ACC39C4D09DF}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Button/SubmitActions/SubmitActionsManager/{4811481E-4F23-4388-892A-41B4FAD1F146}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Captcha/{5B906E2D-D220-4EBF-918F-64F0DAF0BBE0}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Captcha/Details/{02F8625C-9282-435F-BE85-969C30E3B216}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Captcha/Styling/{6B388D41-51C6-4B82-B6D1-EDE2B1CF51AF}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/CheckBox/{50B83345-EEED-49C7-8B62-9CC1EF908D59}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/CheckBox/Advanced/{185119DE-E8B1-40A7-B5F0-DA64BD8D4C19}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/CheckBox/Bindings/{2A04BB7B-61BC-4B1D-88CA-D24B446E7E10}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/CheckBox/Details/{006318E7-8CF5-46EC-81BB-290A91168171}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/CheckBox/Details/IsChecked/{74C03625-A282-4712-84FA-F3ED9B72D453}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/CheckBox/Styling/{0DD817FA-603F-4552-8479-26FD21547061}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/CheckBox/Validation/{CD493240-B471-4592-917A-62B641C1FA24}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/CheckboxList/{F5D47A21-2E03-46D6-8FF1-795558EA0655}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/CheckboxList/Advanced/{F0F8DDCB-D34E-4FA2-9EFA-732CBAD3BC28}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/CheckboxList/Details/{300DD2DA-6D3C-4F62-8229-35E28E3DED83}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/CheckboxList/ListItems/{6BD132FD-D044-4AD4-8DC3-47DB203F2B8F}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/CheckboxList/ListItems/DatasourceManager/{3AD9D28E-5404-45DA-9A68-6C6E3EA32FA4}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/CheckboxList/Styling/{C506454B-3ECF-4C65-BB61-02158F0535A5}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/CheckboxList/Validation/{84F54C61-929E-483D-862D-287B147631E2}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/DatePicker/{93EDC1E9-32B2-4E51-BA55-32FEA8DE0B55}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/DatePicker/Advanced/{BC9E3C13-F59E-48D6-9A23-6AC67AFD7300}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/DatePicker/Bindings/{1774FC0E-40D2-4A5A-BD1E-8E89675CF096}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/DatePicker/Details/{EBE88153-3895-46F2-970B-CEEA659C5220}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/DatePicker/Details/DatesManager/{8B814ABD-E70E-4CC0-A93F-0119A384FAD7}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/DatePicker/Details/EndDatePicker/{01B9933F-37B0-4FB5-B6B3-D39F54F6F99D}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/DatePicker/Details/SelectedDatePicker/{1DB256CE-A71B-41A2-B1F5-34C0A589BBB9}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/DatePicker/Details/StartDatePicker/{E3E2F433-9ED1-40D9-9E60-589E3C38A86A}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/DatePicker/Styling/{A516E68C-2631-4A3A-B544-B816AFB12D66}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/DatePicker/Validation/{0F9AFB27-FC41-463E-99C8-756C8B699B21}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/DropDownList/{16A82F1D-7755-48FD-A7FD-DB94356620FF}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/DropDownList/Advanced/{6E9145FD-7371-4BAB-AFC3-CBC2A7C6DAC0}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/DropDownList/Details/{3080BB7E-9D34-42AF-A9D2-62C8E499B26C}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/DropDownList/ListItems/{549C9EFA-70D5-482E-A948-F241EEAC81F6}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/DropDownList/ListItems/DatasourceManager/{DC306485-E9F4-483D-A607-59D85CF5A1FC}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/DropDownList/ListItems/ShowEmptyItem/{820687B8-AE9D-4DC1-B22A-3C8A210F32E8}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/DropDownList/Styling/{8A725FC2-0BB6-4FE7-AD47-A00FDF65FE67}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/DropDownList/Validation/{51C7680C-1DC8-4512-8D28-0D357ECAFD23}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/FileUpload/{F2D9922F-3902-4B49-B9E7-F0FABF30FCF2}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/FileUpload/Advanced/{1E3DA39C-4E5B-4E09-9FDB-559AAD8D2C81}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/FileUpload/Details/{5FA4D567-BBBC-49B2-87E0-708015EC5BB0}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/FileUpload/Styling/{57CFDC2F-2B1F-4716-8C26-ECF92D609D62}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/FileUpload/Validation/{57775A5E-6E6E-4C74-9276-369F783F7AEA}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/ListBox/{73FD871C-848A-4469-AC50-C08DAA766BC5}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/ListBox/Advanced/{13B2DD42-1FAB-4905-B2A8-327344C2DF06}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/ListBox/Details/{72E23FEF-9AA2-42D3-83E9-096D1CD532C8}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/ListBox/ListItems/{3999AB31-3F32-494E-9991-37397306D5B3}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/ListBox/ListItems/DatasourceManager/{4C9C0683-3CB7-43F9-A856-AC984F98F60E}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/ListBox/ListItems/MultipleSelection/{876D4823-F691-42B9-9C6F-A4C91A0DC8F6}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/ListBox/ListItems/Rows/{7B5D114D-BF32-4719-ACCD-6E7E1F503522}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/ListBox/Styling/{D8F3A06A-4265-4349-A5D9-AC3BBD45050A}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/ListBox/Validation/{B57D3FA3-296C-4117-8F1B-81BEF2316A5E}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/MultiLineText/{377908B9-F7F9-4EC3-82C7-4AC5E0FD8698}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/MultiLineText/Advanced/{B5C8BC4F-826F-424A-833D-A87C701E0535}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/MultiLineText/Bindings/{7052E5D5-7C25-40E6-B5DE-04D649E2B2C0}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/MultiLineText/Details/{3DF3260C-C211-49E5-B3DF-6321A2BE65CA}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/MultiLineText/Details/Rows/{8EB2AE05-CB72-4A46-AF00-B6701A02C0AC}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/MultiLineText/Styling/{08DB3BEF-9F8B-419E-AB56-1978182E1592}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/MultiLineText/Validation/{A5B27037-BAC4-4A21-83EF-5155467FDB3D}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Number/{4F929813-7AEF-4CD4-8641-3802BD07F39C}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Number/Advanced/{5193A9E7-8D8A-4712-B78A-5DEE070B8C73}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Number/Details/{9D66C753-EC88-4E00-B349-980D9B601C4C}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Number/Details/DefaultValue/{03E1B455-A573-41E5-AFF8-3A6DE6D966E0}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Number/Details/Max/{D0A89FAA-0D57-4FAA-A187-0B2AB138CE4D}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Number/Details/Min/{86A0EFC2-1E8E-47FD-B5CB-D0DE63F1ED21}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Number/Details/Step/{D656DF9B-B87E-4834-8C4F-3D64B96F3355}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Number/Styling/{4C5A96B7-F4E5-4523-9E73-61A15848C94F}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Number/Validation/{F29132AB-3210-4CB7-BC97-91E8634C7BCB}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Page/{4C716C5F-0FC4-4AFB-923E-B5BD58724208}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Page/Details/{FE22C611-89D9-497F-BDF6-98E83273959C}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Password/{D2B741D2-FD27-43FF-9DB7-BBEC5E63A6E4}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Password/Advanced/{EE3ACF15-FA0E-4AA0-B7C3-DEAA49661CB5}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Password/Details/{C136706C-418E-42F8-9F05-461AC304FF3A}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Password/Styling/{19E67586-B151-4C59-B448-874D8350A501}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Password/Validation/{6AC97966-ABA9-4805-BC82-329A68D58A04}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/PasswordConfirmation/{BD5D4AD2-7604-4D5D-9548-4E54099DD777}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/PasswordConfirmation/Advanced/{849C3ED1-B030-4007-9ABB-E89FD6CE3A32}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/PasswordConfirmation/Details/{18AF6444-707D-4639-92ED-D608D7753492}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/PasswordConfirmation/Details/ConfirmLabel/{683D4909-45C3-41A7-B428-3AAD86B5C5CC}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/PasswordConfirmation/Details/ConfirmPlaceholderText/{FAA3C63F-D3C2-4010-A2A4-EAEDBD8E89A4}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/PasswordConfirmation/Details/Label/{2F681B3B-A506-4AA1-8C89-4BC4133A0823}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/PasswordConfirmation/Details/PlaceholderText/{913FE64B-897D-40CC-9F3B-0D546798AB58}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/PasswordConfirmation/Styling/{DE08C610-8AC1-408E-9687-1732327EF522}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/PasswordConfirmation/Validation/{0705ABDC-DECB-4434-B151-BA4CF11FD74E}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/RadioList/{DC5859B6-D95A-4D0A-9E68-405250ECBB2B}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/RadioList/Advanced/{A1C22753-790B-49D1-A699-20B6F918223A}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/RadioList/Details/{2ADA6EEA-AA51-44FF-89FD-6719A3B561D8}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/RadioList/ListItems/{D93CD97F-6CDC-4756-82A4-AF7C8E3421D4}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/RadioList/ListItems/DatasourceManager/{DF19F93D-D567-4065-9FCA-87B96FC893FD}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/RadioList/Styling/{18AC8A7F-346F-4CE5-98C7-D6F6F425B7F4}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/RadioList/Validation/{0AB675F8-3F28-4AB3-9884-816287F58505}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Section/{9DA02DA3-C142-4AAC-9C0B-0E9A9731088C}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Section/Details/{98638538-D7F8-4752-8780-E13494CF513A}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Section/Styling/{C128FF95-4658-4FD4-815B-6941F054AFB2}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/SingleLineText/{1C601B81-8EA6-40A5-9144-34FCC938B62A}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/SingleLineText/Advanced/{57D1E165-C67D-4655-B919-D8B46FD3D82C}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/SingleLineText/Bindings/{78B4E87C-AE84-41DE-B477-93912C8C4960}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/SingleLineText/Details/{5B641532-78E1-4F8F-93C1-8ED7D1CEAA69}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/SingleLineText/Styling/{3F9078EE-F6BB-4E2A-AB38-B002CFB5F00C}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/SingleLineText/Validation/{0056141C-93E3-4DF8-BE35-D27E5270E74D}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Text/{CDD9CB35-FE19-4E6F-98E5-5DA3863BA01A}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Text/Details/{274378AE-75B4-4096-A2CB-2F911DD5F198}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Text/Details/HtmlTag/{3CC2B137-C502-41AF-B08B-5DE80580C92B}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Text/Details/Text/{58BA750A-EDB0-4673-9548-3E6289DD813E}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Text/Styling/{56056CB7-B074-483B-A8D5-5AD5A827A9F2}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Stylesheet/{BFDB0C97-B689-424D-A7C1-1CE4ED611E67}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Field Types/Basic/{B5350D9A-CEEE-4D15-B9FF-797CEACCCDC7}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Field Types/Basic/Checkbox/{4DA85E8A-3B48-4BC6-9565-8C1F5F36DD1B}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Field Types/Basic/Date/{38137D30-7B2A-47D5-BBD8-133252C01B28}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Field Types/Basic/Email/{04C39CAC-8976-4910-BE0D-879ED3368429}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Field Types/Basic/File Upload/{687A7B09-47E3-4FAA-AB2D-A4BF83DB0F1B}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Field Types/Basic/Multiple-Line Text/{A296A1C1-0DA0-4493-A92E-B8191F43AEC6}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Field Types/Basic/Number/{5B153FC0-FC3F-474F-8CB8-233FB1BEF292}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Field Types/Basic/Single-Line Text/{4EE89EA7-CEFE-4C8E-8532-467EF64591FC}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Field Types/Basic/Telephone/{DF74F55B-47E6-4D1C-92F8-B0D46A7B2704}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Field Types/Basic/Text/{983BFA5F-C6B6-4AEE-A3BB-46B95D52E7DF}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/FormExtensions/Binding Settings/__Standard Values/{3960768C-2558-4D14-A874-F1465C79D1B2}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/FormExtensions/Binding Settings/{91454FBB-7AA6-40F3-BD9A-49B2A42BF5E0}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/FormExtensions/Binding Settings/Binding Settings/{EDACB8D9-EED2-4FF2-90B5-20663A118AF8}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/FormExtensions/Binding Settings/Binding Settings/Binding Token/{430726E4-4845-439C-ACCA-7E50B2D661BF}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/FormExtensions/Binding Settings/Binding Settings/Prefill Binding Value/{34CA92A5-C09F-483E-8454-8FEB98FFE209}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/FormExtensions/Binding Settings/Binding Settings/Store Binding Value/{ECD17630-5F51-45DB-B52F-B3DFAEC4FA1B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/{EBDE78CC-AD3F-4623-B395-CC67DF70B5EA}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Button/__Standard Values/{06C078E7-1E55-4DE5-A0E6-9E7F7332497E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Button/__Standard Values/SubmitActions/{455D95D3-0DD0-4DFA-A14B-67F267DDDF87}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Button/{94A46D66-B1B8-405D-AAE4-7B5A9CD61C5E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Button/Data/{D5C347A0-BA96-4471-9563-651C9F0E1285}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Button/Data/Navigation Step/{D842AF43-E220-48D7-9714-6EB2381D2B0C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Checkbox/__Standard Values/{1514EA8F-E397-4443-A29D-722D99E33493}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Checkbox/{2F07293C-077F-456C-B715-FDB791ACB367}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Checkbox/Data/{DBC26A5D-595B-4CD0-95B7-50DB28729568}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Checkbox/Data/Default Value/{3C05A626-A3B1-4CBC-BF67-198537A13E20}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Date/__Standard Values/{B9B66B32-8CEA-4E95-94C0-86D96B0606E5}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Date/{5AC7621E-9F18-4569-BCEC-F5BF8BA1F4D7}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Date/Data/{DD8F3068-E236-416C-985B-B8A743B8E3FE}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Date/Data/Default Value/{6D66CA46-0489-4129-BA2C-CDE3E935DB7C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Date/Data/Max/{E47830D7-EB85-46FF-AA95-5A2914D12E9A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Date/Data/Min/{CC82B5D9-B130-435C-8992-74E798966527}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Dropdown List/__Standard Values/{26A1DE26-CAF0-4934-8374-D4F7688B3763}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Dropdown List/{9121D435-48B8-4649-9D13-03D680474FAD}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Dropdown List/Data/{133A06B5-2E15-492B-8A82-F11D1F4E6B83}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Dropdown List/Data/Show Empty Item/{6BF5048D-FBBD-4839-9F18-4412D4E11834}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Email/__Standard Values/{A9A8F34A-C373-4BFE-83DA-7AAFA90386B5}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Email/{886ADEC1-ABF8-40E1-9926-D9189C4E8E1B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Field/__Standard Values/{F7F02291-B78F-45E2-8FD3-37CF14FBFD5D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Field/{84ED565A-BEC9-46D4-9603-6E0516580832}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Field/Data/{05E33109-9229-4BB0-961C-9B03D83250FC}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Field/Data/Css Class/{7ABAA3F6-6EC0-4B65-A463-7919BFAE55AA}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Input/__Standard Values/{EB802E92-9120-447C-91D2-DE8C763A3831}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Input/{0908030B-4564-42EA-A6FA-C7A5A2D921A8}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Input/Data/{E2DBA960-0328-463C-9A84-DABE7F426A12}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Input/Data/Default Value/{B775BCA9-2605-4D60-B367-A0C354BE2504}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Input/Data/Max Length/{71061C01-A495-4BF3-A52C-D378346BFAE2}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Input/Data/Min Length/{9F7DA002-7B86-436B-8DDA-7EFE5837B88E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Input/Data/Placeholder Text/{A6972F08-CBB5-4830-A8C9-8A0AE34650D1}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/List Box/__Standard Values/{29CA5A6A-AF8A-4951-83EF-983EB9B4607E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/List Box/{81FE389A-FDC7-4ECA-A5A9-4BE3ACA0C69A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/List Box/Data/{7485ABFD-C755-42CB-868F-0A6D6E76D3D5}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/List Box/Data/Multiple Selection/{F1299F31-B054-40AF-B5FB-6F16692CCBDF}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/List Box/Data/Rows/{3F67BE6A-F3F0-41C5-B379-C6AF29685666}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/List/__Standard Values/{B515BC81-1341-48B6-B761-AA7E060A1BDA}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/List/{5B672865-55D2-413E-B699-FDFC7E732CCF}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/List/Data/{F5DB760E-834F-4B1A-99BA-6ED2461D1222}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/List/Data/Datasource/{5BE76442-950F-4C1F-A797-BEBD71101ABB}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/List/Data/Default Selection/{21ED172D-97E2-4AC4-8EAF-0A8860B891F4}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/List/Data/Display Field Name/{492361E0-72D8-4847-82BA-EBFC235CF57B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/List/Data/Is Dynamic/{54424E06-0E7A-47A7-8CB2-7383D700472F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/List/Data/Value Field Name/{78778432-6327-4CEA-A28B-E190E3541D28}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Multiple-Line Text/__Standard Values/{2F5990B9-E6F2-4D2E-9179-7851789EB66C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Multiple-Line Text/{D8386D04-C1E3-4CD3-9227-9E9F86EF3C88}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Multiple-Line Text/Data/{38FE99D4-33F6-4505-AB08-535BBEF62F7A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Multiple-Line Text/Data/Rows/{E43E4E5F-6B45-4E3B-8D85-85AB87D2CC12}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Number/__Standard Values/{66B8B42D-E097-4169-BC7C-A78BED62F3D3}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Number/{E8D5A5A3-6430-4701-BAAD-1DB1947616CC}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Number/Data/{C88B866A-AFAE-42DB-B998-EC0C37965A70}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Number/Data/Step/{908DFDA2-33DF-4325-AD07-EAEEBA7510F8}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Page/__Standard Values/{1A52119D-DC31-45C0-93C9-E88278161F45}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Page/{CFEE7B51-8505-45CE-B843-9358F827DF87}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Password Confirmation/__Standard Values/{4F485284-4119-4C52-B3DB-0FCC755CFC9F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Password Confirmation/{52FEC879-7D8D-46D3-BBB2-131293957709}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Password Confirmation/Data/{6C393033-7A08-4314-9B7E-A589618E4880}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Password Confirmation/Data/Confirm Password Label/{49C676D7-AEED-4F95-9CFF-CFA9C55C7718}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Password Confirmation/Data/Confirm Password Placeholder/{2DF1637C-7CD0-43CF-A2F4-C0F66464CD16}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Password/__Standard Values/{AA49C517-A516-4C28-BEC2-DF105CA3677D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Password/{05D71800-56BE-4A53-AFAB-3819DA817A4A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Section/__Standard Values/{AC978D14-03CC-4946-A375-394ED55E8BC5}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Section/{8CDDB194-F456-4A75-89B7-346F8F39F95C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Text/__Standard Values/{5A64C0B8-0FEC-453F-852C-964B216D38BD}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Text/{FC18F915-EAC6-460A-8777-6E1376A9EA09}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Text/Data/{110CE845-A1FF-4BCA-80BE-DFCD8AD2A9A3}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Text/Data/Html Tag/{C6CAA979-C3AC-4FFC-861E-2961F5FC3C48}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Fields/Text/Data/Text/{9666782B-21BB-40CE-B38F-8F6C53FA5070}/invariant/0</x-item>
+        <x-item>/web/sitecore/system/Settings/Forms/Field Types/Basic/{B5350D9A-CEEE-4D15-B9FF-797CEACCCDC7}/invariant/0</x-item>
+        <x-item>/web/sitecore/system/Settings/Forms/Field Types/Basic/Checkbox/{4DA85E8A-3B48-4BC6-9565-8C1F5F36DD1B}/invariant/0</x-item>
+        <x-item>/web/sitecore/system/Settings/Forms/Field Types/Basic/Date/{38137D30-7B2A-47D5-BBD8-133252C01B28}/invariant/0</x-item>
+        <x-item>/web/sitecore/system/Settings/Forms/Field Types/Basic/Email/{04C39CAC-8976-4910-BE0D-879ED3368429}/invariant/0</x-item>
+        <x-item>/web/sitecore/system/Settings/Forms/Field Types/Basic/File Upload/{687A7B09-47E3-4FAA-AB2D-A4BF83DB0F1B}/invariant/0</x-item>
+        <x-item>/web/sitecore/system/Settings/Forms/Field Types/Basic/Multiple-Line Text/{A296A1C1-0DA0-4493-A92E-B8191F43AEC6}/invariant/0</x-item>
+        <x-item>/web/sitecore/system/Settings/Forms/Field Types/Basic/Number/{5B153FC0-FC3F-474F-8CB8-233FB1BEF292}/invariant/0</x-item>
+        <x-item>/web/sitecore/system/Settings/Forms/Field Types/Basic/Single-Line Text/{4EE89EA7-CEFE-4C8E-8532-467EF64591FC}/invariant/0</x-item>
+        <x-item>/web/sitecore/system/Settings/Forms/Field Types/Basic/Telephone/{DF74F55B-47E6-4D1C-92F8-B0D46A7B2704}/invariant/0</x-item>
+        <x-item>/web/sitecore/system/Settings/Forms/Field Types/Basic/Text/{983BFA5F-C6B6-4AEE-A3BB-46B95D52E7DF}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/Modules/FormExtensions/Binding Settings/__Standard Values/{3960768C-2558-4D14-A874-F1465C79D1B2}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/Modules/FormExtensions/Binding Settings/{91454FBB-7AA6-40F3-BD9A-49B2A42BF5E0}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/Modules/FormExtensions/Binding Settings/Binding Settings/{EDACB8D9-EED2-4FF2-90B5-20663A118AF8}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/Modules/FormExtensions/Binding Settings/Binding Settings/Binding Token/{430726E4-4845-439C-ACCA-7E50B2D661BF}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/Modules/FormExtensions/Binding Settings/Binding Settings/Prefill Binding Value/{34CA92A5-C09F-483E-8454-8FEB98FFE209}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/Modules/FormExtensions/Binding Settings/Binding Settings/Store Binding Value/{ECD17630-5F51-45DB-B52F-B3DFAEC4FA1B}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/{EBDE78CC-AD3F-4623-B395-CC67DF70B5EA}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Button/__Standard Values/{06C078E7-1E55-4DE5-A0E6-9E7F7332497E}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Button/__Standard Values/SubmitActions/{455D95D3-0DD0-4DFA-A14B-67F267DDDF87}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Button/{94A46D66-B1B8-405D-AAE4-7B5A9CD61C5E}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Button/Data/{D5C347A0-BA96-4471-9563-651C9F0E1285}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Button/Data/Navigation Step/{D842AF43-E220-48D7-9714-6EB2381D2B0C}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Checkbox/__Standard Values/{1514EA8F-E397-4443-A29D-722D99E33493}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Checkbox/{2F07293C-077F-456C-B715-FDB791ACB367}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Checkbox/Data/{DBC26A5D-595B-4CD0-95B7-50DB28729568}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Checkbox/Data/Default Value/{3C05A626-A3B1-4CBC-BF67-198537A13E20}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Date/__Standard Values/{B9B66B32-8CEA-4E95-94C0-86D96B0606E5}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Date/{5AC7621E-9F18-4569-BCEC-F5BF8BA1F4D7}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Date/Data/{DD8F3068-E236-416C-985B-B8A743B8E3FE}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Date/Data/Default Value/{6D66CA46-0489-4129-BA2C-CDE3E935DB7C}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Date/Data/Max/{E47830D7-EB85-46FF-AA95-5A2914D12E9A}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Date/Data/Min/{CC82B5D9-B130-435C-8992-74E798966527}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Dropdown List/__Standard Values/{26A1DE26-CAF0-4934-8374-D4F7688B3763}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Dropdown List/{9121D435-48B8-4649-9D13-03D680474FAD}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Dropdown List/Data/{133A06B5-2E15-492B-8A82-F11D1F4E6B83}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Dropdown List/Data/Show Empty Item/{6BF5048D-FBBD-4839-9F18-4412D4E11834}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Email/__Standard Values/{A9A8F34A-C373-4BFE-83DA-7AAFA90386B5}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Email/{886ADEC1-ABF8-40E1-9926-D9189C4E8E1B}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Field/__Standard Values/{F7F02291-B78F-45E2-8FD3-37CF14FBFD5D}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Field/{84ED565A-BEC9-46D4-9603-6E0516580832}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Field/Data/{05E33109-9229-4BB0-961C-9B03D83250FC}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Field/Data/Css Class/{7ABAA3F6-6EC0-4B65-A463-7919BFAE55AA}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Input/__Standard Values/{EB802E92-9120-447C-91D2-DE8C763A3831}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Input/{0908030B-4564-42EA-A6FA-C7A5A2D921A8}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Input/Data/{E2DBA960-0328-463C-9A84-DABE7F426A12}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Input/Data/Default Value/{B775BCA9-2605-4D60-B367-A0C354BE2504}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Input/Data/Max Length/{71061C01-A495-4BF3-A52C-D378346BFAE2}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Input/Data/Min Length/{9F7DA002-7B86-436B-8DDA-7EFE5837B88E}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Input/Data/Placeholder Text/{A6972F08-CBB5-4830-A8C9-8A0AE34650D1}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/List Box/__Standard Values/{29CA5A6A-AF8A-4951-83EF-983EB9B4607E}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/List Box/{81FE389A-FDC7-4ECA-A5A9-4BE3ACA0C69A}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/List Box/Data/{7485ABFD-C755-42CB-868F-0A6D6E76D3D5}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/List Box/Data/Multiple Selection/{F1299F31-B054-40AF-B5FB-6F16692CCBDF}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/List Box/Data/Rows/{3F67BE6A-F3F0-41C5-B379-C6AF29685666}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/List/__Standard Values/{B515BC81-1341-48B6-B761-AA7E060A1BDA}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/List/{5B672865-55D2-413E-B699-FDFC7E732CCF}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/List/Data/{F5DB760E-834F-4B1A-99BA-6ED2461D1222}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/List/Data/Datasource/{5BE76442-950F-4C1F-A797-BEBD71101ABB}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/List/Data/Default Selection/{21ED172D-97E2-4AC4-8EAF-0A8860B891F4}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/List/Data/Display Field Name/{492361E0-72D8-4847-82BA-EBFC235CF57B}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/List/Data/Is Dynamic/{54424E06-0E7A-47A7-8CB2-7383D700472F}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/List/Data/Value Field Name/{78778432-6327-4CEA-A28B-E190E3541D28}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Multiple-Line Text/__Standard Values/{2F5990B9-E6F2-4D2E-9179-7851789EB66C}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Multiple-Line Text/{D8386D04-C1E3-4CD3-9227-9E9F86EF3C88}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Multiple-Line Text/Data/{38FE99D4-33F6-4505-AB08-535BBEF62F7A}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Multiple-Line Text/Data/Rows/{E43E4E5F-6B45-4E3B-8D85-85AB87D2CC12}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Number/__Standard Values/{66B8B42D-E097-4169-BC7C-A78BED62F3D3}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Number/{E8D5A5A3-6430-4701-BAAD-1DB1947616CC}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Number/Data/{C88B866A-AFAE-42DB-B998-EC0C37965A70}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Number/Data/Step/{908DFDA2-33DF-4325-AD07-EAEEBA7510F8}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Page/__Standard Values/{1A52119D-DC31-45C0-93C9-E88278161F45}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Page/{CFEE7B51-8505-45CE-B843-9358F827DF87}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Password Confirmation/__Standard Values/{4F485284-4119-4C52-B3DB-0FCC755CFC9F}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Password Confirmation/{52FEC879-7D8D-46D3-BBB2-131293957709}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Password Confirmation/Data/{6C393033-7A08-4314-9B7E-A589618E4880}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Password Confirmation/Data/Confirm Password Label/{49C676D7-AEED-4F95-9CFF-CFA9C55C7718}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Password Confirmation/Data/Confirm Password Placeholder/{2DF1637C-7CD0-43CF-A2F4-C0F66464CD16}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Password/__Standard Values/{AA49C517-A516-4C28-BEC2-DF105CA3677D}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Password/{05D71800-56BE-4A53-AFAB-3819DA817A4A}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Section/__Standard Values/{AC978D14-03CC-4946-A375-394ED55E8BC5}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Section/{8CDDB194-F456-4A75-89B7-346F8F39F95C}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Text/__Standard Values/{5A64C0B8-0FEC-453F-852C-964B216D38BD}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Text/{FC18F915-EAC6-460A-8777-6E1376A9EA09}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Text/Data/{110CE845-A1FF-4BCA-80BE-DFCD8AD2A9A3}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Text/Data/Html Tag/{C6CAA979-C3AC-4FFC-861E-2961F5FC3C48}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Fields/Text/Data/Text/{9666782B-21BB-40CE-B38F-8F6C53FA5070}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Merge</ItemMode>
+                  <ItemMergeMode>Merge</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Field Binding</Name>
     </xitems>
   </Sources>
   <Converter>
