@@ -27,6 +27,10 @@ namespace Feature.FormsExtensions.Business.FieldBindings.xDbBindingHandlers
             {
                 return new NoBindingValueFoundResult();
             }
+            if (xConnectFacet.Facets == null)
+            {
+                return new NoBindingValueFoundResult();
+            }
             if (!xConnectFacet.Facets.ContainsKey(GetFacetKey()))
             {
                 return new NoBindingValueFoundResult();

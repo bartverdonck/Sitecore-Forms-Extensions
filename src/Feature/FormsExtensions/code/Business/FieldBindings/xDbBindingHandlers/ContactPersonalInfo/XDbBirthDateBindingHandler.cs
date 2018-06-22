@@ -11,10 +11,9 @@ namespace Feature.FormsExtensions.Business.FieldBindings.xDbBindingHandlers.Cont
         
         protected override IBindingHandlerResult GetFieldBindingValueFromFacet(PersonalInformation facet)
         {
-            if (facet.Birthdate.HasValue)
+            if (!facet.Birthdate.HasValue)
                 return new NoBindingValueFoundResult();
-            // ReSharper disable once PossibleInvalidOperationException
-            return new BindingValueFoundResult(facet.Birthdate.Value);
+            return new BindingValueFoundResult(facet.Birthdate);
         }
         
         public override void StoreBindingValue(object newValue)

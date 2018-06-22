@@ -40,7 +40,7 @@ namespace Feature.FormsExtensions.Pipelines.LoadFieldBindingHandlers
         {
             var category = "xDB Personal Info";
             args.FieldBindingHandlers.Add(new FieldBindingTokenKey(category, "sfe.xdb.pi.birthdate", "Birthdate"),
-                new XDbLastNameBindingHandler(xDbService));
+                new XDbBirthDateBindingHandler(xDbService));
             args.FieldBindingHandlers.Add(new FieldBindingTokenKey(category, "sfe.xdb.pi.firstName", "First Name"),
                 new XDbFirstNameBindingHandler(xDbService));
             args.FieldBindingHandlers.Add(new FieldBindingTokenKey(category, "sfe.xdb.pi.gender", "Gender"),

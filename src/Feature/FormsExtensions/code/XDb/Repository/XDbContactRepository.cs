@@ -46,13 +46,9 @@ namespace Feature.FormsExtensions.XDb.Repository
                 var xDbContact = client.Get(reference, expandOptions);
                 if (xDbContact != null)
                 {
-                    var facet = xDbContact.GetFacet<T>();
-                    if (facet == null)
-                    {
-                        facet = createFacet();
-                        client.SetFacet(xDbContact, facet);
-                    }
+                    var facet = xDbContact.GetFacet<T>() ?? createFacet();
                     updateFacets(facet);
+                    client.SetFacet(xDbContact, facet);
                     client.Submit();
                 }
             }

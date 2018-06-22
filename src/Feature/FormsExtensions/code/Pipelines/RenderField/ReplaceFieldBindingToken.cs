@@ -1,4 +1,5 @@
-﻿using Feature.FormsExtensions.Business.FieldBindings;
+﻿using System;
+using Feature.FormsExtensions.Business.FieldBindings;
 using Feature.FormsExtensions.Fields.Bindings;
 using Sitecore.ExperienceForms.Mvc.Pipelines.RenderField;
 using Sitecore.Mvc.Pipelines;
@@ -48,7 +49,19 @@ namespace Feature.FormsExtensions.Pipelines.RenderField
             var property = args.ViewModel.GetType().GetProperty("Value");
             if (value.Value.GetType() != property?.PropertyType)
             {
-                return;
+                if (property != null && property.PropertyType.IsGenericType && property.PropertyType.GetGenericTypeDefinition() == typeof(Nullable<>))
+                {
+                    if (value.Value.GetType() != property.PropertyType.GetGenericArguments()[0])
+                    {
+                        return;
+                    }
+                }
+                else
+                {
+                    return; 
+                    
+                }
+                
             }
             property.SetValue(args.ViewModel, value.Value);
         }
