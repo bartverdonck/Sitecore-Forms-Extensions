@@ -8,6 +8,10 @@ The new Sitecore Forms module that came with Sitecore 9 is a very promissing too
 This module aims to add some functionality to this forms creator.
 
 ## What
+### 1.4
+- *Binding Fields* aka Prefill, Added functionality to the forms module to prefill the fields with data from another source. Build-in the library supports prefilling from the xDB profile of the current user filling in the form. But it can be easily extended to add your own binding to external databases, crm's, userprofile, etc... Not only can you prefill the fields, but the module also allows to store the values back into the binded field. (e.g. You can prefill a first name field with the first name from the xDb profile. You can choose to save the value filled in onto the xDB profile after submittion.)
+- *Identify Contact*, Custom Submit Action. Allows to choose a field from the form, who's entered value will be used as the identifiervalue of the xdb profile. (In other words, it will make the visitor a known contact.)
+
 ### 1.3
 - The libraries integration with xDB had a refactoring. The update contact custom save action was removed. The forms extensions only focusses on the email address.
 - Introduction of the IXDbContactFactory. You can provide your own implementation here to use your own IdentifierSource and IdentifierValue to fetch contacts from xDB. The module comes with a default implementation that uses "email" as identifiersource and uses the email as its identiefiervalue.
