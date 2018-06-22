@@ -1,6 +1,5 @@
 ﻿using Feature.FormsExtensions.Business.FileUpload;
 using Feature.FormsExtensions.Fields.FileUpload;
-using Sitecore.Configuration;
 using Sitecore.ExperienceForms.Mvc.Pipelines.ExecuteSubmit;
 using Sitecore.Mvc.Pipelines;
 
@@ -14,7 +13,6 @@ namespace Feature.FormsExtensions.Pipelines.ExecuteSubmit
         {
             this.fileUploadStorageProviderFactory = fileUploadStorageProviderFactory;
         }
-
 
         public override void Process(ExecuteSubmitActionsEventArgs args)
         {

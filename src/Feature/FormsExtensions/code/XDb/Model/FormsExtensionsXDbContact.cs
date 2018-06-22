@@ -1,6 +1,6 @@
 ﻿namespace Feature.FormsExtensions.XDb.Model
 {
-    public class FormsExtensionsXDbContact : IXDbContact
+    public class FormsExtensionsXDbContact : IXDbContactWithEmail
     {
         public string IdentifierSource => "email";
         public string IdentifierValue => Email;

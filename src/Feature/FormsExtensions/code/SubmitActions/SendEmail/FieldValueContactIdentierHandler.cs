@@ -45,15 +45,16 @@ namespace Feature.FormsExtensions.SubmitActions.SendEmail
 
         private ContactIdentifier IdentifyAndUpdateEmailContact(string toAddress)
         {
-            var basicContact = contactFactory.CreateContact(toAddress);
+            var basicContact = contactFactory.CreateContactWithEmail(toAddress);
             xDbService.IdentifyCurrent(basicContact);
+            xDbService.UpdateEmail(basicContact);
             return new ContactIdentifier(basicContact.IdentifierSource, basicContact.IdentifierValue, ContactIdentifierType.Known);
         }
 
         protected virtual ContactIdentifier GetServiceContactIdentifier(string address)
         {
-            var serviceContact = contactFactory.CreateContact(address);
-            xDbService.UpdateOrCreate(serviceContact);
+            var serviceContact = contactFactory.CreateContactWithEmail(address);
+            xDbService.UpdateOrCreateServiceContact(serviceContact);
             return new ContactIdentifier(serviceContact.IdentifierSource, serviceContact.IdentifierValue, ContactIdentifierType.Known);
         }
 

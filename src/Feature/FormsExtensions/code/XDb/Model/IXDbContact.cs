@@ -4,6 +4,10 @@
     {
         string IdentifierSource { get; }
         string IdentifierValue { get; }
+    }
+
+    public interface IXDbContactWithEmail : IXDbContact
+    {
         string Email { get; }
     }
 }

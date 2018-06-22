@@ -1,5 +1,5 @@
-﻿using System;
-using Feature.FormsExtensions.Business;
+﻿using Feature.FormsExtensions.Business;
+using Feature.FormsExtensions.Business.FieldBindings;
 using Feature.FormsExtensions.Business.FileUpload;
 using Feature.FormsExtensions.Business.ReCaptcha;
 using Feature.FormsExtensions.SubmitActions.SendEmail;
@@ -22,6 +22,7 @@ namespace Feature.FormsExtensions
             serviceCollection.AddSingleton<CurrentContactContactIdentierHandler, CurrentContactContactIdentierHandler>();
             serviceCollection.AddSingleton<FieldValueContactIdentierHandler, FieldValueContactIdentierHandler>();
             serviceCollection.AddSingleton<FixedAddressContactIdentierHandler, FixedAddressContactIdentierHandler>();
+            serviceCollection.AddSingleton<IFieldBindingMapFactory, FieldBindingMapFactory>();
         }
     }
 }
