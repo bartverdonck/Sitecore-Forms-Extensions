@@ -8,6 +8,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <_PublishTargetUrl>C:\Projects\Sitecore Forms Extentions\Source\src\Feature\FormsExtensions\code\../../../../../Testsite</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
+    <File Include="App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.ApiServices.config">
+      <publishTime>06/25/2018 16:58:37</publishTime>
+    </File>
     <File Include="App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.DependencyInjection.config">
       <publishTime>06/14/2018 13:23:42</publishTime>
     </File>
@@ -15,13 +18,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/30/2018 14:46:16</publishTime>
     </File>
     <File Include="App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.Processors.config">
-      <publishTime>06/22/2018 17:24:01</publishTime>
+      <publishTime>06/22/2018 23:45:46</publishTime>
     </File>
     <File Include="App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.Settings.config">
-      <publishTime>06/21/2018 14:07:25</publishTime>
+      <publishTime>06/22/2018 23:45:46</publishTime>
     </File>
     <File Include="App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.Tracker.config">
-      <publishTime>06/22/2018 11:42:43</publishTime>
+      <publishTime>06/22/2018 23:45:46</publishTime>
     </File>
     <File Include="bin/de/Microsoft.Data.Edm.resources.dll">
       <publishTime>01/02/2017 14:00:38</publishTime>
@@ -48,10 +51,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/02/2017 14:00:14</publishTime>
     </File>
     <File Include="bin/Feature.FormsExtensions.dll">
-      <publishTime>06/22/2018 20:15:21</publishTime>
+      <publishTime>06/25/2018 16:58:43</publishTime>
     </File>
     <File Include="bin/Feature.FormsExtensions.pdb">
-      <publishTime>06/22/2018 20:15:21</publishTime>
+      <publishTime>06/25/2018 16:58:43</publishTime>
     </File>
     <File Include="bin/fr/Microsoft.Data.Edm.resources.dll">
       <publishTime>01/02/2017 14:00:38</publishTime>
@@ -273,7 +276,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/02/2017 14:00:14</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>06/17/2018 16:54:21</publishTime>
+      <publishTime>06/22/2018 23:45:47</publishTime>
     </File>
     <File Include="sitecore modules/Web/ExperienceForms/scripts/formsextensions.validate.js">
       <publishTime>05/30/2018 13:43:34</publishTime>
@@ -282,13 +285,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/30/2018 13:43:34</publishTime>
     </File>
     <File Include="sitecore/shell/client/Applications/FormsBuilder/Layouts/Actions/IdentifyContact.js">
-      <publishTime>06/17/2018 14:01:06</publishTime>
+      <publishTime>06/22/2018 23:45:47</publishTime>
     </File>
     <File Include="sitecore/shell/client/Applications/FormsBuilder/Layouts/Actions/SendEmailExtended.js">
       <publishTime>06/10/2018 23:24:01</publishTime>
     </File>
     <File Include="sitecore/shell/client/Applications/FormsBuilder/Layouts/PropertyGridForm/PropertyGridForm.js">
-      <publishTime>06/21/2018 18:21:07</publishTime>
+      <publishTime>06/22/2018 23:45:47</publishTime>
     </File>
     <File Include="Views/FormBuilder/FieldTemplates/FileUpload.cshtml">
       <publishTime>05/30/2018 13:43:34</publishTime>

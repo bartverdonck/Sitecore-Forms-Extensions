@@ -299,6 +299,9 @@
     <Content Include="App_Config\Include\Feature\FormsExtensions\Feature.FormsExtensions.Tracker.config">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="App_Config\Include\Feature\FormsExtensions\Feature.FormsExtensions.ApiServices.config">
+      <SubType>Designer</SubType>
+    </Content>
     <None Include="sitecore modules\Web\ExperienceForms\scripts\jquery.unobtrusive-ajax.js" />
     <Content Include="sitecore\shell\client\Applications\FormsBuilder\Layouts\Actions\IdentifyContact.js" />
     <Content Include="sitecore\shell\client\Applications\FormsBuilder\Layouts\Actions\SendEmailExtended.js" />

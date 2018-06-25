@@ -3,7 +3,7 @@
     <metadata>
       <PackageName>Sitecore Forms Extensions</PackageName>
       <Author>Bart Verdonck</Author>
-      <Version>1.4</Version>
+      <Version>1.4.1</Version>
       <Revision />
       <License />
       <Comment />
@@ -17,22 +17,6 @@
   <SaveProject>True</SaveProject>
   <Sources>
     <xfiles>
-      <Entries>
-        <x-item>/App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.DependencyInjection.config</x-item>
-        <x-item>/App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.FileUploadStorageProviders.config</x-item>
-        <x-item>/App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.Processors.config</x-item>
-        <x-item>/App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.Settings.config</x-item>
-        <x-item>/bin/Feature.FormsExtensions.dll</x-item>
-        <x-item>/sitecore modules/Web/ExperienceForms/scripts/formsextensions.validate.js</x-item>
-        <x-item>/sitecore modules/Web/ExperienceForms/scripts/jquery.unobtrusive-ajax.min.js</x-item>
-        <x-item>/sitecore/shell/client/Applications/FormsBuilder/Layouts/Actions/UpdateContact.js</x-item>
-        <x-item>/Views/FormBuilder/FieldTemplates/FileUpload.cshtml</x-item>
-        <x-item>/Views/FormBuilder/FieldTemplates/ReCaptcha.cshtml</x-item>
-        <x-item>/sitecore/shell/client/Applications/FormsBuilder/Layouts/Actions/SendEmailExtended.js</x-item>
-        <x-item>/sitecore/shell/client/Applications/FormsBuilder/Layouts/PropertyGridForm/PropertyGridForm.js</x-item>
-        <x-item>/sitecore/shell/client/Applications/FormsBuilder/Layouts/Actions/IdentifyContact.js</x-item>
-        <x-item>/App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.Tracker.config</x-item>
-      </Entries>
       <Converter>
         <FileToEntryConverter>
           <Root>/</Root>
@@ -48,6 +32,23 @@
           </Transforms>
         </FileToEntryConverter>
       </Converter>
+      <Entries>
+        <x-item>/App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.DependencyInjection.config</x-item>
+        <x-item>/App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.FileUploadStorageProviders.config</x-item>
+        <x-item>/App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.Processors.config</x-item>
+        <x-item>/App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.Settings.config</x-item>
+        <x-item>/bin/Feature.FormsExtensions.dll</x-item>
+        <x-item>/sitecore modules/Web/ExperienceForms/scripts/formsextensions.validate.js</x-item>
+        <x-item>/sitecore modules/Web/ExperienceForms/scripts/jquery.unobtrusive-ajax.min.js</x-item>
+        <x-item>/sitecore/shell/client/Applications/FormsBuilder/Layouts/Actions/UpdateContact.js</x-item>
+        <x-item>/Views/FormBuilder/FieldTemplates/FileUpload.cshtml</x-item>
+        <x-item>/Views/FormBuilder/FieldTemplates/ReCaptcha.cshtml</x-item>
+        <x-item>/sitecore/shell/client/Applications/FormsBuilder/Layouts/Actions/SendEmailExtended.js</x-item>
+        <x-item>/sitecore/shell/client/Applications/FormsBuilder/Layouts/PropertyGridForm/PropertyGridForm.js</x-item>
+        <x-item>/sitecore/shell/client/Applications/FormsBuilder/Layouts/Actions/IdentifyContact.js</x-item>
+        <x-item>/App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.Tracker.config</x-item>
+        <x-item>/App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.ApiServices.config</x-item>
+      </Entries>
       <Include />
       <Exclude />
       <Name>Files</Name>
@@ -243,10 +244,6 @@
       <Name>Identify Contact</Name>
     </xitems>
     <xfiles>
-      <Entries>
-        <x-item>/bin/Microsoft.WindowsAzure.Storage.dll</x-item>
-        <x-item>/bin/System.Net.Http.dll</x-item>
-      </Entries>
       <Converter>
         <FileToEntryConverter>
           <Root>/</Root>
@@ -262,6 +259,10 @@
           </Transforms>
         </FileToEntryConverter>
       </Converter>
+      <Entries>
+        <x-item>/bin/Microsoft.WindowsAzure.Storage.dll</x-item>
+        <x-item>/bin/System.Net.Http.dll</x-item>
+      </Entries>
       <Include />
       <Exclude />
       <Name>External DLL's</Name>
