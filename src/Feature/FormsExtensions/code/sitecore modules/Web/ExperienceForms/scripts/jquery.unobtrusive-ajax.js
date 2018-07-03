@@ -186,7 +186,13 @@
         if (this.enctype && this.enctype === "multipart/form-data") {
             formData = new FormData(this);
 			for(var i=0; i<clickInfo.length;i++){
-				formData.append(clickInfo[i].name,clickInfo[i].value);
+				if(formData.has(clickInfo[i].name)){
+					var origValue = formData.get(clickInfo[i].name);
+					formData.set(clickInfo[i].name,clickInfo[i].value);
+					formData.append(clickInfo[i].name,origValue);
+				}else{
+					formData.append(clickInfo[i].name,clickInfo[i].value);
+				}				
 			}
         } else {
             formData = clickInfo.concat($(this).serializeArray());
