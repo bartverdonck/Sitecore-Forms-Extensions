@@ -1,8 +1,10 @@
-﻿using Sitecore.ExperienceForms.Models;
+﻿using System;
+using Sitecore.ExperienceForms.Models;
 using Sitecore.ExperienceForms.Mvc.Models.Fields;
 
 namespace Feature.FormsExtensions.Fields.ReCaptcha
 {
+    [Serializable]
     public class ReCaptchaModel : FieldViewModel, IValueField
     {
         [ReCaptchaValidation(ErrorMessage = "captcha.required")]

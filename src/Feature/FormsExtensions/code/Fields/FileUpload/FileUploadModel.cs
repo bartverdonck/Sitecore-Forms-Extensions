@@ -1,4 +1,5 @@
-﻿using System.Globalization;
+﻿using System;
+using System.Globalization;
 using System.Web;
 using Feature.FormsExtensions.Business.FileUpload;
 using Sitecore;
@@ -7,14 +8,21 @@ using Sitecore.ExperienceForms.Mvc.Models.Validation;
 
 namespace Feature.FormsExtensions.Fields.FileUpload
 {
+    [Serializable]
     public class FileUploadModel : ValueNotValidatedInputViewModel<IStoredFile>
     {
+        [NonSerialized]
+        private HttpPostedFileBase file;
         private const string AllowedContentTypesParam = "Allowed Content Types";
         private const string MaxFileSizeParam = "Max File Size";
 
         [DynamicRequired]
         [DynamicValidation]
-        public virtual HttpPostedFileBase File { get; set; }
+        public virtual HttpPostedFileBase File
+        {
+            get => file;
+            set => file = value;
+        }
 
         public string AllowedContentTypes { get; set; }
         public int MaxFileSize { get; set; }

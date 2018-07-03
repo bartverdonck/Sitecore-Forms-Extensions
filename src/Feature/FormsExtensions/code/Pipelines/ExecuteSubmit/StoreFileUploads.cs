@@ -29,6 +29,9 @@ namespace Feature.FormsExtensions.Pipelines.ExecuteSubmit
         {
             if (uploadField.File == null)
                 return;
+
+            if (uploadField.File.InputStream.Position > 0)
+                return;
             
             var storedFile = fileUploadStorageProviderFactory.GetDefaultFileUploadStorageProvider().StoreFile(uploadField.File);
             uploadField.Value = storedFile;

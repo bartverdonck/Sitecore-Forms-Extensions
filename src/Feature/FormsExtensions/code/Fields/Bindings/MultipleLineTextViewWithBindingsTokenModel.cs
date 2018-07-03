@@ -1,8 +1,10 @@
-﻿using Sitecore.Data.Items;
+﻿using System;
+using Sitecore.Data.Items;
 using Sitecore.ExperienceForms.Mvc.Models.Fields;
 
 namespace Feature.FormsExtensions.Fields.Bindings
 {
+    [Serializable]
     public class MultipleLineTextViewWithBindingsTokenModel : MultipleLineTextViewModel, IBindingSettings
     {
         public string BindingToken { get; set; }

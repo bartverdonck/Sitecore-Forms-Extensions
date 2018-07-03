@@ -11,6 +11,7 @@ using Sitecore.ExperienceForms.Mvc.Models.Validation;
 
 namespace Feature.FormsExtensions.Fields
 {
+    [Serializable]
     public abstract class ValueNotValidatedInputViewModel<TValueType> : TitleFieldViewModel, IValueField, IValidatableField
     {
         [NonSerialized]
