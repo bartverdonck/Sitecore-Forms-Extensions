@@ -12,6 +12,9 @@ The new Sitecore Forms module that came with Sitecore 9 is a very promissing too
 This module aims to add some functionality to this forms creator.
 
 ## What
+### 1.4.2
+- Bugfix for multipage forms
+
 ### 1.4.1
 - Added FieldBindingMapApiController to allowedControllers in sitecore config.
 
