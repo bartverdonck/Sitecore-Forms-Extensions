@@ -1,4 +1,4 @@
-$.validator.setDefaults({ ignore: "" });
+$.validator.setDefaults({ ignore: ":hidden:not(.fxt-captcha)" });
 
 $.validator.unobtrusive.adapters.add("recaptcha", function (options) {
     options.rules["recaptcha"] = true;
