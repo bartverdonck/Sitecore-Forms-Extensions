@@ -11,6 +11,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.ApiServices.config">
       <publishTime>06/25/2018 16:58:37</publishTime>
     </File>
+    <File Include="App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.Debug.config">
+      <publishTime>09/10/2018 14:37:39</publishTime>
+    </File>
     <File Include="App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.DependencyInjection.config">
       <publishTime>06/14/2018 13:23:42</publishTime>
     </File>
@@ -18,7 +21,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/30/2018 14:46:16</publishTime>
     </File>
     <File Include="App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.Processors.config">
-      <publishTime>06/22/2018 23:45:46</publishTime>
+      <publishTime>09/10/2018 14:42:55</publishTime>
     </File>
     <File Include="App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.Settings.config">
       <publishTime>06/22/2018 23:45:46</publishTime>
@@ -51,10 +54,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/02/2017 14:00:14</publishTime>
     </File>
     <File Include="bin/Feature.FormsExtensions.dll">
-      <publishTime>06/25/2018 16:58:43</publishTime>
+      <publishTime>09/10/2018 14:57:24</publishTime>
     </File>
     <File Include="bin/Feature.FormsExtensions.pdb">
-      <publishTime>06/25/2018 16:58:43</publishTime>
+      <publishTime>09/10/2018 14:57:24</publishTime>
     </File>
     <File Include="bin/fr/Microsoft.Data.Edm.resources.dll">
       <publishTime>01/02/2017 14:00:38</publishTime>
@@ -279,10 +282,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/22/2018 23:45:47</publishTime>
     </File>
     <File Include="sitecore modules/Web/ExperienceForms/scripts/formsextensions.validate.js">
-      <publishTime>05/30/2018 13:43:34</publishTime>
+      <publishTime>07/09/2018 16:19:04</publishTime>
     </File>
     <File Include="sitecore modules/Web/ExperienceForms/scripts/jquery.unobtrusive-ajax.min.js">
-      <publishTime>05/30/2018 13:43:34</publishTime>
+      <publishTime>03/07/2018 14:15:45</publishTime>
     </File>
     <File Include="sitecore/shell/client/Applications/FormsBuilder/Layouts/Actions/IdentifyContact.js">
       <publishTime>06/22/2018 23:45:47</publishTime>
@@ -290,14 +293,17 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="sitecore/shell/client/Applications/FormsBuilder/Layouts/Actions/SendEmailExtended.js">
       <publishTime>06/10/2018 23:24:01</publishTime>
     </File>
+    <File Include="sitecore/shell/client/Applications/FormsBuilder/Layouts/Actions/ShowFormPage.js">
+      <publishTime>09/10/2018 13:32:53</publishTime>
+    </File>
     <File Include="sitecore/shell/client/Applications/FormsBuilder/Layouts/PropertyGridForm/PropertyGridForm.js">
       <publishTime>06/22/2018 23:45:47</publishTime>
     </File>
     <File Include="Views/FormBuilder/FieldTemplates/FileUpload.cshtml">
-      <publishTime>05/30/2018 13:43:34</publishTime>
+      <publishTime>03/07/2018 14:09:39</publishTime>
     </File>
     <File Include="Views/FormBuilder/FieldTemplates/ReCaptcha.cshtml">
-      <publishTime>05/30/2018 13:43:34</publishTime>
+      <publishTime>06/09/2018 14:59:03</publishTime>
     </File>
   </ItemGroup>
 </Project>

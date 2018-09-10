@@ -3,7 +3,7 @@
     <metadata>
       <PackageName>Sitecore Forms Extensions</PackageName>
       <Author>Bart Verdonck</Author>
-      <Version>1.4.1</Version>
+      <Version>1.5</Version>
       <Revision />
       <License />
       <Comment />
@@ -17,21 +17,6 @@
   <SaveProject>True</SaveProject>
   <Sources>
     <xfiles>
-      <Converter>
-        <FileToEntryConverter>
-          <Root>/</Root>
-          <Transforms>
-            <InstallerConfigurationTransform>
-              <Options>
-                <BehaviourOptions>
-                  <ItemMode>Overwrite</ItemMode>
-                  <ItemMergeMode>Undefined</ItemMergeMode>
-                </BehaviourOptions>
-              </Options>
-            </InstallerConfigurationTransform>
-          </Transforms>
-        </FileToEntryConverter>
-      </Converter>
       <Entries>
         <x-item>/App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.DependencyInjection.config</x-item>
         <x-item>/App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.FileUploadStorageProviders.config</x-item>
@@ -49,6 +34,21 @@
         <x-item>/App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.Tracker.config</x-item>
         <x-item>/App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.ApiServices.config</x-item>
       </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Overwrite</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
       <Include />
       <Exclude />
       <Name>Files</Name>
@@ -244,6 +244,10 @@
       <Name>Identify Contact</Name>
     </xitems>
     <xfiles>
+      <Entries>
+        <x-item>/bin/Microsoft.WindowsAzure.Storage.dll</x-item>
+        <x-item>/bin/System.Net.Http.dll</x-item>
+      </Entries>
       <Converter>
         <FileToEntryConverter>
           <Root>/</Root>
@@ -259,10 +263,6 @@
           </Transforms>
         </FileToEntryConverter>
       </Converter>
-      <Entries>
-        <x-item>/bin/Microsoft.WindowsAzure.Storage.dll</x-item>
-        <x-item>/bin/System.Net.Http.dll</x-item>
-      </Entries>
       <Include />
       <Exclude />
       <Name>External DLL's</Name>
@@ -605,6 +605,37 @@
       <Include />
       <Exclude />
       <Name>Field Binding</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/ShowFormPage/{3B088F2A-5DF9-4C15-9EF8-1FF79A4E46FE}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/ShowFormPage/PageSettings/{C6BD2AAF-0144-47C5-A657-4AF58E365D2B}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/ShowFormPage/PageSettings/Form/{BC499E27-2CBB-4B5C-B7D9-EAA0C0B757A8}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/ShowFormPage/PageSettings/Form/FormPageId/{D44D0329-F4D7-4AAE-A05C-3A8CECF4DB48}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/ShowFormPage/PageSettings/HeaderSubtitle/{3395B00A-9884-464A-8A62-8CF541E9C4D8}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/ShowFormPage/PageSettings/HeaderTitle/{67466A96-D180-41BD-BD95-CFF6C42B5251}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/ShowFormPage/PageSettings/Stylesheet/{124A79A7-D7DB-4EEB-9949-95574569E0C1}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Submit Actions/Show Form Page/{1E0BC9A9-DC04-4894-8753-EFF004C393E5}/invariant/0</x-item>
+        <x-item>/web/sitecore/system/Settings/Forms/Submit Actions/Show Form Page/{1E0BC9A9-DC04-4894-8753-EFF004C393E5}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Merge</ItemMode>
+                  <ItemMergeMode>Merge</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Show Form Page</Name>
     </xitems>
   </Sources>
   <Converter>

@@ -234,12 +234,15 @@
     <Compile Include="Business\FieldBindings\xDbBindingHandlers\ContactPhoneNumbers\XDbExtensionBindingHandler.cs" />
     <Compile Include="Business\FieldBindings\xDbBindingHandlers\ContactPhoneNumbers\XDbNumberBindingHandler.cs" />
     <Compile Include="Business\FieldBindings\xDbBindingHandlers\PreferredEmailBindingHandler.cs" />
+    <Compile Include="Debugging\RenderForm.cs" />
     <Compile Include="Fields\Bindings\BindingSettingsItemMapperExtension.cs" />
     <Compile Include="Fields\Bindings\CheckBoxViewWithBindingsTokenModel.cs" />
     <Compile Include="Fields\Bindings\DateViewWithBindingsTokenModel.cs" />
     <Compile Include="Fields\Bindings\IBindingSettings.cs" />
     <Compile Include="Fields\Bindings\MultipleLineTextViewWithBindingsTokenModel.cs" />
     <Compile Include="Fields\Bindings\NumberViewWithBindingsTokenModel.cs" />
+    <Compile Include="Fields\Date\TimeSpanValidation.cs" />
+    <Compile Include="Fields\Date\TimeSpanValidationParameters.cs" />
     <Compile Include="Fields\FileUpload\FileSizeValidation.cs" />
     <Compile Include="Fields\FileUpload\ContentTypeValidation.cs" />
     <Compile Include="Fields\Bindings\StringInputViewWithBindingsTokenModel.cs" />
@@ -267,6 +270,7 @@
     <Compile Include="Business\ReCaptcha\ReCaptchaService.cs" />
     <Compile Include="Business\FileUpload\IFileUploadStorageProvider.cs" />
     <Compile Include="Pipelines\ExecuteSubmit\StoreFileUploads.cs" />
+    <Compile Include="Pipelines\ShowFormPage\ShowFormPageNavigationLoader.cs" />
     <Compile Include="SubmitActions\IdentifyContact\IdentifyContactAction.cs" />
     <Compile Include="SubmitActions\IdentifyContact\IdentifyContactData.cs" />
     <Compile Include="SubmitActions\SendEmail\SendEmailBase.cs" />
@@ -276,6 +280,9 @@
     <Compile Include="SubmitActions\SendEmail\IExtractSendToContactIdentierHandler.cs" />
     <Compile Include="SubmitActions\SendEmail\SendEmailExtended.cs" />
     <Compile Include="SubmitActions\SendEmail\SendEmailExtendedData.cs" />
+    <Compile Include="SubmitActions\ShowFormPage\ShowFormPageContext.cs" />
+    <Compile Include="SubmitActions\ShowFormPage\ShowFormPageData.cs" />
+    <Compile Include="SubmitActions\ShowFormPage\ShowFormPageAction.cs" />
     <Compile Include="XDb\FormsExtensionsXDbContactFactory.cs" />
     <Compile Include="XDb\IXDbContactFactory.cs" />
     <Compile Include="XDb\Model\IXDbContact.cs" />
@@ -302,7 +309,11 @@
     <Content Include="App_Config\Include\Feature\FormsExtensions\Feature.FormsExtensions.ApiServices.config">
       <SubType>Designer</SubType>
     </Content>
+    <None Include="App_Config\Include\Feature\FormsExtensions\Feature.FormsExtensions.Debug.config.disabled">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="sitecore modules\Web\ExperienceForms\scripts\jquery.unobtrusive-ajax.js" />
+    <Content Include="sitecore\shell\client\Applications\FormsBuilder\Layouts\Actions\ShowFormPage.js" />
     <Content Include="sitecore\shell\client\Applications\FormsBuilder\Layouts\Actions\IdentifyContact.js" />
     <Content Include="sitecore\shell\client\Applications\FormsBuilder\Layouts\Actions\SendEmailExtended.js" />
     <Content Include="App_Config\Include\Feature\FormsExtensions\Feature.FormsExtensions.DependencyInjection.config" />
