@@ -54,10 +54,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/02/2017 14:00:14</publishTime>
     </File>
     <File Include="bin/Feature.FormsExtensions.dll">
-      <publishTime>09/10/2018 14:57:24</publishTime>
+      <publishTime>09/10/2018 16:33:52</publishTime>
     </File>
     <File Include="bin/Feature.FormsExtensions.pdb">
-      <publishTime>09/10/2018 14:57:24</publishTime>
+      <publishTime>09/10/2018 16:33:52</publishTime>
     </File>
     <File Include="bin/fr/Microsoft.Data.Edm.resources.dll">
       <publishTime>01/02/2017 14:00:38</publishTime>
@@ -301,6 +301,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Views/FormBuilder/FieldTemplates/FileUpload.cshtml">
       <publishTime>03/07/2018 14:09:39</publishTime>
+    </File>
+    <File Include="Views/FormBuilder/FieldTemplates/RawHtml.cshtml">
+      <publishTime>09/10/2018 16:33:38</publishTime>
     </File>
     <File Include="Views/FormBuilder/FieldTemplates/ReCaptcha.cshtml">
       <publishTime>06/09/2018 14:59:03</publishTime>

@@ -665,6 +665,42 @@
       <Exclude />
       <Name>Date Timespan Validator</Name>
     </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/RawHtml/{D8A5B236-5018-403F-BEBA-544C1B5CF78B}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/RawHtml/Details/{D6F7729A-4A56-4525-ADD5-B4BA84561A3E}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/RawHtml/Details/Html/{5836BD01-61AC-4FFE-9726-035111C4CC5C}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/RawHtml/Styling/{39EBE7DB-9501-4D22-9FDB-AB4FA31E67FB}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Field Types/Basic/RawHtml/{F6ABF2D4-D864-48D7-A464-75025A42162E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/FormExtensions/Fields/RawHtmlField/__Standard Values/{35360D29-FFD5-48E3-9D71-A3EB7A32DF27}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/FormExtensions/Fields/RawHtmlField/{06510E4D-13DD-480A-909A-06392BDFA89E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/FormExtensions/Fields/RawHtmlField/Data/{4A23036B-2D9D-4B54-9AD9-F3EC5A3AA727}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/FormExtensions/Fields/RawHtmlField/Data/Html/{318B47E2-A908-4AAD-B595-9DBDEEFFBCF3}/invariant/0</x-item>
+        <x-item>/web/sitecore/system/Settings/Forms/Field Types/Basic/RawHtml/{F6ABF2D4-D864-48D7-A464-75025A42162E}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/Modules/FormExtensions/Fields/RawHtmlField/__Standard Values/{35360D29-FFD5-48E3-9D71-A3EB7A32DF27}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/Modules/FormExtensions/Fields/RawHtmlField/{06510E4D-13DD-480A-909A-06392BDFA89E}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/Modules/FormExtensions/Fields/RawHtmlField/Data/{4A23036B-2D9D-4B54-9AD9-F3EC5A3AA727}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/Modules/FormExtensions/Fields/RawHtmlField/Data/Html/{318B47E2-A908-4AAD-B595-9DBDEEFFBCF3}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Merge</ItemMode>
+                  <ItemMergeMode>Merge</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Raw Html Field</Name>
+    </xitems>
   </Sources>
   <Converter>
     <TrivialConverter>
