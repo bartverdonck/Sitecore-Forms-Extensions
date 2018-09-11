@@ -248,6 +248,7 @@
     <Compile Include="Fields\Bindings\StringInputViewWithBindingsTokenModel.cs" />
     <Compile Include="Business\FieldBindings\IBindingHandler.cs" />
     <Compile Include="Business\FieldBindings\IFieldBindingMapFactory.cs" />
+    <Compile Include="Fields\Hidden\HiddenViewModel.cs" />
     <Compile Include="Fields\RawHtml\RawHtmlModel.cs" />
     <Compile Include="Pipelines\ExecuteSubmit\StoreFieldBindingValues.cs" />
     <Compile Include="Pipelines\LoadFieldBindingHandlers\LoadFieldBindingHandlersArgs.cs" />
@@ -327,6 +328,7 @@
     <Content Include="Views\FormBuilder\FieldTemplates\ReCaptcha.cshtml" />
     <Content Include="Views\FormBuilder\FieldTemplates\FileUpload.cshtml" />
     <Content Include="Views\FormBuilder\FieldTemplates\RawHtml.cshtml" />
+    <Content Include="Views\FormBuilder\FieldTemplates\Hidden.cshtml" />
     <None Include="web.config" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>

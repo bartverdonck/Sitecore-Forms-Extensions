@@ -701,6 +701,38 @@
       <Exclude />
       <Name>Raw Html Field</Name>
     </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Hidden/{639A6DB4-3F51-4039-806D-20737D220459}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Hidden/Advanced/{E4796607-8930-46B0-B911-9D67DE7CA61C}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Hidden/Bindings/{3359B2A9-8914-473A-B861-A2E2F064EC72}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Hidden/Details/{70C868D9-EE26-4053-91ED-CDC491F28B44}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Field Types/Basic/Hidden/{B67C70C1-6776-4BCB-8529-AA28E02F6412}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/FormExtensions/Fields/HiddenField/__Standard Values/{7BFBB124-69E1-4CE0-B210-DB120AE03ACB}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/FormExtensions/Fields/HiddenField/{5092AFD5-45C0-4FB0-91B1-56B1B960AC7F}/invariant/0</x-item>
+        <x-item>/web/sitecore/system/Settings/Forms/Field Types/Basic/Hidden/{B67C70C1-6776-4BCB-8529-AA28E02F6412}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/Modules/FormExtensions/Fields/HiddenField/__Standard Values/{7BFBB124-69E1-4CE0-B210-DB120AE03ACB}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/Modules/FormExtensions/Fields/HiddenField/{5092AFD5-45C0-4FB0-91B1-56B1B960AC7F}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Merge</ItemMode>
+                  <ItemMergeMode>Merge</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Hidden Field</Name>
+    </xitems>
   </Sources>
   <Converter>
     <TrivialConverter>
