@@ -12,6 +12,15 @@ The new Sitecore Forms module that came with Sitecore 9 is a very promissing too
 This module aims to add some functionality to this forms creator.
 
 ## What
+### 1.5
+- *ShowFormPage*, custom submit action: With this submit action you set the page in your form that needs to be displayed after a succesfull submit. This is usefull when you don't want to redirect to a seperate thank you page but replace the form with a thank you message after submit.
+- *RawHTML*, custom field: The content entered in the Raw HTML field is rendered on the page as pure html without escaping. This can be usefull to add small inline javascript snippets or other custom html. In combination with the ShowFormPage, this can be used to trigger a datalayer event to track that the form was submitted.
+- *HiddenField*, custom field: Use this field to add an input type hidden on the form. This can be usefull when you want to send additional info to your analytics datalayer. This field also supports the databinding functionality and is thus able to send some xDB profile information to the client.
+- *Date Timespan Validator*, custom validator: With this validator you can compare the entered date with the current datetime. The package contains implementations to check wether a date is in the present or the past. It also contains a validator to check someones age entered through the datepicker.
+- Bugfix on the Identify Contact Submit Action
+- Bugfix on fileupload control in combination with checkbox list: validation is now working correctly.
+
+
 ### 1.4
 - *Binding Fields* aka Prefill, Added functionality to the forms module to prefill the fields with data from another source. Build-in the library supports prefilling from the xDB profile of the current user filling in the form. But it can be easily extended to add your own binding to external databases, crm's, userprofile, etc... Not only can you prefill the fields, but the module also allows to store the values back into the binded field. (e.g. You can prefill a first name field with the first name from the xDb profile. You can choose to save the value filled in onto the xDB profile after submittion.) [More info can be found here](http://onelittlespark.bartverdonck.be/prefill-fields-in-sitecore-forms/) [Find out how you can add your own databinder](http://onelittlespark.bartverdonck.be/configure-and-extend-field-binding-for-sitecore-forms/)
 - *Identify Contact*, Custom Submit Action. Allows to choose a field from the form, who's entered value will be used as the identifiervalue of the xdb profile. (In other words, it will make the visitor a known contact.)
