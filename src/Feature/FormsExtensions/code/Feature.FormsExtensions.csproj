@@ -285,6 +285,7 @@
     <Compile Include="SubmitActions\ShowFormPage\ShowFormPageContext.cs" />
     <Compile Include="SubmitActions\ShowFormPage\ShowFormPageData.cs" />
     <Compile Include="SubmitActions\ShowFormPage\ShowFormPageAction.cs" />
+    <Compile Include="Views\HtmlHelper.cs" />
     <Compile Include="XDb\FormsExtensionsXDbContactFactory.cs" />
     <Compile Include="XDb\IXDbContactFactory.cs" />
     <Compile Include="XDb\Model\IXDbContact.cs" />

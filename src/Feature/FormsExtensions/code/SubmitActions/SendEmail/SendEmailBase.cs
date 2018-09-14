@@ -79,7 +79,8 @@ namespace Feature.FormsExtensions.SubmitActions.SendEmail
 
         private static string GetSingleStringValue(FormField formField)
         {
-            return formField.ValueList != null ? string.Join(", ", formField.ValueList.Select(x => x.Name)) : formField.Value.Name;
+            var value = formField.ValueList != null ? string.Join(", ", formField.ValueList.Select(x => x.Name)) : formField.Value.Name;
+            return value ?? "";
         }
 
         protected abstract IList<ContactIdentifier> GetToContacts(T data, FormSubmitContext formSubmitContext);

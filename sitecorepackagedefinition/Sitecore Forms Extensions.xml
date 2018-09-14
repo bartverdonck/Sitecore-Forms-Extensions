@@ -33,6 +33,9 @@
         <x-item>/sitecore/shell/client/Applications/FormsBuilder/Layouts/Actions/IdentifyContact.js</x-item>
         <x-item>/App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.Tracker.config</x-item>
         <x-item>/App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.ApiServices.config</x-item>
+        <x-item>/sitecore/shell/client/Applications/FormsBuilder/Layouts/Actions/ShowFormPage.js</x-item>
+        <x-item>/Views/FormBuilder/FieldTemplates/Hidden.cshtml</x-item>
+        <x-item>/Views/FormBuilder/FieldTemplates/RawHtml.cshtml</x-item>
       </Entries>
       <Converter>
         <FileToEntryConverter>
