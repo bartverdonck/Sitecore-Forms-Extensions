@@ -648,6 +648,8 @@
         <x-item>/web/sitecore/system/Settings/Forms/Validations/FormsExtensions/Future Date Validator/{A35AFDF3-FFBB-477D-A9DC-C8B02D3B10B7}/invariant/0</x-item>
         <x-item>/web/sitecore/system/Settings/Forms/Validations/FormsExtensions/Minimum Age 18 Validator/{29323308-6164-40A1-8CD8-37888DCC001B}/invariant/0</x-item>
         <x-item>/web/sitecore/system/Settings/Forms/Validations/FormsExtensions/Past Date Validator/{321C4721-5B13-4CC9-955E-07DF8ED70E29}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Field Types/Basic/Date/{38137D30-7B2A-47D5-BBD8-133252C01B28}/invariant/0</x-item>
+        <x-item>/web/sitecore/system/Settings/Forms/Field Types/Basic/Date/{38137D30-7B2A-47D5-BBD8-133252C01B28}/invariant/0</x-item>
       </Entries>
       <SkipVersions>False</SkipVersions>
       <Converter>
