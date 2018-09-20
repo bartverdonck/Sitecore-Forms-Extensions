@@ -19,7 +19,8 @@ This module aims to add some functionality to this forms creator.
 - *Date Timespan Validator*, custom validator: With this validator you can compare the entered date with the current datetime. The package contains implementations to check wether a date is in the present or the past. It also contains a validator to check someones age entered through the datepicker. [More info can be found here](http://onelittlespark.bartverdonck.be/date-timespan-validator/)
 - Bugfix on the Identify Contact Submit Action
 - Bugfix on fileupload control in combination with checkbox list: validation is now working correctly.
-
+#### 1.5.1
+- Bugfix: there was an error in the provided download package containing a wrong config file. This caused errors when trying to send mail through EXM.
 
 ### 1.4
 - *Binding Fields* aka Prefill, Added functionality to the forms module to prefill the fields with data from another source. Build-in the library supports prefilling from the xDB profile of the current user filling in the form. But it can be easily extended to add your own binding to external databases, crm's, userprofile, etc... Not only can you prefill the fields, but the module also allows to store the values back into the binded field. (e.g. You can prefill a first name field with the first name from the xDb profile. You can choose to save the value filled in onto the xDB profile after submittion.) [More info can be found here](http://onelittlespark.bartverdonck.be/prefill-fields-in-sitecore-forms/) [Find out how you can add your own databinder](http://onelittlespark.bartverdonck.be/configure-and-extend-field-binding-for-sitecore-forms/)
