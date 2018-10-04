@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Sitecore.EmailCampaign.Cd.Actions;
 
 namespace Feature.FormsExtensions.SubmitActions.SendEmail
@@ -9,5 +10,6 @@ namespace Feature.FormsExtensions.SubmitActions.SendEmail
         public Guid? FieldEmailAddressId { get; set; }
         public bool UpdateCurrentContact { get; set; }
         public string FixedEmailAddress { get; set; }
+        public IList<Guid> FileUploadFieldsToAttach { get; set; }
     }
 }

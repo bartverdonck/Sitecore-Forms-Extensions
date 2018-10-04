@@ -18,10 +18,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/14/2018 13:23:42</publishTime>
     </File>
     <File Include="App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.FileUploadStorageProviders.config">
-      <publishTime>05/30/2018 14:46:16</publishTime>
+      <publishTime>10/03/2018 17:19:34</publishTime>
     </File>
     <File Include="App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.Processors.config">
-      <publishTime>09/10/2018 14:42:55</publishTime>
+      <publishTime>03/10/2018 11:57:54</publishTime>
     </File>
     <File Include="App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.Settings.config">
       <publishTime>06/22/2018 23:45:46</publishTime>
@@ -54,10 +54,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/02/2017 14:00:14</publishTime>
     </File>
     <File Include="bin/Feature.FormsExtensions.dll">
-      <publishTime>09/11/2018 12:06:00</publishTime>
+      <publishTime>10/04/2018 14:35:16</publishTime>
     </File>
     <File Include="bin/Feature.FormsExtensions.pdb">
-      <publishTime>09/11/2018 12:06:00</publishTime>
+      <publishTime>10/04/2018 14:35:16</publishTime>
     </File>
     <File Include="bin/fr/Microsoft.Data.Edm.resources.dll">
       <publishTime>01/02/2017 14:00:38</publishTime>
@@ -157,6 +157,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="bin/Sitecore.Analytics.XConnect.dll">
       <publishTime>01/18/2018 16:18:58</publishTime>
+    </File>
+    <File Include="bin/Sitecore.EDS.Core.dll">
+      <publishTime>01/18/2018 16:22:48</publishTime>
     </File>
     <File Include="bin/Sitecore.EmailCampaign.Cd.dll">
       <publishTime>01/18/2018 16:23:24</publishTime>
@@ -279,10 +282,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/02/2017 14:00:14</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>06/22/2018 23:45:47</publishTime>
+      <publishTime>02/10/2018 20:13:17</publishTime>
     </File>
     <File Include="sitecore modules/Web/ExperienceForms/scripts/formsextensions.validate.js">
-      <publishTime>07/09/2018 16:19:04</publishTime>
+      <publishTime>09/14/2018 17:00:31</publishTime>
     </File>
     <File Include="sitecore modules/Web/ExperienceForms/scripts/jquery.unobtrusive-ajax.min.js">
       <publishTime>03/07/2018 14:15:45</publishTime>
@@ -291,10 +294,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/22/2018 23:45:47</publishTime>
     </File>
     <File Include="sitecore/shell/client/Applications/FormsBuilder/Layouts/Actions/SendEmailExtended.js">
-      <publishTime>06/10/2018 23:24:01</publishTime>
+      <publishTime>10/04/2018 13:35:28</publishTime>
     </File>
     <File Include="sitecore/shell/client/Applications/FormsBuilder/Layouts/Actions/ShowFormPage.js">
-      <publishTime>09/10/2018 13:32:53</publishTime>
+      <publishTime>09/14/2018 17:00:31</publishTime>
     </File>
     <File Include="sitecore/shell/client/Applications/FormsBuilder/Layouts/PropertyGridForm/PropertyGridForm.js">
       <publishTime>06/22/2018 23:45:47</publishTime>
@@ -303,13 +306,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/07/2018 14:09:39</publishTime>
     </File>
     <File Include="Views/FormBuilder/FieldTemplates/Hidden.cshtml">
-      <publishTime>09/11/2018 11:54:15</publishTime>
+      <publishTime>09/14/2018 17:00:31</publishTime>
     </File>
     <File Include="Views/FormBuilder/FieldTemplates/RawHtml.cshtml">
-      <publishTime>09/10/2018 16:33:38</publishTime>
+      <publishTime>09/14/2018 17:00:31</publishTime>
     </File>
     <File Include="Views/FormBuilder/FieldTemplates/ReCaptcha.cshtml">
-      <publishTime>06/09/2018 14:59:03</publishTime>
+      <publishTime>09/14/2018 17:00:31</publishTime>
     </File>
   </ItemGroup>
 </Project>

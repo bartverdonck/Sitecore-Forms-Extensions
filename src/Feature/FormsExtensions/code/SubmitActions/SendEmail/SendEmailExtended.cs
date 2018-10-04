@@ -7,6 +7,7 @@ using Sitecore.EmailCampaign.Cd.Services;
 using Sitecore.ExM.Framework.Diagnostics;
 using Sitecore.ExperienceForms.Models;
 using Sitecore.ExperienceForms.Processing;
+using Sitecore.Mvc.Extensions;
 using Sitecore.XConnect;
     
 namespace Feature.FormsExtensions.SubmitActions.SendEmail
@@ -16,6 +17,7 @@ namespace Feature.FormsExtensions.SubmitActions.SendEmail
         private readonly FixedAddressContactIdentierHandler fixedAddressHandler;
         private readonly FieldValueContactIdentierHandler fieldValueContactIdentierHandler;
         private readonly CurrentContactContactIdentierHandler currentContactContactIdentierHandler;
+        private readonly FileAttachmentTokenBuilder fileAttachmentTokenBuilder;
 
         public SendEmailExtended(ISubmitActionData submitActionData) : this(submitActionData,
             ServiceLocator.ServiceProvider.GetService<ILogger>(),
@@ -23,7 +25,8 @@ namespace Feature.FormsExtensions.SubmitActions.SendEmail
             ServiceLocator.ServiceProvider.GetService<IFormFieldConverter>(), 
             ServiceLocator.ServiceProvider.GetService<FixedAddressContactIdentierHandler>(), 
             ServiceLocator.ServiceProvider.GetService<FieldValueContactIdentierHandler>(),
-            ServiceLocator.ServiceProvider.GetService<CurrentContactContactIdentierHandler>())
+            ServiceLocator.ServiceProvider.GetService<CurrentContactContactIdentierHandler>(),
+            ServiceLocator.ServiceProvider.GetService<FileAttachmentTokenBuilder>())
         {
             
         }
@@ -34,11 +37,13 @@ namespace Feature.FormsExtensions.SubmitActions.SendEmail
             IFormFieldConverter formFieldConverter, 
             FixedAddressContactIdentierHandler fixedAddressHandler, 
             FieldValueContactIdentierHandler fieldValueContactIdentierHandler, 
-            CurrentContactContactIdentierHandler currentContactContactIdentierHandler) : base(submitActionData, logger, clientApiService, formFieldConverter)
+            CurrentContactContactIdentierHandler currentContactContactIdentierHandler,
+            FileAttachmentTokenBuilder fileAttachmentTokenBuilder) : base(submitActionData, logger, clientApiService, formFieldConverter)
         {
             this.fixedAddressHandler = fixedAddressHandler;
             this.fieldValueContactIdentierHandler = fieldValueContactIdentierHandler;
             this.currentContactContactIdentierHandler = currentContactContactIdentierHandler;
+            this.fileAttachmentTokenBuilder = fileAttachmentTokenBuilder;
         }
 
         protected override IList<ContactIdentifier> GetToContacts(SendEmailExtendedData data, FormSubmitContext formSubmitContext)
@@ -58,6 +63,12 @@ namespace Feature.FormsExtensions.SubmitActions.SendEmail
             throw new Exception($"Unknown sendToType: {name}");
         }
 
-      
+        protected override Dictionary<string, object> BuildCustomTokens(SendEmailExtendedData data, FormSubmitContext formSubmitContext)
+        {
+            var tokens = base.BuildCustomTokens(data, formSubmitContext);
+            var attachmentTokens = fileAttachmentTokenBuilder.BuildFileAttachmentTokens(data,formSubmitContext);
+            tokens.AddRange(attachmentTokens);
+            return tokens;
+        }
     }
 }
