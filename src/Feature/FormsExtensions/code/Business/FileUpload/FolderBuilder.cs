@@ -8,6 +8,8 @@ namespace Feature.FormsExtensions.Business.FileUpload
     {
         public static string BuildFolder(string rawFolder, FileUploadModel fileUploadModel, Guid formId)
         {
+            if (rawFolder == null)
+                return "";
             var folder = rawFolder;
             if (folder.Contains("{formName}"))
             {

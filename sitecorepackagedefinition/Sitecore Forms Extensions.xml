@@ -3,7 +3,7 @@
     <metadata>
       <PackageName>Sitecore Forms Extensions</PackageName>
       <Author>Bart Verdonck</Author>
-      <Version>1.5</Version>
+      <Version>1.6</Version>
       <Revision />
       <License />
       <Comment />
@@ -83,6 +83,8 @@
         <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/ValueNotInListText/{9260EB36-1773-4801-9C67-D935402A0F9D}/invariant/0</x-item>
         <x-item>/master/sitecore/system/Settings/Forms/Submit Actions/Send Email/{72CCAB13-E73F-4C75-8742-F2FFDF141E31}/invariant/0</x-item>
         <x-item>/web/sitecore/system/Settings/Forms/Submit Actions/Send Email/{72CCAB13-E73F-4C75-8742-F2FFDF141E31}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/SettingsForm/Attachments/{E1FE3EFD-D97A-43C6-9FBD-10C19A2A063B}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/SettingsForm/Attachments/FileUploadFieldsToAttach/{D874D897-0BDB-4967-ADDA-E0A53AAC6CAA}/invariant/0</x-item>
       </Entries>
       <SkipVersions>False</SkipVersions>
       <Converter>

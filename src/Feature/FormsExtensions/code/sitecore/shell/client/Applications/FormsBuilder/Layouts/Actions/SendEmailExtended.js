@@ -25,9 +25,10 @@
             this);
     };
 	
-	var getFileUploadFields = function () {
+	var getFileUploadFields = function (currentSelection) {
+		debugger;
         var fields = designBoardApp.getFieldsData();
-        return _.reduce(fields,
+        var reducedFields = _.reduce(fields,
             function (memo, item) {
                 if (item && item.model && item.model.templateId==='{27686F73-AA5C-4E0E-AC6B-E3000D129E4F}') {
                     memo.push({
@@ -37,6 +38,19 @@
                 }
                 return memo;
             },[],this);
+		if(currentSelection){
+			currentSelection.forEach(function(value){
+				if(!reducedFields.find(function (item){
+						return item.itemId===value;
+					})){
+					reducedFields.push({
+						itemId: value,
+						name: "value {" + value  + "} not in selection list"
+					});
+				}
+			});
+		}
+		return reducedFields;
     };
 
     speak.pageCode(["underscore"],
@@ -136,7 +150,11 @@
                     this.Parameters = parameters || {};
                     this.SettingsForm.setFormData(this.Parameters);
                     this.setEmailFieldData(this.SettingsForm.FieldEmailAddressId, getFields(), this.Parameters["fieldEmailAddressId"]);
-					this.setAttachmentFieldData(this.SettingsForm.FileUploadFieldsToAttach, getFileUploadFields(), this.Parameters["fileUploadFieldsToAttach"]);
+					var fileUploadFields = getFileUploadFields(this.Parameters["fileUploadFieldsToAttach"]);
+					if(fileUploadFields.length==0){
+						this.SettingsForm.Attachments.IsVisible = false;
+					}
+					this.setAttachmentFieldData(this.SettingsForm.FileUploadFieldsToAttach, getFileUploadFields(this.Parameters["fileUploadFieldsToAttach"]), this.Parameters["fileUploadFieldsToAttach"]);
                     this.validate();
                 },
                 getData: function () {
