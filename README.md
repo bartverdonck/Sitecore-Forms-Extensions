@@ -15,6 +15,7 @@ This module aims to add some functionality to this forms creator.
 ### 1.6
 - *Attachments*: The send email submit action has been extended to allow file uploads to be added to the email as a file attachment.
 - *Folder*: The file upload control's storageproviders have been updated to support (dynamic) subfolders. Example: <folder>formuploads/{formName}/{fieldName}/{language}</folder>
+- The download package is now also available as scwp for Azure PaaS ARM.
 
 ### 1.5
 - *ShowFormPage*, custom submit action: With this submit action you set the page in your form that needs to be displayed after a succesfull submit. This is usefull when you don't want to redirect to a seperate thank you page but replace the form with a thank you message after submit. [More info can be found here](http://onelittlespark.bartverdonck.be/inline-thank-you-message-on-sitecore-forms/)
