@@ -280,6 +280,7 @@
     <Compile Include="Pipelines\ShowFormPage\ShowFormPageNavigationLoader.cs" />
     <Compile Include="SubmitActions\IdentifyContact\IdentifyContactAction.cs" />
     <Compile Include="SubmitActions\IdentifyContact\IdentifyContactData.cs" />
+    <Compile Include="SubmitActions\SendEmail\FileAttachmentTokenBuilder.cs" />
     <Compile Include="SubmitActions\SendEmail\SendEmailBase.cs" />
     <Compile Include="SubmitActions\SendEmail\CurrentContactContactIdentierHandler.cs" />
     <Compile Include="SubmitActions\SendEmail\FieldValueContactIdentierHandler.cs" />
