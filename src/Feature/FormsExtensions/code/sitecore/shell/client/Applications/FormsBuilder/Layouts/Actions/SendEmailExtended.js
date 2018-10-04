@@ -24,6 +24,20 @@
             ],
             this);
     };
+	
+	var getFileUploadFields = function () {
+        var fields = designBoardApp.getFieldsData();
+        return _.reduce(fields,
+            function (memo, item) {
+                if (item && item.model && item.model.templateId==='{27686F73-AA5C-4E0E-AC6B-E3000D129E4F}') {
+                    memo.push({
+                        itemId: item.itemId,
+                        name: item.model.name
+                    });
+                }
+                return memo;
+            },[],this);
+    };
 
     speak.pageCode(["underscore"],
         function (_) {
@@ -94,6 +108,12 @@
                         listComponent.SelectedValue = currentValue;
                     }
                 },
+				setAttachmentFieldData: function (listComponent, data, currentValue) {                    
+					listComponent.DynamicData = data;
+					if (typeof(currentValue) != "undefined"){
+						listComponent.CheckedValues = currentValue;	
+					}					
+                },
                 messagesChanged: function (items) {
                     this.setDynamicData(this.SettingsForm.Message, items, this.Parameters[messageParameterName]);
                     this.validate();
@@ -116,6 +136,7 @@
                     this.Parameters = parameters || {};
                     this.SettingsForm.setFormData(this.Parameters);
                     this.setEmailFieldData(this.SettingsForm.FieldEmailAddressId, getFields(), this.Parameters["fieldEmailAddressId"]);
+					this.setAttachmentFieldData(this.SettingsForm.FileUploadFieldsToAttach, getFileUploadFields(), this.Parameters["fileUploadFieldsToAttach"]);
                     this.validate();
                 },
                 getData: function () {
@@ -124,6 +145,7 @@
                     this.Parameters["fixedEmailAddress"] = this.SettingsForm.FixedEmailAddress.Value;
                     this.Parameters["fieldEmailAddressId"] = this.SettingsForm.FieldEmailAddressId.SelectedValue;
                     this.Parameters["updateCurrentContact"] = this.SettingsForm.UpdateCurrentContact.IsChecked;
+					this.Parameters["fileUploadFieldsToAttach"] = this.SettingsForm.FileUploadFieldsToAttach.CheckedValues;
                     return this.Parameters;
                 }
             };

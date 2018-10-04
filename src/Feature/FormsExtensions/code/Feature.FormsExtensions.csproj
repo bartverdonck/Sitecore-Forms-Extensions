@@ -80,6 +80,9 @@
     <Reference Include="Sitecore.Analytics.XConnect, Version=11.18.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.Analytics.XConnect.NoReferences.9.0.171219\lib\NET462\Sitecore.Analytics.XConnect.dll</HintPath>
     </Reference>
+    <Reference Include="Sitecore.EDS.Core, Version=6.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Sitecore.EDS.Core.NoReferences.9.0.171219\lib\NET462\Sitecore.EDS.Core.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.EmailCampaign, Version=6.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.EmailCampaign.NoReferences.9.0.171219\lib\NET462\Sitecore.EmailCampaign.dll</HintPath>
     </Reference>
@@ -197,6 +200,7 @@
     <Compile Include="Business\FieldBindings\FieldBindingTokenKeyAlpabetSorter.cs" />
     <Compile Include="Business\FileUpload\AzureBlobStorageFileUploadStorageProvider.cs" />
     <Compile Include="Business\FileUpload\FileUploadStorageProviderFactory.cs" />
+    <Compile Include="Business\FileUpload\FolderBuilder.cs" />
     <Compile Include="Business\FormField.cs" />
     <Compile Include="Business\FormFieldConverter.cs" />
     <Compile Include="Business\FormFieldValue.cs" />
@@ -257,6 +261,7 @@
     <Compile Include="Business\FieldBindings\xDbBindingHandlers\ContactPersonalInfo\XDbFirstNameBindingHandler.cs" />
     <Compile Include="Pipelines\LoadFieldBindingHandlers\XDbFieldBindingHandlerLoader.cs" />
     <Compile Include="Pipelines\RenderField\ReplaceFieldBindingToken.cs" />
+    <Compile Include="Pipelines\SendEmail\AttachExternalFileProcessor.cs" />
     <Compile Include="Pipelines\SendEmail\FormDataProcessor.cs" />
     <Compile Include="Business\FileUpload\FileSystemFileUploadStorageProvider.cs" />
     <Compile Include="Fields\FileUpload\FileUploadModel.cs" />

@@ -1,4 +1,5 @@
-﻿using Feature.FormsExtensions.Business.FileUpload;
+﻿using System;
+using Feature.FormsExtensions.Business.FileUpload;
 using Feature.FormsExtensions.Fields.FileUpload;
 using Sitecore.ExperienceForms.Mvc.Pipelines.ExecuteSubmit;
 using Sitecore.Mvc.Pipelines;
@@ -21,11 +22,11 @@ namespace Feature.FormsExtensions.Pipelines.ExecuteSubmit
                 var uploadField = field as FileUploadModel;
                 if (uploadField == null)
                     continue;
-                HandleUploadField(uploadField);
+                HandleUploadField(uploadField,args.FormSubmitContext.FormId);
             }
         }
 
-        private void HandleUploadField(FileUploadModel uploadField)
+        private void HandleUploadField(FileUploadModel uploadField, Guid formId)
         {
             if (uploadField.File == null)
                 return;
@@ -33,7 +34,7 @@ namespace Feature.FormsExtensions.Pipelines.ExecuteSubmit
             if (uploadField.File.InputStream.Position > 0)
                 return;
             
-            var storedFile = fileUploadStorageProviderFactory.GetDefaultFileUploadStorageProvider().StoreFile(uploadField.File);
+            var storedFile = fileUploadStorageProviderFactory.GetDefaultFileUploadStorageProvider().StoreFile(uploadField, formId);
             uploadField.Value = storedFile;
         }
         

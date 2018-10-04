@@ -1,12 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using Feature.FormsExtensions.Business;
+using Feature.FormsExtensions.Fields.FileUpload;
 using Microsoft.Extensions.DependencyInjection;
 using Sitecore.DependencyInjection;
 using Sitecore.EmailCampaign.Cd.Services;
 using Sitecore.ExM.Framework.Diagnostics;
 using Sitecore.ExperienceForms.Models;
 using Sitecore.ExperienceForms.Processing;
+using Sitecore.Mvc.Extensions;
 using Sitecore.XConnect;
     
 namespace Feature.FormsExtensions.SubmitActions.SendEmail
@@ -58,6 +61,50 @@ namespace Feature.FormsExtensions.SubmitActions.SendEmail
             throw new Exception($"Unknown sendToType: {name}");
         }
 
-      
+        protected override Dictionary<string, object> BuildCustomTokens(SendEmailExtendedData data, FormSubmitContext formSubmitContext)
+        {
+            var tokens = base.BuildCustomTokens(data, formSubmitContext);
+            var tokenBuilder = new FileAttachmentTokenBuilder(null);
+            var attachmentTokens = tokenBuilder.BuildFileAttachmentTokens(data,formSubmitContext);
+            tokens.AddRange(attachmentTokens);
+            return tokens;
+        }
+    }
+
+    public class FileAttachmentTokenBuilder
+    {
+        private readonly ILogger logger;
+
+        public FileAttachmentTokenBuilder(ILogger logger)
+        {
+            this.logger = logger;
+        }
+
+        public Dictionary<string, object> BuildFileAttachmentTokens(SendEmailExtendedData data, FormSubmitContext formSubmitContext)
+        {
+            var tokens = new Dictionary<string, object>();
+            foreach (var attachmentFieldId in data.FileUploadFieldsToAttach)
+            {
+                var field = GetFieldById(attachmentFieldId, formSubmitContext.Fields);
+                if (field is null)
+                {
+                    logger.LogWarn($"Could not find field with id {data.FieldEmailAddressId}");
+                    continue;
+                }
+                if (field.Value != null)
+                {
+                    tokens.Add($"attachment_{attachmentFieldId}",field.Value);
+                   // tokens.Add($"attachment_fileName_{attachmentFieldId}", field.Value.OriginalFileName);
+                    //tokens.Add($"attachment_url_{attachmentFieldId}", field.Value.Url);
+                }
+            }
+            return tokens;
+        }
+
+        private static FileUploadModel GetFieldById(Guid id, IEnumerable<IViewModel> fields)
+        {
+            return fields.FirstOrDefault(f => Guid.Parse(f.ItemId) == id) as FileUploadModel;
+        }
+
     }
 }
