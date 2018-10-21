@@ -20,6 +20,8 @@ namespace Feature.FormsExtensions.SubmitActions.SendEmail
         public Dictionary<string, object> BuildFileAttachmentTokens(SendEmailExtendedData data, FormSubmitContext formSubmitContext)
         {
             var tokens = new Dictionary<string, object>();
+            if (data.FileUploadFieldsToAttach == null)
+                return tokens;
             foreach (var attachmentFieldId in data.FileUploadFieldsToAttach)
             {
                 var field = GetFieldById(attachmentFieldId, formSubmitContext.Fields);
