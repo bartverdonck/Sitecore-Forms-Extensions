@@ -24,6 +24,34 @@
             ],
             this);
     };
+	
+	var getFileUploadFields = function (currentSelection) {
+		debugger;
+        var fields = designBoardApp.getFieldsData();
+        var reducedFields = _.reduce(fields,
+            function (memo, item) {
+                if (item && item.model && item.model.templateId==='{27686F73-AA5C-4E0E-AC6B-E3000D129E4F}') {
+                    memo.push({
+                        itemId: item.itemId,
+                        name: item.model.name
+                    });
+                }
+                return memo;
+            },[],this);
+		if(currentSelection){
+			currentSelection.forEach(function(value){
+				if(!reducedFields.find(function (item){
+						return item.itemId===value;
+					})){
+					reducedFields.push({
+						itemId: value,
+						name: "value {" + value  + "} not in selection list"
+					});
+				}
+			});
+		}
+		return reducedFields;
+    };
 
     speak.pageCode(["underscore"],
         function (_) {
@@ -94,6 +122,12 @@
                         listComponent.SelectedValue = currentValue;
                     }
                 },
+				setAttachmentFieldData: function (listComponent, data, currentValue) {                    
+					listComponent.DynamicData = data;
+					if (typeof(currentValue) != "undefined"){
+						listComponent.CheckedValues = currentValue;	
+					}					
+                },
                 messagesChanged: function (items) {
                     this.setDynamicData(this.SettingsForm.Message, items, this.Parameters[messageParameterName]);
                     this.validate();
@@ -116,6 +150,11 @@
                     this.Parameters = parameters || {};
                     this.SettingsForm.setFormData(this.Parameters);
                     this.setEmailFieldData(this.SettingsForm.FieldEmailAddressId, getFields(), this.Parameters["fieldEmailAddressId"]);
+					var fileUploadFields = getFileUploadFields(this.Parameters["fileUploadFieldsToAttach"]);
+					if(fileUploadFields.length==0){
+						this.SettingsForm.Attachments.IsVisible = false;
+					}
+					this.setAttachmentFieldData(this.SettingsForm.FileUploadFieldsToAttach, getFileUploadFields(this.Parameters["fileUploadFieldsToAttach"]), this.Parameters["fileUploadFieldsToAttach"]);
                     this.validate();
                 },
                 getData: function () {
@@ -124,6 +163,7 @@
                     this.Parameters["fixedEmailAddress"] = this.SettingsForm.FixedEmailAddress.Value;
                     this.Parameters["fieldEmailAddressId"] = this.SettingsForm.FieldEmailAddressId.SelectedValue;
                     this.Parameters["updateCurrentContact"] = this.SettingsForm.UpdateCurrentContact.IsChecked;
+					this.Parameters["fileUploadFieldsToAttach"] = this.SettingsForm.FileUploadFieldsToAttach.CheckedValues;
                     return this.Parameters;
                 }
             };

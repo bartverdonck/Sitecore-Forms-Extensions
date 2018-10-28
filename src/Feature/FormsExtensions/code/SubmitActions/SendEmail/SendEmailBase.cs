@@ -41,7 +41,7 @@ namespace Feature.FormsExtensions.SubmitActions.SendEmail
             }
             try
             {
-                var customTokens = BuildCustomTokens(formSubmitContext);
+                var customTokens = BuildCustomTokens(data, formSubmitContext);
                 foreach (var to in toContacts)
                 {
                     SendMail(to, customTokens, data.MessageId);
@@ -65,7 +65,7 @@ namespace Feature.FormsExtensions.SubmitActions.SendEmail
             clientApiService.SendAutomatedMessage(automatedMessage);
         }
 
-        private Dictionary<string, object> BuildCustomTokens(FormSubmitContext formSubmitContext)
+        protected virtual Dictionary<string, object> BuildCustomTokens(T data, FormSubmitContext formSubmitContext)
         {
             var formFields = formFieldConverter.Convert(formSubmitContext.Fields);
             var customTokens = new Dictionary<string, object>();
@@ -79,7 +79,8 @@ namespace Feature.FormsExtensions.SubmitActions.SendEmail
 
         private static string GetSingleStringValue(FormField formField)
         {
-            return formField.ValueList != null ? string.Join(", ", formField.ValueList.Select(x => x.Name)) : formField.Value.Name;
+            var value = formField.ValueList != null ? string.Join(", ", formField.ValueList.Select(x => x.Name)) : formField.Value.Name;
+            return value ?? "";
         }
 
         protected abstract IList<ContactIdentifier> GetToContacts(T data, FormSubmitContext formSubmitContext);

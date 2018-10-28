@@ -23,6 +23,7 @@ namespace Feature.FormsExtensions
             serviceCollection.AddSingleton<FieldValueContactIdentierHandler, FieldValueContactIdentierHandler>();
             serviceCollection.AddSingleton<FixedAddressContactIdentierHandler, FixedAddressContactIdentierHandler>();
             serviceCollection.AddSingleton<IFieldBindingMapFactory, FieldBindingMapFactory>();
+            serviceCollection.AddSingleton<FileAttachmentTokenBuilder, FileAttachmentTokenBuilder>();
         }
     }
 }

@@ -109,23 +109,23 @@
         });
 
         method = options.type.toUpperCase();
-		if (options.data instanceof FormData) {
-			options.processData = false;
-			options.contentType = false;
-			options.data.append("X-Requested-With", "XMLHttpRequest");
+        if (options.data instanceof FormData) {
+            options.processData = false;
+            options.contentType = false;
+            options.data.append("X-Requested-With", "XMLHttpRequest");
 
-			if (!isMethodProxySafe(method)) {
-				options.type = "POST";
-				options.data.append("X-HTTP-Method-Override", method);
-			}
-		} else {
-			options.data.push({ name: "X-Requested-With", value: "XMLHttpRequest" });
+            if (!isMethodProxySafe(method)) {
+                options.type = "POST";
+                options.data.append("X-HTTP-Method-Override", method);
+            }
+        } else {
+            options.data.push({ name: "X-Requested-With", value: "XMLHttpRequest" });
 
-			if (!isMethodProxySafe(method)) {
-				options.type = "POST";
-				options.data.push({ name: "X-HTTP-Method-Override", value: method });
-			}
-		}
+            if (!isMethodProxySafe(method)) {
+                options.type = "POST";
+                options.data.push({ name: "X-HTTP-Method-Override", value: method });
+            }
+        }
 
         $.ajax(options);
     }
@@ -184,16 +184,20 @@
         }
         var formData;
         if (this.enctype && this.enctype === "multipart/form-data") {
-            formData = new FormData(this);
-			for(var i=0; i<clickInfo.length;i++){
-				if(formData.has(clickInfo[i].name)){
-					var origValue = formData.get(clickInfo[i].name);
-					formData.set(clickInfo[i].name,clickInfo[i].value);
-					formData.append(clickInfo[i].name,origValue);
-				}else{
-					formData.append(clickInfo[i].name,clickInfo[i].value);
-				}				
-			}
+            var formClone = $(this).clone();
+            var buttonInfo = [];
+            for (var i = 0; i < clickInfo.length; i++) {
+                var origClickInfo = $(formClone).find("#" + clickInfo[i].name.replace(/\./g, "_"));
+                buttonInfo.push({ name: clickInfo[i].name, value: clickInfo[i].value });
+                if (origClickInfo.length > 0) {
+                    buttonInfo.push({ name: clickInfo[i].name, value: $(origClickInfo)[0].value });
+                    $(origClickInfo).remove();
+                }
+            }
+            formData = new FormData(formClone[0]);
+            for (var i = 0; i < buttonInfo.length; i++) {
+                formData.append(buttonInfo[i].name, buttonInfo[i].value);
+            }
         } else {
             formData = clickInfo.concat($(this).serializeArray());
         }

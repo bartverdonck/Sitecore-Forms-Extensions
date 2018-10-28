@@ -10,6 +10,8 @@ namespace Feature.FormsExtensions.Business.FileUpload
         public string OriginalFileName { get; set; }
         public string ContentType { get; set; }
         public int ContentLength { get; set; }
+        public string StoredFileName { get; set; }
+        public string StoredFilePath { get; set; }
 
         public override string ToString()
         {

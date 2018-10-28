@@ -27,7 +27,7 @@ namespace Feature.FormsExtensions.SubmitActions.SendEmail
                 logger.LogWarn("To address is empty");
                 return new List<ContactIdentifier>();
             }
-            return data.FixedEmailAddress.Split(';').Select(GetContactIdentifier).ToList();
+            return data.FixedEmailAddress.Split(';').Where(x=>!string.IsNullOrEmpty(x)).Select(GetContactIdentifier).ToList();
         }
 
         protected virtual ContactIdentifier GetContactIdentifier(string address)

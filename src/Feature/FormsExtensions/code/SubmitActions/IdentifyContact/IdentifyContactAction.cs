@@ -11,27 +11,27 @@ using Sitecore.ExperienceForms.Processing.Actions;
 
 namespace Feature.FormsExtensions.SubmitActions.IdentifyContact
 {
-    public abstract class IdentifyContactAction<T> : SubmitActionBase<T> where T : IdentifyContactData
+    public class IdentifyContactAction : SubmitActionBase<IdentifyContactData>
     {
         private readonly IXDbService xDbService;
         private readonly IXDbContactFactory xDbContactFactory;
         private readonly ILogger logger;
 
-        protected IdentifyContactAction(ISubmitActionData submitActionData) : this(submitActionData,
+        public IdentifyContactAction(ISubmitActionData submitActionData) : this(submitActionData,
             ServiceLocator.ServiceProvider.GetService<ILogger>(),
             ServiceLocator.ServiceProvider.GetService<IXDbService>(),
             ServiceLocator.ServiceProvider.GetService<IXDbContactFactory>())
         {
         }
 
-        protected IdentifyContactAction(ISubmitActionData submitActionData, ILogger logger, IXDbService xDbService, IXDbContactFactory xDbContactFactory) : base(submitActionData)
+        public IdentifyContactAction(ISubmitActionData submitActionData, ILogger logger, IXDbService xDbService, IXDbContactFactory xDbContactFactory) : base(submitActionData)
         {
             this.logger = logger;
             this.xDbService = xDbService;
             this.xDbContactFactory = xDbContactFactory;
         }
 
-        protected override bool Execute(T data, FormSubmitContext formSubmitContext)
+        protected override bool Execute(IdentifyContactData data, FormSubmitContext formSubmitContext)
         {
             if (data.FieldIdentifyContactId == null || data.FieldIdentifyContactId == Guid.Empty)
             {
