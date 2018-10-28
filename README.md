@@ -18,6 +18,8 @@ This module aims to add some functionality to this forms creator.
 - The download package is now also available as scwp for Azure PaaS ARM.
 #### 1.6.1
 - Bugfix: when upgrading from an older version, send email action might throw a nullpointer, this is now fixed
+#### 1.6.2
+- Bugfix Issue 19: javascript errors in IE11 + edge, update script to be compliant
 
 ### 1.5
 - *ShowFormPage*, custom submit action: With this submit action you set the page in your form that needs to be displayed after a succesfull submit. This is usefull when you don't want to redirect to a seperate thank you page but replace the form with a thank you message after submit. [More info can be found here](http://onelittlespark.bartverdonck.be/inline-thank-you-message-on-sitecore-forms/)
