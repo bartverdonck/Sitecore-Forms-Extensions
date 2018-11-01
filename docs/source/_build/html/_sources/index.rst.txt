@@ -1,0 +1,14 @@
+Sitecore Forms Extensions
+=========================
+
+.. toctree::
+   :maxdepth: 2
+   :caption: User Documentation
+   
+   bart
+   
+.. toctree::
+   :maxdepth: 1
+   :caption: Developer Documentation
+   
+   developerdoc/install

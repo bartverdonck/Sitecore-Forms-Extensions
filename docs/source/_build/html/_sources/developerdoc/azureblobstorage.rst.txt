@@ -1,0 +1,7 @@
+.. _azureblobstorage:
+
+============================
+Configure Azure Blob Storage
+============================
+     
+blablabla
