@@ -26,6 +26,7 @@ Have fun with the module!
 
 
 .. toctree::
+   :hidden:
    :maxdepth: 2
    :caption: Content Editor Documentation
    
@@ -35,6 +36,7 @@ Have fun with the module!
    contenteditordoc/jumptopage
    
 .. toctree::
+   :hidden:
    :maxdepth: 2
    :caption: Developer Documentation
    

@@ -42,3 +42,21 @@ The form fields can be referenced individual, field per field, or you can use on
 Using individual tokens
 -----------------------
 
+In the forms module, each field you add should be given a name.
+
+.. image:: SFE-Tokens-FieldName.png
+
+Use this name to contruct the token.
+
+Token format:
+
+**$form_fieldname$** where fieldname should be replaced by the name of the field.
+
+So in this case this would be $form_firstName$
+
+
+Print all field values with one token
+-------------------------------------
+
+Use the token **$formFields$** to print all fields with their value in the email.
+
