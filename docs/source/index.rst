@@ -26,13 +26,18 @@ Have fun with the module!
 
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
    :caption: Content Editor Documentation
    
+   contenteditordoc/customfields
+   contenteditordoc/sendmail
    contenteditordoc/formbindings
+   contenteditordoc/jumptopage
    
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
    :caption: Developer Documentation
    
    developerdoc/install
+   developerdoc/custombindings
+   developerdoc/datetimespan
