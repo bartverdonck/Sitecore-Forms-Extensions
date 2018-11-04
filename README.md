@@ -1,6 +1,7 @@
 # Sitecore-Forms-Extensions
 
 > Extensive documentation for developers and content editors can be found on http://onelittlespark.bartverdonck.be/sitecoreformsextentions/
+
 > Check my blogposts on http://onelittlespark.bartverdonck.be/category/sitecore-forms-extensions/ for inspiration.
 
 ## Download
