@@ -184,7 +184,7 @@
         }
         var formData;
         if (this.enctype && this.enctype === "multipart/form-data") {
-            var formClone = $(this).clone();
+            var formClone = $(this);
             var buttonInfo = [];
             for (var i = 0; i < clickInfo.length; i++) {
                 var origClickInfo = $(formClone).find("#" + clickInfo[i].name.replace(/\./g, "_"));
