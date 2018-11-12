@@ -70,7 +70,7 @@ namespace Feature.FormsExtensions.XDb.Repository
 
         public void ReloadContactDataIntoSession()
         {
-            if (Tracker.Current.Contact == null)
+            if (Tracker.Current?.Contact == null)
                 return;
             if (CreateContactManager() is ContactManager manager)
             {

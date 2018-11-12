@@ -24,6 +24,8 @@ This module aims to add some functionality to this forms creator.
 - Bugfix Issue 19: javascript errors in IE11 + edge, update script to be compliant
 #### 1.6.3
 - Bugfix: hidden values not submitted (incl. dropdowns)
+#### 1.6.4
+- Bugfix: Issue 20: nullpointer on tracker.current when using store binding on multiform
 
 ### 1.5
 - *ShowFormPage*, custom submit action: With this submit action you set the page in your form that needs to be displayed after a succesfull submit. This is usefull when you don't want to redirect to a seperate thank you page but replace the form with a thank you message after submit. [More info can be found here](http://onelittlespark.bartverdonck.be/inline-thank-you-message-on-sitecore-forms/)

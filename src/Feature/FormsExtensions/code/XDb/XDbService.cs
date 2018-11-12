@@ -19,7 +19,10 @@ namespace Feature.FormsExtensions.XDb
         public void IdentifyCurrent(IXDbContact contact)
         {
             CheckIdentifier(contact);
-            Tracker.Current.Session.IdentifyAs(contact.IdentifierSource, contact.IdentifierValue);
+            if (Tracker.Current?.Session != null)
+            { 
+                Tracker.Current.Session.IdentifyAs(contact.IdentifierSource, contact.IdentifierValue);
+            }
         }
 
         public void ReloadContactDataIntoSession()
