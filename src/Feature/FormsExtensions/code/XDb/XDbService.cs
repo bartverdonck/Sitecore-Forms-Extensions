@@ -29,12 +29,6 @@ namespace Feature.FormsExtensions.XDb
         {
             xDbContactRepository.ReloadContactDataIntoSession();
         }
-
-        public void UpdateEmail(IXDbContactWithEmail contact)
-        {
-            CheckIdentifier(contact);
-            xDbContactRepository.UpdateXDbContactEmail(contact);
-        }
         
         public void UpdateOrCreateServiceContact(IXDbContactWithEmail contact)
         {
@@ -58,7 +52,7 @@ namespace Feature.FormsExtensions.XDb
             var trackerIdentifier = new IdentifiedContactReference(Sitecore.Analytics.XConnect.DataAccess.Constants.IdentifierSource, Sitecore.Analytics.Tracker.Current.Contact.ContactId.ToString("N"));
             xDbContactRepository.UpdateContactFacet(trackerIdentifier, new ContactExpandOptions(facetKey), updateFacets, createFacet);
         }
-
+        
         private static void CheckIdentifier(IXDbContact contact)
         {
             if (string.IsNullOrEmpty(contact.IdentifierSource) || string.IsNullOrEmpty(contact.IdentifierValue))

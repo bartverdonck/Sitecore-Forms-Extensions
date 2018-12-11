@@ -1,11 +1,15 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Feature.FormsExtensions.Business.FieldBindings.xDbBindingHandlers;
 using Feature.FormsExtensions.XDb;
+using Sitecore.Analytics;
+using Sitecore.Analytics.Model;
 using Sitecore.ExperienceForms.Models;
 using Sitecore.ExperienceForms.Processing;
 using Sitecore.ExM.Framework.Diagnostics;
 using Sitecore.XConnect;
+using Sitecore.XConnect.Collection.Model;
 
 namespace Feature.FormsExtensions.SubmitActions.SendEmail
 {
@@ -40,15 +44,22 @@ namespace Feature.FormsExtensions.SubmitActions.SendEmail
 
         private ContactIdentifier GetOrCreateContact(string toAddress, bool updateCurrentContact)
         {
-            return updateCurrentContact ? IdentifyAndUpdateEmailContact(toAddress) : GetServiceContactIdentifier(toAddress);
+            var identifier = updateCurrentContact ? UpdateEmailContact(toAddress) : GetServiceContactIdentifier(toAddress);
+            return identifier ?? GetServiceContactIdentifier(toAddress);
         }
 
-        private ContactIdentifier IdentifyAndUpdateEmailContact(string toAddress)
+        private ContactIdentifier UpdateEmailContact(string toAddress)
         {
-            var basicContact = contactFactory.CreateContactWithEmail(toAddress);
-            xDbService.IdentifyCurrent(basicContact);
-            xDbService.UpdateEmail(basicContact);
-            return new ContactIdentifier(basicContact.IdentifierSource, basicContact.IdentifierValue, ContactIdentifierType.Known);
+            if (Tracker.Current == null || Tracker.Current.Contact == null)
+                return null;
+            new PreferredEmailBindingHandler(xDbService).StoreBindingValue(toAddress);
+            return new ContactIdentifier(Sitecore.Analytics.XConnect.DataAccess.Constants.IdentifierSource,
+                Tracker.Current.Contact.ContactId.ToString("N"), ContactIdentifierType.Anonymous);
+        }
+
+        protected EmailAddressList CreateFacet()
+        {
+            return new EmailAddressList(new EmailAddress("", true), Sitecore.Configuration.Settings.GetSetting("XDbPreferredEmailAddress", "preferred"));
         }
 
         protected virtual ContactIdentifier GetServiceContactIdentifier(string address)

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using Feature.FormsExtensions.XDb.Model;
 using Sitecore.Analytics;
 using Sitecore.Analytics.Model;
@@ -24,20 +25,6 @@ namespace Feature.FormsExtensions.XDb.Repository
                 client.Submit();
             }
         }
-
-        public void UpdateContactFacets(IdentifiedContactReference reference, ContactExpandOptions expandOptions, Action<Contact> updateFacets)
-        {
-            using (var client = SitecoreXConnectClientConfiguration.GetClient())
-            {
-                var xDbContact = client.Get(reference, expandOptions);
-                if (xDbContact != null)
-                {
-                    //xDbContact.GetFacet<PersonalInformation>()
-                    updateFacets(xDbContact);
-                    client.Submit();
-                }
-            }
-        }
         
         public void UpdateContactFacet<T>(IdentifiedContactReference reference, ContactExpandOptions expandOptions, Action<T> updateFacets, Func<T> createFacet) where T : Facet
         {
@@ -46,6 +33,7 @@ namespace Feature.FormsExtensions.XDb.Repository
                 var xDbContact = client.Get(reference, expandOptions);
                 if (xDbContact != null)
                 {
+                    MakeContactKnown(client, xDbContact);
                     var facet = xDbContact.GetFacet<T>() ?? createFacet();
                     updateFacets(facet);
                     client.SetFacet(xDbContact, facet);
@@ -62,6 +50,19 @@ namespace Feature.FormsExtensions.XDb.Repository
                 manager.SaveContactToCollectionDb(Tracker.Current.Contact);
             }
         }
+        private static void MakeContactKnown(IXdbContext client, Contact contact)
+        {
+            if (contact.IsKnown)
+            {
+                return;
+            }
+            if (!Sitecore.Configuration.Settings.GetBoolSetting("XDbPreferredAddress", true))
+            {
+                return;
+            }
+            client.AddContactIdentifier(contact, new ContactIdentifier("scformsextension-known", Guid.NewGuid().ToString("N"), ContactIdentifierType.Known));
+        }
+
 
         private static object CreateContactManager()
         {

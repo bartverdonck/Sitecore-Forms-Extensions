@@ -13,7 +13,15 @@ The new Sitecore Forms module that came with Sitecore 9 is a very promissing too
 
 This module aims to add some functionality to this forms creator.
 
+The module has been tested on Sitecore 9.0-u1 and 9.0-u2. 
+
+As there is a small functionality overlap with 9.1, an updated version for 9.1 will be released shortly.
+
 ## What
+### 1.7
+- *Make Contact Known*: When updating the current contact with a fieldbinded value, the contact is know marked as known. This behaviour can be disabled in sitecore config.
+- *Send Email to fieldvalue*: The "update current contact" action has been updated, not to identify the user anymore on email. It only sets the preferred email address on the current contact and uses the current contact to send the mail instead of a separate service contact.
+
 ### 1.6
 - *Attachments*: The send email submit action has been extended to allow file uploads to be added to the email as a file attachment.
 - *Folder*: The file upload control's storageproviders have been updated to support (dynamic) subfolders. Example: <folder>formuploads/{formName}/{fieldName}/{language}</folder>
