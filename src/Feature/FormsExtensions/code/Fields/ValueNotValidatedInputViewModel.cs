@@ -8,6 +8,7 @@ using Sitecore.Data.Items;
 using Sitecore.ExperienceForms.Models;
 using Sitecore.ExperienceForms.Mvc.Models.Fields;
 using Sitecore.ExperienceForms.Mvc.Models.Validation;
+using Sitecore.ExperienceForms.ValueProviders;
 
 namespace Feature.FormsExtensions.Fields
 {
@@ -61,6 +62,7 @@ namespace Feature.FormsExtensions.Fields
 
         public bool IsTrackingEnabled { get; set; }
 
+        public abstract void InitializeValue(FieldValueProviderContext context);
         public bool Required { get; set; }
 
         public bool AllowSave { get; set; }

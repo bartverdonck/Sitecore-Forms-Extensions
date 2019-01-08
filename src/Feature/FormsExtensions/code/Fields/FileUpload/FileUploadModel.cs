@@ -5,6 +5,7 @@ using Feature.FormsExtensions.Business.FileUpload;
 using Sitecore;
 using Sitecore.Data.Items;
 using Sitecore.ExperienceForms.Mvc.Models.Validation;
+using Sitecore.ExperienceForms.ValueProviders;
 
 namespace Feature.FormsExtensions.Fields.FileUpload
 {
@@ -26,6 +27,11 @@ namespace Feature.FormsExtensions.Fields.FileUpload
 
         public string AllowedContentTypes { get; set; }
         public int MaxFileSize { get; set; }
+
+        public override void InitializeValue(FieldValueProviderContext context)
+        {
+            //prefilling not supported for file upload
+        }
 
         protected override void InitItemProperties(Item item)
         {
