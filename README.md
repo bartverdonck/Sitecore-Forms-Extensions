@@ -13,9 +13,10 @@ The new Sitecore Forms module that came with Sitecore 9 is a very promissing too
 
 This module aims to add some functionality to this forms creator.
 
-The module has been tested on Sitecore 9.0-u1 and 9.0-u2. 
+The module has been tested on Sitecore 9.0-u1, 9.0-u2 and Sitecore 9.1
 
-As there is a small functionality overlap with 9.1, an updated version for 9.1 will be released shortly.
+For Sitecore 9.1 use version 2.x.
+For Sitecore 9.0.x use version 1.x
 
 ## What
 ### 2.0
