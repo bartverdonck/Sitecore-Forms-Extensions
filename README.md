@@ -18,6 +18,9 @@ The module has been tested on Sitecore 9.0-u1 and 9.0-u2.
 As there is a small functionality overlap with 9.1, an updated version for 9.1 will be released shortly.
 
 ## What
+### 2.0
+- *Sitecore 9.1 Compatibility*: A new package for Sitecore 9.1 was created. In this package the prefill/binding feature has been update to leverage the new build in prefilling features from Sitecore. The existing xDB binders are now available as value providers. The module still adds the possibility to store the values as well. (For sitecore 9.0.x keep using version 1.7)
+
 ### 1.7
 - *Make Contact Known*: When updating the current contact with a fieldbinded value, the contact is know marked as known. This behaviour can be disabled in sitecore config.
 - *Send Email to fieldvalue*: The "update current contact" action has been updated, not to identify the user anymore on email. It only sets the preferred email address on the current contact and uses the current contact to send the mail instead of a separate service contact.
