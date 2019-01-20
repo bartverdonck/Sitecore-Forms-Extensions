@@ -1,0 +1,286 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Create an automated message in Email Experience Manager &mdash; Sitecore Forms Extensions 2.0 for Sitecore 9.1 1.4.3 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Send to current contact" href="currentcontact.html" />
+    <link rel="prev" title="Send Mail" href="../sendmail.html" /> 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-10888514-4"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-10888514-4');
+  </script>     
+
+
+  
+  <script src="../../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> Sitecore Forms Extensions 2.0 for Sitecore 9.1
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Content Editor Documentation</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../customfields.html">Custom Fields</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../sendmail.html">Send Mail</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Create Automated Message</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#creating-a-new-automated-campaign">Creating a new automated campaign</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#using-form-values-in-the-email">Using form values in the email</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#using-individual-tokens">Using individual tokens</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#print-all-field-values-with-one-token">Print all field values with one token</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../sendmail.html#how-to-use-the-send-mail-action">How to use the Send Mail action</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../sendmail.html#attachments">Attachments</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../formbindings.html">Form Bindings (Prefilling)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../jumptopage.html">In place “Thank you” message</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Developer Documentation</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../developerdoc/install.html">Installation and Setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../developerdoc/custombindings.html">Custom Bindings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../developerdoc/datetimespan.html">Configure Date Timespan Validator</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Sitecore Forms Extensions 2.0 for Sitecore 9.1</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../sendmail.html">Send Mail</a> &raquo;</li>
+        
+      <li>Create an automated message in Email Experience Manager</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../../_sources/contenteditordoc/sendmail/exm.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="create-an-automated-message-in-email-experience-manager">
+<h1>Create an automated message in Email Experience Manager<a class="headerlink" href="#create-an-automated-message-in-email-experience-manager" title="Permalink to this headline">¶</a></h1>
+<p>The “Send Email” submit action works in collaboration with Email Experience Manager (EXM).</p>
+<p>Learn here, how to setup an email to be used for the send mail action.</p>
+<div class="section" id="creating-a-new-automated-campaign">
+<h2>Creating a new automated campaign<a class="headerlink" href="#creating-a-new-automated-campaign" title="Permalink to this headline">¶</a></h2>
+<p>First, go to Email Experience Manager and create a new automated message.</p>
+<img alt="../../_images/SFE-EmailFixed-ExmCreateCampaign.png" src="../../_images/SFE-EmailFixed-ExmCreateCampaign.png" />
+<p>Take any of the available templates. In the best case, some custom tailored templates are provided by the developers for your site.</p>
+<img alt="../../_images/SFE-EmailFixed-ExmChooseTemplate.png" src="../../_images/SFE-EmailFixed-ExmChooseTemplate.png" />
+<p>Fill in the general info like “from” name and email.</p>
+<img alt="../../_images/SFE-EmailFixed-ExmGeneralInfo.png" src="../../_images/SFE-EmailFixed-ExmGeneralInfo.png" />
+<p>Use the template to fill in the body of your email message.</p>
+<img alt="../../_images/SFE-EmailFixed-ExmMessage.jpg" src="../../_images/SFE-EmailFixed-ExmMessage.jpg" />
+<p>Finally, we need to activate the message in the delivery tab.
+Only activated message will be available to use on the “Send Mail” action.</p>
+<img alt="../../_images/SFE-EmailFixed-ExmActivate.png" src="../../_images/SFE-EmailFixed-ExmActivate.png" />
+</div>
+<div class="section" id="using-form-values-in-the-email">
+<h2>Using form values in the email<a class="headerlink" href="#using-form-values-in-the-email" title="Permalink to this headline">¶</a></h2>
+<p>To print the form data entered by the visitor in the email, you must use tokens.
+These tokens will be replaced with the actual values when someone submits the form and an email gets send out.</p>
+<p>The form fields can be referenced individual, field per field, or you can use one token that will print all values from the form in one token.</p>
+<div class="section" id="using-individual-tokens">
+<h3>Using individual tokens<a class="headerlink" href="#using-individual-tokens" title="Permalink to this headline">¶</a></h3>
+<p>In the forms module, each field you add should be given a name.</p>
+<img alt="../../_images/SFE-Tokens-FieldName.png" src="../../_images/SFE-Tokens-FieldName.png" />
+<p>Use this name to contruct the token.</p>
+<p>Token format:</p>
+<p><strong>$form_fieldname$</strong> where fieldname should be replaced by the name of the field.</p>
+<p>So in this case this would be $form_firstName$</p>
+</div>
+<div class="section" id="print-all-field-values-with-one-token">
+<h3>Print all field values with one token<a class="headerlink" href="#print-all-field-values-with-one-token" title="Permalink to this headline">¶</a></h3>
+<p>Use the token <strong>$formFields$</strong> to print all fields with their value in the email.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="currentcontact.html" class="btn btn-neutral float-right" title="Send to current contact" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../sendmail.html" class="btn btn-neutral" title="Send Mail" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Bart Verdonck.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../../',
+            VERSION:'1.4.3',
+            LANGUAGE:'None',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../../_static/jquery.js"></script>
+      <script type="text/javascript" src="../../_static/underscore.js"></script>
+      <script type="text/javascript" src="../../_static/doctools.js"></script>
+
+  
+
+  <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

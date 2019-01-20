@@ -1,0 +1,296 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Configure Azure Blob Storage &mdash; Sitecore Forms Extensions 2.0 for Sitecore 9.1 1.4.3 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Local Blob Storage" href="localdiskstorage.html" />
+    <link rel="prev" title="Installation and Setup" href="install.html" /> 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-10888514-4"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-10888514-4');
+  </script>     
+
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Sitecore Forms Extensions 2.0 for Sitecore 9.1
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Content Editor Documentation</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../contenteditordoc/customfields.html">Custom Fields</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contenteditordoc/sendmail.html">Send Mail</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contenteditordoc/formbindings.html">Form Bindings (Prefilling)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contenteditordoc/jumptopage.html">In place “Thank you” message</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Developer Documentation</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="install.html">Installation and Setup</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="install.html#download">Download</a></li>
+<li class="toctree-l2"><a class="reference internal" href="install.html#install">Install</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="install.html#configuration">Configuration</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="install.html#file-upload">File Upload</a><ul class="current">
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Azure Blob Storage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="localdiskstorage.html">Local Disk Storage</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="install.html#google-captcha">Google Captcha</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="custombindings.html">Custom Bindings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="datetimespan.html">Configure Date Timespan Validator</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Sitecore Forms Extensions 2.0 for Sitecore 9.1</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="install.html">Installation and Setup</a> &raquo;</li>
+        
+      <li>Configure Azure Blob Storage</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/developerdoc/azureblobstorage.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="configure-azure-blob-storage">
+<span id="azureblobstorage"></span><h1>Configure Azure Blob Storage<a class="headerlink" href="#configure-azure-blob-storage" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="setup-storage-account-in-azure">
+<h2>Setup Storage Account in Azure<a class="headerlink" href="#setup-storage-account-in-azure" title="Permalink to this headline">¶</a></h2>
+<p>First, in the case you don’t have an Azure Blob Storage in your solution already, you will need to create one.</p>
+<p>To do so, go into azure portal. Click New and choose Storage Account.</p>
+<img alt="../_images/storage-account-create-1.png" src="../_images/storage-account-create-1.png" />
+<p>Next, create a storage container.</p>
+<p>Choose public access level blob if you want easy access to the uploaded files by link. (All files will be renamed with a random GUID for security.)</p>
+<p><em>Note: This is not required for the module to work</em></p>
+<img alt="../_images/storage-account-create-2.png" src="../_images/storage-account-create-2.png" />
+</div>
+<div class="section" id="add-config-file-to-your-solution">
+<h2>Add config file to your solution<a class="headerlink" href="#add-config-file-to-your-solution" title="Permalink to this headline">¶</a></h2>
+<p>Next, we will tell the module how to connect to the storage account.</p>
+<p>Create a file <em>Feature.FormsExtentions.AzureStorageProvider.config</em> and add it in your website folder under App_Config/Environment</p>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?xml version=&quot;1.0&quot;?&gt;</span>
+<span class="nt">&lt;configuration</span> <span class="na">xmlns:patch=</span><span class="s">&quot;http://www.sitecore.net/xmlconfig/&quot;</span>  <span class="na">xmlns:role=</span><span class="s">&quot;http://www.sitecore.net/xmlconfig/role/&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;sitecore&gt;</span>
+    <span class="nt">&lt;formExtensions&gt;</span>
+      <span class="nt">&lt;fileUploadStorageProvider</span> <span class="na">type=</span><span class="s">&quot;Feature.FormsExtensions.Business.FileUpload.AzureBlobStorageFileUploadStorageProvider, Feature.FormsExtensions&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;connectionString&gt;&lt;/connectionString&gt;</span>
+        <span class="nt">&lt;blobContainer&gt;&lt;/blobContainer&gt;</span>
+        <span class="nt">&lt;folder&gt;</span>formextentions/{formName}/{fieldName}/{language}<span class="nt">&lt;/folder&gt;</span>
+      <span class="nt">&lt;/fileUploadStorageProvider&gt;</span>
+    <span class="nt">&lt;/formExtensions&gt;</span>
+  <span class="nt">&lt;/sitecore&gt;</span>
+<span class="nt">&lt;/configuration&gt;</span>
+</pre></div>
+</div>
+<p>Go to your storage account on Azure, browse to Access Keys, and copy either one of the connectionstrings.
+Put this connectionstring in the config.</p>
+<blockquote>
+<div></div></blockquote>
+<p>Enter the name you have chosen for your container in the blobcontainer part of the configuration.</p>
+<p>Finally, you will notice the folder attribute in the configuration.
+You can leave this empty or put in any desired folder structure that should be followed to store your files in.</p>
+<p>All forms will follow the same config for upload of the files. You cannot create individual storages for individual forms.
+This is a design choice, so that content editors do not have to wory about where to store files.</p>
+<p>However, the folder structure does support 3 variables that can be used:</p>
+<ul class="simple">
+<li>{formName} This handle will get replaced by the name of the form.</li>
+<li>{fieldName} Each form-upload field can be named in the forms-editor. This handle will be replaced by that name.</li>
+<li>{language} If you want to seperate the content by language, use this handle.</li>
+</ul>
+<p>Note that none of these handles are required. They are all optional, including the order.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="localdiskstorage.html" class="btn btn-neutral float-right" title="Local Blob Storage" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="install.html" class="btn btn-neutral" title="Installation and Setup" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Bart Verdonck.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'1.4.3',
+            LANGUAGE:'None',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

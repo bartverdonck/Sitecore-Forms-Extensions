@@ -1,0 +1,263 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>In place “Thank you” message &mdash; Sitecore Forms Extensions 1.7 for Sitecore 9.0 1.4.3 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Installation and Setup" href="../developerdoc/install.html" />
+    <link rel="prev" title="Form Bindings (Prefilling)" href="formbindings.html" /> 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-10888514-4"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-10888514-4');
+  </script>     
+
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Sitecore Forms Extensions 1.7 for Sitecore 9.0
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Content Editor Documentation</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="customfields.html">Custom Fields</a></li>
+<li class="toctree-l1"><a class="reference internal" href="sendmail.html">Send Mail</a></li>
+<li class="toctree-l1"><a class="reference internal" href="formbindings.html">Form Bindings (Prefilling)</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">In place “Thank you” message</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#how">How</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#result">Result</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Developer Documentation</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../developerdoc/install.html">Installation and Setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developerdoc/custombindings.html">Custom Bindings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developerdoc/datetimespan.html">Configure Date Timespan Validator</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Sitecore Forms Extensions 1.7 for Sitecore 9.0</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>In place “Thank you” message</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/contenteditordoc/jumptopage.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="in-place-thank-you-message">
+<h1>In place “Thank you” message<a class="headerlink" href="#in-place-thank-you-message" title="Permalink to this headline">¶</a></h1>
+<p>The ShowFormPage custom submit action makes it possible to show a thank you message after submitting the form
+without the need of creating a dedicated seperate thank you page.</p>
+<p>With this action, the form is replaced inline via ajax, there is no other page loaded.</p>
+<div class="section" id="how">
+<h2>How<a class="headerlink" href="#how" title="Permalink to this headline">¶</a></h2>
+<p>Let’s create a simple form to let users subscribe to a kind of newsletter.</p>
+<img alt="../_images/show-form-page-1.png" src="../_images/show-form-page-1.png" />
+<p>The form contains a single email field and a submit button, with the submit action save data.</p>
+<p>Now, let’s add a second page in the form (just like you would do for a multipage form).</p>
+<img alt="../_images/show-form-page-3.png" src="../_images/show-form-page-3.png" />
+<p>Give the page a name.</p>
+<img alt="../_images/show-form-page-4.png" src="../_images/show-form-page-4.png" />
+<p>Add some components on the thankyoupage.</p>
+<img alt="../_images/show-form-page-5.png" src="../_images/show-form-page-5.png" />
+<p>On the submit button: add the submit action “show form page” and select the thank you page.</p>
+<img alt="../_images/show-form-page-6.png" src="../_images/show-form-page-6.png" />
+</div>
+<div class="section" id="result">
+<h2>Result<a class="headerlink" href="#result" title="Permalink to this headline">¶</a></h2>
+<img alt="../_images/show-form-page-2.png" src="../_images/show-form-page-2.png" />
+<p>After submit:</p>
+<img alt="../_images/show-form-page-7.png" src="../_images/show-form-page-7.png" />
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../developerdoc/install.html" class="btn btn-neutral float-right" title="Installation and Setup" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="formbindings.html" class="btn btn-neutral" title="Form Bindings (Prefilling)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Bart Verdonck.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'1.4.3',
+            LANGUAGE:'None',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -317,9 +317,6 @@
     <Content Include="App_Config\Include\Feature\FormsExtensions\Feature.FormsExtensions.Tracker.config">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="App_Config\Include\Feature\FormsExtensions\Feature.FormsExtensions.ApiServices.config">
-      <SubType>Designer</SubType>
-    </Content>
     <None Include="App_Config\Include\Feature\FormsExtensions\Feature.FormsExtensions.Debug.config.disabled">
       <SubType>Designer</SubType>
     </None>
