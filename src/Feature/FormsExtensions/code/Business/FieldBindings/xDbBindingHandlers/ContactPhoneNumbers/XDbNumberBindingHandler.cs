@@ -1,14 +1,9 @@
-using Feature.FormsExtensions.XDb;
 using Sitecore.XConnect.Collection.Model;
 
 namespace Feature.FormsExtensions.Business.FieldBindings.xDbBindingHandlers.ContactPhoneNumbers
 {
-    public class XDbNumberBindingHandler : PreferredPhoneNumbersBindingHandler {
-        public XDbNumberBindingHandler(IXDbService xDbService) : base(xDbService)
-        {
-        }
-
-
+    public class XDbNumberBindingHandler : PreferredPhoneNumbersBindingHandler
+    {
         protected override IBindingHandlerResult GetFieldBindingValueFromFacet(PhoneNumber phoneNumber)
         {
             if (string.IsNullOrEmpty(phoneNumber.Number))

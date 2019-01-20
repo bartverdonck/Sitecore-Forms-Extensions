@@ -1,14 +1,9 @@
-﻿using Feature.FormsExtensions.XDb;
-using Sitecore.XConnect.Collection.Model;
+﻿using Sitecore.XConnect.Collection.Model;
 
 namespace Feature.FormsExtensions.Business.FieldBindings.xDbBindingHandlers.ContactPersonalInfo
 {
     public class XDbNickNameBindingHandler : PersonalInformationBindingHandler {
-
-        public XDbNickNameBindingHandler(IXDbService xDbService) : base(xDbService)
-        {
-        }
-
+        
         protected override IBindingHandlerResult GetFieldBindingValueFromFacet(PersonalInformation facet)
         {
             if (string.IsNullOrEmpty(facet.Nickname))

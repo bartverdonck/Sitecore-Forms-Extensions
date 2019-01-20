@@ -7,7 +7,6 @@ namespace Feature.FormsExtensions.Fields.Bindings
     [Serializable]
     public class StringInputViewWithBindingsTokenModel : StringInputViewModel, IBindingSettings
     {
-        public string BindingToken { get; set; }
         public bool PrefillBindingValue { get; set; }
         public bool StoreBindingValue { get; set; }
 
@@ -22,5 +21,6 @@ namespace Feature.FormsExtensions.Fields.Bindings
             base.UpdateItemFields(item);
             this.UpdateBindingSettingsFields(item);
         }
+        
     }
 }

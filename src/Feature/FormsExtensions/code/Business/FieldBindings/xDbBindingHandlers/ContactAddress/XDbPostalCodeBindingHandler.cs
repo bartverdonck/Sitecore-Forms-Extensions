@@ -1,14 +1,9 @@
-﻿using Feature.FormsExtensions.XDb;
-using Sitecore.XConnect.Collection.Model;
+﻿using Sitecore.XConnect.Collection.Model;
 
 namespace Feature.FormsExtensions.Business.FieldBindings.xDbBindingHandlers.ContactAddress
 {
     public class XDbPostalCodeBindingHandler : PreferredAddressBindingHandler
     {
-        public XDbPostalCodeBindingHandler(IXDbService xDbService) : base(xDbService)
-        {
-        }
-
         protected override IBindingHandlerResult GetFieldBindingValueFromFacet(Address addres)
         {
             if (string.IsNullOrEmpty(addres.PostalCode))

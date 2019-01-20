@@ -1,14 +1,9 @@
-using Feature.FormsExtensions.XDb;
 using Sitecore.XConnect.Collection.Model;
 
 namespace Feature.FormsExtensions.Business.FieldBindings.xDbBindingHandlers.ContactConcent
 {
     public class XDbDoNotMarketBindingHandler : ConsentInformationBindingHandler
     {
-        public XDbDoNotMarketBindingHandler(IXDbService xDbService) : base(xDbService)
-        {
-        }
-
         protected override IBindingHandlerResult GetFieldBindingValueFromFacet(ConsentInformation facet)
         {
             return new BindingValueFoundResult(facet.DoNotMarket);

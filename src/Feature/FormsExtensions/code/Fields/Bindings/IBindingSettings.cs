@@ -1,8 +1,10 @@
-﻿namespace Feature.FormsExtensions.Fields.Bindings
+﻿using Sitecore.ExperienceForms.Mvc.Models;
+
+namespace Feature.FormsExtensions.Fields.Bindings
 {
     public interface IBindingSettings
     {
-        string BindingToken { get; set; }
+        ValueProviderSettings ValueProviderSettings { get; set; }
         bool PrefillBindingValue { get; set; }
         bool StoreBindingValue { get; set; }
     }

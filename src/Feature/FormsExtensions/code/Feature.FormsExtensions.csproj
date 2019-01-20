@@ -68,8 +68,8 @@
     <Reference Include="Microsoft.WindowsAzure.Storage, Version=8.7.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\WindowsAzure.Storage.8.7.0\lib\net45\Microsoft.WindowsAzure.Storage.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.Analytics, Version=12.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.Analytics.12.0.0\lib\net471\Sitecore.Analytics.dll</HintPath>
@@ -205,7 +205,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApplicationSettings\Constants.cs" />
-    <Compile Include="Business\FieldBindings\FieldBindingTokenKeyAlpabetSorter.cs" />
+    <Compile Include="Business\FieldBindings\FieldBindingMapFactory.cs" />
+    <Compile Include="Business\FieldBindings\IFieldBindingMapFactory.cs" />
     <Compile Include="Business\FileUpload\AzureBlobStorageFileUploadStorageProvider.cs" />
     <Compile Include="Business\FileUpload\FileUploadStorageProviderFactory.cs" />
     <Compile Include="Business\FileUpload\FolderBuilder.cs" />
@@ -216,7 +217,6 @@
     <Compile Include="Business\IFormFieldConverter.cs" />
     <Compile Include="Business\FieldBindings\IBindingHandlerResult.cs" />
     <Compile Include="Business\FieldBindings\NoBindingValueFoundResult.cs" />
-    <Compile Include="Business\FieldBindings\FieldBindingTokenKey.cs" />
     <Compile Include="Business\FieldBindings\BindingValueFoundResult.cs" />
     <Compile Include="Business\FieldBindings\xDbBindingHandlers\ContactAddress\XDbAddressLine1BindingHandler.cs" />
     <Compile Include="Business\FieldBindings\xDbBindingHandlers\BaseXDbBindingHandler.cs" />
@@ -259,16 +259,10 @@
     <Compile Include="Fields\FileUpload\ContentTypeValidation.cs" />
     <Compile Include="Fields\Bindings\StringInputViewWithBindingsTokenModel.cs" />
     <Compile Include="Business\FieldBindings\IBindingHandler.cs" />
-    <Compile Include="Business\FieldBindings\IFieldBindingMapFactory.cs" />
     <Compile Include="Fields\Hidden\HiddenViewModel.cs" />
     <Compile Include="Fields\RawHtml\RawHtmlModel.cs" />
     <Compile Include="Pipelines\ExecuteSubmit\StoreFieldBindingValues.cs" />
-    <Compile Include="Pipelines\LoadFieldBindingHandlers\LoadFieldBindingHandlersArgs.cs" />
-    <Compile Include="Controllers\FieldBindingMapApiController.cs" />
-    <Compile Include="Business\FieldBindings\FieldBindingMapFactory.cs" />
     <Compile Include="Business\FieldBindings\xDbBindingHandlers\ContactPersonalInfo\XDbFirstNameBindingHandler.cs" />
-    <Compile Include="Pipelines\LoadFieldBindingHandlers\XDbFieldBindingHandlerLoader.cs" />
-    <Compile Include="Pipelines\RenderField\ReplaceFieldBindingToken.cs" />
     <Compile Include="Pipelines\SendEmail\AttachExternalFileProcessor.cs" />
     <Compile Include="Pipelines\SendEmail\FormDataProcessor.cs" />
     <Compile Include="Business\FileUpload\FileSystemFileUploadStorageProvider.cs" />
@@ -339,7 +333,7 @@
     </Content>
     <None Include="Properties\PublishProfiles\01_Local.pubxml" />
     <None Include="Properties\PublishProfiles\02_Release.pubxml" />
-    <Content Include="sitecore\shell\client\Applications\FormsBuilder\Layouts\PropertyGridForm\PropertyGridForm.js" />
+    <None Include="sitecore\shell\client\Applications\FormsBuilder\Layouts\PropertyGridForm\PropertyGridForm.js" />
     <Content Include="Views\FormBuilder\FieldTemplates\ReCaptcha.cshtml" />
     <Content Include="Views\FormBuilder\FieldTemplates\FileUpload.cshtml" />
     <Content Include="Views\FormBuilder\FieldTemplates\RawHtml.cshtml" />

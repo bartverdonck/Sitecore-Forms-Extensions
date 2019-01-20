@@ -1,6 +1,8 @@
-﻿namespace Feature.FormsExtensions.Business.FieldBindings
+﻿using Sitecore.ExperienceForms.ValueProviders;
+
+namespace Feature.FormsExtensions.Business.FieldBindings
 {
-    public interface IBindingHandler
+    public interface IBindingHandler : IFieldValueProvider
     {
         IBindingHandlerResult GetBindingValue();
         void StoreBindingValue(object newValue);

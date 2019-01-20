@@ -1,9 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using Sitecore.ExperienceForms.Mvc.Models;
 
 namespace Feature.FormsExtensions.Business.FieldBindings
 {
     public interface IFieldBindingMapFactory
     {
-        Dictionary<FieldBindingTokenKey, IBindingHandler> GetFieldBindingTokenMap();
+        IBindingHandler GetBindingHandler(ValueProviderSettings bindingSettingsValueProviderSettings);
     }
 }

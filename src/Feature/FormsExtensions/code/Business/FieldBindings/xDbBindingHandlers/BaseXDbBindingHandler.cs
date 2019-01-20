@@ -1,7 +1,10 @@
 ﻿using System;
 using Feature.FormsExtensions.XDb;
+using Microsoft.Extensions.DependencyInjection;
 using Sitecore.Analytics;
 using Sitecore.Analytics.XConnect.Facets;
+using Sitecore.DependencyInjection;
+using Sitecore.ExperienceForms.ValueProviders;
 using Sitecore.XConnect;
 
 namespace Feature.FormsExtensions.Business.FieldBindings.xDbBindingHandlers
@@ -12,10 +15,10 @@ namespace Feature.FormsExtensions.Business.FieldBindings.xDbBindingHandlers
         protected abstract IBindingHandlerResult GetFieldBindingValueFromFacet(T facet);
         protected abstract T CreateFacet();
         private readonly IXDbService xDbService;
-
-        protected BaseXDbBindingHandler(IXDbService xDbService)
+        
+        protected BaseXDbBindingHandler()
         {
-            this.xDbService = xDbService;
+           xDbService = ServiceLocator.ServiceProvider.GetService<IXDbService>();
         }
 
         public IBindingHandlerResult GetBindingValue()
@@ -49,6 +52,12 @@ namespace Feature.FormsExtensions.Business.FieldBindings.xDbBindingHandlers
             xDbService.UpdateCurrentContactFacet(GetFacetKey(), updateFacet, CreateFacet);
         }
 
-        
+        public virtual object GetValue(string parameters)
+        {
+            var bindingValue = GetBindingValue();
+            return bindingValue.HasValue() ? bindingValue.Value : string.Empty;
+        }
+
+        public FieldValueProviderContext ValueProviderContext { get; set; }
     }
 }

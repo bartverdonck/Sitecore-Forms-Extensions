@@ -1,13 +1,9 @@
-﻿using Feature.FormsExtensions.XDb;
-using Sitecore.XConnect.Collection.Model;
+﻿using Sitecore.XConnect.Collection.Model;
 
 namespace Feature.FormsExtensions.Business.FieldBindings.xDbBindingHandlers
 {
     public class PreferredEmailBindingHandler : BaseXDbBindingHandler<EmailAddressList>
     {
-        public PreferredEmailBindingHandler(IXDbService xDbService) : base(xDbService)
-        {
-        }
 
         protected override string GetFacetKey()
         {

@@ -1,6 +1,8 @@
 ﻿using Feature.FormsExtensions.Business.FieldBindings;
 using Feature.FormsExtensions.Fields.Bindings;
 using Feature.FormsExtensions.XDb;
+using Sitecore.ExperienceForms.Models;
+using Sitecore.ExperienceForms.Mvc.Models.Fields;
 using Sitecore.ExperienceForms.Mvc.Pipelines.ExecuteSubmit;
 using Sitecore.Mvc.Pipelines;
 
@@ -19,9 +21,6 @@ namespace Feature.FormsExtensions.Pipelines.ExecuteSubmit
 
         public override void Process(ExecuteSubmitActionsEventArgs args)
         {
-            var tokenMap = fieldBindingMapFactory.GetFieldBindingTokenMap();
-            if (tokenMap == null)
-                return;
             var valuesUpdated = false;
             foreach (var fieldModel in args.FormSubmitContext.Fields)
             {
@@ -32,16 +31,12 @@ namespace Feature.FormsExtensions.Pipelines.ExecuteSubmit
                 if (!bindingSettings.StoreBindingValue) { 
                     continue;
                 }
-                if (string.IsNullOrEmpty(bindingSettings.BindingToken))
+                if (string.IsNullOrEmpty(bindingSettings.ValueProviderSettings?.ValueProviderItemId))
                 {
                     continue;
                 }
-                if (!tokenMap.ContainsKey(new FieldBindingTokenKey(bindingSettings.BindingToken)))
-                {
-                    continue;
-                }
-                var tokenHandler = tokenMap[new FieldBindingTokenKey(bindingSettings.BindingToken)];
-
+                var bindingHandler = fieldBindingMapFactory.GetBindingHandler(bindingSettings.ValueProviderSettings);
+                
                 var property = fieldModel.GetType().GetProperty("Value");
                 if (property == null)
                 {
@@ -49,10 +44,12 @@ namespace Feature.FormsExtensions.Pipelines.ExecuteSubmit
                 }
 
                 var value = property.GetValue(fieldModel);
-                if (value != null) { 
-                    tokenHandler.StoreBindingValue(value);
-                    valuesUpdated = true;
+                if (value == null)
+                {
+                    continue;
                 }
+                bindingHandler.StoreBindingValue(value);
+                valuesUpdated = true;
             }
             if(valuesUpdated)
                 xDbService.ReloadContactDataIntoSession();

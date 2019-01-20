@@ -1,14 +1,9 @@
-﻿using Feature.FormsExtensions.XDb;
-using Sitecore.XConnect.Collection.Model;
+﻿using Sitecore.XConnect.Collection.Model;
 
 namespace Feature.FormsExtensions.Business.FieldBindings.xDbBindingHandlers.ContactAddress
 {
     public abstract class PreferredAddressBindingHandler : BaseXDbBindingHandler<AddressList>
     {
-        protected PreferredAddressBindingHandler(IXDbService xDbService) : base(xDbService)
-        {
-        }
-
         protected override string GetFacetKey()
         {
             return AddressList.DefaultFacetKey;
