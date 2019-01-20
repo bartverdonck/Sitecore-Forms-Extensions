@@ -6,7 +6,6 @@ namespace Feature.FormsExtensions.Fields.Hidden
 {
     public class HiddenViewModel : InputViewModel<string>, IBindingSettings
     {
-        public string BindingToken { get; set; }
         public bool PrefillBindingValue { get; set; }
         public bool StoreBindingValue { get; set; }
 

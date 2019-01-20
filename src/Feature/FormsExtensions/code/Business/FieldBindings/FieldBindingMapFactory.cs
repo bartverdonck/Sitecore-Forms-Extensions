@@ -1,25 +1,38 @@
-﻿using Feature.FormsExtensions.Business.FieldBindings.xDbBindingHandlers.ContactAddress;
-using Feature.FormsExtensions.Business.FieldBindings.xDbBindingHandlers.ContactPersonalInfo;
-using Feature.FormsExtensions.XDb;
-using Feature.FormsExtensions.XDb.Repository;
+﻿using System.Collections.Concurrent;
+using Sitecore;
 using Sitecore.Data;
-using Sitecore.Data.Items;
 using Sitecore.ExperienceForms.Mvc.Models;
+using Sitecore.Reflection;
 
 namespace Feature.FormsExtensions.Business.FieldBindings
 {
     public class FieldBindingMapFactory : IFieldBindingMapFactory
     {
+        private static readonly ConcurrentDictionary<string, IBindingHandler> BindingHandlers = new ConcurrentDictionary<string, IBindingHandler>();
+
         public IBindingHandler GetBindingHandler(ValueProviderSettings valueProviderSettings)
         {
-            string str = valueProviderSettings?.ValueProviderItemId;
+            var str = valueProviderSettings?.ValueProviderItemId;
             if (!ID.IsID(str)) 
                 return null;
-            Item obj1 = Sitecore.Context.Database.GetItem(str);
-            string modelType = obj1?["Model Type"];
-            if (string.IsNullOrEmpty(modelType))
+            var valueProviderItem = Context.Database.GetItem(str);
+            var modelType = valueProviderItem?["Model Type"];
+            return string.IsNullOrEmpty(modelType) ? null : CreateBindingHandler(modelType);
+        }
+        
+        public IBindingHandler CreateBindingHandler(string modelType)
+        {
+            if (BindingHandlers.TryGetValue(modelType, out var bindingHandler))
+            {
+                return bindingHandler;
+            }
+            var typeInfo = ReflectionUtil.GetTypeInfo(modelType);
+            if (typeInfo == null)
                 return null;
-            return new XDbFirstNameBindingHandler();
+            bindingHandler = ReflectionUtil.CreateObject(typeInfo) as IBindingHandler;
+            if (bindingHandler != null)
+                BindingHandlers.TryAdd(modelType, bindingHandler);
+            return bindingHandler;
         }
     }
 }
