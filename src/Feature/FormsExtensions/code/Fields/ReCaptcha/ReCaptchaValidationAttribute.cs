@@ -16,7 +16,9 @@ namespace Feature.FormsExtensions.Fields.ReCaptcha
         
         public override bool IsValid(object value)
         {
-            return reCaptchaService.VerifySync((string) value);
+            var isValid = reCaptchaService.VerifySync((string) value);
+            RecaptchaContext.RecaptchaValidated = isValid;
+            return isValid;
         }
 
         public override string FormatErrorMessage(string name)

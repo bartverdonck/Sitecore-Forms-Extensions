@@ -17,6 +17,10 @@ namespace Feature.FormsExtensions.Pipelines.RenderField
 
         public override void Process(RenderFieldEventArgs args)
         {
+            if (!ValueProviderContext.ValueProviderConditionsMet)
+            {
+                return;
+            }
             if (!(args.ViewModel is IBindingSettings bindingSettings))
             {
                 return;
