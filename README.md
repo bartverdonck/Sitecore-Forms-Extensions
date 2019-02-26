@@ -22,6 +22,7 @@ For Sitecore 9.0.x use version 1.x
 ### 2.1 (for Sitecore 9.1)
 - *Value Provider Preconditions*: Ability to define preconditions with the rules editor. Only when the defined preconditions are met, the forms will be prefilled.
 - *Google Recaptcha*: Fixed bug #23 where users could bypass recaptcha by excluding it entirely from the post action.
+- *Hidden Field*: Fixed inheritance for Sitecore 9.1 (Bug #26)
 
 ### 1.8 (for Sitecore 9.0.x)
 - *Value Provider Preconditions*: Ability to define preconditions with the rules editor. Only when the defined preconditions are met, the forms will be prefilled.
