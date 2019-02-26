@@ -19,6 +19,14 @@ For Sitecore 9.1 use version 2.x.
 For Sitecore 9.0.x use version 1.x
 
 ## What
+### 2.1 (for Sitecore 9.1)
+- *Value Provider Preconditions*: Ability to define preconditions with the rules editor. Only when the defined preconditions are met, the forms will be prefilled.
+- *Google Recaptcha*: Fixed bug #23 where users could bypass recaptcha by excluding it entirely from the post action.
+
+### 1.8 (for Sitecore 9.0.x)
+- *Value Provider Preconditions*: Ability to define preconditions with the rules editor. Only when the defined preconditions are met, the forms will be prefilled.
+- *Google Recaptcha*: Fixed bug #23 where users could bypass recaptcha by excluding it entirely from the post action.
+
 ### 2.0
 - *Sitecore 9.1 Compatibility*: A new package for Sitecore 9.1 was created. In this package the prefill/binding feature has been update to leverage the new build in prefilling features from Sitecore. The existing xDB binders are now available as value providers. The module still adds the possibility to store the values as well. (For sitecore 9.0.x keep using version 1.7)
 
