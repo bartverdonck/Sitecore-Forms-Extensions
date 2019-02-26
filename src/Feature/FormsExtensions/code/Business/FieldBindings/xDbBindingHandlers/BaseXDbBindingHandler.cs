@@ -54,6 +54,8 @@ namespace Feature.FormsExtensions.Business.FieldBindings.xDbBindingHandlers
 
         public virtual object GetValue(string parameters)
         {
+            if (!FieldBindings.ValueProviderContext.ValueProviderConditionsMet)
+                return string.Empty;
             var bindingValue = GetBindingValue();
             return bindingValue.HasValue() ? bindingValue.Value : string.Empty;
         }
