@@ -19,8 +19,8 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Sitecore Forms Extensions 1.7 for Sitecore 9.0'
-copyright = '2018, Bart Verdonck'
+project = 'Sitecore Forms Extensions 1.8 for Sitecore 9.0'
+copyright = '2018-2019, Bart Verdonck'
 author = 'Bart Verdonck'
 
 # The short X.Y version

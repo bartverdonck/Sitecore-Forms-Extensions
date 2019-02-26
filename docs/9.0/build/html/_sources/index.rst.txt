@@ -1,8 +1,8 @@
 ================================================
-Sitecore Forms Extensions 1.7 for Sitecore 9.0.x
+Sitecore Forms Extensions 1.8 for Sitecore 9.0.x
 ================================================
 
-`Click here to read the documentation on Sitecore Forms Extensions 2.0 for Sitecore 9.1. <http://onelittlespark.bartverdonck.be/sitecoreformsextentions/9.1/>`_
+`Click here to read the documentation on Sitecore Forms Extensions 2.1 for Sitecore 9.1. <http://onelittlespark.bartverdonck.be/sitecoreformsextentions/9.1/>`_
 
 Welcome, happy to see your are (considering) using the Sitecore Forms Extensions module to give your Sitecore 9 forms a feature boost!
 
@@ -35,6 +35,7 @@ Have fun with the module!
    contenteditordoc/customfields
    contenteditordoc/sendmail
    contenteditordoc/formbindings
+   contenteditordoc/valueproviderconditions
    contenteditordoc/jumptopage
    
 .. toctree::

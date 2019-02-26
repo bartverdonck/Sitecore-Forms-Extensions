@@ -1,0 +1,262 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Value Provider Conditions &mdash; Sitecore Forms Extensions 2.1 for Sitecore 9.1 1.4.3 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="In place “Thank you” message" href="jumptopage.html" />
+    <link rel="prev" title="Form Bindings (Prefilling)" href="formbindings.html" /> 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-10888514-4"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-10888514-4');
+  </script>     
+
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Sitecore Forms Extensions 2.1 for Sitecore 9.1
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Content Editor Documentation</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="customfields.html">Custom Fields</a></li>
+<li class="toctree-l1"><a class="reference internal" href="sendmail.html">Send Mail</a></li>
+<li class="toctree-l1"><a class="reference internal" href="formbindings.html">Form Bindings (Prefilling)</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Value Provider Conditions</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-create-a-set-of-rules">How to create a set of rules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-use-a-set-of-rules">How to use a set of rules</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="jumptopage.html">In place “Thank you” message</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Developer Documentation</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../developerdoc/install.html">Installation and Setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developerdoc/custombindings.html">Custom Bindings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developerdoc/valueproviderconditions.html">Value Provider Conditions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developerdoc/datetimespan.html">Configure Date Timespan Validator</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Sitecore Forms Extensions 2.1 for Sitecore 9.1</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Value Provider Conditions</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/contenteditordoc/valueproviderconditions.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="value-provider-conditions">
+<span id="valueproviderconditions"></span><h1>Value Provider Conditions<a class="headerlink" href="#value-provider-conditions" title="Permalink to this headline">¶</a></h1>
+<p>When a visitor browses to your site, we might already have a lot of information on him based on his xDB tracking cookie.
+When prefilling of forms is enabled by use of the fieldbindings, we can prefill the form fields from xDB.
+This might not always be the desired behaviour, there may be cases where you only want to prefill when a user is logged in, or has given concent to prefill the form.</p>
+<p>With the Value Provider Conditions, you can build rules that must be met, before prefilling is applied.</p>
+<div class="section" id="how-to-create-a-set-of-rules">
+<h2>How to create a set of rules<a class="headerlink" href="#how-to-create-a-set-of-rules" title="Permalink to this headline">¶</a></h2>
+<p>In the content explorer, navigate to /sitecore/system/Settings/Forms/Value Provider Conditions</p>
+<p>Create a new ValueProviderConditions item.</p>
+<img alt="../_images/create-valueproviderconditions-1.png" src="../_images/create-valueproviderconditions-1.png" />
+<p>Next, click on “Edit Rule” and build the conditional rule you desire.</p>
+<img alt="../_images/create-valueproviderconditions-2.png" src="../_images/create-valueproviderconditions-2.png" />
+<p>Save and publish the rule.</p>
+</div>
+<div class="section" id="how-to-use-a-set-of-rules">
+<h2>How to use a set of rules<a class="headerlink" href="#how-to-use-a-set-of-rules" title="Permalink to this headline">¶</a></h2>
+<p>In the content explorer, navigate to your form. (Sitecore –&gt; Forms –&gt; Your Form)</p>
+<p>In the Value Provider section, choose your conditions.</p>
+<img alt="../_images/apply-valueproviderconditions.png" src="../_images/apply-valueproviderconditions.png" />
+<p>Save and publish the form.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="jumptopage.html" class="btn btn-neutral float-right" title="In place “Thank you” message" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="formbindings.html" class="btn btn-neutral" title="Form Bindings (Prefilling)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018-2019, Bart Verdonck.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'1.4.3',
+            LANGUAGE:'None',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
