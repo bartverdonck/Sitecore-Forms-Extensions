@@ -205,6 +205,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApplicationSettings\Constants.cs" />
+    <Compile Include="Business\FieldBindings\ValueProviderConditionsRulesContext.cs" />
+    <Compile Include="Business\FieldBindings\ValueProviderContext.cs" />
     <Compile Include="Business\FieldBindings\FieldBindingMapFactory.cs" />
     <Compile Include="Business\FieldBindings\IFieldBindingMapFactory.cs" />
     <Compile Include="Business\FileUpload\AzureBlobStorageFileUploadStorageProvider.cs" />
@@ -246,6 +248,8 @@
     <Compile Include="Business\FieldBindings\xDbBindingHandlers\ContactPhoneNumbers\XDbExtensionBindingHandler.cs" />
     <Compile Include="Business\FieldBindings\xDbBindingHandlers\ContactPhoneNumbers\XDbNumberBindingHandler.cs" />
     <Compile Include="Business\FieldBindings\xDbBindingHandlers\PreferredEmailBindingHandler.cs" />
+    <Compile Include="Business\FieldBindings\RuleListExtensions.cs" />
+    <Compile Include="Business\ReCaptcha\RecaptchaContext.cs" />
     <Compile Include="Debugging\RenderForm.cs" />
     <Compile Include="Fields\Bindings\BindingSettingsItemMapperExtension.cs" />
     <Compile Include="Fields\Bindings\CheckBoxViewWithBindingsTokenModel.cs" />
@@ -262,6 +266,7 @@
     <Compile Include="Fields\Hidden\HiddenViewModel.cs" />
     <Compile Include="Fields\RawHtml\RawHtmlModel.cs" />
     <Compile Include="Pipelines\ExecuteSubmit\StoreFieldBindingValues.cs" />
+    <Compile Include="Pipelines\ExecuteSubmit\RecaptchaExecutedValidation.cs" />
     <Compile Include="Business\FieldBindings\xDbBindingHandlers\ContactPersonalInfo\XDbFirstNameBindingHandler.cs" />
     <Compile Include="Pipelines\SendEmail\AttachExternalFileProcessor.cs" />
     <Compile Include="Pipelines\SendEmail\FormDataProcessor.cs" />
@@ -280,6 +285,7 @@
     <Compile Include="Business\FileUpload\IFileUploadStorageProvider.cs" />
     <Compile Include="Pipelines\ExecuteSubmit\StoreFileUploads.cs" />
     <Compile Include="Pipelines\ShowFormPage\ShowFormPageNavigationLoader.cs" />
+    <Compile Include="Pipelines\ShowFormPage\ValueProviderConditionsChecker.cs" />
     <Compile Include="SubmitActions\IdentifyContact\IdentifyContactAction.cs" />
     <Compile Include="SubmitActions\IdentifyContact\IdentifyContactData.cs" />
     <Compile Include="SubmitActions\SendEmail\FileAttachmentTokenBuilder.cs" />
