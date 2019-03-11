@@ -98,7 +98,7 @@ function getYears(date) {
 
   temp.setFullYear(temp.getFullYear() - diffYears);
 
-  if (date > temp)
+  if (new Date(date) > temp)
     diffYears--;
 
   return diffYears;
