@@ -3,7 +3,7 @@
     <metadata>
       <PackageName>Sitecore Forms Extensions for Sitecore 9.1</PackageName>
       <Author>Bart Verdonck</Author>
-      <Version>2.0.0</Version>
+      <Version>2.0.1</Version>
       <Revision />
       <License />
       <Comment />
@@ -748,6 +748,41 @@
       <Include />
       <Exclude />
       <Name>Field Bindings</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/system/Settings/Forms/Meta Data/Conditions/Operators/{3F250FFD-1A4E-43C9-B336-E44E7F4953DE}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Meta Data/Conditions/Operators/contains/{BF8935A6-1976-43A0-ABA5-D0BC128A76EA}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Meta Data/Conditions/Operators/does not contain/{45AAB0FB-775B-40F5-B3B8-7CAE3ABBF643}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Meta Data/Conditions/Operators/does not end with/{F3AC7A1A-3458-4385-BB65-860315313DB3}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Meta Data/Conditions/Operators/does not start with/{6B92597D-F2E0-47D3-A40D-59AFB37EEDE5}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Meta Data/Conditions/Operators/ends with/{D375ED5B-E156-4A2B-9F91-DFD5B03F0D78}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Meta Data/Conditions/Operators/is equal to/{1D38B217-A2EE-4E7B-B6ED-13E751462FEB}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Meta Data/Conditions/Operators/is greater than or equal to/{062C6ED9-EA6E-4A88-AE54-C88E2147971D}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Meta Data/Conditions/Operators/is greater than/{61FF63A0-375C-47BD-9986-1F81BD12BBBB}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Meta Data/Conditions/Operators/is less than or equal to/{88AC1C6B-BAFE-40A7-BB75-E304C8EC29DD}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Meta Data/Conditions/Operators/is less than/{8FE41E53-AD87-4D24-B50F-EA0F6BDF739F}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Meta Data/Conditions/Operators/is not equal to/{49F47E77-E8C5-46F9-BF39-78D6B0D40B48}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Meta Data/Conditions/Operators/starts with/{FD10F291-3C2E-4AE7-8A67-2F8271CB3DF2}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Merge</ItemMode>
+                  <ItemMergeMode>Merge</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Field Conditions</Name>
     </xitems>
   </Sources>
   <Converter>
