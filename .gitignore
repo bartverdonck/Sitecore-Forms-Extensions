@@ -5,3 +5,5 @@ target/
 src/Feature/FormsExtensions/code/obj/
 src/Feature/FormsExtensions/code/bin/
 docs/build/
+deployment/Environments/Local/environmentsettings.json
+deployment/Environments/Local/license.xml

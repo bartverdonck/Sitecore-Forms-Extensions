@@ -1,0 +1,372 @@
+{
+    "Parameters": {
+        "TempLocation": {
+            "Type": "String",
+            "Description": "Alternative location to save downloads. If left on the default $Env:Temp will be used.",
+            "DefaultValue": "SIF-Default",
+            "Validate": "[TestPath(variable('Temp.Location'))]"
+        },
+        "PSRepositoryPSGallery" : {
+            "Type": "String",
+            "Description": "Default PS Repository",
+            "DefaultValue": "PSGallery"
+        },
+        "SQLServerModule": {
+            "Type": "String",
+            "Description": "SQLServer Module Name",
+            "DefaultValue": "SQLServer"
+        },
+        "SQLServerModuleVersion": {
+            "Type": "String",
+            "Description": "SQLServer Module Version",
+            "DefaultValue": "21.0.17240"
+        },
+        "WebPlatformDownload": {
+            "Type": "String",
+            "Description": "Download location of Microsoft Web Platform Installer 5.0",
+            "DefaultValue": "https://download.microsoft.com/download/C/F/F/CFF3A0B8-99D4-41A2-AE1A-496C08BEB904/WebPlatformInstaller_amd64_en-US.msi"
+        },
+        "SQLClrTypesx86Download": {
+            "Type": "String",
+            "Description": "Download location of SQL CLR Types x86",
+            "DefaultValue": "https://download.microsoft.com/download/C/1/9/C1917410-8976-4AE0-98BF-1104349EA1E6/x86/SQLSysClrTypes.msi"
+        },
+        "SQLClrTypesx64Download": {
+            "Type": "String",
+            "Description": "Download location of SQL CLR Types x64",
+            "DefaultValue": "https://download.microsoft.com/download/C/1/9/C1917410-8976-4AE0-98BF-1104349EA1E6/x64/SQLSysClrTypes.msi"
+        },
+        "SQLDacFrameworkx86Download": {
+            "Type": "String",
+            "Description": "Download location of SQL DAC Framework x86",
+            "DefaultValue": "https://download.microsoft.com/download/6/E/4/6E406E38-0A01-4DD1-B85E-6CA7CF79C8F7/EN/x86/DacFramework.msi"
+        },
+        "SQLDacFrameworkx64Download": {
+            "Type": "String",
+            "Description": "Download location of SQL DAC Framework x64",
+            "DefaultValue": "https://download.microsoft.com/download/6/E/4/6E406E38-0A01-4DD1-B85E-6CA7CF79C8F7/EN/x64/DacFramework.msi"
+        },
+        "VisualC++2015x86Download": {
+            "Type": "String",
+            "Description": "Download location of Visual C++ 2015 x86",
+            "DefaultValue": "https://download.microsoft.com/download/6/D/F/6DF3FF94-F7F9-4F0B-838C-A328D1A7D0EE/vc_redist.x86.exe"
+        },
+        "VisualC++2015x64Download": {
+            "Type": "String",
+            "Description": "Download location of Visual C++ 2015 x64",
+            "DefaultValue": "https://download.microsoft.com/download/6/D/F/6DF3FF94-F7F9-4F0B-838C-A328D1A7D0EE/vc_redist.x64.exe"
+        },
+        "SQLODBCDriversx64": {
+            "Type": "String",
+            "Description": "Download location of SQL ODBC Drivers 13.1",
+            "DefaultValue" : "https://download.microsoft.com/download/D/5/E/D5EEF288-A277-45C8-855B-8E2CB7E25B96/x64/msodbcsql.msi"
+        },
+        "SQLCMDLineUtilitiesDownload": {
+            "Type": "String",
+            "Description": "Download location of SQL cmd line utilities",
+            "DefaultValue": "https://download.microsoft.com/download/C/8/8/C88C2E51-8D23-4301-9F4B-64C8E2F163C5/x64/MsSqlCmdLnUtils.msi"
+        },
+        "DotNet471Download":{
+            "Type": "String",
+            "Description": "Download location of .net 4.7.1",
+            "DefaultValue": "https://download.microsoft.com/download/9/E/6/9E63300C-0941-4B45-A0EC-0008F96DD480/NDP471-KB4033342-x86-x64-AllOS-ENU.exe"
+        },
+        "DotNetHostingDownload": {
+            "Type": "String",
+            "Description": "Download location of .net core 2.1.x Hosting Bundle",
+            "DefaultValue": "https://download.microsoft.com/download/6/E/B/6EBD972D-2E2F-41EB-9668-F73F5FDDC09C/dotnet-hosting-2.1.3-win.exe"
+        },
+        "DotNet4RegistryLocation":{
+            "Type": "String",
+            "Description": "Registry location of .net4 release key",
+            "DefaultValue": "HKLM:SOFTWARE\\Microsoft\\NET Framework Setup\\NDP\\v4\\Full"
+        },
+        "ComponentBasedServicing": {
+            "Type": "String",
+            "Description": "Registry location of component based servicing reboot pending key.",
+            "DefaultValue": "HKLM:SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Component Based Servicing\\RebootPending"
+        }
+    },
+    "Variables": {
+        "Check.SQLServer.Module": "[GetModule(ListAvailable:True,Name:parameter('SQLServerModule'))]",
+        "Check.WebPlatform": "[GetPackage(Name:'Microsoft` Web` Platform` Installer` 5.0',ErrorAction:'Continue')]",
+        "Check.WebDeploy3.6": "[GetPackage(Name:'Microsoft` Web` Deploy` 3.6',ErrorAction:'Continue')]",
+        "Check.SQL.CLR.Types": "[GetPackage(Name:'Microsoft` System` CLR` Types` for` SQL` Server` 2017',ErrorAction:'Continue')]",
+        "Check.SQL.Dac.Framework.x86":"[GetPackage(Name:'Microsoft` SQL` Server` Data-Tier` Application` Framework` `(x86`)',ErrorAction:'Continue')]",
+        "Check.SQL.Dac.Framework.x64":"[GetPackage(Name:'Microsoft` SQL` Server` Data-Tier` Application` Framework` `(x64`)',ErrorAction:'Continue')]",
+        "Check.VisualC++.x86":"[GetPackage(Name:'Microsoft` Visual` C++` 2015` Redistributable` `(x86`)`*',ErrorAction:'Continue')]",
+        "Check.VisualC++.x64":"[GetPackage(Name:'Microsoft` Visual` C++` 2015` Redistributable` `(x64`)`*',ErrorAction:'Continue')]",
+        "Check.SQL.CMD.Utilities": "[GetPackage(Name:'Microsoft` Command` Line` Utilities` 13` for` SQL` Server',ErrorAction:'Continue')]",
+        "Check.SQL.ODBC": "[GetPackage(Name:'Microsoft` ODBC` Driver` 13` for` SQL` Server',ErrorAction:'Continue')]",
+        "Check.Net.Hosting": "[GetPackage(Name:'Microsoft` .NET` Core` 2.1.3` -` Windows` Server` Hosting',ErrorAction:'Continue')]",
+        "Check.TSQL.Compiler.Service": "[GetPackage(Name:'Microsoft` SQL` Server` 2016` T-SQL` Compiler` Service` ',ErrorAction:'Continue')]",
+        "Check.DotNet471.Version" : "[ValidateRange(Min:0,Max:461307,Param:variable('Get.DotNet.Version'))]",
+        "Check.Reboot.Pending": "[TestPath(Path:parameter('ComponentBasedServicing'))]",
+
+        "WebPlatform.Download": "[JoinPath(variable('Temp.Location'),'WebPlatformInstaller_amd64_en-US.msi')]",
+        "SQL.Clr.Types.x86.Download": "[JoinPath(variable('Temp.Location'),'SQLSysClrTypesx86.msi')]",
+        "SQL.Clr.Types.x64.Download": "[JoinPath(variable('Temp.Location'),'SQLSysClrTypesx64.msi')]",
+        "SQL.Dac.Framework.x86.Download": "[JoinPath(variable('Temp.Location'),'DacFrameworkx86.msi')]",
+        "SQL.Dac.Framework.x64.Download": "[JoinPath(variable('Temp.Location'),'DacFrameworkx64.msi')]",
+        "SQL.ODBC.Drivers.X64.Download": "[JoinPath(variable('Temp.Location'),'msodbcsql.msi')]",
+        "SQL.CMD.Line.Utilities.Download" : "[JoinPath(variable('Temp.Location'),'MsSqlCmdLnUtils.msi')]",
+        "DotNet.471.Download": "[JoinPath(variable('Temp.Location'),'NDP471-KB4033342-x86-x64-AllOS-ENU.exe')]",
+        "DotNetHosting.Download": "[JoinPath(variable('Temp.Location'),'dotnet-hosting-win.exe')]",
+        "VisualC++2015x86.Download": "[JoinPath(variable('Temp.Location'),'vc_redist.x86.exe')]",
+        "VisualC++2015x64.Download": "[JoinPath(variable('Temp.Location'),'vc_redist.x64.exe')]",
+
+        "WebDeploy3.6": "[JoinPath(Environment('ProgramFiles'),'Microsoft','Web Platform Installer','WebpiCmd-x64.exe')]",
+        "Get.DotNet.Version" : "[GetItemPropertyValue(Path:parameter('DotNet4RegistryLocation'),Name:'Release')]",
+
+        "Temp.Location" : "[if(variable('Test.Temp.Location'),Environment('Temp'),parameter('TempLocation'))]",
+        "Test.Temp.Location" : "[equal(parameter('TempLocation'),'SIF-Default')]",
+        "InstallArgs" : "/passive /norestart",
+        "ExitMessage": "[if(variable('Check.Reboot.Pending'),'Sitecore prerequisites are now installed, you must reboot your machine to allow prerequisite components installations to finish.','Sitecore prerequisites are now installed, you may proceed with further installations.')]"
+    },
+    "Register":{
+        "Tasks":{
+            "InstallModule": "Install-Module",
+            "EnableWindowsOptionalFeature": "Enable-WindowsOptionalFeature",
+            "StartProcess" : "Start-Process",
+            "WriteOutput": "Write-Output"
+        },
+        "ConfigFunction":{
+            "GetModule": "Get-Module",
+            "GetPackage" : "Get-Package",
+            "GetItemPropertyValue" : "Get-ItemPropertyValue",
+            "TestPath": "Test-Path"
+        }
+    },
+    "Tasks": {
+        "DownloadVisualC++2015x86":{
+            "Type": "DownloadFile",
+            "Params": {
+                "SourceUri" : "[parameter('VisualC++2015x86Download')]",
+                "DestinationPath" : "[variable('VisualC++2015x86.Download')]"
+            },
+            "Skip" : "[variable('Check.VisualC++.x86')]"
+        },
+        "InstallC++2015x86":{
+            "Type": "StartProcess",
+            "Params": {
+                "FilePath": "[variable('VisualC++2015x86.Download')]",
+                "ArgumentList": "[variable('InstallArgs')]",
+                "Wait" : true
+            },
+            "Skip" : "[variable('Check.VisualC++.x86')]"
+        },
+        "DownloadVisualC++2015x64":{
+            "Type": "DownloadFile",
+            "Params": {
+                "SourceUri" : "[parameter('VisualC++2015x64Download')]",
+                "DestinationPath" : "[variable('VisualC++2015x64.Download')]"
+            },
+            "Skip" : "[variable('Check.VisualC++.x64')]"
+        },
+        "InstallC++2015x64":{
+            "Type": "StartProcess",
+            "Params": {
+                "FilePath": "[variable('VisualC++2015x64.Download')]",
+                "ArgumentList": "[variable('InstallArgs')]",
+                "Wait" : true
+            },
+            "Skip" : "[variable('Check.VisualC++.x64')]"
+        },
+        "SQLServerModule": {
+            "Type": "InstallModule",
+            "Params": {
+                "Name": "[parameter('SQLServerModule')]",
+                "Repository" : "[parameter('PSRepositoryPSGallery')]",
+                "MinimumVersion": "[parameter('SQLServerModuleVersion')]",
+                "AllowClobber": true,
+                "Force": true
+            },
+            "Skip" : "[variable('Check.SQLServer.Module')]"
+        },
+        "WindowsFeatures": {
+            "Type": "EnableWindowsOptionalFeature",
+            "Params": {
+                "Online": true,
+                "FeatureName": [
+                    "IIS-WebServer",
+                    "IIS-WebServerManagementTools",
+                    "IIS-ASPNET",
+                    "IIS-ASPNET45",
+                    "NetFx4Extended-ASPNET45",
+                    "WAS-NetFxEnvironment",
+                    "WAS-ProcessModel",
+                    "WAS-WindowsActivationService"
+                ],
+                "All": true
+            }
+        },
+        "DownloadWebPlatformInstaller" :{
+            "Type" : "DownloadFile",
+            "Params" :{
+                "SourceUri" : "[parameter('WebPlatformDownload')]",
+                "DestinationPath" : "[variable('WebPlatform.Download')]"
+            },
+            "Skip" : "[variable('Check.WebPlatform')]"
+        },
+        "InstallWebPlatformInstaller" :{
+            "Type": "StartProcess",
+            "Params" :{
+                "FilePath": "[variable('WebPlatform.Download')]",
+                "ArgumentList": "[variable('InstallArgs')]",
+                "Wait" : true
+            },
+            "Skip" : "[variable('Check.WebPlatform')]"
+        },
+        "InstallWebDeploy3.6": {
+            "Type": "StartProcess",
+            "Params" :{
+                "FilePath": "[variable('WebDeploy3.6')]",
+                "ArgumentList": "/Install /AcceptEULA /SuppressReboot /Products:WDeploy36PS,UrlRewrite2",
+                "Wait" : true
+            },
+            "Skip" : "[variable('Check.WebDeploy3.6')]"
+        },
+        "DownloadSQLClrTypesx86" :{
+            "Type" : "DownloadFile",
+            "Params" :{
+                "SourceUri" : "[parameter('SQLClrTypesx86Download')]",
+                "DestinationPath" : "[variable('SQL.Clr.Types.x86.Download')]"
+            },
+            "Skip" : "[variable('Check.SQL.CLR.Types')]"
+        },
+        "InstallSQLClrTypesx86": {
+            "Type": "StartProcess",
+            "Params" :{
+                "FilePath": "[variable('SQL.Clr.Types.x86.Download')]",
+                "ArgumentList": "[variable('InstallArgs')]",
+                "Wait" : true
+            },
+            "Skip" : "[variable('Check.SQL.CLR.Types')]"
+        },
+        "DownloadSQLClrTypesx64" :{
+            "Type" : "DownloadFile",
+            "Params" :{
+                "SourceUri" : "[parameter('SQLClrTypesx64Download')]",
+                "DestinationPath" : "[variable('SQL.Clr.Types.x64.Download')]"
+            },
+            "Skip" : "[variable('Check.SQL.CLR.Types')]"
+        },
+        "InstallSQLClrTypesx64": {
+            "Type": "StartProcess",
+            "Params" :{
+                "FilePath": "[variable('SQL.Clr.Types.x64.Download')]",
+                "ArgumentList": "[variable('InstallArgs')]",
+                "Wait" : true
+            },
+            "Skip" : "[variable('Check.SQL.CLR.Types')]"
+        },
+        "DownloadSQLDacFrameworkx86" :{
+            "Type" : "DownloadFile",
+            "Params" :{
+                "SourceUri" : "[parameter('SQLDacFrameworkx86Download')]",
+                "DestinationPath" : "[variable('SQL.Dac.Framework.x86.Download')]"
+            },
+            "Skip" : "[variable('Check.SQL.Dac.Framework.x86')]"
+        },
+        "InstallSQLDacFrameworkx86": {
+            "Type": "StartProcess",
+            "Params" :{
+                "FilePath": "[variable('SQL.Dac.Framework.x86.Download')]",
+                "ArgumentList": "[variable('InstallArgs')]",
+                "Wait" : true
+            },
+            "Skip" : "[variable('Check.SQL.Dac.Framework.x86')]"
+        },
+        "DownloadSQLDacFrameworkx64" :{
+            "Type" : "DownloadFile",
+            "Params" :{
+                "SourceUri" : "[parameter('SQLDacFrameworkx64Download')]",
+                "DestinationPath" : "[variable('SQL.Dac.Framework.x64.Download')]"
+            },
+            "Skip" : "[variable('Check.SQL.Dac.Framework.x64')]"
+        },
+        "InstallSQLDacFrameworkx64": {
+            "Type": "StartProcess",
+            "Params" :{
+                "FilePath": "[variable('SQL.Dac.Framework.x64.Download')]",
+                "ArgumentList": "[variable('InstallArgs')]",
+                "Wait" : true
+            },
+            "Skip" : "[variable('Check.SQL.Dac.Framework.x64')]"
+        },
+        "DownloadSQLODBC" :{
+            "Type" : "DownloadFile",
+            "Params" :{
+                "SourceUri" : "[parameter('SQLODBCDriversx64')]",
+                "DestinationPath" : "[variable('SQL.ODBC.Drivers.X64.Download')]"
+            },
+            "Skip": "[variable('Check.SQL.ODBC')]"
+        },
+        "InstallSQLODBC": {
+            "Type": "StartProcess",
+            "Params" :{
+                "FilePath": "[variable('SQL.ODBC.Drivers.X64.Download')]",
+                "ArgumentList": "/passive /norestart IACCEPTMSODBCSQLLICENSETERMS=YES",
+                "Wait" : true
+            },
+            "Skip": "[variable('Check.SQL.ODBC')]"
+        },
+        "DownloadSQLCMDlineUtilities" :{
+            "Type" : "DownloadFile",
+            "Params" :{
+                "SourceUri" : "[parameter('SQLCMDLineUtilitiesDownload')]",
+                "DestinationPath" : "[variable('SQL.CMD.Line.Utilities.Download')]"
+            },
+            "Skip" : "[variable('Check.SQL.CMD.Utilities')]"
+        },
+        "InstallSQLCMDLineUtilities": {
+            "Type": "StartProcess",
+            "Params" :{
+                "FilePath": "[variable('SQL.CMD.Line.Utilities.Download')]",
+                "ArgumentList": "/passive /norestart IACCEPTMSSQLCMDLNUTILSLICENSETERMS=YES",
+                "Wait" : true
+            },
+            "Skip" : "[variable('Check.SQL.CMD.Utilities')]"
+        },
+        "DownloadDotNetMultiTargeting" :{
+            "Type" : "DownloadFile",
+            "Params" :{
+                "SourceUri" : "[parameter('DotNetHostingDownload')]",
+                "DestinationPath" : "[variable('DotNetHosting.Download')]"
+            },
+            "Skip": "[variable('Check.Net.Hosting')]"
+        },
+        "InstallDotNetMultiTargeting": {
+            "Type": "StartProcess",
+            "Params" :{
+                "FilePath": "[variable('DotNetHosting.Download')]",
+                "ArgumentList": "[variable('InstallArgs')]",
+                "Wait" : true
+            },
+            "Skip": "[variable('Check.Net.Hosting')]"
+        },
+        "DownloadDotNet471" :{
+            "Type" : "DownloadFile",
+            "Params" :{
+                "SourceUri" : "[parameter('DotNet471Download')]",
+                "DestinationPath" : "[variable('DotNet.471.Download')]"
+            },
+            "Skip": "[not(variable('Check.DotNet471.Version'))]"
+        },
+        "InstallDotNet471": {
+            "Type": "StartProcess",
+            "Params" :{
+                "FilePath": "[variable('DotNet.471.Download')]",
+                "ArgumentList": "[variable('InstallArgs')]",
+                "Wait" : true
+            },
+            "Skip": "[not(variable('Check.DotNet471.Version'))]"
+        },
+        "InformUser": {
+            "Type": "WriteOutput",
+            "Params": {
+                "InputObject": "[variable('ExitMessage')]"
+            }
+        }
+    }
+}

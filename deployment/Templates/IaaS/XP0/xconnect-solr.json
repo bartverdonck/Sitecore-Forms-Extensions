@@ -1,0 +1,94 @@
+{
+    "Parameters": {
+        "SolrUrl": {
+            "Type": "string",
+            "DefaultValue": "https://localhost:8983/solr",
+            "Description": "The Solr instance url."
+        },
+        "SolrRoot": {
+            "Type": "string",
+            "DefaultValue": "c:\\solr-7.2.1",
+            "Description": "The file path to the Solr instance."
+        },
+        "SolrService": {
+            "Type": "string",
+            "DefaultValue": "Solr-7.2.1",
+            "Description": "The name of the Solr service."
+        },
+        "BaseConfig": {
+            "Type": "string",
+            "DefaultValue": "_default",
+            "Description": "The configset to copy as a base for each core."
+        },
+        "CorePrefix": {
+            "Type": "string",
+            "DefaultValue": "sitecore",
+            "Description": "The prefix for each of the created indexes."
+        }
+    },
+    "Variables": {
+        "Solr.FullRoot":    "[resolvepath(parameter('SolrRoot'))]",
+        "Solr.Server":      "[joinpath(variable('Solr.FullRoot'), 'server', 'solr')]",
+        "Solr.BaseConfigs": "[joinpath(variable('Solr.Server'), 'configsets', parameter('BaseConfig'))]",
+        "Xdb.Name":         "[concat(parameter('CorePrefix'), '_xdb')]",
+        "Xdb.Rebuild.Name": "[concat(variable('Xdb.Name'), '_rebuild')]",
+        "Core.Root":        "[joinpath(variable('Solr.Server'), variable('Xdb.Name'))]",
+        "Rebuild.Root":     "[joinpath(variable('Solr.Server'), variable('Xdb.Rebuild.Name'))]"
+    },
+    "Tasks": {
+        "StopSolr": {
+            "Description" : "Stops the Solr service if it is running.",
+            "Type": "ManageService",
+            "Params": {
+                "Name": "[parameter('SolrService')]",
+                "Status": "Stopped",
+                "PostDelay": 1000
+            }
+        },
+        "CleanCores": {
+            "Description" : "Creates/clears core paths.",
+            "Type": "EnsurePath",
+            "Params": {
+                "Clean": [
+                    "[variable('Core.Root')]",
+                    "[variable('Rebuild.Root')]"
+                ]
+            }
+        },
+        "PrepareCores": {
+            "Description" : "Copies base configs into the core paths.",
+            "Type": "Copy",
+            "Params": [
+                { "Source": "[joinpath(variable('Solr.BaseConfigs'), '*')]", "Destination": "[variable('Core.Root')]" },
+                { "Source": "[joinpath(variable('Solr.BaseConfigs'), '*')]", "Destination": "[variable('Rebuild.Root')]" }
+            ]
+        },
+        "StartSolr": {
+            "Description" : "Starts the Solr service.",
+            "Type": "ManageService",
+            "Params": {
+                "Name": "[parameter('SolrService')]",
+                "Status": "Running",
+                "PostDelay": 8000
+            }
+        },
+        "CreateCores":{
+            "Description" : "Tells Solr to create the new cores.",
+            "Type": "ManageSolrCore",
+            "Params": [
+                { "Action": "Create", "Address": "[parameter('SolrUrl')]", "Arguments": { "name": "[variable('Xdb.Name')]", "property.update.autoCreateFields": "false" } },
+                { "Action": "Create", "Address": "[parameter('SolrUrl')]", "Arguments": { "name": "[variable('Xdb.Rebuild.Name')]", "property.update.autoCreateFields": "false" } }
+            ]
+        }
+    },
+    "UninstallTasks": {
+        "RemoveCores": {
+            "Description": "Removes the cores and instance folders.",
+            "Type": "ManageSolrCore",
+            "Params": [
+                { "Action": "Unload", "Address": "[parameter('SolrUrl')]", "Arguments": { "core": "[variable('Xdb.Name')]", "deleteInstanceDir": "true" }, "ErrorAction": "SilentlyContinue" },
+                { "Action": "Unload", "Address": "[parameter('SolrUrl')]", "Arguments": { "core": "[variable('Xdb.Rebuild.Name')]", "deleteInstanceDir": "true" }, "ErrorAction": "SilentlyContinue" }
+            ]
+        }
+    }
+}

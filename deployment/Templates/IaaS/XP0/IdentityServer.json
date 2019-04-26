@@ -1,0 +1,344 @@
+﻿{
+    "Parameters": {
+        "InstallFolder":{
+			"Type": "String",
+            "Description": "Installation folder of website, xconnect and identityserver.",
+            "DefaultValue": ""
+        },
+        "Package": {
+            "Type": "string",
+            "Description": "The path to the Web Deploy package to deploy.",
+            "DefaultValue": ""
+        },
+        "SqlDbPrefix": {
+            "Type": "string",
+            "Description": "The prefix used for all Sql databases.",
+            "DefaultValue": ""
+        },
+        "SitecoreIdentityCert": {
+            "Type": "string",
+            "Description": "The certificate to use for encryption. Provide the name or the thumbprint.",
+            "DefaultValue": ""
+        },
+        "LicenseFile": {
+            "Type": "string",
+            "Description": "The path to the Sitecore license file.",
+            "DefaultValue": ".\\License.xml"
+        },
+        "SiteName": {
+            "Type": "string",
+            "DefaultValue": "IdentityServer",
+            "Description": "The name of the site to be deployed."
+        },
+        "SqlCoreUser": {
+            "Type": "string",
+            "DefaultValue": "coreuser",
+            "Description": "The user to create and use in Core connection string."
+        },
+        "SqlCoreDbName": {
+            "Type": "string",
+            "DefaultValue": "_Core",
+            "Description": "The database to use in Core connection string."
+        },
+        "SqlCorePassword": {
+            "Type": "string",
+            "DefaultValue": "SIF-Default",
+            "Description": "The Sql password for the Core connection string in Sitecore."
+        },
+        "SqlServer": {
+            "Type": "string",
+            "DefaultValue": ".\\SQLSERVER",
+            "Description": "The Sql Server where databases will be installed."
+        },
+        "PasswordRecoveryUrl": {
+            "Type": "string",
+            "Description": "Password recovery Url (Host name of CM instance).",
+            "DefaultValue": "http:\\"
+        },
+        "AllowedCorsOrigins": {
+            "Type": "string",
+            "Description": "Pipe-separated list of instances (URIs) that are allowed to login via Sitecore Identity.",
+            "DefaultValue": ""
+        },
+        "ClientSecret": {
+            "Type": "string",
+            "Description": "Client secret of PasswordClient section. It's a random string between 1 and 100 symbols long.",
+            "DefaultValue": "SIF-Default"
+        },
+        "CustomConfigurationFile": {
+            "Type": "string",
+            "DefaultValue": "",
+            "Description": "Path to file with custom configuration to be deployed in Identity Server folder."
+        },
+        "HostMappingName": {
+            "Type": "string",
+            "Reference": "SiteName",
+            "Description": "The host name of the site."
+        },
+        "DnsName" :{
+            "Type": "string",
+            "DefaultValue": "",
+            "Description": "The dns name of the site."
+        }
+    },
+    "Variables": {
+        "Sql.Database.Core":                "[concat(parameter('SqlDbPrefix'), parameter('SqlCoreDbName'))]",
+        "Security.CertificateStore":                "Cert:\\Localmachine\\My",
+        "Security.IdentityServer.CertificateThumbprint":  "[GetCertificateThumbprint(parameter('SitecoreIdentityCert'), variable('Security.CertificateStore'))]",
+        "Security.IdentityServer.CertificatePath":        "[joinpath(variable('Security.CertificateStore'), variable('Security.IdentityServer.CertificateThumbprint'))]",
+        "Site.PhysicalPath": "[joinpath(parameter('InstallFolder'), 'IdentityServer')]",
+        "Site.LicenseFolder": "[joinpath(variable('Site.PhysicalPath'), 'sitecoreruntime')]",
+        "Site.ConfigFolder": "[joinpath(variable('Site.PhysicalPath'), 'Config', 'production')]",
+
+        "SqlCore.Password": "[parameter('SqlCorePassword')]",
+
+        "Client.Secret" : "[parameter('ClientSecret'))]"
+
+    },
+    "Register":{
+        "Tasks": {
+            "RemoveItem": "Remove-Item"
+        }
+    },
+    "Tasks": {
+        "CreatePaths": {
+            "Description": "Ensure the destination path for the site exists.",
+            "Type": "EnsurePath",
+            "Params": {
+                "Exists": [ "[variable('Site.PhysicalPath')]" ]
+            }
+        },
+        "CreateAppPool": {
+            "Description": "Creates or updates the app pool.",
+            "Type": "AppPool",
+            "Params": {
+                "Name": "[parameter('SiteName')]",
+                "Properties": {
+                    "ProcessModel": {
+                        "identityType": "ApplicationPoolIdentity",
+                        "idleTimeoutAction": "Suspend",
+                        "loadUserProfile": "False"
+                    },
+                "ManagedRuntimeVersion": ""
+                }
+            }
+        },
+        "SetAppPoolCertStorePermissions": {
+            "Description": "Set permissions for the App Pool User to access the client certificate.",
+            "Type": "FilePermissions",
+            "Params": {
+                "Path" : "[ResolveCertificatePath(variable('Security.IdentityServer.CertificatePath'))]",
+                "Rights": [
+                    {
+                        "User": "[concat('IIS AppPool\\', parameter('SiteName'))]",
+                        "FileSystemRights": ["Read"],
+                        "InheritanceFlags": ["None"]
+                    }
+                ]
+            }
+        },
+        "CreateWebsite": {
+            "Description": "Creates or updates the IIS website instance.",
+            "Type": "Website",
+            "Params": {
+                "Name": "[parameter('SiteName')]",
+                "ApplicationPool": "[parameter('SiteName')]",
+                "PhysicalPath": "[variable('Site.PhysicalPath')]"
+            }
+        },
+        "StopWebsite": {
+            "Description": "Stops the website if it is running.",
+            "Type": "ManageWebsite",
+            "Params": {
+                "Name": "[parameter('SiteName')]",
+                "Action": "Stop"
+            }
+        },
+        "StopAppPool": {
+            "Description": "Stops the app pool if it is running.",
+            "Type": "ManageAppPool",
+            "Params": {
+                "Name": "[parameter('SiteName')]",
+                "Action": "Stop"
+            }
+        },
+        "CreateRegistryStorageForAppPool": {
+            "Description": "Provisions the HKLM registry so that the specified user account can persist auto-generated machine keys.",
+            "Type": "ManageKeyStorage",
+            "Params": {
+                "AppPoolName": "[parameter('SiteName')]",
+                "Action": "Create"
+            }
+        },
+        "RemoveDefaultBinding": {
+            "Description": "Removes the default *:80 web binding.",
+            "Type": "WebBinding",
+            "Params": {
+                "SiteName" : "[parameter('SiteName')]",
+                "Remove" : [ { "Port": "80", "IPAddress": "*" } ]
+            }
+        },
+        "CreateBindingsWithThumbprint": {
+            "Description": "Configures the site bindings for the website.",
+            "Type": "WebBinding",
+            "Params": {
+                "SiteName" : "[parameter('SiteName')]",
+                "Add": [
+                    {
+                        "HostHeader": "[parameter('DNSName')]",
+                        "Protocol": "https",
+                        "SSLFlags": 1,
+                        "Thumbprint": "[variable('Security.IdentityServer.CertificateThumbprint')]"
+                    }
+                ]
+            },
+            "Skip": "[not(parameter('SitecoreIdentityCert'))]"
+        },
+        "CreateHostHeader": {
+            "Description": "Sets a hostheader for the website.",
+            "Type": "HostHeader",
+            "Params": {
+                "HostName": "[parameter('HostMappingName')]"
+            },
+            "Skip": "[not(parameter('HostMappingName'))]"
+        },
+        "SetPermissions": {
+            "Description": "Sets permissions for the app pool user.",
+            "Type": "FilePermissions",
+            "Params": {
+                "Path": "[variable('Site.PhysicalPath')]",
+                "Rights": [
+                    {
+                        "User": "[concat('IIS AppPool\\', parameter('SiteName'))]",
+                        "FileSystemRights": "FullControl",
+                        "InheritanceFlags": [ "ContainerInherit", "ObjectInherit" ]
+                    }
+                ]
+            }
+        },
+        "InstallWDP": {
+            "Description": "Syncs the web deploy package with the website.",
+            "Type": "WebDeploy",
+            "Params": {
+                "Verb": "Sync",
+                "Arguments": {
+                    "Source": {
+                        "Package": "[resolvepath(parameter('Package'))]"
+                    },
+                    "Dest": "Auto",
+                    "SetParam": [
+                        { "Name": "IIS Web Application Name", "Value": "[parameter('SiteName')]" },
+                        { "Name": "Database Server Name", "Value": "[parameter('SqlServer')]" },
+                        { "Name": "Core DB Name", "Value": "[variable('Sql.Database.Core')]" },
+                        { "Name": "Core DB User Name", "Value": "[parameter('SqlCoreUser')]" },
+                        { "Name": "Core DB User Password", "Value": "[variable('SqlCore.Password')]" },
+                        { "Name": "CertificateThumbprint", "Value": "[variable('Security.IdentityServer.CertificateThumbprint')]" },
+                        { "Name": "PasswordRecoveryUrl", "Value": "[parameter('PasswordRecoveryUrl')]" },
+                        { "Name": "AllowedCorsOrigins", "Value": "[parameter('AllowedCorsOrigins')]" },
+                        { "Name": "ClientSecret", "Value": "[variable('Client.Secret')]" }
+                    ]
+                }
+            }
+        },
+        "CreateLicenseFolder": {
+            "Description": "Ensure the destination path for the license exists.",
+            "Type": "EnsurePath",
+            "Params": {
+                "Exists": [ "[variable('Site.LicenseFolder')]" ]
+            }
+        },
+        "SetLicense" : {
+            "Description": "Copies the license file to the instance license folder.",
+            "Type": "Copy",
+            "Params": {
+                "Source": "[resolvepath(parameter('LicenseFile'))]",
+                "Destination": "[variable('Site.LicenseFolder')]"
+            },
+            "Skip": "[not(parameter('LicenseFile'))]"
+        },
+        "CustomConfigFile" : {
+            "Description": "Copies the custom config file to the instance config folder.",
+            "Type": "Copy",
+            "Params": {
+                "Source": "[resolvepath(parameter('CustomConfigurationFile'))]",
+                "Destination": "[variable('Site.ConfigFolder')]"
+            },
+            "Skip": "[not(parameter('CustomConfigurationFile'))]"
+        },
+        "StartAppPool": {
+            "Description": "Starts the app pool.",
+            "Type": "ManageAppPool",
+            "Params": {
+                "Name": "[parameter('SiteName')]",
+                "Action": "Start"
+            }
+        },
+        "StartWebsite": {
+            "Description": "Starts the website.",
+            "Type": "ManageWebsite",
+            "Params": {
+                "Name": "[parameter('SiteName')]",
+                "Action": "Start"
+            }
+        }
+    },
+    "UninstallTasks": {
+        "StopWebsite": {
+            "Description": "Stops the website if it is running.",
+            "Type": "ManageWebsite",
+            "Params": {
+                "Name": "[parameter('SiteName')]",
+                "Action": "Stop",
+                "ErrorAction": "SilentlyContinue"
+            }
+        },
+        "StopAppPool": {
+            "Description": "Stops the app pool if it is running.",
+            "Type": "ManageAppPool",
+            "Params": {
+                "Name": "[parameter('SiteName')]",
+                "Action": "Stop",
+                "ErrorAction": "SilentlyContinue"
+            }
+        },
+        "DeleteRegistryStorageForAppPool": {
+            "Description": "Deletes the HKLM registry so that the specified user account can persist auto-generated machine keys.",
+            "Type": "ManageKeyStorage",
+            "Params": {
+                "AppPoolName": "[parameter('SiteName')]",
+                "Action": "Delete"
+            }
+        },
+        "RemoveAppPool": {
+            "Description": "Removes the AppPool.",
+            "Type": "RemoveAppPool",
+            "Params": {
+                "Name":  "[parameter('SiteName')]"
+            }
+        },
+        "RemoveWebsite": {
+            "Description": "Removes the website.",
+            "Type": "RemoveWebsite",
+            "Params": {
+                "Name":  "[parameter('SiteName')]"
+            }
+        },
+        "RemoveContent": {
+            "Description": "Removes website content.",
+            "Type": "RemoveItem",
+            "Params": {
+                "Path": "[variable('Site.PhysicalPath')]",
+                "Recurse": true,
+                "ErrorAction": "SilentlyContinue"
+            }
+        },
+        "RemoveHostHeader": {
+            "Description": "Removes the hostheader for the website.",
+            "Type": "HostHeader",
+            "Params": {
+                "HostName": "[parameter('SiteName')]",
+                "Action": "Remove"
+            }
+        }
+    }
+}
