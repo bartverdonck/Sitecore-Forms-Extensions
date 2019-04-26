@@ -5,7 +5,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 -->
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <_PublishTargetUrl>C:\Projects\Sitecore Forms Extentions\Source\src\Feature\FormsExtensions\code\../../../../../SitecoreFormsExtensions91.sc</_PublishTargetUrl>
+    <_PublishTargetUrl>C:\Projects\Sitecore-Forms-Extensions\Source\src\Feature\FormsExtensions\code\../../../../../SitecoreFormsExtensions91.sc</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.ApiServices.config">
@@ -15,19 +15,19 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/10/2018 14:37:39</publishTime>
     </File>
     <File Include="App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.DependencyInjection.config">
-      <publishTime>06/14/2018 13:23:42</publishTime>
+      <publishTime>04/26/2019 20:44:22</publishTime>
     </File>
     <File Include="App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.FileUploadStorageProviders.config">
-      <publishTime>10/28/2018 21:47:54</publishTime>
+      <publishTime>04/26/2019 20:44:22</publishTime>
     </File>
     <File Include="App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.Processors.config">
-      <publishTime>02/26/2019 14:46:25</publishTime>
+      <publishTime>04/26/2019 20:44:22</publishTime>
     </File>
     <File Include="App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.Settings.config">
-      <publishTime>12/11/2018 12:54:13</publishTime>
+      <publishTime>04/26/2019 20:44:22</publishTime>
     </File>
     <File Include="App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.Tracker.config">
-      <publishTime>06/22/2018 23:45:46</publishTime>
+      <publishTime>04/26/2019 20:44:22</publishTime>
     </File>
     <File Include="bin/de/Microsoft.Data.Edm.resources.dll">
       <publishTime>02/01/2017 14:00:38</publishTime>
@@ -54,10 +54,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/01/2017 14:00:14</publishTime>
     </File>
     <File Include="bin/Feature.FormsExtensions.dll">
-      <publishTime>02/26/2019 15:54:31</publishTime>
+      <publishTime>04/26/2019 21:39:20</publishTime>
     </File>
     <File Include="bin/Feature.FormsExtensions.pdb">
-      <publishTime>02/26/2019 15:54:31</publishTime>
+      <publishTime>04/26/2019 21:39:20</publishTime>
     </File>
     <File Include="bin/fr/Microsoft.Data.Edm.resources.dll">
       <publishTime>02/01/2017 14:00:38</publishTime>
@@ -150,70 +150,88 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/01/2017 14:00:14</publishTime>
     </File>
     <File Include="bin/Sitecore.Analytics.dll">
-      <publishTime>10/13/2018 14:31:52</publishTime>
+      <publishTime>02/13/2019 10:33:30</publishTime>
     </File>
     <File Include="bin/Sitecore.Analytics.Model.dll">
-      <publishTime>09/14/2018 08:31:52</publishTime>
+      <publishTime>01/11/2019 14:02:18</publishTime>
     </File>
     <File Include="bin/Sitecore.Analytics.XConnect.dll">
-      <publishTime>10/13/2018 14:31:44</publishTime>
+      <publishTime>02/13/2019 10:33:24</publishTime>
     </File>
     <File Include="bin/Sitecore.EDS.Core.dll">
-      <publishTime>10/05/2018 12:26:30</publishTime>
+      <publishTime>03/09/2019 13:23:20</publishTime>
     </File>
     <File Include="bin/Sitecore.EmailCampaign.Cd.dll">
-      <publishTime>10/05/2018 12:27:46</publishTime>
+      <publishTime>03/09/2019 13:24:44</publishTime>
     </File>
     <File Include="bin/Sitecore.EmailCampaign.Cm.dll">
-      <publishTime>10/05/2018 12:27:10</publishTime>
+      <publishTime>03/09/2019 13:24:04</publishTime>
     </File>
     <File Include="bin/Sitecore.EmailCampaign.dll">
-      <publishTime>10/05/2018 12:27:02</publishTime>
+      <publishTime>03/09/2019 13:23:56</publishTime>
     </File>
     <File Include="bin/Sitecore.EmailCampaign.Model.dll">
-      <publishTime>10/05/2018 12:26:38</publishTime>
+      <publishTime>03/09/2019 13:23:28</publishTime>
     </File>
     <File Include="bin/Sitecore.ExM.Framework.dll">
-      <publishTime>10/05/2018 12:26:26</publishTime>
+      <publishTime>03/09/2019 13:23:06</publishTime>
     </File>
     <File Include="bin/Sitecore.ExperienceForms.dll">
-      <publishTime>10/25/2018 08:44:20</publishTime>
+      <publishTime>12/31/2018 09:25:44</publishTime>
     </File>
     <File Include="bin/Sitecore.ExperienceForms.Mvc.dll">
-      <publishTime>10/25/2018 08:44:24</publishTime>
+      <publishTime>12/31/2018 09:25:50</publishTime>
     </File>
     <File Include="bin/Sitecore.Kernel.dll">
-      <publishTime>10/11/2018 04:08:40</publishTime>
+      <publishTime>03/28/2019 09:35:58</publishTime>
     </File>
     <File Include="bin/Sitecore.Mvc.Analytics.dll">
       <publishTime>01/18/2018 14:05:53</publishTime>
     </File>
     <File Include="bin/Sitecore.Mvc.dll">
-      <publishTime>09/25/2018 07:48:22</publishTime>
+      <publishTime>11/30/2018 12:28:22</publishTime>
     </File>
     <File Include="bin/Sitecore.Services.Core.dll">
-      <publishTime>10/11/2018 12:58:52</publishTime>
+      <publishTime>01/21/2019 12:36:16</publishTime>
     </File>
     <File Include="bin/Sitecore.Services.Infrastructure.dll">
-      <publishTime>10/11/2018 12:59:06</publishTime>
+      <publishTime>01/21/2019 12:36:34</publishTime>
     </File>
     <File Include="bin/Sitecore.XConnect.Client.Configuration.dll">
       <publishTime>09/03/2018 14:09:20</publishTime>
     </File>
     <File Include="bin/Sitecore.XConnect.Client.dll">
-      <publishTime>10/11/2018 18:21:58</publishTime>
+      <publishTime>12/05/2018 12:19:36</publishTime>
     </File>
     <File Include="bin/Sitecore.XConnect.Collection.Model.dll">
-      <publishTime>10/11/2018 08:22:18</publishTime>
+      <publishTime>12/05/2018 09:37:04</publishTime>
     </File>
     <File Include="bin/Sitecore.XConnect.dll">
-      <publishTime>10/11/2018 08:22:12</publishTime>
+      <publishTime>12/05/2018 09:36:58</publishTime>
+    </File>
+    <File Include="bin/System.Data.Common.dll">
+      <publishTime>11/29/2018 15:31:26</publishTime>
+    </File>
+    <File Include="bin/System.Diagnostics.StackTrace.dll">
+      <publishTime>11/29/2018 15:31:26</publishTime>
+    </File>
+    <File Include="bin/System.Diagnostics.Tracing.dll">
+      <publishTime>11/29/2018 15:31:26</publishTime>
+    </File>
+    <File Include="bin/System.Globalization.Extensions.dll">
+      <publishTime>11/29/2018 15:31:26</publishTime>
+    </File>
+    <File Include="bin/System.IO.Compression.dll">
+      <publishTime>11/29/2018 15:31:26</publishTime>
     </File>
     <File Include="bin/System.Net.Http.dll">
-      <publishTime>09/05/2017 14:54:18</publishTime>
+      <publishTime>11/29/2018 15:31:26</publishTime>
     </File>
     <File Include="bin/System.Net.Http.Formatting.dll">
       <publishTime>05/10/2018 22:38:56</publishTime>
+    </File>
+    <File Include="bin/System.Net.Sockets.dll">
+      <publishTime>11/29/2018 15:31:26</publishTime>
     </File>
     <File Include="bin/System.Reflection.dll">
       <publishTime>06/11/2016 23:14:32</publishTime>
@@ -221,8 +239,11 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/System.Runtime.Extensions.dll">
       <publishTime>06/11/2016 23:14:28</publishTime>
     </File>
+    <File Include="bin/System.Runtime.Serialization.Primitives.dll">
+      <publishTime>11/29/2018 15:31:26</publishTime>
+    </File>
     <File Include="bin/System.Security.Cryptography.Algorithms.dll">
-      <publishTime>11/05/2016 04:57:14</publishTime>
+      <publishTime>11/29/2018 15:31:26</publishTime>
     </File>
     <File Include="bin/System.Security.Cryptography.Encoding.dll">
       <publishTime>11/05/2016 04:57:08</publishTime>
@@ -233,8 +254,14 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/System.Security.Cryptography.X509Certificates.dll">
       <publishTime>11/05/2016 04:57:18</publishTime>
     </File>
+    <File Include="bin/System.Security.SecureString.dll">
+      <publishTime>11/29/2018 15:31:26</publishTime>
+    </File>
     <File Include="bin/System.Spatial.dll">
       <publishTime>02/01/2017 14:00:14</publishTime>
+    </File>
+    <File Include="bin/System.Threading.Overlapped.dll">
+      <publishTime>11/29/2018 15:31:26</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
       <publishTime>02/01/2018 12:20:56</publishTime>
@@ -256,6 +283,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="bin/System.Web.WebPages.Razor.dll">
       <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Xml.XPath.XDocument.dll">
+      <publishTime>11/29/2018 15:31:26</publishTime>
     </File>
     <File Include="bin/zh-Hans/Microsoft.Data.Edm.resources.dll">
       <publishTime>02/01/2017 14:00:38</publishTime>
@@ -282,37 +312,37 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/01/2017 14:00:14</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>02/26/2019 14:43:41</publishTime>
+      <publishTime>04/26/2019 21:38:12</publishTime>
     </File>
     <File Include="sitecore modules/Web/ExperienceForms/scripts/formsextensions.validate.js">
-      <publishTime>10/28/2018 21:47:56</publishTime>
+      <publishTime>04/26/2019 20:44:22</publishTime>
     </File>
     <File Include="sitecore modules/Web/ExperienceForms/scripts/jquery.unobtrusive-ajax.min.js">
-      <publishTime>11/08/2018 20:04:02</publishTime>
+      <publishTime>04/26/2019 20:44:22</publishTime>
     </File>
     <File Include="sitecore/shell/client/Applications/FormsBuilder/Layouts/Actions/IdentifyContact.js">
-      <publishTime>06/22/2018 23:45:47</publishTime>
+      <publishTime>04/26/2019 20:44:22</publishTime>
     </File>
     <File Include="sitecore/shell/client/Applications/FormsBuilder/Layouts/Actions/SendEmailExtended.js">
-      <publishTime>10/28/2018 21:47:56</publishTime>
+      <publishTime>04/26/2019 20:44:22</publishTime>
     </File>
     <File Include="sitecore/shell/client/Applications/FormsBuilder/Layouts/Actions/ShowFormPage.js">
-      <publishTime>10/28/2018 21:47:56</publishTime>
+      <publishTime>04/26/2019 20:44:22</publishTime>
     </File>
     <File Include="sitecore/shell/client/Applications/FormsBuilder/Layouts/PropertyGridForm/PropertyGridForm.js">
       <publishTime>06/22/2018 23:45:47</publishTime>
     </File>
     <File Include="Views/FormBuilder/FieldTemplates/FileUpload.cshtml">
-      <publishTime>07/03/2018 14:09:39</publishTime>
+      <publishTime>04/26/2019 20:44:22</publishTime>
     </File>
     <File Include="Views/FormBuilder/FieldTemplates/Hidden.cshtml">
-      <publishTime>10/28/2018 21:47:56</publishTime>
+      <publishTime>04/26/2019 20:44:22</publishTime>
     </File>
     <File Include="Views/FormBuilder/FieldTemplates/RawHtml.cshtml">
-      <publishTime>10/28/2018 21:47:56</publishTime>
+      <publishTime>04/26/2019 20:44:22</publishTime>
     </File>
     <File Include="Views/FormBuilder/FieldTemplates/ReCaptcha.cshtml">
-      <publishTime>10/28/2018 21:47:56</publishTime>
+      <publishTime>04/26/2019 20:44:22</publishTime>
     </File>
   </ItemGroup>
 </Project>
