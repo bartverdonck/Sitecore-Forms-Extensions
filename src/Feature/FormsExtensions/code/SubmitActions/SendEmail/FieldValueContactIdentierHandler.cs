@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Feature.FormsExtensions.Business.FieldBindings.xDbBindingHandlers;
@@ -27,18 +28,19 @@ namespace Feature.FormsExtensions.SubmitActions.SendEmail
 
         public IList<ContactIdentifier> GetContacts(SendEmailExtendedData data, FormSubmitContext formSubmitContext)
         {
+            // ReSharper disable once PossibleInvalidOperationException
             var field = GetFieldById(data.FieldEmailAddressId.Value, formSubmitContext.Fields);
             if (field is null)
             {
                 logger.LogWarn($"Could not find field with id {data.FieldEmailAddressId}");
             }
+            var contacts = new List<ContactIdentifier>();
             var toAddresses = GetValue(field);
-            if (string.IsNullOrEmpty(toAddresses))
+            foreach (var addressStrings in toAddresses)
             {
-                logger.LogWarn("To address from field is empty");
-                return new List<ContactIdentifier>();
+                contacts.AddRange(addressStrings.Split(';').Select(splittedAddress => GetOrCreateContact(splittedAddress, data.UpdateCurrentContact)));
             }
-            return toAddresses.Split(';').Select(x=>GetOrCreateContact(x, data.UpdateCurrentContact)).ToList();
+            return contacts;
         }
 
         private ContactIdentifier GetOrCreateContact(string toAddress, bool updateCurrentContact)
@@ -73,9 +75,19 @@ namespace Feature.FormsExtensions.SubmitActions.SendEmail
             return fields.FirstOrDefault(f => Guid.Parse(f.ItemId) == id);
         }
 
-        private static string GetValue(object field)
+        private static IEnumerable<string> GetValue(object field)
         {
-            return field?.GetType().GetProperty("Value")?.GetValue(field, null)?.ToString() ?? string.Empty;
+            var valueObject = field?.GetType().GetProperty("Value")?.GetValue(field, null);
+            if (valueObject == null)
+            {
+                return new List<string>();
+            }
+            if (valueObject is IList list)
+            {
+                return (from object valueItemObject in list select valueItemObject.ToString()).ToList();
+            }
+            return new List<string> {valueObject.ToString()};
         }
+
     }
 }
