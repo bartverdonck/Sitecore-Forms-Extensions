@@ -17,6 +17,11 @@ namespace Feature.FormsExtensions.Pipelines.ExecuteSubmit
 
         public override void Process(ExecuteSubmitActionsEventArgs args)
         {
+            if (args?.FormSubmitContext?.Fields == null)
+            {
+                return;
+            }
+
             foreach (var field in args.FormSubmitContext.Fields)
             {
                 var uploadField = field as FileUploadModel;

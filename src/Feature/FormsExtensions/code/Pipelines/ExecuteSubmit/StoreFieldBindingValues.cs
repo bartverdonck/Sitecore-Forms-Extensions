@@ -21,6 +21,10 @@ namespace Feature.FormsExtensions.Pipelines.ExecuteSubmit
 
         public override void Process(ExecuteSubmitActionsEventArgs args)
         {
+            if (args?.FormSubmitContext?.Fields == null)
+            {
+                return;
+            }
             var valuesUpdated = false;
             foreach (var fieldModel in args.FormSubmitContext.Fields)
             {
