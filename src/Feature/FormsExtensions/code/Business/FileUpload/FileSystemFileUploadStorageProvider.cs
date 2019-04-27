@@ -1,6 +1,8 @@
 using System;
 using System.IO;
+using System.Web;
 using Feature.FormsExtensions.Fields.FileUpload;
+using Sitecore.IO;
 
 namespace Feature.FormsExtensions.Business.FileUpload
 {
@@ -12,11 +14,12 @@ namespace Feature.FormsExtensions.Business.FileUpload
         
         public IStoredFile StoreFile(FileUploadModel fileUploadModel, Guid formId)
         {
+            var absoluteRootStoragePath = GetAbsoluteRootStoragePath();
             var folder = FolderBuilder.BuildFolder(Folder, fileUploadModel, formId);
-            Directory.CreateDirectory(Path.Combine(RootStoragePath, folder));
+            Directory.CreateDirectory(Path.Combine(absoluteRootStoragePath, folder));
             var fileBase = fileUploadModel.File;
             var fileName = $"{Guid.NewGuid().ToString()}{Path.GetExtension(fileBase.FileName)}";
-            var path = Path.Combine(RootStoragePath, folder, fileName);
+            var path = Path.Combine(absoluteRootStoragePath, folder, fileName);
             fileBase.SaveAs(path);
             var storedFile = new StoredFile
             {
@@ -32,8 +35,14 @@ namespace Feature.FormsExtensions.Business.FileUpload
 
         public byte[] GetFileAsBytes(IStoredFile storedFile)
         {
-            var path = Path.Combine(RootStoragePath, storedFile.StoredFilePath, storedFile.StoredFileName);
+            var path = Path.Combine(GetAbsoluteRootStoragePath(), storedFile.StoredFilePath, storedFile.StoredFileName);
             return File.ReadAllBytes(path);
         }
+
+        protected virtual string GetAbsoluteRootStoragePath()
+        {
+            return Path.IsPathRooted(RootStoragePath) ? FileUtil.MapPath(RootStoragePath) : RootStoragePath;
+        }
+
     }
 }
