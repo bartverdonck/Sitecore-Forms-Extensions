@@ -13,5 +13,6 @@
 }
 else
 {
-  <input id="@Html.IdFor(m => Model.Value)" name="@Html.NameFor(m => Model.Value)" type="hidden" value="@Model.Value" data-sc-tracking="@Model.IsTrackingEnabled" data-sc-field-name="@Model.Name" />  
+    <input id="@Html.IdFor(m => Model.Value)" name="@Html.NameFor(m => Model.Value)" type="hidden" value="@Model.Value" data-sc-tracking="@Model.IsTrackingEnabled" data-sc-field-name="@Model.Name" 
+           data-sc-field-key="@Model.ConditionSettings.FieldKey"/>  
 }
