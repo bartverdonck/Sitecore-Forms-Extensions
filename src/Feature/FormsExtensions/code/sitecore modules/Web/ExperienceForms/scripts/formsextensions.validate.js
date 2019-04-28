@@ -3,6 +3,7 @@ $.validator.setDefaults({ ignore: ":hidden:not(.fxt-captcha)" });
 /**
  * Google Recaptcha
  */
+var reCaptchaArray = [];
 $.validator.unobtrusive.adapters.add("recaptcha", function (options) {
     options.rules["recaptcha"] = true;
     if (options.message) {
@@ -13,6 +14,16 @@ $.validator.unobtrusive.adapters.add("recaptcha", function (options) {
 $.validator.addMethod("recaptcha", function (value, element, exclude) {
     return true;
 });
+var recaptchasRendered = false;
+var loadReCaptchas = function () {
+    if (recaptchasRendered) {
+        return;
+    }
+    recaptchasRendered = true;
+    for (var i = 0; i < reCaptchaArray.length; i++) {
+        reCaptchaArray[i]();
+    }
+};
 
 /**
  * File upload Content Type
