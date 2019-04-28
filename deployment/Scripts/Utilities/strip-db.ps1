@@ -6,7 +6,7 @@
 #
 ##########################################################################
 
-$PackagePath = "c:\Projects\Nationale Loterij\Source\deployment\Packages\XP1\Sitecore 9.0.1 rev. 171219 (Cloud)_xp1collection.scwdp.zip"
+$PackagePath = "c:\Projects\Sitecore-Forms-Extensions\Source\downloads\Sitecore 9.1\Sitecore Forms Extensions for Sitecore 9.1-2.2.scwdp.zip"
 $ParamFile = "C:\Temp\parameters.xml"
 
 ##########################################################################

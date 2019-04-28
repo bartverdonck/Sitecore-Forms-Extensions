@@ -3,7 +3,7 @@
     <metadata>
       <PackageName>Sitecore Forms Extensions for Sitecore 9.1</PackageName>
       <Author>Bart Verdonck</Author>
-      <Version>2.0.1</Version>
+      <Version>2.2</Version>
       <Revision />
       <License />
       <Comment />
@@ -783,6 +783,68 @@
       <Include />
       <Exclude />
       <Name>Field Conditions</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/system/Settings/Forms/Value Provider Conditions/{B9137A50-29A7-4D72-AD06-742F8DFC2095}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Value Provider Conditions/Authenticated/{7B324771-EE83-45F5-9A82-76D5F6C13F07}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/ValueProviderConditions/{18BF56FE-CA90-44F2-AEC1-24A4CBF6DFBB}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/ValueProviderConditions/Rules/{50725D15-59CE-45F2-BAC2-BC42E54B80EF}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/ValueProviderConditions/Tags/{D1906943-FC54-4467-9CD7-10A06DFC5421}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/ValueProviderConditions/Tags/Default/{F0463000-B76B-4AC4-B08E-254D62933ABF}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/FormExtensions/ContainsValueProviderConditions/{9CE6CA02-9F13-45A0-A8A4-5AAF6269C3C7}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/FormExtensions/ContainsValueProviderConditions/Value Provider/{7E232D67-8719-4369-A0B2-C926DC09CC3D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/FormExtensions/ContainsValueProviderConditions/Value Provider/ValueProviderConditions/{3D1B3E30-5540-4A40-9341-ACACF949CD53}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/FormExtensions/ValueProviderConditions/{B82E2C61-26C7-4009-82FF-B8DC5D769762}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/FormExtensions/ValueProviderConditions/Value Provider/{023255FC-9DBD-4E83-B9E7-C66384070A1E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/FormExtensions/ValueProviderConditions/Value Provider/Conditions/{1D12CA3E-A9D1-4503-8196-D1406D49B32C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Form/__Standard Values/{6FA3A73F-19ED-4442-AE94-C8C8E8E96C89}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Form/{6ABEE1F2-4AB4-47F0-AD8B-BDB36F37F64C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Form/Settings/{B87DB9A4-47D5-48F3-8D5D-1FACED6E2BF6}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Form/Settings/Css Class/{5303564E-92A6-4A74-B0D5-1471C717197D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Form/Settings/Is Ajax/{9EB86F19-2E5D-48DB-9795-0EE4868EFF11}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Form/Settings/Is Template/{558F9307-EBAF-480D-88B5-DFE9E63A66DE}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Form/Settings/Scripts/{FCE03B41-4CBB-4F7F-920F-FF04F12FA896}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Forms/Form/Settings/Styles/{C3F328AB-4A32-4140-8878-0477CA1CE9DF}/invariant/0</x-item>
+        <x-item>/web/sitecore/system/Settings/Forms/Value Provider Conditions/{B9137A50-29A7-4D72-AD06-742F8DFC2095}/invariant/0</x-item>
+        <x-item>/web/sitecore/system/Settings/Forms/Value Provider Conditions/Authenticated/{7B324771-EE83-45F5-9A82-76D5F6C13F07}/invariant/0</x-item>
+        <x-item>/web/sitecore/system/Settings/Rules/ValueProviderConditions/{18BF56FE-CA90-44F2-AEC1-24A4CBF6DFBB}/invariant/0</x-item>
+        <x-item>/web/sitecore/system/Settings/Rules/ValueProviderConditions/Rules/{50725D15-59CE-45F2-BAC2-BC42E54B80EF}/invariant/0</x-item>
+        <x-item>/web/sitecore/system/Settings/Rules/ValueProviderConditions/Tags/{D1906943-FC54-4467-9CD7-10A06DFC5421}/invariant/0</x-item>
+        <x-item>/web/sitecore/system/Settings/Rules/ValueProviderConditions/Tags/Default/{F0463000-B76B-4AC4-B08E-254D62933ABF}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/Modules/FormExtensions/ContainsValueProviderConditions/{9CE6CA02-9F13-45A0-A8A4-5AAF6269C3C7}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/Modules/FormExtensions/ContainsValueProviderConditions/Value Provider/{7E232D67-8719-4369-A0B2-C926DC09CC3D}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/Modules/FormExtensions/ContainsValueProviderConditions/Value Provider/ValueProviderConditions/{3D1B3E30-5540-4A40-9341-ACACF949CD53}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/Modules/FormExtensions/ValueProviderConditions/{B82E2C61-26C7-4009-82FF-B8DC5D769762}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/Modules/FormExtensions/ValueProviderConditions/Value Provider/{023255FC-9DBD-4E83-B9E7-C66384070A1E}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/Modules/FormExtensions/ValueProviderConditions/Value Provider/Conditions/{1D12CA3E-A9D1-4503-8196-D1406D49B32C}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Form/__Standard Values/{6FA3A73F-19ED-4442-AE94-C8C8E8E96C89}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Form/{6ABEE1F2-4AB4-47F0-AD8B-BDB36F37F64C}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Form/Settings/{B87DB9A4-47D5-48F3-8D5D-1FACED6E2BF6}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Form/Settings/Css Class/{5303564E-92A6-4A74-B0D5-1471C717197D}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Form/Settings/Is Ajax/{9EB86F19-2E5D-48DB-9795-0EE4868EFF11}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Form/Settings/Is Template/{558F9307-EBAF-480D-88B5-DFE9E63A66DE}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Form/Settings/Scripts/{FCE03B41-4CBB-4F7F-920F-FF04F12FA896}/invariant/0</x-item>
+        <x-item>/web/sitecore/templates/System/Forms/Form/Settings/Styles/{C3F328AB-4A32-4140-8878-0477CA1CE9DF}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Merge</ItemMode>
+                  <ItemMergeMode>Merge</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Value Provider Conditions</Name>
     </xitems>
   </Sources>
   <Converter>

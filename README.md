@@ -13,12 +13,21 @@ The new Sitecore Forms module that came with Sitecore 9 is a very promissing too
 
 This module aims to add some functionality to this forms creator.
 
-The module has been tested on Sitecore 9.0-u1, 9.0-u2 and Sitecore 9.1
+The module has been tested on Sitecore 9.0-u1, 9.0-u2, Sitecore 9.1 and 9.1.1
 
-For Sitecore 9.1 use version 2.x.
+For Sitecore 9.1.x use version 2.x.
 For Sitecore 9.0.x use version 1.x
 
 ## What
+### 2.2 (for Sitecore 9.1.x)
+- *Hidden Field*: Support for conditions, custom value (credits to @rolek)
+- *Recaptcha: Multiple recaptcha's on one page
+- *FileSystemFileUploadStorageProvider*: Support for datafolder variable
+- *Send Email*: fix for value from dropdownlist/checkboxlist
+- Tested with Sitecore 9.1.1
+- Fixed build framework to 4.7.1
+- Fixed package install options (also for 1.8.1)
+
 ### 2.1 (for Sitecore 9.1)
 - *Value Provider Preconditions*: Ability to define preconditions with the rules editor. Only when the defined preconditions are met, the forms will be prefilled.
 - *Google Recaptcha*: Fixed bug #23 where users could bypass recaptcha by excluding it entirely from the post action.
