@@ -54,10 +54,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/02/2017 14:00:14</publishTime>
     </File>
     <File Include="bin/Feature.FormsExtensions.dll">
-      <publishTime>04/27/2019 20:27:57</publishTime>
+      <publishTime>06/28/2019 14:42:03</publishTime>
     </File>
     <File Include="bin/Feature.FormsExtensions.pdb">
-      <publishTime>04/27/2019 20:27:57</publishTime>
+      <publishTime>06/28/2019 14:42:03</publishTime>
     </File>
     <File Include="bin/fr/Microsoft.Data.Edm.resources.dll">
       <publishTime>01/02/2017 14:00:38</publishTime>
@@ -124,6 +124,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="bin/Microsoft.Extensions.DependencyInjection.dll">
       <publishTime>07/06/2018 00:26:58</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.Logging.Abstractions.dll">
+      <publishTime>07/06/2018 00:26:54</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>07/25/2012 11:48:56</publishTime>
@@ -210,28 +213,28 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/12/2018 09:36:58</publishTime>
     </File>
     <File Include="bin/System.Data.Common.dll">
-      <publishTime>11/29/2018 15:31:26</publishTime>
+      <publishTime>03/06/2019 11:43:47</publishTime>
     </File>
     <File Include="bin/System.Diagnostics.StackTrace.dll">
-      <publishTime>11/29/2018 15:31:26</publishTime>
+      <publishTime>03/06/2019 11:43:47</publishTime>
     </File>
     <File Include="bin/System.Diagnostics.Tracing.dll">
-      <publishTime>11/29/2018 15:31:26</publishTime>
+      <publishTime>03/06/2019 11:43:47</publishTime>
     </File>
     <File Include="bin/System.Globalization.Extensions.dll">
-      <publishTime>11/29/2018 15:31:26</publishTime>
+      <publishTime>03/06/2019 11:43:47</publishTime>
     </File>
     <File Include="bin/System.IO.Compression.dll">
-      <publishTime>11/29/2018 15:31:26</publishTime>
+      <publishTime>03/06/2019 11:43:47</publishTime>
     </File>
     <File Include="bin/System.Net.Http.dll">
-      <publishTime>11/29/2018 15:31:26</publishTime>
+      <publishTime>03/06/2019 11:43:47</publishTime>
     </File>
     <File Include="bin/System.Net.Http.Formatting.dll">
       <publishTime>10/05/2018 22:38:56</publishTime>
     </File>
     <File Include="bin/System.Net.Sockets.dll">
-      <publishTime>11/29/2018 15:31:26</publishTime>
+      <publishTime>03/06/2019 11:43:47</publishTime>
     </File>
     <File Include="bin/System.Reflection.dll">
       <publishTime>06/11/2016 23:14:32</publishTime>
@@ -240,10 +243,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/11/2016 23:14:28</publishTime>
     </File>
     <File Include="bin/System.Runtime.Serialization.Primitives.dll">
-      <publishTime>11/29/2018 15:31:26</publishTime>
+      <publishTime>03/06/2019 11:43:47</publishTime>
     </File>
     <File Include="bin/System.Security.Cryptography.Algorithms.dll">
-      <publishTime>11/29/2018 15:31:26</publishTime>
+      <publishTime>03/06/2019 11:43:47</publishTime>
     </File>
     <File Include="bin/System.Security.Cryptography.Encoding.dll">
       <publishTime>11/05/2016 04:57:08</publishTime>
@@ -255,13 +258,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/05/2016 04:57:18</publishTime>
     </File>
     <File Include="bin/System.Security.SecureString.dll">
-      <publishTime>11/29/2018 15:31:26</publishTime>
+      <publishTime>03/06/2019 11:43:47</publishTime>
     </File>
     <File Include="bin/System.Spatial.dll">
       <publishTime>01/02/2017 14:00:14</publishTime>
     </File>
     <File Include="bin/System.Threading.Overlapped.dll">
-      <publishTime>11/29/2018 15:31:26</publishTime>
+      <publishTime>03/06/2019 11:43:47</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
       <publishTime>01/02/2018 12:20:56</publishTime>
@@ -285,7 +288,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/02/2018 12:20:56</publishTime>
     </File>
     <File Include="bin/System.Xml.XPath.XDocument.dll">
-      <publishTime>11/29/2018 15:31:26</publishTime>
+      <publishTime>03/06/2019 11:43:47</publishTime>
     </File>
     <File Include="bin/zh-Hans/Microsoft.Data.Edm.resources.dll">
       <publishTime>01/02/2017 14:00:38</publishTime>
@@ -342,7 +345,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/26/2019 20:44:22</publishTime>
     </File>
     <File Include="Views/FormBuilder/FieldTemplates/ReCaptcha.cshtml">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>06/28/2019 15:10:42</publishTime>
     </File>
   </ItemGroup>
 </Project>

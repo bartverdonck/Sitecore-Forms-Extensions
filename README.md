@@ -27,6 +27,8 @@ For Sitecore 9.0.x use version 1.x
 - Tested with Sitecore 9.1.1
 - Fixed build framework to 4.7.1
 - Fixed package install options (also for 1.8.1)
+#### 2.2.1
+- Bugfix: Google Captcha did not work in the editor (Bug #40)
 
 ### 2.1 (for Sitecore 9.1)
 - *Value Provider Preconditions*: Ability to define preconditions with the rules editor. Only when the defined preconditions are met, the forms will be prefilled.

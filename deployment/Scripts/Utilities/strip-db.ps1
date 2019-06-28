@@ -6,7 +6,7 @@
 #
 ##########################################################################
 
-$PackagePath = "c:\Projects\Sitecore-Forms-Extensions\Source\downloads\Sitecore 9.1\Sitecore Forms Extensions for Sitecore 9.1-2.2.scwdp.zip"
+$PackagePath = "c:\Projects\Sitecore-Forms-Extensions\Source\downloads\Sitecore 9.1\Sitecore Forms Extensions for Sitecore 9.1-2.2.1.scwdp.zip"
 $ParamFile = "C:\Temp\parameters.xml"
 
 ##########################################################################
