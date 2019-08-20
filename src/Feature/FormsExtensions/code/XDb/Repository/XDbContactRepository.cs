@@ -56,7 +56,7 @@ namespace Feature.FormsExtensions.XDb.Repository
             {
                 return;
             }
-            if (!Sitecore.Configuration.Settings.GetBoolSetting("XDbPreferredAddress", true))
+            if (!Sitecore.Configuration.Settings.GetBoolSetting("MakeContactKnownOnFormsUpdate", true))
             {
                 return;
             }
