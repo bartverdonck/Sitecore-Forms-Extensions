@@ -72,7 +72,11 @@ namespace Feature.FormsExtensions.SubmitActions.SendEmail
             customTokens.Add(Constants.CustomTokensFormKey, formFields);
             foreach (var formField in formFields)
             {
-                customTokens.Add($"form_{formField.Name}", GetSingleStringValue(formField));
+                var key = $"form_{formField.Name}";
+                if (!customTokens.ContainsKey(key))
+                {
+                    customTokens.Add(key, GetSingleStringValue(formField));
+                }
             }
             return customTokens;
         }
