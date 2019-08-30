@@ -194,14 +194,6 @@
             },
             "Skip": "[not(parameter('SitecoreIdentityCert'))]"
         },
-        "CreateHostHeader": {
-            "Description": "Sets a hostheader for the website.",
-            "Type": "HostHeader",
-            "Params": {
-                "HostName": "[parameter('HostMappingName')]"
-            },
-            "Skip": "[not(parameter('HostMappingName'))]"
-        },
         "SetPermissions": {
             "Description": "Sets permissions for the app pool user.",
             "Type": "FilePermissions",

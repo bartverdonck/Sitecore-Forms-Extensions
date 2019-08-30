@@ -240,6 +240,11 @@
             "DefaultValue": "SIF-Default",
             "Description": "The key to be used by Telerik controls to encrypt interaction with Content Editors. It's a random string between 32 and 256 symbols long."
         },
+        "HostMappingName": {
+            "Type": "string",
+            "Reference": "SiteName",
+            "Description": "The host mapping name of the site."
+        },
         "DnsName" :{
             "Type": "string",
             "Reference": "SiteName",
@@ -275,7 +280,7 @@
         "Solr.Suggested.Name":  "[concat(parameter('SolrCorePrefix'), '_suggested_test_index')]",
         "Solr.FXM.Master.Name": "[concat(parameter('SolrCorePrefix'), '_fxm_master_index')]",
         "Solr.FXM.Web.Name":    "[concat(parameter('SolrCorePrefix'), '_fxm_web_index')]",
-        
+
         "Site.PhysicalPath": "[joinpath(parameter('InstallFolder'), 'Website')]",
         "Site.DataFolder": "[joinpath(variable('Site.PhysicalPath'), 'App_Data')]",
 
@@ -366,7 +371,7 @@
                 "Action": "Stop"
             }
         },
-		"RemoveDefaultBinding": {
+	"RemoveDefaultBinding": {
             "Description": "Removes the default *:80 web binding",
             "Type": "WebBinding",
             "Params": {
@@ -525,7 +530,7 @@
             "Description": "Update the solr schemas.",
             "Type": "SitecoreUrl",
             "Params": {
-                "SitecoreInstanceRoot": "[concat('http://', parameter('DnsName'))]",
+                "SitecoreInstanceRoot": "[concat('https://', parameter('DnsName'))]",
                 "SitecoreActionPath": "sitecore/admin/PopulateManagedSchema.aspx?indexes=all",
                 "UserName": "admin",
                 "Password": "[variable('Sitecore.Admin.Password')]"

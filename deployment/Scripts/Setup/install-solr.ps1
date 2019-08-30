@@ -165,7 +165,7 @@ if($solrSSL -eq $true)
     {
         Write-Host "Exporting cert for Solr to use"
 
-        $cert = Get-ChildItem Cert:\LocalMachine\Root | where FriendlyName -eq "$solrName"
+        $cert = Get-ChildItem Cert:\LocalMachine\Root | where FriendlyName -eq "$solrCertificateName"
     
         $certStore = "$solrRoot\server\etc\solr-ssl.keystore.pfx"
         $certPwd = ConvertTo-SecureString -String "secret" -Force -AsPlainText
