@@ -128,6 +128,9 @@
     <Reference Include="Sitecore.XConnect.Collection.Model, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.XConnect.Collection.Model.9.1.1\lib\netstandard2.0\Sitecore.XConnect.Collection.Model.dll</HintPath>
     </Reference>
+    <Reference Include="Sitecore.Zip, Version=12.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Sitecore.Zip.9.1.1\lib\net471\Sitecore.Zip.dll</HintPath>
+    </Reference>
     <Reference Include="sysglobl" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Design" />
@@ -148,6 +151,7 @@
       <HintPath>..\..\..\..\packages\System.Runtime.Extensions.4.1.0\lib\net462\System.Runtime.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.InteropServices.RuntimeInformation" />
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
     <Reference Include="System.Security.Cryptography.Algorithms, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\System.Security.Cryptography.Algorithms.4.3.0\lib\net461\System.Security.Cryptography.Algorithms.dll</HintPath>
@@ -210,8 +214,15 @@
     <Compile Include="Business\FieldBindings\FieldBindingMapFactory.cs" />
     <Compile Include="Business\FieldBindings\IFieldBindingMapFactory.cs" />
     <Compile Include="Business\FileUpload\AzureBlobStorageFileUploadStorageProvider.cs" />
+    <Compile Include="Business\FileUpload\BuildMediaLibraryFolderParameter.cs" />
     <Compile Include="Business\FileUpload\FileUploadStorageProviderFactory.cs" />
     <Compile Include="Business\FileUpload\FolderBuilder.cs" />
+    <Compile Include="Business\FileUpload\MediaItemUploadedEvent.cs" />
+    <Compile Include="Business\FileUpload\MediaLibraryFileUploadStorageProvider.cs" />
+    <Compile Include="Business\FileUpload\MediaLibraryFolderBuilder.cs" />
+    <Compile Include="Business\FileUpload\MediaUploaderEx.cs" />
+    <Compile Include="Business\FileUpload\MediaUploadResultEx.cs" />
+    <Compile Include="Business\FileUpload\PostedFile.cs" />
     <Compile Include="Business\FormField.cs" />
     <Compile Include="Business\FormFieldConverter.cs" />
     <Compile Include="Business\FormFieldValue.cs" />
@@ -265,9 +276,11 @@
     <Compile Include="Business\FieldBindings\IBindingHandler.cs" />
     <Compile Include="Fields\Hidden\HiddenViewModel.cs" />
     <Compile Include="Fields\RawHtml\RawHtmlModel.cs" />
+    <Compile Include="Helpers\ItemTransferHelper.cs" />
     <Compile Include="Pipelines\ExecuteSubmit\StoreFieldBindingValues.cs" />
     <Compile Include="Pipelines\ExecuteSubmit\RecaptchaExecutedValidation.cs" />
     <Compile Include="Business\FieldBindings\xDbBindingHandlers\ContactPersonalInfo\XDbFirstNameBindingHandler.cs" />
+    <Compile Include="Pipelines\Initialize\MediaItemSyncEventHandler.cs" />
     <Compile Include="Pipelines\SendEmail\AttachExternalFileProcessor.cs" />
     <Compile Include="Pipelines\SendEmail\FormDataProcessor.cs" />
     <Compile Include="Business\FileUpload\FileSystemFileUploadStorageProvider.cs" />

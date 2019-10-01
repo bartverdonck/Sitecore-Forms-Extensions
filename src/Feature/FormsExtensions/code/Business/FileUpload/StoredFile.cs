@@ -17,5 +17,13 @@ namespace Feature.FormsExtensions.Business.FileUpload
         {
             return new JavaScriptSerializer().Serialize(this);
         }
+
+        public static StoredFile EmptyStoredFile
+        {
+            get
+            {
+                return new StoredFile();
+            }
+        }
     }
 }
