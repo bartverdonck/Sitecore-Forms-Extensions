@@ -216,11 +216,12 @@
     <Compile Include="Business\FileUpload\AzureBlobStorageFileUploadStorageProvider.cs" />
     <Compile Include="Business\FileUpload\BuildMediaLibraryFolderParameter.cs" />
     <Compile Include="Business\FileUpload\FileUploadStorageProviderFactory.cs" />
-    <Compile Include="Business\FileUpload\FolderBuilder.cs" />
-    <Compile Include="Business\FileUpload\MediaItemUploadedEvent.cs" />
+    <Compile Include="Business\FileUpload\MediaFormsFolderBuilder.cs" />
+    <Compile Include="Business\FileUpload\MediaItemUploadedEventRemote.cs" />
     <Compile Include="Business\FileUpload\MediaLibraryFileUploadStorageProvider.cs" />
     <Compile Include="Business\FileUpload\MediaLibraryFolderBuilder.cs" />
     <Compile Include="Business\FileUpload\MediaUploaderEx.cs" />
+    <Compile Include="Business\FileUpload\MediaUploadEventArgs.cs" />
     <Compile Include="Business\FileUpload\MediaUploadResultEx.cs" />
     <Compile Include="Business\FileUpload\PostedFile.cs" />
     <Compile Include="Business\FormField.cs" />
@@ -280,7 +281,7 @@
     <Compile Include="Pipelines\ExecuteSubmit\StoreFieldBindingValues.cs" />
     <Compile Include="Pipelines\ExecuteSubmit\RecaptchaExecutedValidation.cs" />
     <Compile Include="Business\FieldBindings\xDbBindingHandlers\ContactPersonalInfo\XDbFirstNameBindingHandler.cs" />
-    <Compile Include="Pipelines\Initialize\MediaItemSyncEventHandler.cs" />
+    <Compile Include="Business\FileUpload\MediaItemSyncEventHandler.cs" />
     <Compile Include="Pipelines\SendEmail\AttachExternalFileProcessor.cs" />
     <Compile Include="Pipelines\SendEmail\FormDataProcessor.cs" />
     <Compile Include="Business\FileUpload\FileSystemFileUploadStorageProvider.cs" />

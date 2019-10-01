@@ -15,7 +15,7 @@ namespace Feature.FormsExtensions.Business.FileUpload
         public IStoredFile StoreFile(FileUploadModel fileUploadModel, Guid formId)
         {
             var fileBase = fileUploadModel.File;
-            var filePath = FolderBuilder.BuildFolder(Folder,fileUploadModel, formId);
+            var filePath = MediaFormsFolderBuilder.BuildFolder(Folder,fileUploadModel, formId);
             var fileName = $"{Guid.NewGuid().ToString()}{Path.GetExtension(fileBase.FileName)}";
             var file = UploadFile(fileBase, Path.Combine(filePath,fileName));
             var storedFile = new StoredFile

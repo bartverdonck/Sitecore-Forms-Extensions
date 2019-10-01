@@ -83,7 +83,7 @@ namespace Feature.FormsExtensions.Business.FileUpload
             }
            .Upload();
 
-            QueueMediaItemUploadedEvent(mediaUploadResults);
+            RaiseMediaFileUploadedEvent(mediaUploadResults);
 
             return FirstStoredFile(file, mediaUploadResults);
         }
@@ -100,19 +100,18 @@ namespace Feature.FormsExtensions.Business.FileUpload
             return file.FileName;
         }
 
-        protected void QueueMediaItemUploadedEvent(List<MediaUploadResultEx> uploadResults)
+        protected void RaiseMediaFileUploadedEvent(List<MediaUploadResultEx> uploadResults)
         {
             var mediaIds = uploadResults.Select(s => s.Item.ID).ToList();
-
             var database = Factory.GetDatabase(EventQueueDatabase);
 
-            var mediaUploadedEvent = new MediaItemUploadedEvent
-            {
-                MediaItems = mediaIds,
-                Database = Sitecore.Context.Database.Name
-            };
 
-            database.RemoteEvents.EventQueue.QueueEvent<MediaItemUploadedEvent>(mediaUploadedEvent);
+            var args = new MediaUploadEventArgs(mediaIds, Sitecore.Context.Database.Name);            
+            Sitecore.Events.Event.RaiseEvent("item:mediafileuploaded", args);
+            
+            var mediaUploadedEvent = new MediaItemUploadedEventRemote(mediaIds, Sitecore.Context.Database.Name);       
+            database.RemoteEvents.EventQueue.QueueEvent(mediaUploadedEvent);
+
         }
 
         protected StoredFile FirstStoredFile(HttpPostedFileBase file, List<MediaUploadResultEx> uploadResults)

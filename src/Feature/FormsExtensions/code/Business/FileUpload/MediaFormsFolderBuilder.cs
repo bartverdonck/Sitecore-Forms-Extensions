@@ -4,7 +4,7 @@ using Sitecore.Data;
 
 namespace Feature.FormsExtensions.Business.FileUpload
 {
-    public class FolderBuilder
+    public class MediaFormsFolderBuilder
     {
         public static string BuildFolder(string rawFolder, FileUploadModel fileUploadModel, Guid formId)
         {

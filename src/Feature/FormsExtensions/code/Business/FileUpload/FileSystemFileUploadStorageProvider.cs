@@ -15,7 +15,7 @@ namespace Feature.FormsExtensions.Business.FileUpload
         public IStoredFile StoreFile(FileUploadModel fileUploadModel, Guid formId)
         {
             var absoluteRootStoragePath = GetAbsoluteRootStoragePath();
-            var folder = FolderBuilder.BuildFolder(Folder, fileUploadModel, formId);
+            var folder = MediaFormsFolderBuilder.BuildFolder(Folder, fileUploadModel, formId);
             Directory.CreateDirectory(Path.Combine(absoluteRootStoragePath, folder));
             var fileBase = fileUploadModel.File;
             var fileName = $"{Guid.NewGuid().ToString()}{Path.GetExtension(fileBase.FileName)}";
