@@ -336,7 +336,6 @@
     </Content>
     <None Include="Properties\PublishProfiles\01_Local.pubxml" />
     <None Include="Properties\PublishProfiles\02_Release.pubxml" />
-    <None Include="sitecore\shell\client\Applications\FormsBuilder\Layouts\PropertyGridForm\PropertyGridForm.js" />
     <Content Include="Views\FormBuilder\FieldTemplates\ReCaptcha.cshtml" />
     <Content Include="Views\FormBuilder\FieldTemplates\FileUpload.cshtml" />
     <Content Include="Views\FormBuilder\FieldTemplates\RawHtml.cshtml" />

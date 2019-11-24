@@ -28,7 +28,6 @@
         <x-item>/Views/FormBuilder/FieldTemplates/FileUpload.cshtml</x-item>
         <x-item>/Views/FormBuilder/FieldTemplates/ReCaptcha.cshtml</x-item>
         <x-item>/sitecore/shell/client/Applications/FormsBuilder/Layouts/Actions/SendEmailExtended.js</x-item>
-        <x-item>/sitecore/shell/client/Applications/FormsBuilder/Layouts/PropertyGridForm/PropertyGridForm.js</x-item>
         <x-item>/sitecore/shell/client/Applications/FormsBuilder/Layouts/Actions/IdentifyContact.js</x-item>
         <x-item>/App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.Tracker.config</x-item>
         <x-item>/sitecore/shell/client/Applications/FormsBuilder/Layouts/Actions/ShowFormPage.js</x-item>
