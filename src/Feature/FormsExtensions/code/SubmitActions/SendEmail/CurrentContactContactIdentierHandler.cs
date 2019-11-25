@@ -10,12 +10,10 @@ namespace Feature.FormsExtensions.SubmitActions.SendEmail
 {
     public class CurrentContactContactIdentierHandler : IExtractSendToContactIdentierHandler
     {
-        private readonly ITracker tracker;
         private readonly ILogger logger;
 
         public CurrentContactContactIdentierHandler(ILogger logger)
         {
-            tracker = Tracker.Current;
             this.logger = logger;
         }
 
@@ -32,6 +30,12 @@ namespace Feature.FormsExtensions.SubmitActions.SendEmail
 
         private ContactIdentifier GetContactIdentifier()
         {
+            var tracker = Tracker.Current;
+            if (tracker == null)
+            {
+                logger.LogWarn("Tracker.Current is null");
+                return null;
+            }
             var contact = tracker.Contact;
             var contactIdentifier = contact?.Identifiers.FirstOrDefault(c => c.Type == ContactIdentificationLevel.Known);
             return contactIdentifier == null ? null : new ContactIdentifier(contactIdentifier.Source, contactIdentifier.Identifier, ContactIdentifierType.Known);
