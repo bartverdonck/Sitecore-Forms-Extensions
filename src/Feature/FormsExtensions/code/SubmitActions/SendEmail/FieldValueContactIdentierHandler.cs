@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Feature.FormsExtensions.Business.FieldBindings.xDbBindingHandlers;
+using Feature.FormsExtensions.ValueProviders.xDbFieldValueBinders;
 using Feature.FormsExtensions.XDb;
 using Sitecore.Analytics;
 using Sitecore.ExperienceForms.Models;
@@ -53,7 +53,7 @@ namespace Feature.FormsExtensions.SubmitActions.SendEmail
         {
             if (Tracker.Current == null || Tracker.Current.Contact == null)
                 return null;
-            new PreferredEmailBindingHandler().StoreBindingValue(toAddress);
+            new PreferredEmailFieldValueBinder().StoreValue(toAddress);
             return new ContactIdentifier(Sitecore.Analytics.XConnect.DataAccess.Constants.IdentifierSource,
                 Tracker.Current.Contact.ContactId.ToString("N"), ContactIdentifierType.Anonymous);
         }

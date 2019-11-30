@@ -1,8 +1,8 @@
-﻿using Feature.FormsExtensions.Business;
-using Feature.FormsExtensions.Business.FieldBindings;
-using Feature.FormsExtensions.Business.FileUpload;
-using Feature.FormsExtensions.Business.ReCaptcha;
+﻿using Feature.FormsExtensions.Fields.ReCaptcha;
 using Feature.FormsExtensions.SubmitActions.SendEmail;
+using Feature.FormsExtensions.SubmitActions.SendEmail.FileAttachment;
+using Feature.FormsExtensions.SubmitActions.SendEmail.FormsField;
+using Feature.FormsExtensions.ValueProviders;
 using Feature.FormsExtensions.XDb;
 using Feature.FormsExtensions.XDb.Repository;
 using Microsoft.Extensions.DependencyInjection;
@@ -21,7 +21,7 @@ namespace Feature.FormsExtensions
             serviceCollection.AddSingleton<CurrentContactContactIdentierHandler, CurrentContactContactIdentierHandler>();
             serviceCollection.AddSingleton<FieldValueContactIdentierHandler, FieldValueContactIdentierHandler>();
             serviceCollection.AddSingleton<FixedAddressContactIdentierHandler, FixedAddressContactIdentierHandler>();
-            serviceCollection.AddSingleton<IFieldBindingMapFactory, FieldBindingMapFactory>();
+            serviceCollection.AddSingleton<IFieldValueBinderMapFactory, FieldValueBinderMapFactory>();
             serviceCollection.AddSingleton<FileAttachmentTokenBuilder, FileAttachmentTokenBuilder>();
         }
     }

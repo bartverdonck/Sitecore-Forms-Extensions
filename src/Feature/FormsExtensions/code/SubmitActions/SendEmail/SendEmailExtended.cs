@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using Feature.FormsExtensions.Business;
+using Feature.FormsExtensions.SubmitActions.SendEmail.FileAttachment;
+using Feature.FormsExtensions.SubmitActions.SendEmail.FormsField;
 using Microsoft.Extensions.DependencyInjection;
 using Sitecore.DependencyInjection;
 using Sitecore.EmailCampaign.Cd.Services;

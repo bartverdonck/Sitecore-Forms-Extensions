@@ -11,6 +11,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.ApiServices.config">
       <publishTime>06/25/2018 16:58:37</publishTime>
     </File>
+    <File Include="App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.AzureBlobFileStorageProviders.config.disabled">
+      <publishTime>11/30/2019 19:28:20</publishTime>
+    </File>
     <File Include="App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.Debug.config">
       <publishTime>09/10/2018 14:37:39</publishTime>
     </File>
@@ -21,7 +24,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/26/2019 20:44:22</publishTime>
     </File>
     <File Include="App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.Processors.config">
-      <publishTime>11/29/2019 13:34:27</publishTime>
+      <publishTime>11/30/2019 19:36:18</publishTime>
     </File>
     <File Include="App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.Settings.config">
       <publishTime>04/26/2019 20:44:22</publishTime>
@@ -54,10 +57,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/01/2017 14:00:14</publishTime>
     </File>
     <File Include="bin/Feature.FormsExtensions.dll">
-      <publishTime>11/30/2019 13:16:35</publishTime>
+      <publishTime>11/30/2019 20:01:27</publishTime>
     </File>
     <File Include="bin/Feature.FormsExtensions.pdb">
-      <publishTime>11/30/2019 13:16:35</publishTime>
+      <publishTime>11/30/2019 20:01:27</publishTime>
     </File>
     <File Include="bin/fr/Microsoft.Data.Edm.resources.dll">
       <publishTime>02/01/2017 14:00:38</publishTime>
@@ -342,13 +345,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/26/2019 20:44:22</publishTime>
     </File>
     <File Include="Views/FormBuilder/FieldTemplates/Hidden.cshtml">
-      <publishTime>11/24/2019 14:51:53</publishTime>
+      <publishTime>11/30/2019 17:19:49</publishTime>
     </File>
     <File Include="Views/FormBuilder/FieldTemplates/RawHtml.cshtml">
       <publishTime>04/26/2019 20:44:22</publishTime>
     </File>
     <File Include="Views/FormBuilder/FieldTemplates/ReCaptcha.cshtml">
-      <publishTime>11/24/2019 14:51:54</publishTime>
+      <publishTime>11/30/2019 17:45:23</publishTime>
     </File>
   </ItemGroup>
 </Project>

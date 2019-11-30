@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 using Feature.FormsExtensions.XDb.Model;
 using Sitecore.Analytics;
 using Sitecore.Analytics.Model;
