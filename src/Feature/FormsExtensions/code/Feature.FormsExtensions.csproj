@@ -215,6 +215,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApplicationSettings\Constants.cs" />
+    <Compile Include="Fields\RobotDetection\RobotDetectionModel.cs" />
+    <Compile Include="Fields\RobotDetection\RobotDetectionValidationAttribute.cs" />
     <Compile Include="ValueProviderConditions\ValueProviderConditionsRulesContext.cs" />
     <Compile Include="ValueProviderConditions\ValueProviderConditionsContext.cs" />
     <Compile Include="ValueProviders\FieldValueBinderMapFactory.cs" />
@@ -332,6 +334,7 @@
     <Content Include="Views\FormBuilder\FieldTemplates\ReCaptcha.cshtml" />
     <Content Include="Views\FormBuilder\FieldTemplates\RawHtml.cshtml" />
     <Content Include="Views\FormBuilder\FieldTemplates\Hidden.cshtml" />
+    <Content Include="Views\FormBuilder\FieldTemplates\RobotDetection.cshtml" />
     <None Include="web.config" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
