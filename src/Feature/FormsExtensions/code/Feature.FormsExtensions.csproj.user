@@ -10,7 +10,7 @@
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
     <ProjectView>ProjectFiles</ProjectView>
-    <NameOfLastUsedPublishProfile>01_Local</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>02_Release</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Feature.FormsExtensions.Fields.FileUpload;
 using Sitecore.ExM.Framework.Diagnostics;
 using Sitecore.ExperienceForms.Models;
+using Sitecore.ExperienceForms.Mvc.Models.Fields;
 using Sitecore.ExperienceForms.Processing;
 
 namespace Feature.FormsExtensions.SubmitActions.SendEmail
@@ -30,17 +30,20 @@ namespace Feature.FormsExtensions.SubmitActions.SendEmail
                     logger.LogWarn($"Could not find field with id {data.FieldEmailAddressId}");
                     continue;
                 }
-                if (field.Value != null)
+                if (field.Value != null && field.Value.Count>0)
                 {
-                    tokens.Add($"attachment_{attachmentFieldId}",field.Value);
+                    for (var i = 0; i < field.Value.Count; i++)
+                    {
+                        tokens.Add($"attachment_{attachmentFieldId}_{i}", field.Value[i]);
+                    }
                 }
             }
             return tokens;
         }
 
-        private static FileUploadModel GetFieldById(Guid id, IEnumerable<IViewModel> fields)
+        private static FileUploadViewModel GetFieldById(Guid id, IEnumerable<IViewModel> fields)
         {
-            return fields.FirstOrDefault(f => Guid.Parse(f.ItemId) == id) as FileUploadModel;
+            return fields.FirstOrDefault(f => Guid.Parse(f.ItemId) == id) as FileUploadViewModel;
         }
 
     }

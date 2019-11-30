@@ -1,20 +1,22 @@
-﻿using System.Linq;
-using Feature.FormsExtensions.Business.FileUpload;
+﻿using System;
+using System.IO;
+using System.Linq;
 using Newtonsoft.Json;
 using Sitecore.EDS.Core.Dispatch;
 using Sitecore.EmailCampaign.Cm.Pipelines.SendEmail;
+using Sitecore.ExperienceForms.Data;
+using Sitecore.ExperienceForms.Data.Entities;
 using Sitecore.Modules.EmailCampaign.Messages;
 
 namespace Feature.FormsExtensions.Pipelines.SendEmail
 {
     public class AttachExternalFileProcessor
     {
+        private readonly IFileStorageProvider fileStorageProvider;
 
-        private readonly IFileUploadStorageProviderFactory fileUploadStorageProviderFactory;
-
-        public AttachExternalFileProcessor(IFileUploadStorageProviderFactory fileUploadStorageProviderFactory)
+        public AttachExternalFileProcessor(IFileStorageProvider fileStorageProvider)
         {
-            this.fileUploadStorageProviderFactory = fileUploadStorageProviderFactory;
+            this.fileStorageProvider = fileStorageProvider;
         }
 
         public void Process(SendMessageArgs args)
@@ -26,14 +28,27 @@ namespace Feature.FormsExtensions.Pipelines.SendEmail
                 args.AddMessage("Missing EmailMessage from arguments.");
                 return;
             }
-            foreach (var attachmentReference in ecmmessage.CustomPersonTokens.Keys.Where(k =>
-                k.StartsWith("attachment_")))
+            foreach (var attachmentReference in ecmmessage.CustomPersonTokens.Keys.Where(k => k.StartsWith("attachment_")))
             {
-                var storedFileJson = ecmmessage.CustomPersonTokens[attachmentReference].ToString();
-                var storedFile = JsonConvert.DeserializeObject<StoredFile>(storedFileJson);
-                var fileUploadStorageProvider = fileUploadStorageProviderFactory.GetDefaultFileUploadStorageProvider();
-                var fileContent = fileUploadStorageProvider.GetFileAsBytes(storedFile);
-                message.Attachments.Add(new FileResource(storedFile.OriginalFileName, fileContent));
+                var storedFileJSon = ecmmessage.CustomPersonTokens[attachmentReference].ToString();
+                var storedFileFromToken = JsonConvert.DeserializeObject<StoredFileInfo>(storedFileJSon);
+                var storedFile = fileStorageProvider.GetFile(storedFileFromToken.FileId);
+                var fileContent = GetStreamAsByteArray(storedFile.File);
+                message.Attachments.Add(new FileResource(storedFile.FileInfo.FileName, fileContent));
+            }
+        }
+
+        public static byte[] GetStreamAsByteArray(Stream input)
+        {
+            byte[] buffer = new byte[16 * 1024];
+            using (var ms = new MemoryStream())
+            {
+                int read;
+                while ((read = input.Read(buffer, 0, buffer.Length)) > 0)
+                {
+                    ms.Write(buffer, 0, read);
+                }
+                return ms.ToArray();
             }
         }
     }

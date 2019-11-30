@@ -8,8 +8,6 @@ namespace Feature.FormsExtensions.Fields.Bindings
     [Serializable]
     public class DateViewWithBindingsTokenModel : DateViewModel, IBindingSettings
     {
-        public string BindingToken { get; set; }
-        public bool PrefillBindingValue { get; set; }
         public bool StoreBindingValue { get; set; }
 
         protected override void InitItemProperties(Item item)

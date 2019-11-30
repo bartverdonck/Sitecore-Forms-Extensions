@@ -9,7 +9,6 @@ namespace Feature.FormsExtensions.Fields.Hidden
     [Serializable]
     public class HiddenViewModel : InputViewModel<string>, IBindingSettings
     {
-        public bool PrefillBindingValue { get; set; }
         public bool StoreBindingValue { get; set; }
 
         protected override void InitItemProperties(Item item)
@@ -23,8 +22,7 @@ namespace Feature.FormsExtensions.Fields.Hidden
         {
             base.UpdateItemFields(item);
             this.UpdateBindingSettingsFields(item);
-            item.Fields["Default Value"]
-                ?.SetValue(Value, true);
+            item.Fields["Default Value"]?.SetValue(Value, true);
         }
 
         protected override void InitializeValue(object value)

@@ -26,11 +26,10 @@
     };
 	
 	var getFileUploadFields = function (currentSelection) {
-		debugger;
         var fields = designBoardApp.getFieldsData();
         var reducedFields = _.reduce(fields,
             function (memo, item) {
-                if (item && item.model && item.model.templateId==='{27686F73-AA5C-4E0E-AC6B-E3000D129E4F}') {
+                if (item && item.model && item.model.templateId ==='{17203DAA-0DED-4160-A23C-EC1114AB4FEF}') {
                     memo.push({
                         itemId: item.itemId,
                         name: item.model.name
