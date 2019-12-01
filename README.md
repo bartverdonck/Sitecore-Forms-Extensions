@@ -13,12 +13,13 @@ The new Sitecore Forms module that came with Sitecore 9 is a very promissing too
 
 This module aims to add some functionality to this forms creator.
 
-The module has been tested on Sitecore 9.0-u1, 9.0-u2, Sitecore 9.1 and 9.1.1
+The module has been tested on Sitecore 9.0-u1, 9.0-u2, 9.1, 9.1.1, 9.2 and 9.3
 
-For Sitecore 9.1.x use version 2.x.
+For Sitecore 9.3+ use version 3.x
+For Sitecore 9.1.x till 9.2.x use version 2.x.
 For Sitecore 9.0.x use version 1.x
 
-## What
+## Changelog
 ### 3.0 (for Sitecore 9.3+)
 - *FileUpload Component*: Component removed in favour of build-in component
 - *AzureBlobStorageFileUploadStorageProvider*: Store the file uploads in Azure Blob Storage instead of SQL. (Disabled by default)
