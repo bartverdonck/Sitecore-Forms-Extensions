@@ -19,7 +19,20 @@ For Sitecore 9.1.x use version 2.x.
 For Sitecore 9.0.x use version 1.x
 
 ## What
-### 2.2 (for Sitecore 9.1.x)
+### 3.0 (for Sitecore 9.3+)
+- *FileUpload Component*: Component removed in favour of build-in component
+- *AzureBlobStorageFileUploadStorageProvider*: Store the file uploads in Azure Blob Storage instead of SQL. (Disabled by default)
+- *RobotDetection*: NEW component to give the user feedback when his session was marked as a robot.
+- *Send Email*:
+  - Now uses user-defined tokens like the build-in sendmail from Sitecore.
+  - File uploads of new component can be added as attachment
+  - Possibility to generate a catch-all token "AllFormFields" containing all fields and values. (Token name can be changed in settings.)
+  - Reviewed token generation and conversion to a string value. Conversion now relies on pipelines to increase flexibility and extensibility.  
+- Compatibility updates for 9.3
+- Revised package and namespace structure
+- Cleaned up obsolete code
+
+### 2.2 (for Sitecore 9.1.x - 9.2.x)
 - *Hidden Field*: Support for conditions, custom value (credits to @rolek)
 - *Recaptcha: Multiple recaptcha's on one page
 - *FileSystemFileUploadStorageProvider*: Support for datafolder variable
