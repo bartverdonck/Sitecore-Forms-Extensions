@@ -13,8 +13,6 @@ The new Sitecore Forms module that came with Sitecore 9 is a very promissing too
 
 This module aims to add some functionality to this forms creator.
 
-The module has been tested on Sitecore 9.0-u1, 9.0-u2, 9.1, 9.1.1, 9.2 and 9.3
-
 For Sitecore 9.3+ use version 3.x
 For Sitecore 9.1.x till 9.2.x use version 2.x.
 For Sitecore 9.0.x use version 1.x
@@ -115,7 +113,8 @@ For Sitecore 9.0.x use version 1.x
 - *Update Contact*, Custom Submit Action: This is an implementation of the [custom submit action walkthrough](https://doc.sitecore.net/sitecore_experience_platform/digital_marketing/sitecore_forms/setting_up_and_configuring/walkthrough_creating_a_custom_submit_action_that_updates_contact_details) in the Sitecore documentation. It allows you to update the contacts firstname, lastname and email based on the content of the form.
 
 ## Compatibility
-The module is tested and compatible with Sitecore 9.0 - Update 1. Older versions are not supported.
+The module was tested and found compatible with on Sitecore 9.0-u1, 9.0-u2, 9.1, 9.1.1, 9.2 and 9.3
+Older versions are not supported.
 
 ## Installation
 Download the module under "downloads" and install as sitecore package.
