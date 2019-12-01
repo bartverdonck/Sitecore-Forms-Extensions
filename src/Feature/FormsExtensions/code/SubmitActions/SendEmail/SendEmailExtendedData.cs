@@ -11,5 +11,6 @@ namespace Feature.FormsExtensions.SubmitActions.SendEmail
         public bool UpdateCurrentContact { get; set; }
         public string FixedEmailAddress { get; set; }
         public IList<Guid> FileUploadFieldsToAttach { get; set; }
+        public bool GenerateAllFieldsToken { get; set; }
     }
 }

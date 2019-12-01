@@ -214,19 +214,25 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ApplicationSettings\Constants.cs" />
     <Compile Include="Fields\RobotDetection\RobotDetectionModel.cs" />
     <Compile Include="Fields\RobotDetection\RobotDetectionValidationAttribute.cs" />
+    <Compile Include="Fields\ValueResolvers\FormsFieldValueResolver.cs" />
+    <Compile Include="Fields\ValueResolvers\IFormsFieldValueResolver.cs" />
+    <Compile Include="Fields\ValueResolvers\GetStringValueFromViewModelArgs.cs" />
+    <Compile Include="Fields\ValueResolvers\StringValueFromBooleanInputViewModelReader.cs" />
+    <Compile Include="Fields\ValueResolvers\StringValueFromDateTimeInputViewModelReader.cs" />
+    <Compile Include="Fields\ValueResolvers\StringValueFromDoubleInputViewModelReader.cs" />
+    <Compile Include="Fields\ValueResolvers\StringValueFromStoredFileInputViewModelReader.cs" />
+    <Compile Include="Fields\ValueResolvers\StringValueFromStringInputViewModelReader.cs" />
+    <Compile Include="Fields\ValueResolvers\StringValueFromStringListInputViewModelReader.cs" />
+    <Compile Include="SubmitActions\SendEmail\Tokens\IMailTokenBuilder.cs" />
+    <Compile Include="SubmitActions\SendEmail\Tokens\MailTokenBuilder.cs" />
     <Compile Include="ValueProviderConditions\ValueProviderConditionsRulesContext.cs" />
     <Compile Include="ValueProviderConditions\ValueProviderConditionsContext.cs" />
     <Compile Include="ValueProviders\FieldValueBinderMapFactory.cs" />
     <Compile Include="ValueProviders\IFieldValueBinderMapFactory.cs" />
     <Compile Include="FileStorageProviders\AzureBlobStorageFileStorageProvider.cs" />
-    <Compile Include="SubmitActions\SendEmail\FormsField\FormField.cs" />
-    <Compile Include="SubmitActions\SendEmail\FormsField\FormFieldConverter.cs" />
-    <Compile Include="SubmitActions\SendEmail\FormsField\FormFieldValue.cs" />
     <Compile Include="ScriptStore.cs" />
-    <Compile Include="SubmitActions\SendEmail\FormsField\IFormFieldConverter.cs" />
     <Compile Include="ValueProviders\IFieldValueBinderResult.cs" />
     <Compile Include="ValueProviders\NoFieldValueBindingFoundResult.cs" />
     <Compile Include="ValueProviders\FieldValueBindingFoundResult.cs" />
@@ -276,7 +282,6 @@
     <Compile Include="Fields\ReCaptcha\RecaptchaExecutedValidation.cs" />
     <Compile Include="ValueProviders\xDbFieldValueBinders\ContactPersonalInfo\XDbFirstNameFieldValueBinder.cs" />
     <Compile Include="SubmitActions\SendEmail\FileAttachment\AttachFileUploadProcessor.cs" />
-    <Compile Include="SubmitActions\SendEmail\FormsField\FormDataProcessor.cs" />
     <Compile Include="Fields\ReCaptcha\ReCaptchaModel.cs" />
     <Compile Include="Fields\ReCaptcha\ReCaptchaValidationAttribute.cs" />
     <Compile Include="FormsComponentConfigurator.cs" />

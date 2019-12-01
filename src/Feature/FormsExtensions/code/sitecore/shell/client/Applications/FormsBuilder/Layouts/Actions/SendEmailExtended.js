@@ -145,6 +145,21 @@
                     }
                     this.validate();
                 },
+				convertTokensToArray: function (tokensObj) {
+                    var tokensArray = [];
+                    for (var key in tokensObj) {
+                        tokensArray.push({ name: key, id: tokensObj[key] });
+                    }
+                    return tokensArray;
+                },
+                convertTokensToObject: function (tokensArray) {
+                    var tokensObject = {};
+					for (var index in tokensArray) {
+						var token = tokensArray[index];
+                        tokensObject[token.name] = token.id;
+                    }
+                    return tokensObject;
+                },
                 loadDone: function (parameters) {
                     this.Parameters = parameters || {};
                     this.SettingsForm.setFormData(this.Parameters);
@@ -154,6 +169,14 @@
 						this.SettingsForm.Attachments.IsVisible = false;
 					}
 					this.setAttachmentFieldData(this.SettingsForm.FileUploadFieldsToAttach, getFileUploadFields(this.Parameters["fileUploadFieldsToAttach"]), this.Parameters["fileUploadFieldsToAttach"]);
+					
+					var tokens = this.Parameters["fieldsTokens"] || [];
+                    if (typeof tokens === 'object') {
+                        tokens = this.convertTokensToArray(tokens);
+                    }
+
+                    this.SettingsForm.CustomTokensForm.reset(tokens);
+					
                     this.validate();
                 },
                 getData: function () {
@@ -162,7 +185,9 @@
                     this.Parameters["fixedEmailAddress"] = this.SettingsForm.FixedEmailAddress.Value;
                     this.Parameters["fieldEmailAddressId"] = this.SettingsForm.FieldEmailAddressId.SelectedValue;
                     this.Parameters["updateCurrentContact"] = this.SettingsForm.UpdateCurrentContact.IsChecked;
-					this.Parameters["fileUploadFieldsToAttach"] = this.SettingsForm.FileUploadFieldsToAttach.CheckedValues;
+                    this.Parameters["fileUploadFieldsToAttach"] = this.SettingsForm.FileUploadFieldsToAttach.CheckedValues;
+                    this.Parameters["fieldsTokens"] = this.convertTokensToObject(this.SettingsForm.CustomTokensForm.serializeTokens() || []);
+                    this.Parameters["generateAllFieldsToken"] = this.SettingsForm.GenerateAllFieldsToken.IsChecked;
                     return this.Parameters;
                 }
             };
