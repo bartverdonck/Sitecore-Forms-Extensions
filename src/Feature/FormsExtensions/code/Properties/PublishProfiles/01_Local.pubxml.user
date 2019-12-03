@@ -324,7 +324,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/26/2019 21:38:12</publishTime>
     </File>
     <File Include="sitecore modules/Web/ExperienceForms/scripts/formsextensions.validate.js">
-      <publishTime>11/24/2019 14:51:54</publishTime>
+      <publishTime>12/03/2019 11:12:59</publishTime>
     </File>
     <File Include="sitecore modules/Web/ExperienceForms/scripts/jquery.unobtrusive-ajax.min.js">
       <publishTime>11/25/2019 11:12:41</publishTime>
@@ -351,7 +351,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/26/2019 20:44:22</publishTime>
     </File>
     <File Include="Views/FormBuilder/FieldTemplates/ReCaptcha.cshtml">
-      <publishTime>11/30/2019 17:45:23</publishTime>
+      <publishTime>12/03/2019 10:50:32</publishTime>
     </File>
     <File Include="Views/FormBuilder/FieldTemplates/RobotDetection.cshtml">
       <publishTime>11/30/2019 21:01:57</publishTime>

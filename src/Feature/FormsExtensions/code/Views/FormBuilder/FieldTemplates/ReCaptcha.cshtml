@@ -26,11 +26,11 @@
   </script>
 }
 <div id="@(fieldId)_wrapper"></div>
-<input id="@fieldId" name="@Html.NameFor(m => Model.CaptchaValue)" type="hidden" class="fxt-captcha"
-       @Html.GenerateUnobtrusiveValidationAttributes(m => m.CaptchaValue)/>
+<input id="@fieldId" name="@Html.NameFor(m => Model.CaptchaValue)" type="hidden" class="fxt-captcha" @Html.GenerateUnobtrusiveValidationAttributes(m => m.CaptchaValue)/>
 @Html.ValidationMessageFor(m => Model.CaptchaValue)
 
 <script type="text/javascript">
+  var reCaptchaArray = reCaptchaArray || [];
   reCaptchaArray.push(
     function() {
       var _captchaInput = window.document.getElementById('@fieldId');
