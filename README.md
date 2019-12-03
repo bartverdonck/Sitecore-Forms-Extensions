@@ -26,7 +26,8 @@ For Sitecore 9.0.x use version 1.x
   - Now uses user-defined tokens like the build-in sendmail from Sitecore.
   - File uploads of new component can be added as attachment
   - Possibility to generate a catch-all token "AllFormFields" containing all fields and values. (Token name can be changed in settings.)
-  - Reviewed token generation and conversion to a string value. Conversion now relies on pipelines to increase flexibility and extensibility.  
+  - Reviewed token generation and conversion to a string value. Conversion now relies on pipelines to increase flexibility and extensibility.
+- *Recaptcha*: Fix for issue #66
 - Compatibility updates for 9.3
 - Revised package and namespace structure
 - Cleaned up obsolete code

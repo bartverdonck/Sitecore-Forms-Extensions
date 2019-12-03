@@ -9,7 +9,7 @@ namespace Feature.FormsExtensions.Fields.ValueResolvers
         {
             if (args.FieldViewModel is InputViewModel<string> stringInputViewModel)
             {
-                args.Value = stringInputViewModel.Value;
+                args.Value = stringInputViewModel.Value ?? string.Empty;
                 args.AbortPipeline();
             }
         }
