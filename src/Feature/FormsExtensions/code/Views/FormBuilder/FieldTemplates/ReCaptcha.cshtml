@@ -31,6 +31,7 @@
 @Html.ValidationMessageFor(m => Model.CaptchaValue)
 
 <script type="text/javascript">
+  var reCaptchaArray = reCaptchaArray || [];
   reCaptchaArray.push(
     function() {
       var _captchaInput = window.document.getElementById('@fieldId');
