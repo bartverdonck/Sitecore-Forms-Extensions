@@ -12,7 +12,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/25/2018 16:58:37</publishTime>
     </File>
     <File Include="App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.AzureBlobFileStorageProviders.config.disabled">
-      <publishTime>11/30/2019 19:28:20</publishTime>
+      <publishTime>12/03/2019 12:40:18</publishTime>
     </File>
     <File Include="App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.Debug.config">
       <publishTime>09/10/2018 14:37:39</publishTime>
@@ -24,10 +24,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/26/2019 20:44:22</publishTime>
     </File>
     <File Include="App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.Processors.config">
-      <publishTime>12/01/2019 22:31:35</publishTime>
+      <publishTime>12/03/2019 12:40:18</publishTime>
     </File>
     <File Include="App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.Settings.config">
-      <publishTime>12/01/2019 21:47:25</publishTime>
+      <publishTime>12/03/2019 12:40:18</publishTime>
     </File>
     <File Include="App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.Tracker.config">
       <publishTime>04/26/2019 20:44:22</publishTime>
@@ -57,10 +57,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/01/2017 14:00:14</publishTime>
     </File>
     <File Include="bin/Feature.FormsExtensions.dll">
-      <publishTime>12/01/2019 22:36:34</publishTime>
+      <publishTime>12/03/2019 15:26:10</publishTime>
     </File>
     <File Include="bin/Feature.FormsExtensions.pdb">
-      <publishTime>12/01/2019 22:36:34</publishTime>
+      <publishTime>12/03/2019 15:26:10</publishTime>
     </File>
     <File Include="bin/fr/Microsoft.Data.Edm.resources.dll">
       <publishTime>02/01/2017 14:00:38</publishTime>
@@ -324,7 +324,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/26/2019 21:38:12</publishTime>
     </File>
     <File Include="sitecore modules/Web/ExperienceForms/scripts/formsextensions.validate.js">
-      <publishTime>12/03/2019 11:12:59</publishTime>
+      <publishTime>12/03/2019 12:40:18</publishTime>
     </File>
     <File Include="sitecore modules/Web/ExperienceForms/scripts/jquery.unobtrusive-ajax.min.js">
       <publishTime>11/25/2019 11:12:41</publishTime>
@@ -333,7 +333,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/26/2019 20:44:22</publishTime>
     </File>
     <File Include="sitecore/shell/client/Applications/FormsBuilder/Layouts/Actions/SendEmailExtended.js">
-      <publishTime>11/30/2019 23:18:28</publishTime>
+      <publishTime>12/03/2019 12:40:18</publishTime>
     </File>
     <File Include="sitecore/shell/client/Applications/FormsBuilder/Layouts/Actions/ShowFormPage.js">
       <publishTime>04/26/2019 20:44:22</publishTime>
@@ -345,16 +345,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/26/2019 20:44:22</publishTime>
     </File>
     <File Include="Views/FormBuilder/FieldTemplates/Hidden.cshtml">
-      <publishTime>11/30/2019 17:19:49</publishTime>
+      <publishTime>12/03/2019 12:40:18</publishTime>
     </File>
     <File Include="Views/FormBuilder/FieldTemplates/RawHtml.cshtml">
       <publishTime>04/26/2019 20:44:22</publishTime>
     </File>
     <File Include="Views/FormBuilder/FieldTemplates/ReCaptcha.cshtml">
-      <publishTime>12/03/2019 10:50:32</publishTime>
+      <publishTime>12/03/2019 15:25:54</publishTime>
     </File>
     <File Include="Views/FormBuilder/FieldTemplates/RobotDetection.cshtml">
-      <publishTime>11/30/2019 21:01:57</publishTime>
+      <publishTime>12/03/2019 12:40:18</publishTime>
     </File>
   </ItemGroup>
 </Project>
