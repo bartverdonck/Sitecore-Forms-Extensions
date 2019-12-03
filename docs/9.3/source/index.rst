@@ -6,11 +6,10 @@ Welcome, happy to see your are (considering) using the Sitecore Forms Extensions
 
 `Looking for the downloads? Find them on GitHub. <https://github.com/bartverdonck/Sitecore-Forms-Extensions/tree/master/downloads/Sitecore%209.3.x>`_
 
-`Click here to read the documentation on Sitecore Forms Extensions 1.8.3 for Sitecore 9.0. <http://onelittlespark.bartverdonck.be/sitecoreformsextentions/1.8.3/>`_
-`Click here to read the documentation on Sitecore Forms Extensions 2.3 for Sitecore 9.1 and 9.2. <http://onelittlespark.bartverdonck.be/sitecoreformsextentions/2.3/>`_
+`Looking for another version? <http://onelittlespark.bartverdonck.be/sitecoreformsextentions/>`_
 
-With this module you will be able to prefill forms, get a file upload field, get better integration with EXM, 
-a Google Recaptcha, additional validators and much more.
+
+With this module you will be able to get better integration with EXM, a Google Recaptcha, conditional prefilling, additional validators and much more.
 
 These pages serve as the documentation for the module. They are splitted into 2 sections:
 
