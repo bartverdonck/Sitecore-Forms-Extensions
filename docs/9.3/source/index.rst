@@ -50,3 +50,4 @@ Have fun with the module!
    developerdoc/valueproviderconditions
    developerdoc/azureblobstorage
    developerdoc/datetimespan
+   developerdoc/valueresolvers
