@@ -1,0 +1,226 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>Sitecore Forms Test Package</PackageName>
+      <Author>Bart Verdonck</Author>
+      <Version>3.0</Version>
+      <Revision />
+      <License />
+      <Comment />
+      <Attributes />
+      <Readme>This package contains test material to test the Sitecore Forms Extentions.
+
+Includes:
+MVC Layouting
+Homepage with 2 forms
+Emailcampaign</Readme>
+      <Publisher>The Reference</Publisher>
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xfiles>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Entries>
+        <x-item>/Views/Shared/MVC Layout.cshtml</x-item>
+        <x-item>/Views/Shared/MVC Outer Layout.cshtml</x-item>
+      </Entries>
+      <Include />
+      <Exclude />
+      <Name>Files</Name>
+    </xfiles>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/content/Email/{29470929-F27C-4ED9-B2FB-CEC9F5858748}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Email/Message Types/{DBFD272C-F13A-4DB5-A757-FD32CF2D9047}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Email/Message Types/Automated/{F083AC6B-E873-46A3-B727-F883165E9B50}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Email/Message Types/Automated/Default/{EBF54493-9FEB-4DAE-B822-5CA604F5A83D}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Email/Message Types/Regular/{4E037ABF-C6EF-472B-8BCE-3E839F8C7AE0}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Email/Message Types/Regular/Default/{D2C9AF62-D3D3-4782-825D-1F1C6FDDCFC9}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Email/Messages/{00A52693-56EA-434D-9CD5-562DE83D09A4}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Email/Messages/Service Messages/{D3F08ACF-9F52-45CC-9C87-7692CAFEC565}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Email/Messages/Service Messages/Self-Service Subscription/{D81EDC6E-20D1-4CE5-9E92-0DC722944CB2}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Email/Messages/Service Messages/Self-Service Subscription/Subscription Confirmation/{B3429D1E-3C0B-4D2F-9A89-DD191C1B6BB0}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Email/Messages/Service Messages/Self-Service Subscription/Subscription Notification/{78A11A52-545E-425E-B9EF-AABBF7C56D09}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Email/Messages/Service Messages/Self-Service Subscription/Unsubscribe Notification/{7B74F106-FE87-42BB-B909-8926B62832D3}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Email/Messages/Service Messages/Status Messages/{871D474B-F3DA-44C0-9511-C0C0D26E7879}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Email/Messages/Service Messages/Status Messages/Automated Notification/{35BECA38-2572-451F-8C3F-5FEA0B7AD2ED}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Email/Messages/Service Messages/Status Messages/Dispatch Completed/{9DB62CEF-84A5-4767-A19C-EDACE14134B7}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Email/Messages/TestMail/{E73E2D6C-5BEE-4858-9048-1E9F239CF089}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/{188A3FB6-0FC9-4708-8CD8-7D16BBADFB78}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/Page(2)/{66CF7BC2-D893-47FC-8172-233D18CA56D8}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/Page(2)/Password/{905099C4-016B-492B-9265-2F25AA975E36}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/Page(2)/Submit/{3D49F2D4-5A99-4627-9876-A44BD69865B8}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/Page(2)/Submit/SubmitActions/{B39B0253-7DA0-49B9-B0BA-6FF4A45F8CE9}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/Page(2)/Submit/SubmitActions/Save Data/{3A88C914-590B-40B7-831C-7CBFA64A876D}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/Page(2)/Submit/SubmitActions/Send Email/{ED4D2CF1-36A6-4730-9614-737D6AFF61D0}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/Page(3)/{30B81067-BF53-4766-8AB1-A70644BB7E3A}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/Page(3)/ReturnButton/{48E1D353-78DC-4891-8451-3D1CD86407BC}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/Page(3)/ReturnButton/SubmitActions/{F6FF831C-7628-4B65-AB12-8C46EE13280F}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/Page(3)/ReturnButton/SubmitActions/Show Form Page/{A31B4F3C-B430-4374-8E09-756A68D7EBE1}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/Page(3)/Text(2)/{00854555-5F6D-4123-8463-67529B16B6FB}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/Page/{87925665-AF69-408C-84F5-F816C392EA55}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/Page/Animals/{DD251F0B-975E-493B-9C8B-FA5840776002}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/Page/Animals/Settings/{F92667C5-ACFE-4EC9-9D42-FFE57CBA06E9}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/Page/Animals/Settings/Datasource/{1FFCF5CD-7745-4EDE-98D8-00B91E407E94}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/Page/Animals/Settings/Datasource/Kalf/{24FB477D-CF36-41E7-859C-8F73133F7878}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/Page/Animals/Settings/Datasource/Varken/{1E29E22A-D223-4551-81C5-FF0368ADC382}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/Page/Animals/Settings/Datasource/Zebra/{B407F035-1FC5-481D-A5D9-D3C343A8D502}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/Page/Band/{7567F1AD-1DAC-4FA5-B7DB-4C27233E158D}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/Page/Band/Settings/{8952F39E-CFAD-41D7-85AC-6D97A0A38297}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/Page/Band/Settings/Datasource/{41B4939F-04F8-41B3-B661-418AEAAD3FE3}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/Page/Band/Settings/Datasource/Nirvana/{CA2FC873-D9CF-4624-A0C1-6E2C14E6550F}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/Page/Band/Settings/Datasource/Pearl Jam/{7E406C16-53E1-433A-A69C-9F90A8A7DC48}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/Page/Band/Settings/Datasource/Radiohead/{08F5C042-9BCF-4424-8AA7-C5918CBF42B9}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/Page/BirthDate/{23178A4D-BA5F-4BAA-BBD6-92BA8464CF40}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/Page/Color/{548FAE1D-4D82-49C4-BBAE-323C3EE7420B}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/Page/Color/Settings/{47361F55-35C0-4201-B49E-2542EDC0AEB3}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/Page/Color/Settings/Datasource/{4A44D6D4-0E3A-4E3D-909C-4442BCD6FC4E}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/Page/Color/Settings/Datasource/red/{3DE58FB4-F859-4495-8CD0-20C27C3C7572}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/Page/Color/Settings/Datasource/white/{F07A804C-2FCA-4C93-BAE3-1D61E76C814E}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/Page/ConcentBox/{D3E3DF37-6736-41FC-A032-CF2295442BCC}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/Page/Email/{BCC126C5-204B-42F4-994C-3A0274F08852}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/Page/File Upload/{AD184136-9D6B-46F6-BA51-49E7AE68BE40}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/Page/FirstName/{A00D9A74-89E2-4D67-B80E-9BAAE4DF9C4A}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/Page/FutureDate/{391E430E-0F60-4B56-9CBF-C6BB4A113035}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/Page/NextButton/{4D5CE7A8-F0AF-46A3-A2A5-9E1AF9A61696}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/Page/Number/{DE88BBAF-2369-467E-A00E-F2718BC87CD2}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/Page/PastDate/{A887C341-EA9D-44A2-8212-CDE912217062}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/Page/RawHtml/{B8D77824-9918-4DA3-889C-11A333198C18}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/Page/ReCaptcha/{A4AFE70E-1EE3-4E29-8406-433690B85E66}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/Page/Remarks/{BAFE8443-98DD-43B2-9D32-DE87012D7FEB}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/Page/RobotDetection/{83699678-486E-402C-8139-3355F5A29CB6}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/Page/Telephone/{EEF750D0-D2C8-4BC4-8A0E-D09DECF56097}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/AllFieldTypesForm/Page/Text/{B7F72A84-EB68-463B-B756-BC85ADA37A78}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/SmallCaptchaForm/{E2145D1B-DAC4-42E0-9093-3E7842FD9A95}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/SmallCaptchaForm/Page(2)/{7C56D0B7-8BE3-424B-A70E-40F42BD202EC}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/SmallCaptchaForm/Page(2)/LastName/{DCEF2EFA-4709-4ED4-8564-251128CF4FC3}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/SmallCaptchaForm/Page(2)/ReCaptcha(2)/{93527924-227C-4104-9006-1719CE2C0A9D}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/SmallCaptchaForm/Page(2)/Submit Button(2)/{38AA7F70-F172-4D2B-81C1-79E92F743D5A}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/SmallCaptchaForm/Page(2)/Submit Button(2)/SubmitActions/{3788E779-415F-46EC-A8CB-C2C50BA7CBA9}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/SmallCaptchaForm/Page(2)/Submit Button(2)/SubmitActions/Send Email/{DB0BD9E1-6F91-463D-A458-ECC853E7B9B8}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/SmallCaptchaForm/Page(2)/Text(3)/{60AA9CFC-ADE4-4081-A24E-262D81C4E516}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/SmallCaptchaForm/Page(3)/{F4782A89-F373-40DF-ACA5-9AA12B2EA9EF}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/SmallCaptchaForm/Page(3)/Text(2)/{2411E967-EC13-4F65-997C-CEA84449B152}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/SmallCaptchaForm/Page(3)/Text(4)/{BF225F2D-2ABB-48CE-9C09-7A424D3DD641}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/SmallCaptchaForm/Page/{0D42A0B2-61D0-450A-8078-E38E007AAAB6}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/SmallCaptchaForm/Page/firstName/{65D2F6F0-010E-4640-98FD-0D8D2E8BAECE}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/SmallCaptchaForm/Page/ReCaptcha/{A1CA6BE0-04D6-44D6-A9D2-C368745F8B26}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/SmallCaptchaForm/Page/Submit Button/{7DF7DDBA-3934-46B1-95FA-02B2EAE498C7}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/SmallCaptchaForm/Page/Submit Button/SubmitActions/{121C7942-94AA-4DC3-8B49-D413061548F7}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/SmallCaptchaForm/Page/Text/{F8B1E2A0-8847-4C50-9A4F-59CAAC12C357}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Layouts/MVC Layout/{027F7DD9-EE50-4474-8774-D92A323B6740}/invariant/0</x-item>
+        <x-item>/web/sitecore/content/Email/{29470929-F27C-4ED9-B2FB-CEC9F5858748}/invariant/0</x-item>
+        <x-item>/web/sitecore/content/Email/Messages/{00A52693-56EA-434D-9CD5-562DE83D09A4}/invariant/0</x-item>
+        <x-item>/web/sitecore/content/Email/Messages/TestMail/{E73E2D6C-5BEE-4858-9048-1E9F239CF089}/invariant/0</x-item>
+        <x-item>/web/sitecore/content/Home/{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/{188A3FB6-0FC9-4708-8CD8-7D16BBADFB78}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/Page(2)/{66CF7BC2-D893-47FC-8172-233D18CA56D8}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/Page(2)/Password/{905099C4-016B-492B-9265-2F25AA975E36}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/Page(2)/Submit/{3D49F2D4-5A99-4627-9876-A44BD69865B8}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/Page(2)/Submit/SubmitActions/{B39B0253-7DA0-49B9-B0BA-6FF4A45F8CE9}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/Page(2)/Submit/SubmitActions/Save Data/{3A88C914-590B-40B7-831C-7CBFA64A876D}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/Page(2)/Submit/SubmitActions/Send Email/{ED4D2CF1-36A6-4730-9614-737D6AFF61D0}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/Page(3)/{30B81067-BF53-4766-8AB1-A70644BB7E3A}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/Page(3)/ReturnButton/{48E1D353-78DC-4891-8451-3D1CD86407BC}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/Page(3)/ReturnButton/SubmitActions/{F6FF831C-7628-4B65-AB12-8C46EE13280F}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/Page(3)/ReturnButton/SubmitActions/Show Form Page/{A31B4F3C-B430-4374-8E09-756A68D7EBE1}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/Page(3)/Text(2)/{00854555-5F6D-4123-8463-67529B16B6FB}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/Page/{87925665-AF69-408C-84F5-F816C392EA55}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/Page/Animals/{DD251F0B-975E-493B-9C8B-FA5840776002}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/Page/Animals/Settings/{F92667C5-ACFE-4EC9-9D42-FFE57CBA06E9}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/Page/Animals/Settings/Datasource/{1FFCF5CD-7745-4EDE-98D8-00B91E407E94}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/Page/Animals/Settings/Datasource/Kalf/{24FB477D-CF36-41E7-859C-8F73133F7878}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/Page/Animals/Settings/Datasource/Varken/{1E29E22A-D223-4551-81C5-FF0368ADC382}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/Page/Animals/Settings/Datasource/Zebra/{B407F035-1FC5-481D-A5D9-D3C343A8D502}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/Page/Band/{7567F1AD-1DAC-4FA5-B7DB-4C27233E158D}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/Page/Band/Settings/{8952F39E-CFAD-41D7-85AC-6D97A0A38297}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/Page/Band/Settings/Datasource/{41B4939F-04F8-41B3-B661-418AEAAD3FE3}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/Page/Band/Settings/Datasource/Nirvana/{CA2FC873-D9CF-4624-A0C1-6E2C14E6550F}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/Page/Band/Settings/Datasource/Pearl Jam/{7E406C16-53E1-433A-A69C-9F90A8A7DC48}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/Page/Band/Settings/Datasource/Radiohead/{08F5C042-9BCF-4424-8AA7-C5918CBF42B9}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/Page/BirthDate/{23178A4D-BA5F-4BAA-BBD6-92BA8464CF40}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/Page/Color/{548FAE1D-4D82-49C4-BBAE-323C3EE7420B}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/Page/Color/Settings/{47361F55-35C0-4201-B49E-2542EDC0AEB3}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/Page/Color/Settings/Datasource/{4A44D6D4-0E3A-4E3D-909C-4442BCD6FC4E}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/Page/Color/Settings/Datasource/red/{3DE58FB4-F859-4495-8CD0-20C27C3C7572}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/Page/Color/Settings/Datasource/white/{F07A804C-2FCA-4C93-BAE3-1D61E76C814E}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/Page/ConcentBox/{D3E3DF37-6736-41FC-A032-CF2295442BCC}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/Page/Email/{BCC126C5-204B-42F4-994C-3A0274F08852}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/Page/File Upload/{AD184136-9D6B-46F6-BA51-49E7AE68BE40}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/Page/FirstName/{A00D9A74-89E2-4D67-B80E-9BAAE4DF9C4A}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/Page/FutureDate/{391E430E-0F60-4B56-9CBF-C6BB4A113035}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/Page/NextButton/{4D5CE7A8-F0AF-46A3-A2A5-9E1AF9A61696}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/Page/Number/{DE88BBAF-2369-467E-A00E-F2718BC87CD2}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/Page/PastDate/{A887C341-EA9D-44A2-8212-CDE912217062}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/Page/RawHtml/{B8D77824-9918-4DA3-889C-11A333198C18}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/Page/ReCaptcha/{A4AFE70E-1EE3-4E29-8406-433690B85E66}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/Page/Remarks/{BAFE8443-98DD-43B2-9D32-DE87012D7FEB}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/Page/RobotDetection/{83699678-486E-402C-8139-3355F5A29CB6}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/Page/Telephone/{EEF750D0-D2C8-4BC4-8A0E-D09DECF56097}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/AllFieldTypesForm/Page/Text/{B7F72A84-EB68-463B-B756-BC85ADA37A78}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/SmallCaptchaForm/{E2145D1B-DAC4-42E0-9093-3E7842FD9A95}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/SmallCaptchaForm/Page(2)/{7C56D0B7-8BE3-424B-A70E-40F42BD202EC}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/SmallCaptchaForm/Page(2)/LastName/{DCEF2EFA-4709-4ED4-8564-251128CF4FC3}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/SmallCaptchaForm/Page(2)/ReCaptcha(2)/{93527924-227C-4104-9006-1719CE2C0A9D}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/SmallCaptchaForm/Page(2)/Submit Button(2)/{38AA7F70-F172-4D2B-81C1-79E92F743D5A}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/SmallCaptchaForm/Page(2)/Submit Button(2)/SubmitActions/{3788E779-415F-46EC-A8CB-C2C50BA7CBA9}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/SmallCaptchaForm/Page(2)/Submit Button(2)/SubmitActions/Send Email/{DB0BD9E1-6F91-463D-A458-ECC853E7B9B8}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/SmallCaptchaForm/Page(2)/Text(3)/{60AA9CFC-ADE4-4081-A24E-262D81C4E516}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/SmallCaptchaForm/Page(3)/{F4782A89-F373-40DF-ACA5-9AA12B2EA9EF}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/SmallCaptchaForm/Page(3)/Text(2)/{2411E967-EC13-4F65-997C-CEA84449B152}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/SmallCaptchaForm/Page(3)/Text(4)/{BF225F2D-2ABB-48CE-9C09-7A424D3DD641}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/SmallCaptchaForm/Page/{0D42A0B2-61D0-450A-8078-E38E007AAAB6}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/SmallCaptchaForm/Page/firstName/{65D2F6F0-010E-4640-98FD-0D8D2E8BAECE}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/SmallCaptchaForm/Page/ReCaptcha/{A1CA6BE0-04D6-44D6-A9D2-C368745F8B26}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/SmallCaptchaForm/Page/Submit Button/{7DF7DDBA-3934-46B1-95FA-02B2EAE498C7}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/SmallCaptchaForm/Page/Submit Button/SubmitActions/{121C7942-94AA-4DC3-8B49-D413061548F7}/invariant/0</x-item>
+        <x-item>/web/sitecore/Forms/SmallCaptchaForm/Page/Text/{F8B1E2A0-8847-4C50-9A4F-59CAAC12C357}/invariant/0</x-item>
+        <x-item>/web/sitecore/layout/Layouts/MVC Layout/{027F7DD9-EE50-4474-8774-D92A323B6740}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Overwrite</ItemMode>
+                  <ItemMergeMode>Append</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Items</Name>
+    </xitems>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>

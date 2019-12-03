@@ -32,6 +32,10 @@ For Sitecore 9.0.x use version 1.x
 - Revised package and namespace structure
 - Cleaned up obsolete code
 
+### 2.3
+- Fix for Safari issue with jquery.unobstrusive-ajax.js #50
+- Config setting fix #46
+
 ### 2.2 (for Sitecore 9.1.x - 9.2.x)
 - *Hidden Field*: Support for conditions, custom value (credits to @rolek)
 - *Recaptcha: Multiple recaptcha's on one page
