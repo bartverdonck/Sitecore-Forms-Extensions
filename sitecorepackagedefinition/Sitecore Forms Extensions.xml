@@ -3,12 +3,34 @@
     <metadata>
       <PackageName>Sitecore Forms Extensions for Sitecore 9.1</PackageName>
       <Author>Bart Verdonck</Author>
-      <Version>2.2</Version>
+      <Version>2.3</Version>
       <Revision />
       <License />
       <Comment />
       <Attributes />
-      <Readme />
+      <Readme>Sitecore Forms Extensions is an add-on to Sitecore Forms.
+This packages is compatible with Sitecore 9.1.x and Sitecore 9.2
+
+Documentation on http://onelittlespark.bartverdonck.be/sitecoreformsextentions/9.1/
+
+Source code on
+https://github.com/bartverdonck/Sitecore-Forms-Extensions
+
+The package includes:
+* File Upload Component
+* Google Captcha Component
+* RawHtml Component
+* HiddenField Component
+* Advanced Send Mail submit action
+* Jump to page submit action
+* Identify Contact submit action
+* Date Timespan Validators
+* File Upload Validators
+* Value Providers for xDB facets
+* Value Provider store back
+* Value Provider conditions
+
+Copyright (c) 2017-2019 Bart Verdonck</Readme>
       <Publisher>The Reference</Publisher>
       <PostStep />
       <PackageID />
