@@ -13,9 +13,9 @@ The new Sitecore Forms module that came with Sitecore 9 is a very promissing too
 
 This module aims to add some functionality to this forms creator.
 
-For Sitecore 9.3+ use version 3.x
-For Sitecore 9.1.x till 9.2.x use version 2.x.
-For Sitecore 9.0.x use version 1.x
+For Sitecore 9.3+ use version 3.0
+For Sitecore 9.1.x till 9.2.x use version 2.3.1
+For Sitecore 9.0.x use version 1.8.3
 
 ## Changelog
 ### 3.0 (for Sitecore 9.3+)
@@ -35,6 +35,8 @@ For Sitecore 9.0.x use version 1.x
 ### 2.3
 - Fix for Safari issue with jquery.unobstrusive-ajax.js #50
 - Config setting fix #46
+#### 2.3
+- Bugfix: Google ReCaptcha cshtml threw error
 
 ### 2.2 (for Sitecore 9.1.x - 9.2.x)
 - *Hidden Field*: Support for conditions, custom value (credits to @rolek)
