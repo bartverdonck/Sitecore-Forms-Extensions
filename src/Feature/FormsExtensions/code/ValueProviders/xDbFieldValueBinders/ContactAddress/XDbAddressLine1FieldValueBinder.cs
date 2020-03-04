@@ -1,4 +1,6 @@
-﻿using Sitecore.XConnect.Collection.Model;
+﻿using System.Collections.Generic;
+using System.Linq;
+using Sitecore.XConnect.Collection.Model;
 
 namespace Feature.FormsExtensions.ValueProviders.xDbFieldValueBinders.ContactAddress
 {
@@ -17,6 +19,10 @@ namespace Feature.FormsExtensions.ValueProviders.xDbFieldValueBinders.ContactAdd
             if (newValue is string addressLine1)
             {
                 UpdateFacet(x => x.PreferredAddress.AddressLine1=addressLine1);
+            }
+            if (newValue is List<string> valueList)
+            {
+                UpdateFacet(x => x.PreferredAddress.AddressLine1 = valueList.FirstOrDefault());
             }
         }
 

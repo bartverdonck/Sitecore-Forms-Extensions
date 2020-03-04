@@ -1,4 +1,6 @@
-﻿using Sitecore.XConnect.Collection.Model;
+﻿using System.Collections.Generic;
+using System.Linq;
+using Sitecore.XConnect.Collection.Model;
 
 namespace Feature.FormsExtensions.ValueProviders.xDbFieldValueBinders.ContactPersonalInfo
 {
@@ -17,6 +19,10 @@ namespace Feature.FormsExtensions.ValueProviders.xDbFieldValueBinders.ContactPer
             if (newValue is string suffix)
             {
                 UpdateFacet(x => x.Suffix = suffix);
+            }
+            if (newValue is List<string> suffixList)
+            {
+                UpdateFacet(x => x.Suffix = suffixList.FirstOrDefault());
             }
         }
        

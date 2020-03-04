@@ -1,4 +1,6 @@
-﻿using Sitecore.XConnect.Collection.Model;
+﻿using System.Collections.Generic;
+using System.Linq;
+using Sitecore.XConnect.Collection.Model;
 
 namespace Feature.FormsExtensions.ValueProviders.xDbFieldValueBinders.ContactPersonalInfo
 {
@@ -16,6 +18,10 @@ namespace Feature.FormsExtensions.ValueProviders.xDbFieldValueBinders.ContactPer
             if (newValue is string lastName)
             {
                 UpdateFacet(x => x.LastName = lastName);
+            }
+            if (newValue is List<string> lastNameList)
+            {
+                UpdateFacet(x => x.LastName = lastNameList.FirstOrDefault());
             }
         }
     }

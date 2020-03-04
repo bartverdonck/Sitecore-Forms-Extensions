@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using System.Linq;
 using Sitecore.XConnect.Collection.Model;
 
 namespace Feature.FormsExtensions.ValueProviders.xDbFieldValueBinders.ContactPhoneNumbers
@@ -16,6 +18,10 @@ namespace Feature.FormsExtensions.ValueProviders.xDbFieldValueBinders.ContactPho
             if (newValue is string value)
             {
                 UpdateFacet(x => x.PreferredPhoneNumber.CountryCode = value);
+            }
+            if (newValue is List<string> valueList)
+            {
+                UpdateFacet(x => x.PreferredPhoneNumber.CountryCode = valueList.FirstOrDefault());
             }
         }
 

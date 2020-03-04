@@ -1,4 +1,6 @@
-﻿using Sitecore.XConnect.Collection.Model;
+﻿using System.Collections.Generic;
+using System.Linq;
+using Sitecore.XConnect.Collection.Model;
 
 namespace Feature.FormsExtensions.ValueProviders.xDbFieldValueBinders.ContactPersonalInfo
 {
@@ -16,6 +18,10 @@ namespace Feature.FormsExtensions.ValueProviders.xDbFieldValueBinders.ContactPer
             if (newValue is string jobTitle)
             {
                 UpdateFacet( x => x.JobTitle = jobTitle);
+            }
+            if (newValue is List<string> jobTitleList)
+            {
+                UpdateFacet(x => x.JobTitle = jobTitleList.FirstOrDefault());
             }
         }
         
