@@ -1,5 +1,7 @@
 # Sitecore-Forms-Extensions
 
+![Sitecore Forms Extensions Logo](https://raw.githubusercontent.com/bartverdonck/Sitecore-Forms-Extensions/master/docs/Sitecore-Forms-Extensions-Logo.png)
+
 > Extensive documentation for developers and content editors can be found on http://onelittlespark.bartverdonck.be/sitecoreformsextentions/
 
 > Check my blogposts on http://onelittlespark.bartverdonck.be/category/sitecore-forms-extensions/ for inspiration.
