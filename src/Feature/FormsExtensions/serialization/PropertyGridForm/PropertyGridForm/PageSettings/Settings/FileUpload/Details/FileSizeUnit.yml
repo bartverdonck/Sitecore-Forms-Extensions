@@ -1,0 +1,37 @@
+﻿---
+ID: "a985ade6-59b1-4371-8cf7-c20460073d68"
+Parent: "b6c3b6b2-16ea-4eec-acea-7dc41cfa346b"
+Template: "4640f8f6-ff25-4615-8a40-fe9f0c87225e"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/FileUpload/Details/FileSizeUnit
+DB: core
+SharedFields:
+- ID: "0b6b2d34-5308-4aa8-b59d-85ba47e8b8aa"
+  Hint: ValueFieldName
+  Value: Value
+- ID: "0cc7f24b-2013-46c6-8ae3-5233d094ff7c"
+  Hint: StaticData
+  Value: "{A9B377C4-BA5C-4A0C-986B-3A7FE09529D7}"
+- ID: "3e079fc3-6b2d-41c9-9204-374a786fc761"
+  Hint: BindingConfiguration
+  Value: fileSizeUnit=SelectedValue
+- ID: "ae95c662-af6a-4156-862d-82924ab52c42"
+  Hint: DisplayFieldName
+  Value: Text
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+- ID: "fea9309f-1641-49fb-88a4-99cc02a4f422"
+  Hint: SelectedValue
+  Value: KB
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190710T064623Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

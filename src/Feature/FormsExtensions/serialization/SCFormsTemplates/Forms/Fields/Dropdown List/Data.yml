@@ -1,0 +1,14 @@
+﻿---
+ID: "133a06b5-2e15-492b-8a82-f11d1f4e6b83"
+Parent: "9121d435-48b8-4649-9d13-03d680474fad"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/System/Forms/Fields/Dropdown List/Data
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161125T100306Z

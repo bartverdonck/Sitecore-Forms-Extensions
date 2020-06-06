@@ -1,0 +1,18 @@
+﻿---
+ID: "3960768c-2558-4d14-a874-f1465c79d1b2"
+Parent: "91454fbb-7aa6-40f3-bd9a-49b2a42bf5e0"
+Template: "91454fbb-7aa6-40f3-bd9a-49b2a42bf5e0"
+Path: /sitecore/templates/Modules/FormsExtensions/Extended Value Provider Settings/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180621T150105Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

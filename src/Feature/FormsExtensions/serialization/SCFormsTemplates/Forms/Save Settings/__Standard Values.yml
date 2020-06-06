@@ -1,0 +1,23 @@
+﻿---
+ID: "24696e26-2eb6-4c37-baf5-e8c70924b956"
+Parent: "0edd0cba-ae94-45c0-9a1d-a214b55036bf"
+Template: "0edd0cba-ae94-45c0-9a1d-a214b55036bf"
+Path: /sitecore/templates/System/Forms/Save Settings/__Standard Values
+DB: master
+SharedFields:
+- ID: "90c4f94c-ec2c-4ee4-b4c8-f3e29cbe630e"
+  Hint: Allow Save
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170602T072122Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

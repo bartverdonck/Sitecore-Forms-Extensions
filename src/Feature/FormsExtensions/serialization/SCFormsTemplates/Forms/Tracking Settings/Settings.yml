@@ -1,0 +1,14 @@
+﻿---
+ID: "f9653aae-5c6f-4e72-a57c-820452019b63"
+Parent: "84c2bf14-97ea-4959-a555-70d434f30554"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/System/Forms/Tracking Settings/Settings
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170418T105112Z

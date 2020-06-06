@@ -1,0 +1,27 @@
+﻿---
+ID: "55d5e421-58de-4ed2-b79e-8417190d63bf"
+Parent: "f724d664-ce92-4fbf-b944-00a26004eb39"
+Template: "72e58860-ac29-47e1-a1c5-8f9e492db999"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/SettingsForm
+DB: core
+SharedFields:
+- ID: "30bac824-e6c1-497e-ba09-80529c81c9e6"
+  Hint: VisualStyle
+  Value: 
+- ID: "47ac5c02-a908-46af-9823-c4626e85153c"
+  Hint: FieldsLayout
+  Value: 
+- ID: "a3ea5be2-5a0e-4e72-bb0a-0d0c19615f9e"
+  Hint: SectionVisualization
+  Value: 
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 600
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180606T182727Z

@@ -1,0 +1,24 @@
+﻿---
+ID: "66b8b42d-e097-4169-bc7c-a78bed62f3d3"
+Parent: "e8d5a5a3-6430-4701-baad-1db1947616cc"
+Template: "e8d5a5a3-6430-4701-baad-1db1947616cc"
+Path: /sitecore/templates/System/Forms/Fields/Number/__Standard Values
+DB: master
+SharedFields:
+- ID: "589a7ade-81d4-4a60-b9e2-7eaf6ae8a563"
+  Hint: Field Type
+  Value: "{5B153FC0-FC3F-474F-8CB8-233FB1BEF292}"
+- ID: "71061c01-a495-4bf3-a52c-d378346bfae2"
+  Hint: Max Length
+  Value: 
+- ID: "9f7da002-7b86-436b-8dda-7efe5837b88e"
+  Hint: Min Length
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170516T075339Z

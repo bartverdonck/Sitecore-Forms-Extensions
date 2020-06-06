@@ -1,0 +1,14 @@
+﻿---
+ID: "38fe99d4-33f6-4505-ab08-535bbef62f7a"
+Parent: "d8386d04-c1e3-4cd3-9227-9e9f86ef3c88"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: "/sitecore/templates/System/Forms/Fields/Multiple-Line Text/Data"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161208T112702Z

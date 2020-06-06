@@ -1,0 +1,14 @@
+﻿---
+ID: "5b59b1f0-7ab8-4266-b587-13aaff47169c"
+Parent: "a60edcaf-1285-46b5-8380-d790bb8c8708"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/System/Forms/Field Type/Settings
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160719T130046Z

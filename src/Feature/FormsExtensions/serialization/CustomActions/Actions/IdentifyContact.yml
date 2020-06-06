@@ -1,0 +1,125 @@
+﻿---
+ID: "8d885e46-c631-411a-a37f-1d5b99fe8878"
+Parent: "a3e5e09f-1422-4050-9414-dc959aa60d7b"
+Template: "5f2c442f-2554-4c80-b1d9-2195fa6168b1"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact
+DB: core
+SharedFields:
+- ID: "5e642935-a6fc-48e9-b039-fe1136ced488"
+  Hint: Theme
+  Value: Harvard
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 250
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{5A7CF08C-3647-4F56-B189-9E8C0531FBAF}">
+        <r
+          id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}"
+          par="SpeakCoreVersion=%7b3F937240-C16E-4229-9641-4CE5B4CB4ABA%7d&amp;PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fApplications%2fFormsBuilder%2fLayouts%2fActions%2fIdentifyContact.js"
+          ph="Page.Code"
+          uid="{F294A2D9-6B3F-471E-B1EE-FFB3F6B07B57}" />
+        <r
+          id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}"
+          par="Id=HeaderTitle&amp;IsVisible=0"
+          ph="Page.Body"
+          uid="{BE223B65-BF6C-4C22-B672-9D4CCDA4BF13}" />
+        <r
+          id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}"
+          par="Id=HeaderSubtitle&amp;IsVisible=0"
+          ph="Page.Body"
+          uid="{8D102A0B-6B57-4B2A-B5DD-3400C5854377}" />
+        <r
+          id="{59E2A66D-11D2-488D-A3BC-6C1C81326645}"
+          par="Tooltip&amp;IsVisible=1&amp;FormData&amp;BindingTarget&amp;AccessKey&amp;ConfigurationItem&amp;Id=SettingsForm&amp;FieldDefinitionType=%7B167CCD4C-34CE-4557-985B-0915D86B3D99%7D&amp;FieldDefinitionRoot&amp;FieldSections&amp;FieldDefinitionDatabase&amp;ExcludedFields&amp;Behaviors&amp;FieldsLayout=%7B0F6F5EFF-73B4-4597-A232-F50DF253514E%7D&amp;SectionVisualization=%7B738F888B-46A9-47B6-947C-450D696B548F%7D&amp;VisualStyle"
+          ph="Page.Body"
+          uid="{76ACA21D-509F-4431-B89C-5C7BD371376C}" />
+        <r
+          id="{B5EA9A34-E232-452E-85DE-49C1CB5FCAF8}"
+          par="Id=MessagesDataSource"
+          ph="Page.Body"
+          uid="{18413795-2538-4810-8399-517D66554872}" />
+      </d>
+    </r>
+- ID: "f7b4ebc1-2335-4eb8-afae-3444923a38be"
+  Hint: Subthemes
+  Type: Checklist
+  Value: "{F69304BA-2B80-4555-96DD-6F08559405E1}"
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Send e-mailkampagnemeddelelse"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155238Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "7205a57f-93b4-413a-aa9a-6b16bbc59565"
+      Hint: BrowserTitle
+      Value: "Send e-mailkampagnemeddelelse"
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Emailkampagnenachricht senden
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155745Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "7205a57f-93b4-413a-aa9a-6b16bbc59565"
+      Hint: BrowserTitle
+      Value: Emailkampagnenachricht senden
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Identify Contact
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171030T141256Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "7205a57f-93b4-413a-aa9a-6b16bbc59565"
+      Hint: BrowserTitle
+      Value: Identify Contact
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Eメール キャンペーン メッセージを送信
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T160158Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "7205a57f-93b4-413a-aa9a-6b16bbc59565"
+      Hint: BrowserTitle
+      Value: Eメール キャンペーン メッセージを送信

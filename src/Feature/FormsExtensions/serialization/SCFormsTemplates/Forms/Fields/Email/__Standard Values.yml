@@ -1,0 +1,26 @@
+﻿---
+ID: "a9a8f34a-c373-4bfe-83da-7aafa90386b5"
+Parent: "886adec1-abf8-40e1-9926-d9189c4e8e1b"
+Template: "886adec1-abf8-40e1-9926-d9189c4e8e1b"
+Path: /sitecore/templates/System/Forms/Fields/Email/__Standard Values
+DB: master
+SharedFields:
+- ID: "10e5829a-1943-4597-b9ee-406ce3d13e13"
+  Hint: Validations
+  Type: Treelist
+  Value: "{9BAE3E9A-D89F-4F93-9577-68B5E9D44A38}"
+- ID: "589a7ade-81d4-4a60-b9e2-7eaf6ae8a563"
+  Hint: Field Type
+  Value: "{04C39CAC-8976-4910-BE0D-879ED3368429}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170724T091712Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

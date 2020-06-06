@@ -1,0 +1,28 @@
+﻿---
+ID: "44f05893-42d9-4fcc-b1f5-623284124b19"
+Parent: "83931ec8-e274-49ed-8a7d-a467d039a369"
+Template: "dd74148e-e8fc-4774-8cba-bafdb76a4e47"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/EmailConfirmation/Details/ConfirmLabel
+DB: core
+SharedFields:
+- ID: "3e079fc3-6b2d-41c9-9204-374a786fc761"
+  Hint: BindingConfiguration
+  Value: confirmEmailLabel=Value
+- ID: "a176e7b0-1c0b-4f2e-a494-2df342a75c0e"
+  Hint: IsLabelOnTop
+  Type: Checkbox
+  Value: 1
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190420T171701Z
+    - ID: "3885a716-2eed-47ae-9132-32225f0458ff"
+      Hint: FormLabel
+      Value: Confirm email label

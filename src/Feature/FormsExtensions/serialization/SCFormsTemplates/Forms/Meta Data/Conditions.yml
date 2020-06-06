@@ -1,0 +1,18 @@
+﻿---
+ID: "a13ee646-519f-4fca-8caa-a36591a18030"
+Parent: "fefe49fe-22b9-4f69-8c3b-3269cdb6d716"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/System/Forms/Meta Data/Conditions
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180620T134529Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

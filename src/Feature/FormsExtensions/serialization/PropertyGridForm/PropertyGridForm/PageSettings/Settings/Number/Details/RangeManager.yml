@@ -1,0 +1,28 @@
+﻿---
+ID: "7404991c-c40c-4269-bc79-0a551c845165"
+Parent: "9d66c753-ec88-4e00-b349-980d9b601c4c"
+Template: "58788efe-ddcb-4e43-9236-ea46e5fc0055"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Number/Details/RangeManager
+DB: core
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+- ID: "c5217339-80d0-4725-9340-574eed8e9082"
+  Hint: RenderingItemId
+  Value: "{AD7A2222-7E3A-4F43-8C1D-D11BF4BFFAED}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190225T062859Z
+    - ID: "2cf24f48-529d-4b0b-a601-0fdfed056645"
+      Hint: AllowNegativeValue
+      Type: Checkbox
+      Value: 1
+    - ID: "3885a716-2eed-47ae-9132-32225f0458ff"
+      Hint: FormLabel
+      Value: Range

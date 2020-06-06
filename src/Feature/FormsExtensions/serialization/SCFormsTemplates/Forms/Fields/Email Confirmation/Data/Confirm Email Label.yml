@@ -1,0 +1,22 @@
+﻿---
+ID: "a611de7e-e097-41ba-befe-233570c33ccf"
+Parent: "e88439cc-9a34-413c-957d-12e4b879dacd"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/System/Forms/Fields/Email Confirmation/Data/Confirm Email Label
+DB: master
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Single-Line Text"
+Languages:
+- Language: en
+  Fields:
+  - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
+    Hint: Title
+    Value: Confirm Email Label
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190420T132530Z

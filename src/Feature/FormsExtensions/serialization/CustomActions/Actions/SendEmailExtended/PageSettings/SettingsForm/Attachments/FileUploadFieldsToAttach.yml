@@ -1,0 +1,35 @@
+﻿---
+ID: "d874d897-0bdb-4967-adda-e0a53aac6caa"
+Parent: "e1fe3efd-d97a-43c6-9fbd-10c19a2a063b"
+Template: "29d2dd2d-5cda-472d-821d-6d47508655f2"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/SettingsForm/Attachments/FileUploadFieldsToAttach
+DB: core
+SharedFields:
+- ID: "0b6b2d34-5308-4aa8-b59d-85ba47e8b8aa"
+  Hint: ValueFieldName
+  Value: itemId
+- ID: "3e079fc3-6b2d-41c9-9204-374a786fc761"
+  Hint: BindingConfiguration
+  Value: 
+- ID: "40fa73e7-b24e-4702-9d4f-5577cb080c23"
+  Hint: IsRenderedVertically
+  Type: Checkbox
+  Value: 1
+- ID: "ae95c662-af6a-4156-862d-82924ab52c42"
+  Hint: DisplayFieldName
+  Value: name
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181002T135740Z
+    - ID: "3885a716-2eed-47ae-9132-32225f0458ff"
+      Hint: FormLabel
+      Value: Attachments
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

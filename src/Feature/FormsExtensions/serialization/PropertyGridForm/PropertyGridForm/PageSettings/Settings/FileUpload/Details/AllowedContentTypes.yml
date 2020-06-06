@@ -1,0 +1,34 @@
+﻿---
+ID: "5cbd62cd-a3c0-4c45-9125-279b3d59cf12"
+Parent: "b6c3b6b2-16ea-4eec-acea-7dc41cfa346b"
+Template: "04ee4321-b2db-44f1-9e75-886cf3ce86ed"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/FileUpload/Details/AllowedContentTypes
+DB: core
+SharedFields:
+- ID: "0716ba88-810f-4a82-8f8b-6b6288425f12"
+  Hint: Rows
+  Value: 3
+- ID: "3e079fc3-6b2d-41c9-9204-374a786fc761"
+  Hint: BindingConfiguration
+  Value: allowedContentTypes=Value
+- ID: "a176e7b0-1c0b-4f2e-a494-2df342a75c0e"
+  Hint: IsLabelOnTop
+  Type: Checkbox
+  Value: 1
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190717T083006Z
+    - ID: "3885a716-2eed-47ae-9132-32225f0458ff"
+      Hint: FormLabel
+      Value: Limit file types
+    - ID: "85f7fb0c-b383-4d91-b42e-90247ea49acb"
+      Hint: HelpText
+      Value: Specify file content types separated with comma. Leave empty to allow all file types.

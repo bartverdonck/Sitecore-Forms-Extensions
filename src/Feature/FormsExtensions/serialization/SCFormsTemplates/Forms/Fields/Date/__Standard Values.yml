@@ -1,0 +1,25 @@
+﻿---
+ID: "b9b66b32-8cea-4e95-94c0-86d96b0606e5"
+Parent: "5ac7621e-9f18-4569-bcec-f5bf8ba1f4d7"
+Template: "5ac7621e-9f18-4569-bcec-f5bf8ba1f4d7"
+Path: /sitecore/templates/System/Forms/Fields/Date/__Standard Values
+DB: master
+SharedFields:
+- ID: "589a7ade-81d4-4a60-b9e2-7eaf6ae8a563"
+  Hint: Field Type
+  Value: "{38137D30-7B2A-47D5-BBD8-133252C01B28}"
+- ID: "d99833ea-238a-4505-90ef-c69bf3eba946"
+  Hint: Is Tracking Enabled
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170627T091528Z
+    - ID: "71ffd7b2-8b09-4f7b-8a66-1e4cef653e8d"
+      Hint: Title
+      Value: Label

@@ -1,0 +1,25 @@
+﻿---
+ID: "81fe389a-fdc7-4eca-a5a9-4be3aca0c69a"
+Parent: "ebde78cc-ad3f-4623-b395-cc67df70b5ea"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/System/Forms/Fields/List Box
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/list_style_roman.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: "{5B672865-55D2-413E-B699-FDFC7E732CCF}"
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{29CA5A6A-AF8A-4951-83EF-983EB9B4607E}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161125T100118Z

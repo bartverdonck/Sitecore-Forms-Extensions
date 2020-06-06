@@ -1,0 +1,18 @@
+﻿---
+ID: "ebde78cc-ad3f-4623-b395-cc67df70b5ea"
+Parent: "cf6edf42-b4d7-44f7-a266-ade5730cac3f"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/System/Forms/Fields
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 25
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160902T115848Z

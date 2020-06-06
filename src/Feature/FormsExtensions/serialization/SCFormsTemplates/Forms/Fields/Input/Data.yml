@@ -1,0 +1,14 @@
+﻿---
+ID: "e2dba960-0328-463c-9a84-dabe7f426a12"
+Parent: "0908030b-4564-42ea-a6fa-c7a5a2d921a8"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/System/Forms/Fields/Input/Data
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160919T131420Z

@@ -1,0 +1,25 @@
+﻿---
+ID: "db628a02-ff75-4c1a-b35d-506772705c3e"
+Parent: "0582f46f-0b49-47bf-b00f-0132b337e7cc"
+Template: "bc7dc22c-6f43-4a9d-9d5e-d9150db7c429"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/SendToTypes/CurrentContact
+DB: core
+SharedFields:
+- ID: "7ec3a4b8-e37e-43db-a22e-c47c3530dc6c"
+  Hint: Value
+  Value: currentContact
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180606T184419Z
+    - ID: "31c7abdf-a92b-4d4f-9345-bb3406bc2e36"
+      Hint: Text
+      Value: Current xDB contact's email address
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

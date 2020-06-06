@@ -1,0 +1,14 @@
+﻿---
+ID: "fefe49fe-22b9-4f69-8c3b-3269cdb6d716"
+Parent: "cf6edf42-b4d7-44f7-a266-ade5730cac3f"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/System/Forms/Meta Data
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160921T124553Z

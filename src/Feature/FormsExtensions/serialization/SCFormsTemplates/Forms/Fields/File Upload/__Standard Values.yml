@@ -1,0 +1,34 @@
+﻿---
+ID: "4e7c87bc-cfab-4391-b30f-9b8862abcce4"
+Parent: "17203daa-0ded-4160-a23c-ec1114ab4fef"
+Template: "17203daa-0ded-4160-a23c-ec1114ab4fef"
+Path: /sitecore/templates/System/Forms/Fields/File Upload/__Standard Values
+DB: master
+SharedFields:
+- ID: "589a7ade-81d4-4a60-b9e2-7eaf6ae8a563"
+  Hint: Field Type
+  Value: "{7E9A0903-A52C-4843-BBE1-5B26BD162BED}"
+- ID: "76a13ea6-d06d-4cfd-ab5b-8252dd716e17"
+  Hint: File Size Unit
+  Value: 1024
+- ID: "af4f2ba2-1284-40e4-8572-5adadaecc393"
+  Hint: Max File Count
+  Value: 1
+- ID: "d99833ea-238a-4505-90ef-c69bf3eba946"
+  Hint: Is Tracking Enabled
+  Type: Checkbox
+  Value: 1
+- ID: "ef7b8d9e-2c05-4ea3-b0a6-8a0b620b7c29"
+  Hint: Max File Size
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190701T081402Z
+    - ID: "71ffd7b2-8b09-4f7b-8a66-1e4cef653e8d"
+      Hint: Title
+      Value: Label

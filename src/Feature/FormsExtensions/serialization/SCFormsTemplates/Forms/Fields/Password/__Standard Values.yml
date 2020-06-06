@@ -1,0 +1,33 @@
+﻿---
+ID: "aa49c517-a516-4c28-bec2-df105ca3677d"
+Parent: "05d71800-56be-4a53-afab-3819da817a4a"
+Template: "05d71800-56be-4a53-afab-3819da817a4a"
+Path: /sitecore/templates/System/Forms/Fields/Password/__Standard Values
+DB: master
+SharedFields:
+- ID: "10e5829a-1943-4597-b9ee-406ce3d13e13"
+  Hint: Validations
+  Type: Treelist
+  Value: "{83E96D09-11C8-4132-8A8A-76D8DB8208D6}"
+- ID: "8a43af61-0812-4b37-a343-96cde3f12bb1"
+  Hint: Required
+  Type: Checkbox
+  Value: 1
+- ID: "90c4f94c-ec2c-4ee4-b4c8-f3e29cbe630e"
+  Hint: Allow Save
+  Type: Checkbox
+  Value: 0
+- ID: "9f7da002-7b86-436b-8dda-7efe5837b88e"
+  Hint: Min Length
+  Value: 6
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170602T102823Z
+    - ID: "71ffd7b2-8b09-4f7b-8a66-1e4cef653e8d"
+      Hint: Title
+      Value: Password

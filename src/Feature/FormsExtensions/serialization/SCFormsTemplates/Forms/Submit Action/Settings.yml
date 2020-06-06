@@ -1,0 +1,14 @@
+﻿---
+ID: "488f4ba6-b382-49a3-881c-9cca6eb8dcb8"
+Parent: "c2d1d114-3cfe-4558-a9e3-d1a1ec0fcab7"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/System/Forms/Submit Action/Settings
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170201T145744Z

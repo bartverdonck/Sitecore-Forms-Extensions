@@ -1,0 +1,28 @@
+﻿---
+ID: "5a64c0b8-0fec-453f-852c-964b216d38bd"
+Parent: "fc18f915-eac6-460a-8777-6e1376a9ea09"
+Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
+Path: /sitecore/templates/System/Forms/Fields/Text/__Standard Values
+DB: master
+SharedFields:
+- ID: "589a7ade-81d4-4a60-b9e2-7eaf6ae8a563"
+  Hint: Field Type
+  Value: "{983BFA5F-C6B6-4AEE-A3BB-46B95D52E7DF}"
+- ID: "c6caa979-c3ac-4ffc-861e-2961f5fc3c48"
+  Hint: Html Tag
+  Value: p
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160919T132944Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "9666782b-21bb-40ce-b38f-8f6c53fa5070"
+      Hint: Text
+      Value: Text

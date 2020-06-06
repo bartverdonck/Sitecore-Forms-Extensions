@@ -1,0 +1,14 @@
+﻿---
+ID: "ea892a2c-ac78-401f-8ba2-3f3813964e7b"
+Parent: "b3bdfe59-6667-4432-b261-05d0e3f7fdf6"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/System/Forms/Meta Data/Extended List Item/Data
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161019T085619Z

@@ -1,0 +1,39 @@
+﻿---
+ID: "f554dbf1-15dc-4c1c-8091-1263e3780b51"
+Parent: "b6c3b6b2-16ea-4eec-acea-7dc41cfa346b"
+Template: "dd74148e-e8fc-4774-8cba-bafdb76a4e47"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/FileUpload/Details/MaxFileCount
+DB: core
+SharedFields:
+- ID: "3809b205-df9b-41bb-9f4c-29a35aa46f64"
+  Hint: InputType
+  Value: Text
+- ID: "3e079fc3-6b2d-41c9-9204-374a786fc761"
+  Hint: BindingConfiguration
+  Value: maxFileCount=Value
+- ID: "772179bc-c937-4e9f-8bd4-aa8eee778440"
+  Hint: KeyboardType
+  Value: Number
+- ID: "89c2c7e3-e302-4ceb-9d41-4655a4c0351d"
+  Hint: IsEnabled
+  Type: Checkbox
+  Value: 1
+- ID: "a176e7b0-1c0b-4f2e-a494-2df342a75c0e"
+  Hint: IsLabelOnTop
+  Type: Checkbox
+  Value: 1
+- ID: "e53dd72a-cc21-4771-a6b4-17762365e2b7"
+  Hint: IsRequired
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190717T082631Z
+    - ID: "3885a716-2eed-47ae-9132-32225f0458ff"
+      Hint: FormLabel
+      Value: Limit number of files

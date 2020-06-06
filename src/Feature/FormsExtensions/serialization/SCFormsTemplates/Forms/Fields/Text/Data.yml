@@ -1,0 +1,14 @@
+﻿---
+ID: "110ce845-a1ff-4bca-80be-dfcd8ad2a9a3"
+Parent: "fc18f915-eac6-460a-8777-6e1376a9ea09"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/System/Forms/Fields/Text/Data
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160919T132856Z

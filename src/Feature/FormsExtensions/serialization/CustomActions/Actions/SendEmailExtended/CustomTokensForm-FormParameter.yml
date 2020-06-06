@@ -1,0 +1,28 @@
+﻿---
+ID: "1745113a-b5ad-4f85-9db3-f99bf967bdfb"
+Parent: "e08f03e2-ea3c-4cc6-9921-51e2b902f931"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: "/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/CustomTokensForm-FormParameters"
+DB: core
+SharedFields:
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {B595043C-B009-408D-A89C-E4CC2FCE6555}
+    {FD64BC13-B5F1-4D84-984E-8B256067ACEA}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{CBB25901-52DE-447A-BDBE-F1E45E19D45A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181116T120434Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

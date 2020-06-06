@@ -1,0 +1,14 @@
+﻿---
+ID: "455d95d3-0dd0-4dfa-a14b-67f267dddf87"
+Parent: "06c078e7-1e55-4de5-a0e6-9e7f7332497e"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/templates/System/Forms/Fields/Button/__Standard Values/SubmitActions
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170426T121556Z

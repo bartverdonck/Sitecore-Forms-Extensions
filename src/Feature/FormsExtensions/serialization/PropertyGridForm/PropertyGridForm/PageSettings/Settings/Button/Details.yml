@@ -1,0 +1,28 @@
+﻿---
+ID: "794fca80-763a-488f-bfb2-25e644f83549"
+Parent: "56ba3012-7b18-4df3-b736-cf481a059c15"
+Template: "f698fe6d-35ca-4783-b36c-34928f3a23f2"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Button/Details
+DB: core
+SharedFields:
+- ID: "00fdab55-3a4a-4376-b786-7ea959bb0057"
+  Hint: ControlDefinitions
+  Type: TreelistEx
+  Value: |
+    {FF5E82DD-DE3F-4CFF-B7ED-CC57ACBF5031}
+    {362DF97E-0B79-477E-906A-F830DF8D882D}
+    {4E3C1C39-01D7-4C93-BF66-14E8542BDE07}
+- ID: "91194d47-8df3-43e3-8310-67b718ce2c93"
+  Hint: ConfigurationItem
+  Value: "{D19B6A60-0E25-41B8-9FF8-9316AC03DA21}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160921T073838Z

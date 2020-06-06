@@ -1,0 +1,27 @@
+﻿---
+ID: "94a46d66-b1b8-405d-aae4-7b5a9cd61c5e"
+Parent: "ebde78cc-ad3f-4623-b395-cc67df70b5ea"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/System/Forms/Fields/Button
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/button.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {84ED565A-BEC9-46D4-9603-6E0516580832}
+    {5CD380B6-BD27-45C0-BCEB-47CBBD5360E0}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{06C078E7-1E55-4DE5-A0E6-9E7F7332497E}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160920T073818Z

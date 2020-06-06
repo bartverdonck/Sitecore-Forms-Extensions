@@ -1,0 +1,14 @@
+﻿---
+ID: "9a08bb97-6036-4d6e-931b-99b563ee1ca3"
+Parent: "b482225c-84e1-4cb4-b98f-c318cfb6aa42"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Validation
+DB: core
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161013T091826Z

@@ -1,0 +1,55 @@
+﻿---
+ID: "92111ef2-1162-446f-a36c-94bcdc86768d"
+Parent: "fa6d8d62-55e7-43d5-86df-c3cee90160d9"
+Template: "92209f8d-c413-4017-bf56-6153789663d7"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Conditions/ConditionsManager
+DB: core
+SharedFields:
+- ID: "3e079fc3-6b2d-41c9-9204-374a786fc761"
+  Hint: BindingConfiguration
+  Value: conditionSettings_fieldKey=FieldKey&conditionSettings_fieldConditions=FieldConditions
+- ID: "a176e7b0-1c0b-4f2e-a494-2df342a75c0e"
+  Hint: IsLabelOnTop
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0c015aeb-6dc1-4d75-9e83-c5025a919e59"
+      Hint: MessageForNoConditions
+      Value: No conditions defined.
+    - ID: "11ad2a98-25a8-4201-a5e2-0cf66932ef93"
+      Hint: LabelForFieldNotInList
+      Value: field not found
+    - ID: "125873fb-041a-465f-9962-b43938490b19"
+      Hint: LabelForConditionTitle
+      Value: Condition
+    - ID: "147222ab-ae7e-4b23-8f2d-c370503655e4"
+      Hint: LabelForAnd
+      Value: and
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180227T081920Z
+    - ID: "30aba7e0-4646-45e9-abb1-9a06c3f76d66"
+      Hint: LabelForThen
+      Value: then
+    - ID: "3885a716-2eed-47ae-9132-32225f0458ff"
+      Hint: FormLabel
+      Value: Manage the conditions defined for the field.
+    - ID: "4cc9b88b-8819-464e-bc91-c5ce06c59e3d"
+      Hint: LabelForValueNotInList
+      Value: value not found
+    - ID: "811e634d-e35a-47ce-8b69-a9eba6d4587b"
+      Hint: LabelForOr
+      Value: or
+    - ID: "8a7c4134-8fde-4f69-a696-fb8877bb6050"
+      Hint: LabelForEditButton
+      Value: Edit conditions
+    - ID: "eab73c54-3abf-4579-963c-2b144620b0f4"
+      Hint: LabelForNotFound
+      Value: not found
+    - ID: "fd553ef8-9941-4481-aa16-60ac3361ea91"
+      Hint: LabelForIf
+      Value: If

@@ -1,0 +1,27 @@
+﻿---
+ID: "2f5990b9-e6f2-4d2e-9179-7851789eb66c"
+Parent: "d8386d04-c1e3-4cd3-9227-9e9f86ef3c88"
+Template: "d8386d04-c1e3-4cd3-9227-9e9f86ef3c88"
+Path: "/sitecore/templates/System/Forms/Fields/Multiple-Line Text/__Standard Values"
+DB: master
+SharedFields:
+- ID: "589a7ade-81d4-4a60-b9e2-7eaf6ae8a563"
+  Hint: Field Type
+  Value: "{A296A1C1-0DA0-4493-A92E-B8191F43AEC6}"
+- ID: "71061c01-a495-4bf3-a52c-d378346bfae2"
+  Hint: Max Length
+  Value: 512
+- ID: "e43e4e5f-6b45-4e3b-8d85-85ab87d2cc12"
+  Hint: Rows
+  Value: 4
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161208T112732Z
+    - ID: "71ffd7b2-8b09-4f7b-8a66-1e4cef653e8d"
+      Hint: Title
+      Value: Label

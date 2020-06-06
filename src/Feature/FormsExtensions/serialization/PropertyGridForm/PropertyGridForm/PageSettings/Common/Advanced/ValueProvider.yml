@@ -1,0 +1,31 @@
+﻿---
+ID: "6eb7b559-9dfb-463a-9d27-2169f99c2f2f"
+Parent: "af941dbd-81fc-40c3-b4ed-46e1273363b8"
+Template: "08483dc9-bcf2-413b-b29f-ddcf8e9622d3"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Advanced/ValueProvider
+DB: core
+SharedFields:
+- ID: "3e079fc3-6b2d-41c9-9204-374a786fc761"
+  Hint: BindingConfiguration
+  Value: valueProviderSettings_valueProviderItemId=SelectedItemId
+- ID: "a176e7b0-1c0b-4f2e-a494-2df342a75c0e"
+  Hint: IsLabelOnTop
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1602503a-9b91-4805-8be4-c89f274d3b15"
+      Hint: LabelForNotFound
+      Value: value not in the selection tree
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180405T104848Z
+    - ID: "3885a716-2eed-47ae-9132-32225f0458ff"
+      Hint: FormLabel
+      Value: Value provider
+    - ID: "85f7fb0c-b383-4d91-b42e-90247ea49acb"
+      Hint: HelpText
+      Value: Prefill the form field with data from the value provider.

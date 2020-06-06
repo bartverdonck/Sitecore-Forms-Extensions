@@ -1,0 +1,29 @@
+﻿---
+ID: "35360d29-ffd5-48e3-9d71-a3eb7a32df27"
+Parent: "06510e4d-13dd-480a-909a-06392bdfa89e"
+Template: "06510e4d-13dd-480a-909a-06392bdfa89e"
+Path: /sitecore/templates/Modules/FormsExtensions/Fields/RawHtmlField/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180506T132628Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180506T132628Z
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180506T132628Z
+  - Version: 4
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180506T132628Z

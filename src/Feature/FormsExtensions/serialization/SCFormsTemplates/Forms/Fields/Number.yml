@@ -1,0 +1,25 @@
+﻿---
+ID: "e8d5a5a3-6430-4701-baad-1db1947616cc"
+Parent: "ebde78cc-ad3f-4623-b395-cc67df70b5ea"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/System/Forms/Fields/Number
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/numbers_field.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: "{0908030B-4564-42EA-A6FA-C7A5A2D921A8}"
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{66B8B42D-E097-4169-BC7C-A78BED62F3D3}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170516T074415Z

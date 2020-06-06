@@ -1,0 +1,55 @@
+﻿---
+ID: "a599ec5d-3541-44e3-9651-9e9a35908d4f"
+Parent: "02e48132-df0d-4300-a05d-a908d1db13c0"
+Template: "5f2c442f-2554-4c80-b1d9-2195fa6168b1"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm
+DB: core
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{5A7CF08C-3647-4F56-B189-9E8C0531FBAF}">
+        <r
+          id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}"
+          par="IsVisible=1&amp;Id=MainBorder"
+          ph="Page.Body"
+          uid="{9935DDBD-EAD1-4FD8-B90D-877E1A3A2829}" />
+        <r
+          id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}"
+          par="PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fApplications%2fFormsBuilder%2fLayouts%2fPropertyGridForm%2fPropertyGridForm.js&amp;PageCodeTypeName=Sitecore.ExperienceForms.Client.Pages.PropertyGridForm%2c+Sitecore.ExperienceForms.Client&amp;SpeakCoreVersion=%7b3F937240-C16E-4229-9641-4CE5B4CB4ABA%7d"
+          ph="Page.Code"
+          uid="{533644F2-9521-4EB1-A00A-5A0192961872}" />
+        <r
+          id="{59E2A66D-11D2-488D-A3BC-6C1C81326645}"
+          par="SectionVisualization=%7b738F888B-46A9-47B6-947C-450D696B548F%7d&amp;VisualStyle=ContextPane&amp;FieldDefinitionType=%7b83C3E20E-8E9B-49CE-93DA-1F31EE559416%7d&amp;FieldsLayout=%7b0F6F5EFF-73B4-4597-A232-F50DF253514E%7d&amp;ConfigurationItem=%7b1C601B81-8EA6-40A5-9144-34FCC938B62A%7d&amp;Id=PropertiesForm"
+          ph="MainBorder.Content"
+          uid="{D0BE3955-802F-49E3-8994-018772BFBC58}" />
+        <r
+          id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}"
+          par="IsVisible=0&amp;Id=RequiredFieldErrorText"
+          ph="MainBorder.Content"
+          uid="{08010CB3-5684-4375-BE03-BFED5B165DA1}" />
+        <r
+          id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}"
+          par="IsVisible=0&amp;Id=NegativeValueErrorText"
+          ph="MainBorder.Content"
+          uid="{224EE167-DBF8-4F9D-84FA-128BB2753D60}" />
+        <r
+          id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}"
+          par="IsVisible=0&amp;Id=InvalidRangeErrorText"
+          ph="MainBorder.Content"
+          uid="{8B3A96C4-890B-463B-831B-7BC24CD7F9AE}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160920T092459Z

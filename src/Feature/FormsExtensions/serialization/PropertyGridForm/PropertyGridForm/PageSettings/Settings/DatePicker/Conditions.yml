@@ -1,0 +1,32 @@
+﻿---
+ID: "d2fe8f93-19f8-48c7-8dd6-950fdcfcbc54"
+Parent: "93edc1e9-32b2-4e51-ba55-32fea8de0b55"
+Template: "be565d6c-96b1-4d5f-bda2-8f631a1f4d1f"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/DatePicker/Conditions
+DB: core
+SharedFields:
+- ID: "00fdab55-3a4a-4376-b786-7ea959bb0057"
+  Hint: ControlDefinitions
+  Type: TreelistEx
+  Value: "{92111EF2-1162-446F-A36C-94BCDC86768D}"
+- ID: "91194d47-8df3-43e3-8310-67b718ce2c93"
+  Hint: ConfigurationItem
+  Value: "{39454FA5-ABD6-4074-A8F3-7F979226594B}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+- ID: "f5c33d05-59a2-4c0a-9751-d43a2cf342d0"
+  Hint: Value Template
+  Value: "{5D19D41C-1460-423B-A004-A6B6FCABFFC1}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180228T110834Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

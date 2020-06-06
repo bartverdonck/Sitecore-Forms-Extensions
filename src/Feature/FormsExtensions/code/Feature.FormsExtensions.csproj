@@ -320,6 +320,9 @@
     <Compile Include="XDb\XDbService.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Config\Include\Feature\FormsExtensions\Feature.FormsExtensions.Serialization.config">
+      <SubType>Designer</SubType>
+    </Content>
     <None Include="packages.config" />
     <Content Include="App_Config\Include\Feature\FormsExtensions\Feature.FormsExtensions.Processors.config">
       <SubType>Designer</SubType>
