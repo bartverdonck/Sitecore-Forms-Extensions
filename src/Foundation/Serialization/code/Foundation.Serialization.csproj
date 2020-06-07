@@ -45,8 +45,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\Foundation\Serialization\Unicorn.UI.IdentityServer.config" />
-    <Content Include="App_Config\Include\Foundation\Serialization\Unicorn.Settings.config" />
     <Content Include="App_Config\Include\Foundation\Serialization\Unicorn.Helix.config" />
+    <Content Include="App_Config\Environment\Foundation\Serialization\Unicorn.Settings.config" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
