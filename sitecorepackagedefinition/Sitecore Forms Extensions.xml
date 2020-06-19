@@ -330,6 +330,7 @@ Copyright (c) 2017-2019 Bart Verdonck</Readme>
         <x-item>/web/sitecore/templates/Modules/FormExtensions/Fields/HiddenField/{5092AFD5-45C0-4FB0-91B1-56B1B960AC7F}/invariant/0</x-item>
         <x-item>/web/sitecore/templates/Modules/FormExtensions/Fields/HiddenField/Data/{98B259C7-1842-4174-8C89-CD89A2EC0556}/invariant/0</x-item>
         <x-item>/web/sitecore/templates/Modules/FormExtensions/Fields/HiddenField/Data/Default Value/{1CE7DA27-D096-493A-9768-72D8B6C6CD95}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/RedirectToUrl/PageSettings/FormClientApi/{02515973-3B01-4468-BBCB-7514A74C5AA9}/invariant/0</x-item>
       </Entries>
       <SkipVersions>False</SkipVersions>
       <Converter>
