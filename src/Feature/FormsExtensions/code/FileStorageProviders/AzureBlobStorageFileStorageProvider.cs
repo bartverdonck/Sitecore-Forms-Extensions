@@ -80,6 +80,7 @@ namespace Feature.FormsExtensions.FileStorageProviders
         {
             var fileStream = new MemoryStream();
             blockBlob.DownloadToStream(fileStream);
+            fileStream.Position = 0;
             return fileStream;
         }
 
