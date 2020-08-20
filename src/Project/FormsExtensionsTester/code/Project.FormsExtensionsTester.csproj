@@ -49,6 +49,9 @@
     <Content Include="App_Config\Include\Project\FormsExtensionsTester\Project.FormsExtensionsTester.Serialization.config">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="App_Config\Environment\Project\FormsExtensionsTester\Project.FormsExtensionsTester.Settings.config">
+      <SubType>Designer</SubType>
+    </Content>
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

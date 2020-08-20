@@ -27,7 +27,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/13/2020 15:16:31</publishTime>
     </File>
     <File Include="App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.Serialization.config">
-      <publishTime>06/06/2020 16:21:33</publishTime>
+      <publishTime>06/19/2020 12:08:22</publishTime>
     </File>
     <File Include="App_Config/Include/Feature/FormsExtensions/Feature.FormsExtensions.Settings.config">
       <publishTime>04/13/2020 15:16:31</publishTime>
@@ -60,10 +60,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/01/2017 14:00:14</publishTime>
     </File>
     <File Include="bin/Feature.FormsExtensions.dll">
-      <publishTime>06/06/2020 15:32:24</publishTime>
+      <publishTime>06/19/2020 14:16:22</publishTime>
     </File>
     <File Include="bin/Feature.FormsExtensions.pdb">
-      <publishTime>06/06/2020 15:32:24</publishTime>
+      <publishTime>06/19/2020 14:16:22</publishTime>
     </File>
     <File Include="bin/fr/Microsoft.Data.Edm.resources.dll">
       <publishTime>02/01/2017 14:00:38</publishTime>
