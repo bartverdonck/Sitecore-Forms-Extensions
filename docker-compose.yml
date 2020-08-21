@@ -1,3 +1,4 @@
+#Topology: XP0
 version: "2.4"
 services:
   traefik:
