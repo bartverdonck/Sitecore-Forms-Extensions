@@ -10,17 +10,25 @@
 
 > [Downloads can be found here](https://github.com/bartverdonck/Sitecore-Forms-Extensions/tree/master/downloads)
 
+## Container Support
+
+If you use [containered development for Sitecore](https://containers.doc.sitecore.com/docs/intro), an assets image is available on Docker. https://hub.docker.com/r/bverdonck/sitecore-forms-extensions-assets
+
+You can reference the image with bverdonck/sitecore-forms-extensions-assets
+
+More info can be found on my blog. http://onelittlespark.bartverdonck.be/container-support-for-sitecore-forms-extensions/
+
 ## Why
 The new Sitecore Forms module that came with Sitecore 9 is a very promissing tool that allows content editors to add custom forms to their website.
 
 This module aims to add some functionality to this forms creator.
 
-For Sitecore 9.3+ use version 3.0
+For Sitecore 9.3+ (include SC10) use version 3.0
 For Sitecore 9.1.x till 9.2.x use version 2.3.1
 For Sitecore 9.0.x use version 1.8.3
 
 ## Changelog
-### 3.0 (for Sitecore 9.3+)
+### 3.0 (for Sitecore 9.3+) (This version is compatible with Sitecore 10)
 - *FileUpload Component*: Component removed in favour of build-in component
 - *AzureBlobStorageFileUploadStorageProvider*: Store the file uploads in Azure Blob Storage instead of SQL. (Disabled by default)
 - *RobotDetection*: NEW component to give the user feedback when his session was marked as a robot.

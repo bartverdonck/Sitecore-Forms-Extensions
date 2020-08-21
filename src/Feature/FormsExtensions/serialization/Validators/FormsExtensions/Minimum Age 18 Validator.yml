@@ -1,0 +1,83 @@
+﻿---
+ID: "29323308-6164-40a1-8cd8-37888dcc001b"
+Parent: "ec6398d2-ee1d-4c69-a30c-8e6423ee5050"
+Template: "0a1a6dce-078a-4ece-9fce-71cade57c7b8"
+Path: /sitecore/system/Settings/Forms/Validations/FormsExtensions/Minimum Age 18 Validator
+DB: master
+SharedFields:
+- ID: "0c58c584-7d0c-42e8-a6b9-17d9cfa74299"
+  Hint: Parameters
+  Value: |
+    {"unit":"years","minvalue":"18"}
+- ID: "0cfa025b-c124-41de-9dc5-2cd5841553fe"
+  Hint: Type
+  Value: Feature.FormsExtensions.Fields.Date.TimeSpanValidation,Feature.FormsExtensions
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Strenglængdevalidator
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155414Z
+    - ID: "2ce7436e-2b14-47e8-9103-7d2ea2f31159"
+      Hint: Message
+      Value: "{0} skal bestå af mindst {1} tegn og maks. {2} tegn."
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: String Längenprüfer
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155853Z
+    - ID: "2ce7436e-2b14-47e8-9103-7d2ea2f31159"
+      Hint: Message
+      Value: "{0} Es muss mindestens {1} und nicht mehr als {2} Zeichen aufweisen."
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161114T100330Z
+    - ID: "2ce7436e-2b14-47e8-9103-7d2ea2f31159"
+      Hint: Message
+      Value: The minimum age is 18 years
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 文字列長検証
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T160312Z
+    - ID: "2ce7436e-2b14-47e8-9103-7d2ea2f31159"
+      Hint: Message
+      Value: "{0} は最小 {1} 文字、最大 {2} 文字未満にしてください"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

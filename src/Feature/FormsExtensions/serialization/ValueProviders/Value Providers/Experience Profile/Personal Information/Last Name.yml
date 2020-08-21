@@ -1,0 +1,25 @@
+﻿---
+ID: "06a6efda-ce85-4277-88eb-25fe91ea0899"
+Parent: "05270b47-84d2-4e11-b9a9-49edfde3e2ab"
+Template: "60706220-93c4-4d8d-9267-06621a1c05f9"
+Path: /sitecore/system/Settings/Forms/Value Providers/Experience Profile/Personal Information/Last Name
+DB: master
+SharedFields:
+- ID: "6e0f73b7-a507-4318-8e57-e03b1666e958"
+  Hint: Model Type
+  Value: Feature.FormsExtensions.ValueProviders.xDbFieldValueBinders.ContactPersonalInfo.XDbLastNameFieldValueBinder, Feature.FormsExtensions
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190108T200522Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

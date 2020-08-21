@@ -342,6 +342,7 @@
       <SubType>Designer</SubType>
     </Content>
     <None Include="Properties\PublishProfiles\01_Local.pubxml" />
+    <None Include="Properties\PublishProfiles\03_Docker.pubxml" />
     <None Include="Properties\PublishProfiles\02_Release.pubxml" />
     <Content Include="Views\FormBuilder\FieldTemplates\ReCaptcha.cshtml" />
     <Content Include="Views\FormBuilder\FieldTemplates\RawHtml.cshtml" />
