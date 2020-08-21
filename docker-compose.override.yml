@@ -1,6 +1,15 @@
 version: "2.4"
 
 services:
+  module:
+    image: bverdonck/sitecore-forms-extensions-assets:${VERSION:-latest}
+    build:
+      context: ./docker/build/module
+      args:
+        BASE_IMAGE: ${SOLUTION_BASE_IMAGE}
+        TOOLING_IMAGE: ${SITECORE_TOOLS_REGISTRY}sitecore-docker-tools-assets:${TOOLS_VERSION}
+    scale: 0
+
   solution:
     image: ${REGISTRY}${COMPOSE_PROJECT_NAME}-solution:${VERSION:-latest}
     build:

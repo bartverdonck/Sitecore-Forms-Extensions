@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<configuration xmlns:patch="http://www.sitecore.net/xmlconfig/"  xmlns:role="http://www.sitecore.net/xmlconfig/role/">
+  <sitecore>
+    <services>
+      <register serviceType="Sitecore.ExperienceForms.Data.IFileStorageProvider, Sitecore.ExperienceForms"
+                implementationType="Feature.FormsExtensions.FileStorageProviders.AzureBlobStorageFileStorageProvider, Feature.FormsExtensions"
+                lifetime="Transient"
+                patch:instead="*[@serviceType='Sitecore.ExperienceForms.Data.IFileStorageProvider, Sitecore.ExperienceForms']" />
+    </services>
+    <settings>
+      <setting name="AzureBlobStorageFileStorageProvider.ConnectionString" value="" />
+      <setting name="AzureBlobStorageFileStorageProvider.BlobContainer" value="" />
+      <setting name="AzureBlobStorageFileStorageProvider.Folder" value="" />
+    </settings>
+  </sitecore>
+</configuration>

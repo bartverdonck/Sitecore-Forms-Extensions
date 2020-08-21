@@ -1,0 +1,17 @@
+﻿@using System.Web.Mvc.Html
+@using Feature.FormsExtensions.Views
+@using Sitecore.Mvc
+@model Feature.FormsExtensions.Fields.RobotDetection.RobotDetectionModel
+@{
+  var fieldId = Html.IdFor(m => Model.DummyValue);
+}
+@if (Html.Sitecore().IsExperienceFormsEditMode())
+{
+  <div>
+    Robot Detection Component
+  </div>
+}
+<input id="@fieldId" name="@Html.NameFor(m => Model.DummyValue)" value="dummy" type="hidden" />
+<div class="@Model.CssClass">
+  @Html.ValidationMessageFor(m => Model.DummyValue)
+</div>
