@@ -6,46 +6,25 @@ on:
 jobs:
   publish:
     name: build, pack & publish
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
-      - uses: actions/checkout@v2
-
-      # - name: Setup dotnet
-      #   uses: actions/setup-dotnet@v1
-      #   with:
-      #     dotnet-version: 3.1.200
-
-      # Publish
-      - name: publish on version change
-        id: publish_nuget
-        uses: rohith/publish-nuget@v2
+      - uses: actions/checkout@master
+      - uses: nuget/setup-nuget@v1.0.2
         with:
-          # Filepath of the project to be packaged, relative to root of repository
-          PROJECT_FILE_PATH: src/Feature/FormsExtensions/code/Feature.FormsExtensions.csproj
-          
-          # NuGet package id, used for version detection & defaults to project name
-          PACKAGE_NAME: SitecoreFormsExtenstions
-          
-          # Filepath with version info, relative to root of repository & defaults to PROJECT_FILE_PATH
-          # VERSION_FILE_PATH: Directory.Build.props
-
-          # Regex pattern to extract version info in a capturing group
-          # VERSION_REGEX: <Version>(.*)<\/Version>
-          
-          # Useful with external providers like Nerdbank.GitVersioning, ignores VERSION_FILE_PATH & VERSION_REGEX
-          VERSION_STATIC: 3.0.0
-
-          # Flag to toggle git tagging, enabled by default
-          # TAG_COMMIT: true
-
-          # Format of the git tag, [*] gets replaced with actual version
-          # TAG_FORMAT: v*
-
-          # API key to authenticate with NuGet server
-          NUGET_KEY: ${{secrets.NUGET_API_KEY}}
-
-          # NuGet server uri hosting the packages, defaults to https://api.nuget.org
-          NUGET_SOURCE: https://api.nuget.org
-
-          # Flag to toggle pushing symbols along with nuget package to the server, disabled by default
-          # INCLUDE_SYMBOLS: false
+          nuget-api-key: ${{secrets.NUGET_API_KEY}}
+          nuget-version: 'latest'
+      - name: Setup MSBuild.exe
+        uses: warrenbuckley/Setup-MSBuild@v1
+        env:
+          working-directory: src/Feature/FormsExtensions/code
+      - run: msbuild -t:restore
+        working-directory: src/Feature/FormsExtensions/code
+      - run: msbuild -t:build
+        working-directory: src/Feature/FormsExtensions/code
+      - name: Nuget Add Source
+        run: nuget sources Add -Name "nugetapi" -Source https://api.nuget.org
+      - name: Nuget SetAPIKey
+        run: nuget setapikey ${{secrets.NUGET_API_KEY}} -Source "nugetapi"
+      - name: Publish the package to GitHub packages
+        working-directory: src/Feature/FormsExtensions/code
+        run: nuget push bin\Debug\*.nupkg -source "nugetapi" -SkipDuplicate
