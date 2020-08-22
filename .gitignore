@@ -13,3 +13,4 @@ docs/overview/build/
 **/bin/
 **/obj/
 *.user
+.env
