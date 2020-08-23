@@ -18,6 +18,13 @@ You can reference the image with bverdonck/sitecore-forms-extensions-assets
 
 More info can be found on my blog. http://onelittlespark.bartverdonck.be/container-support-for-sitecore-forms-extensions/
 
+## Nuget Support
+
+Some feature like "Value Provider Store Back" and "Value Provider Conditions" can be further customized and extended upon. For this, a nuget package is now available.
+Please add a reference to *SitecoreFormsExtensions.Core* and *Sitecore.ExperienceForms* inside your .NET project. The package is hosted on nuget.org.
+
+Note that the nuget package only contains the Sitecore Forms Extensions codebase, it does not include the Sitecore items, razor files and javascripts. You still need to install the module in a conventional way (either download and install the package, or use the container asset image).
+
 ## Why
 The new Sitecore Forms module that came with Sitecore 9 is a very promissing tool that allows content editors to add custom forms to their website.
 
