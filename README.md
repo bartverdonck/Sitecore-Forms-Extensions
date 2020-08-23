@@ -29,9 +29,9 @@ Note that the nuget package only contains the Sitecore Forms Extensions codebase
 
 This module aims to add even more functionalities to the Sitecore Forms module that was released with Sitecore 9.
 
-For Sitecore 9.3+ (include SC10) use version 3.0
-For Sitecore 9.1.x till 9.2.x use version 2.3.1
-For Sitecore 9.0.x use version 1.8.3
+- For Sitecore 9.3+ (include SC10) use version 3.0
+- For Sitecore 9.1.x till 9.2.x use version 2.3.1
+- For Sitecore 9.0.x use version 1.8.3
 
 ## Changelog
 ### 3.0 (for Sitecore 9.3+) (This version is compatible with Sitecore 10)
