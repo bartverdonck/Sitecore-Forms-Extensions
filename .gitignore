@@ -14,3 +14,4 @@ docs/overview/build/
 **/obj/
 *.user
 .env
+*.nupkg
