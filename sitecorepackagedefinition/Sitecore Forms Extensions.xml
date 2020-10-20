@@ -3,13 +3,13 @@
     <metadata>
       <PackageName>Sitecore Forms Extensions for Sitecore 9.3</PackageName>
       <Author>Bart Verdonck</Author>
-      <Version>3.0</Version>
+      <Version>3.1-alpha</Version>
       <Revision />
       <License />
       <Comment />
       <Attributes />
       <Readme>Sitecore Forms Extensions is an add-on to Sitecore Forms.
-This packages is compatible with Sitecore 9.3.
+This packages is compatible with Sitecore 9.3 and Sitecore 10
 
 Documentation on http://onelittlespark.bartverdonck.be/sitecoreformsextentions/
 
@@ -25,12 +25,13 @@ The package includes:
 * Advanced Send Mail submit action
 * Jump to page submit action
 * Identify Contact submit action
+* Subscribe to list submit action
 * Date Timespan Validators
 * Value Providers for xDB facets
 * Value Provider store back
 * Value Provider conditions
 
-Copyright (c) 2017-2019 Bart Verdonck</Readme>
+Copyright (c) 2017-2020 Bart Verdonck</Readme>
       <Publisher>The Reference</Publisher>
       <PostStep />
       <PackageID />
@@ -54,6 +55,7 @@ Copyright (c) 2017-2019 Bart Verdonck</Readme>
         <x-item>/Views/FormBuilder/FieldTemplates/RawHtml.cshtml</x-item>
         <x-item>/Views/FormBuilder/FieldTemplates/ReCaptcha.cshtml</x-item>
         <x-item>/Views/FormBuilder/FieldTemplates/RobotDetection.cshtml</x-item>
+        <x-item>/sitecore/shell/client/Applications/FormsBuilder/Layouts/Actions/SubscribeToList.js</x-item>
       </Entries>
       <Converter>
         <FileToEntryConverter>
@@ -839,6 +841,28 @@ Copyright (c) 2017-2019 Bart Verdonck</Readme>
       <Include />
       <Exclude />
       <Name>Condition Operators</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SubscribeToList/{96E25AFB-4320-4ECB-B8C5-15D89565B2D2}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SubscribeToList/PageSettings/{BE61A097-E0D5-40C5-98EC-08FD386045CB}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SubscribeToList/PageSettings/Form/{D51E60BC-CF8F-474E-BF0E-8BEF520F0967}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SubscribeToList/PageSettings/Form/ListId/{2741B350-A801-45A8-B6B3-22D411F69D9E}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SubscribeToList/PageSettings/HeaderSubtitle/{369BA876-90C6-47FE-B7BE-3D2B6898F850}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SubscribeToList/PageSettings/HeaderTitle/{4E28214A-7E72-4A39-816A-9767B1A3B0CB}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SubscribeToList/PageSettings/Stylesheet/{A2786146-6A36-4140-9A68-10010D4F4909}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Submit Actions/Subscribe To List/{BAC17010-3F3B-49DD-9F93-6BD85E7672BD}/invariant/0</x-item>
+        <x-item>/web/sitecore/system/Settings/Forms/Submit Actions/Subscribe To List/{BAC17010-3F3B-49DD-9F93-6BD85E7672BD}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Subscribe To List</Name>
     </xitems>
   </Sources>
   <Converter>

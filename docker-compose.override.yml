@@ -48,6 +48,7 @@ services:
     volumes:
       - ${LOCAL_DEPLOY_PATH}\website:C:\deploy
       - ${LOCAL_DATA_PATH}\cm:C:\inetpub\wwwroot\App_Data\logs
+      - .\sitecorepackagedefinition:C:\inetpub\wwwroot\App_Data\packages
       - ${LOCAL_DATA_PATH}\license:c:\license
     environment:
       SITECORE_LICENSE_LOCATION: c:\license\license.xml
