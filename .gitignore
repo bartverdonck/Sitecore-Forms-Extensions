@@ -13,5 +13,5 @@ docs/overview/build/
 **/bin/
 **/obj/
 *.user
-.env
 *.nupkg
+docker/data/license/license.xml

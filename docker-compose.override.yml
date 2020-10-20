@@ -48,8 +48,20 @@ services:
     volumes:
       - ${LOCAL_DEPLOY_PATH}\website:C:\deploy
       - ${LOCAL_DATA_PATH}\cm:C:\inetpub\wwwroot\App_Data\logs
+      - ${LOCAL_DATA_PATH}\license:c:\license
+    environment:
+      SITECORE_LICENSE_LOCATION: c:\license\license.xml
     entrypoint: powershell -Command "& C:\tools\entrypoints\iis\Development.ps1"
+
+  id:
+    volumes:
+      - ${LOCAL_DATA_PATH}\license:c:\license
+    environment:
+      SITECORE_LICENSE_LOCATION: c:\license\license.xml
 
   xconnect:
     volumes:
       - ${LOCAL_DEPLOY_PATH}\xconnect:C:\deploy
+      - ${LOCAL_DATA_PATH}\license:c:\license
+    environment:
+      SITECORE_LICENSE_LOCATION: c:\license\license.xml
