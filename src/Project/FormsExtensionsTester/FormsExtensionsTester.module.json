@@ -1,0 +1,23 @@
+{
+    "namespace": "Project.MvpSite",
+    "items": {
+        "includes": [
+            {
+                "name": "templates",
+                "path": "/sitecore/templates/Project/FormsExtensionsTester"
+            },
+            {
+                "name": "layouts",
+                "path": "/sitecore/layout/Layouts/Project/FormsExtensionsTester"
+            },
+            {
+                "name": "placeholders",
+                "path": "/sitecore/layout/Placeholder Settings/Project/FormsExtensionsTester"
+            },
+            {
+                "name": "content",
+                "path": "/sitecore/content/Home"
+            }
+        ]
+    }
+}
