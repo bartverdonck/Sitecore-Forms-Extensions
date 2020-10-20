@@ -107,6 +107,18 @@
     <Reference Include="Sitecore.Kernel, Version=14.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.Kernel.9.3.0\lib\net471\Sitecore.Kernel.dll</HintPath>
     </Reference>
+    <Reference Include="Sitecore.ListManagement.Client, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Sitecore.ListManagement.Client.9.3.0\lib\net471\Sitecore.ListManagement.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.ListManagement.Services, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Sitecore.ListManagement.Services.9.3.0\lib\net471\Sitecore.ListManagement.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.ListManagement.XConnect, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Sitecore.ListManagement.XConnect.9.3.0\lib\net471\Sitecore.ListManagement.XConnect.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.ListManagement.XConnect.Web, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Sitecore.ListManagement.XConnect.Web.9.3.0\lib\net471\Sitecore.ListManagement.XConnect.Web.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.Mvc, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.Mvc.9.3.0\lib\net471\Sitecore.Mvc.dll</HintPath>
     </Reference>
@@ -231,6 +243,8 @@
     <Compile Include="Fields\ValueResolvers\StringValueFromStringListInputViewModelReader.cs" />
     <Compile Include="SubmitActions\SendEmail\Tokens\IMailTokenBuilder.cs" />
     <Compile Include="SubmitActions\SendEmail\Tokens\MailTokenBuilder.cs" />
+    <Compile Include="SubmitActions\SubscribeToList\SubscribeToListAction.cs" />
+    <Compile Include="SubmitActions\SubscribeToList\SubscribeToListData.cs" />
     <Compile Include="ValueProviderConditions\ValueProviderConditionsRulesContext.cs" />
     <Compile Include="ValueProviderConditions\ValueProviderConditionsContext.cs" />
     <Compile Include="ValueProviders\FieldValueBinderMapFactory.cs" />
@@ -334,6 +348,7 @@
     <Content Include="App_Config\Include\Feature\FormsExtensions\Feature.FormsExtensions.Tracker.config">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="sitecore\shell\client\Applications\FormsBuilder\Layouts\Actions\SubscribeToList.js" />
     <Content Include="sitecore\shell\client\Applications\FormsBuilder\Layouts\Actions\ShowFormPage.js" />
     <Content Include="sitecore\shell\client\Applications\FormsBuilder\Layouts\Actions\IdentifyContact.js" />
     <Content Include="sitecore\shell\client\Applications\FormsBuilder\Layouts\Actions\SendEmailExtended.js" />

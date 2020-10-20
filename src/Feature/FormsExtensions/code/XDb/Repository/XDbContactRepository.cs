@@ -24,6 +24,15 @@ namespace Feature.FormsExtensions.XDb.Repository
                 client.Submit();
             }
         }
+
+        public Guid? GetContactId(IdentifiedContactReference reference)
+        {
+            using (var client = SitecoreXConnectClientConfiguration.GetClient())
+            {
+                var contact = client.Get(reference,new ContactExpandOptions());
+                return contact?.Id;
+            }
+        }
         
         public void UpdateContactFacet<T>(IdentifiedContactReference reference, ContactExpandOptions expandOptions, Action<T> updateFacets, Func<T> createFacet) where T : Facet
         {

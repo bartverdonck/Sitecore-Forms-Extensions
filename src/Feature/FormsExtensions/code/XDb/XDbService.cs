@@ -52,6 +52,19 @@ namespace Feature.FormsExtensions.XDb
             var trackerIdentifier = new IdentifiedContactReference(Sitecore.Analytics.XConnect.DataAccess.Constants.IdentifierSource, Sitecore.Analytics.Tracker.Current.Contact.ContactId.ToString("N"));
             xDbContactRepository.UpdateContactFacet(trackerIdentifier, new ContactExpandOptions(facetKey), updateFacets, createFacet);
         }
+
+        public Guid? GetCurrentContactId()
+        {
+            if (Tracker.Current == null || Tracker.Current.Contact == null)
+                return null;
+            if (Tracker.Current.Contact.IsNew)
+            {
+                xDbContactRepository.SaveNewContactToCollectionDb(Tracker.Current.Contact);
+            }
+            var trackerIdentifier = new IdentifiedContactReference(Sitecore.Analytics.XConnect.DataAccess.Constants.IdentifierSource, Sitecore.Analytics.Tracker.Current.Contact.ContactId.ToString("N"));
+            return xDbContactRepository.GetContactId(trackerIdentifier);
+        }
+
         
         private static void CheckIdentifier(IXDbContact contact)
         {
