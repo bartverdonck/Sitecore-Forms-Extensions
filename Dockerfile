@@ -30,16 +30,9 @@ COPY src\ .\src\
 # Copy transforms, retaining directory structure
 RUN Invoke-Expression 'robocopy C:\build\src C:\out\transforms /s /ndl /njh /njs *.xdt'
 
-# Copy serialized items, retaining directory structure
-RUN Invoke-Expression 'robocopy C:\build\src C:\out\items /s /ndl /njh /njs *.yml'
-
 # Build website with file publish
 RUN msbuild .\src\Feature\FormsExtensions\code\Feature.FormsExtensions.csproj /p:Configuration=$env:BUILD_CONFIGURATION /p:DeployOnBuild=True /p:DeployDefaultTarget=WebPublish /p:WebPublishMethod=FileSystem /p:PublishProfile=03_Docker /p:PublishUrl=C:\out\website
-RUN msbuild .\src\Foundation\Serialization\code\Foundation.Serialization.csproj /p:Configuration=$env:BUILD_CONFIGURATION /p:DeployOnBuild=True /p:DeployDefaultTarget=WebPublish /p:WebPublishMethod=FileSystem /p:PublishProfile=03_Docker /p:PublishUrl=C:\out\website
 RUN msbuild .\src\Project\FormsExtensionsTester\code\Project.FormsExtensionsTester.csproj /p:Configuration=$env:BUILD_CONFIGURATION /p:DeployOnBuild=True /p:DeployDefaultTarget=WebPublish /p:WebPublishMethod=FileSystem /p:PublishProfile=03_Docker /p:PublishUrl=C:\out\website
-
-# Build XConnect with file publish
-#RUN msbuild .\src\Feature\FormsExtensions\code\DockerExamples.XConnect.csproj /p:Configuration=$env:BUILD_CONFIGURATION /p:DeployOnBuild=True /p:DeployDefaultTarget=WebPublish /p:WebPublishMethod=FileSystem /p:PublishUrl=C:\out\xconnect
 
 FROM ${BASE_IMAGE}
 
@@ -48,5 +41,4 @@ WORKDIR C:\artifacts
 # Copy final build artifacts
 COPY --from=builder C:\out\website .\website\
 COPY --from=builder C:\out\transforms .\transforms\
-COPY --from=builder C:\out\items .\items\
 #COPY --from=builder C:\out\xconnect .\xconnect\

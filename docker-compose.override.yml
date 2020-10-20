@@ -48,11 +48,6 @@ services:
     volumes:
       - ${LOCAL_DEPLOY_PATH}\website:C:\deploy
       - ${LOCAL_DATA_PATH}\cm:C:\inetpub\wwwroot\App_Data\logs
-      - ${LOCAL_ITEM_PATH}:c:\items-mounted
-    environment:
-      ITEM_SYNC_LOCATION: c:\items-mounted
-      UNICORN_SHARED_SECRET: ${UNICORN_SHARED_SECRET}
-      UNICORN_ENABLE_TRANSPARENT_SYNC: ${UNICORN_ENABLE_TRANSPARENT_SYNC}
     entrypoint: powershell -Command "& C:\tools\entrypoints\iis\Development.ps1"
 
   xconnect:

@@ -18,14 +18,7 @@ COPY --from=tooling \tools\ \tools\
 # Copy the Sitecore Management Services Module
 COPY --from=management_services C:\module\cm\content C:\inetpub\wwwroot
 
-# Set the default location for serialized items
-# This value is used in our Unicorn configuration
-ENV ITEM_SYNC_LOCATION c:\items
-
-# Copy serialized items and Unicorn sync script
-COPY --from=solution \artifacts\items\ \items\
-COPY .\unicorn \unicorn\
-
+# Go to wwwroot
 WORKDIR C:\inetpub\wwwroot
 
 # Copy solution website files

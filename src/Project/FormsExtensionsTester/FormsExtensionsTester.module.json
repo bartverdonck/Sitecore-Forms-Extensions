@@ -17,6 +17,10 @@
             {
                 "name": "content",
                 "path": "/sitecore/content/Home"
+            },
+            {
+                "name": "forms",
+                "path": "/sitecore/Forms"
             }
         ]
     }

@@ -1,0 +1,23 @@
+﻿---
+ID: "3395c318-dea0-46cc-a934-69b9dad5a8e7"
+Parent: "2b888ad8-08c1-42d9-96a9-2a4dfebefc69"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: "/sitecore/Forms/ListSubmit-1/Page/Submit/SubmitActions"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201019T103908Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "15f21398-9a7e-4169-be59-43729bb0939e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201019T103908Z
