@@ -1,0 +1,33 @@
+﻿---
+ID: "50938e2f-e169-47c4-975a-3a97bc945538"
+Parent: "cf6edf42-b4d7-44f7-a266-ade5730cac3f"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/System/Forms/Value Provider Settings
+SharedFields:
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Value: |
+    {E269FBB5-3750-427A-9149-7AA950B49301}
+    {91454FBB-7AA6-40F3-BD9A-49B2A42BF5E0}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180213T133032Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "559ccab4-d02b-4385-b6ab-495a3e5b2d65"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20180518T081458Z

@@ -1,0 +1,45 @@
+﻿---
+ID: "44763d7a-90f1-4759-8f88-b0d70603cb81"
+Parent: "9a08bb97-6036-4d6e-931b-99b563ee1ca3"
+Template: "29d2dd2d-5cda-472d-821d-6d47508655f2"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Validation/FieldValidation
+SharedFields:
+- ID: "0b6b2d34-5308-4aa8-b59d-85ba47e8b8aa"
+  Hint: ValueFieldName
+  Value: itemId
+- ID: "3e079fc3-6b2d-41c9-9204-374a786fc761"
+  Hint: BindingConfiguration
+  Value: allowedValidations=DynamicData&validationDataModels=CheckedItems
+- ID: "40fa73e7-b24e-4702-9d4f-5577cb080c23"
+  Hint: IsRenderedVertically
+  Value: 1
+- ID: "a176e7b0-1c0b-4f2e-a494-2df342a75c0e"
+  Hint: IsLabelOnTop
+  Value: 1
+- ID: "ae95c662-af6a-4156-862d-82924ab52c42"
+  Hint: DisplayFieldName
+  Value: displayName
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160921T081552Z
+    - ID: "3885a716-2eed-47ae-9132-32225f0458ff"
+      Hint: FormLabel
+      Value: Field validation
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "13303c7e-70de-4023-b1a6-c1f29d7fc3fa"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20170220T141650Z

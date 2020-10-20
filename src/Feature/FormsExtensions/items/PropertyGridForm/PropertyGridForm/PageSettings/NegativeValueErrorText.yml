@@ -1,0 +1,41 @@
+﻿---
+ID: "7faa1e55-8d3a-46d4-b12f-9818a0199ac8"
+Parent: "5ed1d26c-5a78-42b7-bc71-796ee427fe8b"
+Template: "46efcf7f-6ebb-4059-b9bf-8ef47c4f5e20"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/NegativeValueErrorText
+SharedFields:
+- ID: "6d0c0ab0-bc40-4bd0-8acb-16612a180f14"
+  Hint: IsVisible
+  Value: 
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "240acdcd-c405-4e49-a96a-b3caab843920"
+      Hint: Text
+      Value: Only positive numbers are accepted.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190225T072331Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a1d81f56-614f-4590-b807-27eacd390fa4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20190225T072627Z

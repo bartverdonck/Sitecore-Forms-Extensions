@@ -1,0 +1,47 @@
+﻿---
+ID: "faa3c63f-d3c2-4010-a2a4-eaedbd8e89a4"
+Parent: "18af6444-707d-4639-92ed-d608d7753492"
+Template: "dd74148e-e8fc-4774-8cba-bafdb76a4e47"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/PasswordConfirmation/Details/ConfirmPlaceholderText
+SharedFields:
+- ID: "3809b205-df9b-41bb-9f4c-29a35aa46f64"
+  Hint: InputType
+  Value: Text
+- ID: "3e079fc3-6b2d-41c9-9204-374a786fc761"
+  Hint: BindingConfiguration
+  Value: confirmPasswordPlaceholder=Value
+- ID: "a176e7b0-1c0b-4f2e-a494-2df342a75c0e"
+  Hint: IsLabelOnTop
+  Value: 1
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161202T114452Z
+    - ID: "3885a716-2eed-47ae-9132-32225f0458ff"
+      Hint: FormLabel
+      Value: Confirm password placeholder text
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "50148708-d2c2-472d-ab26-e219ecb70494"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20161202T121045Z

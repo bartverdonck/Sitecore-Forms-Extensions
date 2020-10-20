@@ -1,0 +1,44 @@
+﻿---
+ID: "bac17010-3f3b-49dd-9f93-6bd85e7672bd"
+Parent: "891e7268-fa3e-4e74-b4b1-c16b206f2165"
+Template: "c2d1d114-3cfe-4558-a9e3-d1a1ec0fcab7"
+Path: /sitecore/system/Settings/Forms/Submit Actions/Subscribe To List
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/bell.png
+- ID: "2c6e7306-2871-473a-9149-71443182b8e8"
+  Hint: Model Type
+  Value: Feature.FormsExtensions.SubmitActions.SubscribeToList.SubscribeToListAction
+- ID: "d83b5c6b-7230-419f-bd75-4e2d20c87a18"
+  Hint: Editor
+  Value: "{96E25AFB-4320-4ECB-B8C5-15D89565B2D2}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180320T120554Z
+    - ID: "47837625-b3d9-46f1-a73b-ff13dd1c8b25"
+      Hint: Error Message
+      Value: "Failed to subscribe to list!"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0f923eea-c771-48b1-8cb1-9bef11dc878b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201020T090215Z

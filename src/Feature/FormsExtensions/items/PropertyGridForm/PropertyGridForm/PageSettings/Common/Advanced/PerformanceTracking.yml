@@ -1,0 +1,48 @@
+﻿---
+ID: "40ccc9e0-3a12-497e-87e8-812698fab4f0"
+Parent: "af941dbd-81fc-40c3-b4ed-46e1273363b8"
+Template: "ad75c314-f983-4c56-81d5-dc10d5ccf4ef"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Advanced/PerformanceTracking
+SharedFields:
+- ID: "3e079fc3-6b2d-41c9-9204-374a786fc761"
+  Hint: BindingConfiguration
+  Value: isTrackingEnabled=IsChecked
+- ID: "a176e7b0-1c0b-4f2e-a494-2df342a75c0e"
+  Hint: IsLabelOnTop
+  Value: 1
+Languages:
+- Language: en
+  Fields:
+  - ID: "c2eef859-324b-4e58-bd2e-e9697c3887e1"
+    Hint: Label
+    Value: Performance tracking enabled
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161115T143016Z
+    - ID: "3885a716-2eed-47ae-9132-32225f0458ff"
+      Hint: FormLabel
+      Value: Performance tracking
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "85f7fb0c-b383-4d91-b42e-90247ea49acb"
+      Hint: HelpText
+      Value: Performance tracking allows you to record data about how your field performs.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c95ea78d-6bc0-4885-9664-f0a117f39dfb"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20170724T110051Z

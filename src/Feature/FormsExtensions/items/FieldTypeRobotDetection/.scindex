@@ -1,0 +1,10 @@
+﻿# Do not commit this file to source control or modify it. It is safe to delete; it will recreate itself.
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\FieldTypeRobotDetection\RobotDetection.yml
+ID: "5a14874e-d695-4093-9101-8b406c7c2eb1"
+Parent: "e6dca512-a4fa-47f3-aaf2-06939f51d547"
+Template: "a60edcaf-1285-46b5-8380-d790bb8c8708"
+Path: /sitecore/system/Settings/Forms/Field Types/Security/RobotDetection
+Signature: OBgbhL7bDCZg6k+EIWs9CS4BVzMcjRGc7P4A2q22+F8=
+Modified: 637388020843884892

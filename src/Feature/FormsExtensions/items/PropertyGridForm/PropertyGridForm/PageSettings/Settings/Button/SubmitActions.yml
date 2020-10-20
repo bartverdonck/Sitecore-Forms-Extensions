@@ -1,0 +1,41 @@
+﻿---
+ID: "5344e1c1-b585-4fb3-b915-acc39c4d09df"
+Parent: "56ba3012-7b18-4df3-b736-cf481a059c15"
+Template: "f698fe6d-35ca-4783-b36c-34928f3a23f2"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Button/SubmitActions
+SharedFields:
+- ID: "00fdab55-3a4a-4376-b786-7ea959bb0057"
+  Hint: ControlDefinitions
+  Value: "{4811481E-4F23-4388-892A-41B4FAD1F146}"
+- ID: "91194d47-8df3-43e3-8310-67b718ce2c93"
+  Hint: ConfigurationItem
+  Value: "{67784A3F-BD80-4172-8745-89F5FD3E6F65}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170331T072320Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "85ed3abf-0fe7-49a1-87aa-78810228726b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20170803T082245Z

@@ -1,0 +1,50 @@
+﻿---
+ID: "2741b350-a801-45a8-b6b3-22d411f69d9e"
+Parent: "d51e60bc-cf8f-474e-bf0e-8bef520f0967"
+Template: "4640f8f6-ff25-4615-8a40-fe9f0c87225e"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SubscribeToList/PageSettings/Form/ListId
+SharedFields:
+- ID: "0b6b2d34-5308-4aa8-b59d-85ba47e8b8aa"
+  Hint: ValueFieldName
+  Value: itemId
+- ID: "179a7734-1c9e-481c-9f20-bc2ff5095665"
+  Hint: DynamicData
+  Value: 
+- ID: "3e079fc3-6b2d-41c9-9204-374a786fc761"
+  Hint: BindingConfiguration
+  Value: _7bName_7d=SelectedValue
+- ID: "a176e7b0-1c0b-4f2e-a494-2df342a75c0e"
+  Hint: IsLabelOnTop
+  Value: 1
+- ID: "ae95c662-af6a-4156-862d-82924ab52c42"
+  Hint: DisplayFieldName
+  Value: name
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180910T094641Z
+    - ID: "3885a716-2eed-47ae-9132-32225f0458ff"
+      Hint: FormLabel
+      Value: List to subscribe to
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1569e3c6-280f-4984-82eb-c234202e7b0d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201020T124328Z

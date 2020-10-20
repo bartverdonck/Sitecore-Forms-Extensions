@@ -1,0 +1,37 @@
+﻿---
+ID: "9c04d42a-6b41-4347-9681-ae8a41a3a99f"
+Parent: "af941dbd-81fc-40c3-b4ed-46e1273363b8"
+Template: "ad75c314-f983-4c56-81d5-dc10d5ccf4ef"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Advanced/AllowSave
+SharedFields:
+- ID: "3e079fc3-6b2d-41c9-9204-374a786fc761"
+  Hint: BindingConfiguration
+  Value: allowSave=IsChecked
+- ID: "a176e7b0-1c0b-4f2e-a494-2df342a75c0e"
+  Hint: IsLabelOnTop
+  Value: 1
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+Languages:
+- Language: en
+  Fields:
+  - ID: "c2eef859-324b-4e58-bd2e-e9697c3887e1"
+    Hint: Label
+    Value: Allow save
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170602T073043Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3e8f63ac-4405-4b25-a52c-bb8cf629d4ed"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20170602T103535Z

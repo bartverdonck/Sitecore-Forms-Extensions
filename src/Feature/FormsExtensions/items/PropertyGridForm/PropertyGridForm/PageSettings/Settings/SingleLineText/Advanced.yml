@@ -1,0 +1,46 @@
+﻿---
+ID: "57d1e165-c67d-4655-b919-d8b46fd3d82c"
+Parent: "1c601b81-8ea6-40a5-9144-34fcc938b62a"
+Template: "f698fe6d-35ca-4783-b36c-34928f3a23f2"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/SingleLineText/Advanced
+SharedFields:
+- ID: "00fdab55-3a4a-4376-b786-7ea959bb0057"
+  Hint: ControlDefinitions
+  Value: |
+    {40CCC9E0-3A12-497E-87E8-812698FAB4F0}
+    {9C04D42A-6B41-4347-9681-AE8A41A3A99F}
+    {6EB7B559-9DFB-463A-9D27-2169F99C2F2F}
+    {A827E23F-2E8A-48BB-B0C0-2733FD3456F6}
+    {82E27FAB-79F6-44E7-B86A-5B1AB8C9F035}
+- ID: "91194d47-8df3-43e3-8310-67b718ce2c93"
+  Hint: ConfigurationItem
+  Value: "{F25FE53F-2114-4E33-981D-B2F3469B4374}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170602T084042Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "600791e4-8af6-42f9-bbd0-9c57be8edc86"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20191130T150244Z

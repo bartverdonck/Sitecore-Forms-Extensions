@@ -1,0 +1,26 @@
+﻿---
+ID: "67466a96-d180-41bd-bd95-cff6c42b5251"
+Parent: "c6bd2aaf-0144-47c5-a657-4af58e365d2b"
+Template: "46efcf7f-6ebb-4059-b9bf-8ef47c4f5e20"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/ShowFormPage/PageSettings/HeaderTitle
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "240acdcd-c405-4e49-a96a-b3caab843920"
+      Hint: Text
+      Value: Show Form Page
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180910T094402Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d77e2e2d-87fc-4bf2-afd5-1424035030dd"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20180910T094738Z

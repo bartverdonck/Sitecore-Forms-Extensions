@@ -1,0 +1,87 @@
+﻿---
+ID: "df19f93d-d567-4065-9fca-87b96fc893fd"
+Parent: "d93cd97f-6cdc-4756-82a4-af7c8e3421d4"
+Template: "74874973-688f-4b39-97a0-b0e275234151"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/RadioList/ListItems/DatasourceManager
+SharedFields:
+- ID: "0b6b2d34-5308-4aa8-b59d-85ba47e8b8aa"
+  Hint: ValueFieldName
+  Value: itemId
+- ID: "3e079fc3-6b2d-41c9-9204-374a786fc761"
+  Hint: BindingConfiguration
+  Value: isDynamic=IsDynamic&dataSource=CompDatasourceGuid&displayFieldName=CompDisplayFieldName&valueFieldName=CompValueFieldName&items=CompItems
+- ID: "ae95c662-af6a-4156-862d-82924ab52c42"
+  Hint: DisplayFieldName
+  Value: text
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "f0d86bc8-02b7-4531-85b5-e0f1bb30365a"
+  Hint: DynamicButtonTextBoxClick
+  Value: "trigger:dynamicdatasource:Select"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "14c132f2-0889-49b4-8483-b491f2653922"
+      Hint: DynamicLabelForValueNotInList
+      Value: value not in the selection list
+    - ID: "22387881-2dce-40c5-b011-3283d4704562"
+      Hint: StaticWatermarkForValues
+      Value: Write button value here...
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170221T114519Z
+    - ID: "30dc8497-df40-4e85-9dee-eb0431f1fe40"
+      Hint: StaticLabelForKey
+      Value: label
+    - ID: "48ee32fa-0bdb-4d47-89d0-383a0cb4e71b"
+      Hint: DynamicLabelForButton
+      Value: ...
+    - ID: "56b82870-4f82-4dc3-ae8b-b3a6d151dc02"
+      Hint: StaticLabelForValueModeDropDown
+      Value: Radio button values
+    - ID: "5d9d534e-b6e6-4d92-a18b-d4544037d4ae"
+      Hint: StaticLabelForValue
+      Value: Value
+    - ID: "77a93782-3d51-4beb-be59-166de453fb76"
+      Hint: DynamicLabelForSelection
+      Value: Selected radio button
+    - ID: "86fbce0a-fabd-4e18-9da3-2fe266b5aa23"
+      Hint: StaticLabelForSelection
+      Value: Selected radio button
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0495e8cc-6dfa-4421-a5ee-99ca8f6a2c87"
+    - ID: "96147a51-1c94-449b-9c08-8f3501e45f8c"
+      Hint: DynamicLabelForValueField
+      Value: Value field
+    - ID: "a62db8be-5921-4b5c-9561-82880747c8a3"
+      Hint: DynamicLabelForTextField
+      Value: Text field
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c1bef3d0-31db-4e0a-985a-8d951fa9c421"
+      Hint: StaticWatermarkForLabels
+      Value: Write button label here...
+    - ID: "ce629dc2-b84e-4bfa-ba36-02d7674c7a31"
+      Hint: StaticLabelForValueModeOptionSameAsLabels
+      Value: Same as labels
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20170720T101954Z
+    - ID: "e1939d68-4c18-4bc7-a3e0-bb549a610f68"
+      Hint: DynamicLabelForSelectDatasource
+      Value: Select datasource
+    - ID: "e2624154-7645-45c9-9485-3913776e223f"
+      Hint: StaticLabelForValueModeOptionCustom
+      Value: Customized
+    - ID: "f4115104-067a-4eb0-8624-ddcaa26ba908"
+      Hint: StaticLabelForEditComponent
+      Value: Radio button
+    - ID: "f6e9cf38-7a62-4975-b9e7-e79063c9ff9b"
+      Hint: StaticLabelForAddNew
+      Value: Add new

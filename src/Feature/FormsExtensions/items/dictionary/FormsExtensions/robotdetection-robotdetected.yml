@@ -1,0 +1,31 @@
+﻿---
+ID: "90d4ca6b-7d49-48c9-b1d6-4c40f7618079"
+Parent: "02fead49-da6c-4d0e-9277-6583018b96dd"
+Template: "6d1cd897-1936-4a3a-a511-289a94c2a7b1"
+Path: "/sitecore/system/Dictionary/FormsExtensions/robotdetection-robotdetected"
+SharedFields:
+- ID: "580c75a8-c01a-4580-83cb-987776ceb3af"
+  Hint: Key
+  Value: robotdetection.robotdetected
+Languages:
+- Language: en
+  Fields:
+  - ID: "2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e"
+    Hint: Phrase
+    Value: We could not validate your session as genuine. Please disable tracking and advertisement blockers and try again.
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180508T062051Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "07ffcad1-5cc1-49bb-b482-679681bc0076"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20191130T200631Z

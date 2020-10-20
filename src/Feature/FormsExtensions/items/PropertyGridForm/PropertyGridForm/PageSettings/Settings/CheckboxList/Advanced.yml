@@ -1,0 +1,45 @@
+﻿---
+ID: "f0f8ddcb-d34e-4fa2-9efa-732cbad3bc28"
+Parent: "f5d47a21-2e03-46d6-8ff1-795558ea0655"
+Template: "f698fe6d-35ca-4783-b36c-34928f3a23f2"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/CheckboxList/Advanced
+SharedFields:
+- ID: "00fdab55-3a4a-4376-b786-7ea959bb0057"
+  Hint: ControlDefinitions
+  Value: |
+    {40CCC9E0-3A12-497E-87E8-812698FAB4F0}
+    {9C04D42A-6B41-4347-9681-AE8A41A3A99F}
+    {6EB7B559-9DFB-463A-9D27-2169F99C2F2F}
+    {A827E23F-2E8A-48BB-B0C0-2733FD3456F6}
+- ID: "91194d47-8df3-43e3-8310-67b718ce2c93"
+  Hint: ConfigurationItem
+  Value: "{F25FE53F-2114-4E33-981D-B2F3469B4374}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170602T084042Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fc54c4ca-8167-43c7-8298-3c6b39f1fdc6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20180411T080952Z

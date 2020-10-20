@@ -1,0 +1,64 @@
+﻿---
+ID: "96e25afb-4320-4ecb-b8c5-15d89565b2d2"
+Parent: "a3e5e09f-1422-4050-9414-dc959aa60d7b"
+Template: "5f2c442f-2554-4c80-b1d9-2195fa6168b1"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SubscribeToList
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r>
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{5A7CF08C-3647-4F56-B189-9E8C0531FBAF}">
+        <r
+          id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}"
+          par="PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fApplications%2fFormsBuilder%2fLayouts%2fActions%2fSubscribeToList.js&amp;SpeakCoreVersion=%7b3F937240-C16E-4229-9641-4CE5B4CB4ABA%7d"
+          ph="Page.Code"
+          uid="{7DA762F9-BD58-429B-9902-B18FA1302F33}" />
+        <r
+          id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}"
+          par="IsVisible=0&amp;Id=HeaderTitle"
+          ph="Page.Body"
+          uid="{B279438B-3B40-42DB-A75F-7F931B812F11}" />
+        <r
+          id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}"
+          par="IsVisible=0&amp;Id=HeaderSubTitle"
+          ph="Page.Body"
+          uid="{51233ECC-574D-4AFE-B71F-89EE6672C361}" />
+        <r
+          id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}"
+          par="Id=MainBorder"
+          ph="Page.Body"
+          uid="{6963776F-C75F-4BDD-823F-D90E4EB6D2FE}" />
+        <r
+          id="{59E2A66D-11D2-488D-A3BC-6C1C81326645}"
+          par="FieldDefinitionType=%7b167CCD4C-34CE-4557-985B-0915D86B3D99%7d&amp;IsVisible=1&amp;ConfigurationItem=%7bD51E60BC-CF8F-474E-BF0E-8BEF520F0967%7d&amp;Id=SelectListForm"
+          ph="MainBorder.Content"
+          uid="{14CE6468-71B6-4FE2-B39C-38CFDD37FC86}" />
+      </d>
+    </r>
+- ID: "f7b4ebc1-2335-4eb8-afae-3444923a38be"
+  Hint: Subthemes
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180910T093138Z
+    - ID: "7205a57f-93b4-413a-aa9a-6b16bbc59565"
+      Hint: BrowserTitle
+      Value: Subscribe to list
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "33d87454-f2cb-405a-8d91-d664dba5a8bc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201020T124233Z

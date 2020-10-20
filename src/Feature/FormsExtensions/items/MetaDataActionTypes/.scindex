@@ -1,0 +1,55 @@
+﻿# Do not commit this file to source control or modify it. It is safe to delete; it will recreate itself.
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\MetaDataActionTypes\Action Types.yml
+ID: "46995097-873b-45bf-942e-a788d3db1157"
+Parent: "aab4d04e-38f8-4088-899c-f911cf6b07be"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/system/Settings/Forms/Meta Data/Conditions/Action Types
+Signature: cGbU7G+9+aowwoUYUuOw/L3Cj6fJV5LbfEkO4txjPNw=
+Modified: 637388032121876768
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\MetaDataActionTypes\Action Types\disable.yml
+ID: "c698c993-549e-486a-a09c-bb8d830da958"
+Parent: "46995097-873b-45bf-942e-a788d3db1157"
+Template: "41eeec31-bf4c-4465-8638-77bdc96b5577"
+Path: /sitecore/system/Settings/Forms/Meta Data/Conditions/Action Types/disable
+Signature: tZGv4W1Y+bRoXCarOl/Lsfp4W/crJBDqIBLN+0QN4Ck=
+Modified: 637388032121936504
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\MetaDataActionTypes\Action Types\enable.yml
+ID: "5744a87e-e32c-42cc-862f-96842a0202bb"
+Parent: "46995097-873b-45bf-942e-a788d3db1157"
+Template: "41eeec31-bf4c-4465-8638-77bdc96b5577"
+Path: /sitecore/system/Settings/Forms/Meta Data/Conditions/Action Types/enable
+Signature: oGu77uIACaGSc5KE2G5yzMID2pg7U35YXT7xL4dfZNY=
+Modified: 637388032121926451
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\MetaDataActionTypes\Action Types\go to page.yml
+ID: "4e448d57-ba06-42dc-9519-6bcd102cb332"
+Parent: "46995097-873b-45bf-942e-a788d3db1157"
+Template: "41eeec31-bf4c-4465-8638-77bdc96b5577"
+Path: /sitecore/system/Settings/Forms/Meta Data/Conditions/Action Types/go to page
+Signature: dJmbytjIzD1LbT1+f36tj28d4AM86uVwf1x9+kiTJdw=
+Modified: 637388032121946481
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\MetaDataActionTypes\Action Types\show.yml
+ID: "aae07a52-46a4-49ef-98b0-c2595bac2382"
+Parent: "46995097-873b-45bf-942e-a788d3db1157"
+Template: "41eeec31-bf4c-4465-8638-77bdc96b5577"
+Path: /sitecore/system/Settings/Forms/Meta Data/Conditions/Action Types/show
+Signature: 5lBKCtTSWfLbbsO/cfYhinvkQfvjIvK3aFlJA0nOqT4=
+Modified: 637388032121906818
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\MetaDataActionTypes\Action Types\hide.yml
+ID: "7f58c8dd-d7c0-4fb7-bb44-8ec6b5e1c3d9"
+Parent: "46995097-873b-45bf-942e-a788d3db1157"
+Template: "41eeec31-bf4c-4465-8638-77bdc96b5577"
+Path: /sitecore/system/Settings/Forms/Meta Data/Conditions/Action Types/hide
+Signature: zocRVkn6vKdRMv/kxoAnzRRwYwrKiLJWS6MbEJyqkM8=
+Modified: 637388032121916431

@@ -1,0 +1,44 @@
+﻿---
+ID: "d44d0329-f4d7-4aae-a05c-3a8cecf4db48"
+Parent: "bc499e27-2cbb-4b5c-b7d9-eaa0c0b757a8"
+Template: "4640f8f6-ff25-4615-8a40-fe9f0c87225e"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/ShowFormPage/PageSettings/Form/FormPageId
+SharedFields:
+- ID: "0b6b2d34-5308-4aa8-b59d-85ba47e8b8aa"
+  Hint: ValueFieldName
+  Value: itemId
+- ID: "a176e7b0-1c0b-4f2e-a494-2df342a75c0e"
+  Hint: IsLabelOnTop
+  Value: 1
+- ID: "ae95c662-af6a-4156-862d-82924ab52c42"
+  Hint: DisplayFieldName
+  Value: name
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180910T094641Z
+    - ID: "3885a716-2eed-47ae-9132-32225f0458ff"
+      Hint: FormLabel
+      Value: Page to show after submit
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2c94dd82-93e1-4ff3-ad96-7f1d7d5d1c58"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20180910T094846Z

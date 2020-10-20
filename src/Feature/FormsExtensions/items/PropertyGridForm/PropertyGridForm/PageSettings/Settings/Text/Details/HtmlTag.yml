@@ -1,0 +1,42 @@
+﻿---
+ID: "3cc2b137-c502-41af-b08b-5de80580c92b"
+Parent: "274378ae-75b4-4096-a2cb-2f911dd5f198"
+Template: "4640f8f6-ff25-4615-8a40-fe9f0c87225e"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Text/Details/HtmlTag
+SharedFields:
+- ID: "0b6b2d34-5308-4aa8-b59d-85ba47e8b8aa"
+  Hint: ValueFieldName
+  Value: $itemName
+- ID: "0cc7f24b-2013-46c6-8ae3-5233d094ff7c"
+  Hint: StaticData
+  Value: "{B082EC1B-F9FE-4EA4-8A8D-EF3A05F16860}"
+- ID: "3e079fc3-6b2d-41c9-9204-374a786fc761"
+  Hint: BindingConfiguration
+  Value: htmlTag=SelectedValue
+- ID: "52bd8a00-1a9c-4ab2-b0d8-8c6a49afef00"
+  Hint: Database
+  Value: $context_contentdatabase
+- ID: "a176e7b0-1c0b-4f2e-a494-2df342a75c0e"
+  Hint: IsLabelOnTop
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161207T134811Z
+    - ID: "3885a716-2eed-47ae-9132-32225f0458ff"
+      Hint: FormLabel
+      Value: Html tag
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1d8ed9c8-65a3-4533-885a-43685636245d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20161209T120639Z

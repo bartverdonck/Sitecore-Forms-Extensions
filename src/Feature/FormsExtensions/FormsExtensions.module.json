@@ -1,0 +1,126 @@
+{
+    "namespace": "Feature.FormsExtensions",
+    "items": {
+        "includes": [
+            {
+                "name": "Templates",
+                "path": "/sitecore/templates/Modules/FormsExtensions"
+            },
+            {
+                "name": "OrigTemplateValueProviderSettings",
+                "path": "/sitecore/templates/System/Forms/Value Provider Settings",
+                "scope": "singleItem"
+            },
+            {
+                "name": "OrigTemplateForm",
+                "path": "/sitecore/templates/System/Forms/Form",
+                "scope": "singleItem"
+            },
+            {
+                "name": "Dictionary",
+                "path": "/sitecore/system/Dictionary/FormsExtensions"
+            },
+            {
+                "name": "SubmitActionsSpeakDialogs",
+                "path": "/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions",
+                "database": "core",
+                "rules": [
+                    {
+                        "path": "/IdentifyContact",
+                        "scope": "itemAndDescendants"
+                    },
+                    {
+                        "path": "/SendEmailExtended",
+                        "scope": "itemAndDescendants"
+                    },
+                    {
+                        "path": "/ShowFormPage",
+                        "scope": "itemAndDescendants"
+                    },
+                    {
+                        "path": "/SubscribeToList",
+                        "scope": "itemAndDescendants"
+                    },
+                    {
+                        "path": "*",
+                        "scope": "ignored"
+                    }
+                ]
+            },
+            {
+                "name": "PropertyGridForm",
+                "path": "/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm",
+                "allowedPushOperations": "createOnly",
+                "database": "core"
+            },
+            {
+                "name": "ValueProviders",
+                "path": "/sitecore/system/Settings/Forms/Value Providers"
+            },
+            {
+                "name": "ValueProviderConditions",
+                "path": "/sitecore/system/Settings/Forms/Value Provider Conditions"
+            },
+            {
+                "name": "Validators",
+                "path": "/sitecore/system/Settings/Forms/Validations/FormsExtensions"
+            },
+            {
+                "name": "SubmitActions",
+                "path": "/sitecore/system/Settings/Forms/Submit Actions",
+                "rules": [
+                    {
+                        "path": "/Identify Contact",
+                        "scope": "itemAndDescendants"
+                    },
+                    {
+                        "path": "/Send Email",
+                        "scope": "itemAndDescendants"
+                    },
+                    {
+                        "path": "/Show Form Page",
+                        "scope": "itemAndDescendants"
+                    },
+                    {
+                        "path": "/Subscribe To List",
+                        "scope": "itemAndDescendants"
+                    },
+                    {
+                        "path": "*",
+                        "scope": "ignored"
+                    }
+                ]
+            },
+            {
+                "name": "FieldTypeText",
+                "path": "/sitecore/system/Settings/Forms/Field Types/Basic/Text"
+            },
+            {
+                "name": "FieldTypeRawHtml",
+                "path": "/sitecore/system/Settings/Forms/Field Types/Basic/RawHtml"
+            },
+            {
+                "name": "FieldTypeHidden",
+                "path": "/sitecore/system/Settings/Forms/Field Types/Basic/Hidden"
+            },
+            {
+                "name": "FieldTypeReCaptcha",
+                "path": "/sitecore/system/Settings/Forms/Field Types/Security/ReCaptcha"
+            },
+            {
+                "name": "FieldTypeRobotDetection",
+                "path": "/sitecore/system/Settings/Forms/Field Types/Security/RobotDetection"
+            },
+            {
+                "name": "MetaDataActionTypes",
+                "path": "/sitecore/system/Settings/Forms/Meta Data/Conditions/Action Types",
+                "allowedPushOperations": "createAndUpdate"
+            },
+            {
+                "name": "MetaDataOperators",
+                "path": "/sitecore/system/Settings/Forms/Meta Data/Conditions/Operators",
+                "allowedPushOperations": "createAndUpdate"
+            }
+        ]
+    }
+}

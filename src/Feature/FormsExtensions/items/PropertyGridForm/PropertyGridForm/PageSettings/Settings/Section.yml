@@ -1,0 +1,27 @@
+﻿---
+ID: "9da02da3-c142-4aac-9c0b-0e9a9731088c"
+Parent: "0e723521-4594-4785-aece-ceb7bb2fb4e0"
+Template: "72e58860-ac29-47e1-a1c5-8f9e492db999"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Section
+SharedFields:
+- ID: "2694c5d0-e5fa-4f5b-9008-110c433bfaa5"
+  Hint: FieldDefinitionType
+  Value: "{83C3E20E-8E9B-49CE-93DA-1F31EE559416}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160920T140347Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8aa6c7a3-6b61-4471-a855-307194412325"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20161014T095101Z

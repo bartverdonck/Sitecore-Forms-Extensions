@@ -1,0 +1,30 @@
+﻿---
+ID: "39454fa5-abd6-4074-a8f3-7f979226594b"
+Parent: "86549632-95d4-4163-8663-6efa23f4d53d"
+Template: "b751a653-89bd-4320-8d5a-2eb82f12a4c1"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Sections/ConditionsExpander
+SharedFields:
+- ID: "6e242ceb-7aaf-4f4c-b036-9db25d37ec6f"
+  Hint: VisualStyle
+  Value: ContextPane
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180226T141307Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6aea9bab-8bfd-4817-b2c8-894d8673cc40"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20180226T141358Z
+    - ID: "ee414bab-7885-4c87-b60b-d15255bd8e5b"
+      Hint: HeaderText
+      Value: Conditions

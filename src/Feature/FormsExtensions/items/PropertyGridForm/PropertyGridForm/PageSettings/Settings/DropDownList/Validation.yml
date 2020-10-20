@@ -1,0 +1,39 @@
+﻿---
+ID: "51c7680c-1dc8-4512-8d28-0d357ecafd23"
+Parent: "16a82f1d-7755-48fd-a7fd-db94356620ff"
+Template: "f698fe6d-35ca-4783-b36c-34928f3a23f2"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/DropDownList/Validation
+SharedFields:
+- ID: "00fdab55-3a4a-4376-b786-7ea959bb0057"
+  Hint: ControlDefinitions
+  Value: |
+    {44763D7A-90F1-4759-8F88-B0D70603CB81}
+    {28A726CF-E532-4020-8FEF-F4329978210F}
+- ID: "91194d47-8df3-43e3-8310-67b718ce2c93"
+  Hint: ConfigurationItem
+  Value: "{D5E30763-0423-405B-910C-5CFE3D3CD738}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T145802Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3a0a7ca4-632f-4760-b85d-7445c07340f0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20171113T120207Z

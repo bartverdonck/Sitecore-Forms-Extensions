@@ -1,0 +1,39 @@
+﻿---
+ID: "e1fe3efd-d97a-43c6-9fbd-10c19a2a063b"
+Parent: "55d5e421-58de-4ed2-b79e-8417190d63bf"
+Template: "b751a653-89bd-4320-8d5a-2eb82f12a4c1"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/SettingsForm/Attachments
+SharedFields:
+- ID: "60177622-1407-4ef3-bad9-d65d2fa75140"
+  Hint: IsCollapsible
+  Value: 
+- ID: "6e242ceb-7aaf-4f4c-b036-9db25d37ec6f"
+  Hint: VisualStyle
+  Value: Default
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 450
+- ID: "edc87768-8dae-4b31-836b-d04d280b60f7"
+  Hint: IsOpen
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181002T135117Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8c8033ec-c190-473e-9d7f-d846f020b086"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20181002T135628Z
+    - ID: "ee414bab-7885-4c87-b60b-d15255bd8e5b"
+      Hint: HeaderText
+      Value: Attachments

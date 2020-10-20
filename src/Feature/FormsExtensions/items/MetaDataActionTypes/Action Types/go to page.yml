@@ -1,0 +1,44 @@
+﻿---
+ID: "4e448d57-ba06-42dc-9519-6bcd102cb332"
+Parent: "46995097-873b-45bf-942e-a788d3db1157"
+Template: "41eeec31-bf4c-4465-8638-77bdc96b5577"
+Path: /sitecore/system/Settings/Forms/Meta Data/Conditions/Action Types/go to page
+SharedFields:
+- ID: "472dfaa4-a0a0-431e-ba8d-daa44fef7cb1"
+  Hint: Value Template
+  Value: "{A7539551-6924-4788-B7F4-B48293ED6C78}"
+- ID: "92377481-aacb-4ead-b347-84b6441c5ebb"
+  Hint: Allowed Field Types
+  Value: "{7CE25CAB-EF3A-4F73-AB13-D33BDC1E4EE2}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180711T095244Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e43bd1d9-fd09-4810-b371-a52aa4b53cdf"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20180814T125329Z
+    - ID: "ffd9bcf2-b4b0-4d24-8bd0-952c7df05a3b"
+      Hint: Text
+      Value: "on [field] click, go to page [value]"

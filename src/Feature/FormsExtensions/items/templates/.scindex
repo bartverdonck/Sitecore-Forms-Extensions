@@ -1,0 +1,217 @@
+﻿# Do not commit this file to source control or modify it. It is safe to delete; it will recreate itself.
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\templates\FormsExtensions\Fields.yml
+ID: "aa65bd89-ec4b-4dd1-9342-d95069a0d429"
+Parent: "04df0629-44e5-44dc-93c7-df11afba1d34"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Modules/FormsExtensions/Fields
+Signature: QM/BDyTWU+t6ZxVeih2L31SpZTHVlrnsfR7B/owjTso=
+Modified: 637388005743801892
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\templates\FormsExtensions\ContainsValueProviderConditions\Value Provider.yml
+ID: "7e232d67-8719-4369-a0b2-c926dc09cc3d"
+Parent: "9ce6ca02-9f13-45a0-a8a4-5aaf6269c3c7"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Modules/FormsExtensions/ContainsValueProviderConditions/Value Provider
+Signature: 3FG0jgElgFoVc/yZ9UEXzVPjwRNZaaVNgtbM1wjBN1I=
+Modified: 637388005743857456
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\templates\FormsExtensions.yml
+ID: "04df0629-44e5-44dc-93c7-df11afba1d34"
+Parent: "e6904c9a-3ace-4b53-b465-4c05c6b1f1cc"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Modules/FormsExtensions
+Signature: WglBtECKnFxC8uIsOehDGeO+MgfGUrvcL+d+atykW4g=
+Modified: 637388005743661931
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\templates\FormsExtensions\ContainsValueProviderConditions.yml
+ID: "9ce6ca02-9f13-45a0-a8a4-5aaf6269c3c7"
+Parent: "04df0629-44e5-44dc-93c7-df11afba1d34"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Modules/FormsExtensions/ContainsValueProviderConditions
+Signature: Ht1jQLDigjAVBI4TeyriUdIMnLBk+7tnRti4Gm25s6A=
+Modified: 637388005743721888
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\templates\FormsExtensions\Extended Value Provider Settings.yml
+ID: "91454fbb-7aa6-40f3-bd9a-49b2a42bf5e0"
+Parent: "04df0629-44e5-44dc-93c7-df11afba1d34"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Modules/FormsExtensions/Extended Value Provider Settings
+Signature: Clls702Cqd2Yel3ulb54fWCVkavo0+D8uh9w2bp6y14=
+Modified: 637388005743741981
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\templates\FormsExtensions\Extended Value Provider Settings\Value Provider Settings.yml
+ID: "edacb8d9-eed2-4ff2-90b5-20663a118af8"
+Parent: "91454fbb-7aa6-40f3-bd9a-49b2a42bf5e0"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Modules/FormsExtensions/Extended Value Provider Settings/Value Provider Settings
+Signature: MPZgcF6NzMQrDPe7JQ5fJf35Jf+/m7qYssZlcSaWr5k=
+Modified: 637388005743877466
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\templates\FormsExtensions\Fields\CaptchaField.yml
+ID: "5a59c481-e3c3-4a03-a471-b5d1fb45181a"
+Parent: "aa65bd89-ec4b-4dd1-9342-d95069a0d429"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Modules/FormsExtensions/Fields/CaptchaField
+Signature: DFpgeiFOYWyBzQZWep3/amLDrbhn6P8+gGUq7epC2xk=
+Modified: 637388005743927344
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\templates\FormsExtensions\Fields\RawHtmlField.yml
+ID: "06510e4d-13dd-480a-909a-06392bdfa89e"
+Parent: "aa65bd89-ec4b-4dd1-9342-d95069a0d429"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Modules/FormsExtensions/Fields/RawHtmlField
+Signature: e34pQAYOJNmtI0g+9a2poegbJq7c/u7xtNTPwQFJK04=
+Modified: 637388005743947351
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\templates\FormsExtensions\Extended Value Provider Settings\__Standard Values.yml
+ID: "3960768c-2558-4d14-a874-f1465c79d1b2"
+Parent: "91454fbb-7aa6-40f3-bd9a-49b2a42bf5e0"
+Template: "91454fbb-7aa6-40f3-bd9a-49b2a42bf5e0"
+Path: /sitecore/templates/Modules/FormsExtensions/Extended Value Provider Settings/__Standard Values
+Signature: 9rgnfdSBLnWdyYjZFy5sxa778101OXElsr4l0pTnzL4=
+Modified: 637388005743907347
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\templates\FormsExtensions\Fields\RobotDetectionField.yml
+ID: "93a474be-2557-4c0f-b85b-7feb90abd480"
+Parent: "aa65bd89-ec4b-4dd1-9342-d95069a0d429"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Modules/FormsExtensions/Fields/RobotDetectionField
+Signature: +lCZeY4ansiVy6vVQcC7iF71VWZHowLKTaq0qVQ9Rks=
+Modified: 637388005744057459
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\templates\FormsExtensions\Fields\HiddenField\__Standard Values.yml
+ID: "7bfbb124-69e1-4ce0-b210-db120ae03acb"
+Parent: "5092afd5-45c0-4fb0-91b1-56b1b960ac7f"
+Template: "5092afd5-45c0-4fb0-91b1-56b1b960ac7f"
+Path: /sitecore/templates/Modules/FormsExtensions/Fields/HiddenField/__Standard Values
+Signature: 910sZviVRoSCixHlK6KE8RGm8kDj7sKead9xO4AVGpg=
+Modified: 637388005744257352
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\templates\FormsExtensions\Fields\HiddenField\Data.yml
+ID: "98b259c7-1842-4174-8c89-cd89a2ec0556"
+Parent: "5092afd5-45c0-4fb0-91b1-56b1b960ac7f"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Modules/FormsExtensions/Fields/HiddenField/Data
+Signature: 42ZVbKDGOG8F3/KHQ4U3yuYUfAME9Lv+HKsVzzMXCoc=
+Modified: 637388005744227460
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\templates\FormsExtensions\Fields\RawHtmlField\Data.yml
+ID: "4a23036b-2d9d-4b54-9ad9-f3ec5a3aa727"
+Parent: "06510e4d-13dd-480a-909a-06392bdfa89e"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Modules/FormsExtensions/Fields/RawHtmlField/Data
+Signature: YtnQ9uF12REHrdI0HY1+m3+fvRD8XnE3wgJ2fFhqoEY=
+Modified: 637388005744197452
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\templates\FormsExtensions\Extended Value Provider Settings\Value Provider Settings\Store Binding Value.yml
+ID: "ecd17630-5f51-45db-b52f-b3dfaec4fa1b"
+Parent: "edacb8d9-eed2-4ff2-90b5-20663a118af8"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Modules/FormsExtensions/Extended Value Provider Settings/Value Provider Settings/Store Binding Value
+Signature: 1GcRm1nnuPF+gSFQB2uKDnud7DcXjt3e3bY2gz99MHk=
+Modified: 637388005744147358
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\templates\FormsExtensions\ContainsValueProviderConditions\Value Provider\ValueProviderConditions.yml
+ID: "3d1b3e30-5540-4a40-9341-acacf949cd53"
+Parent: "7e232d67-8719-4369-a0b2-c926dc09cc3d"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Modules/FormsExtensions/ContainsValueProviderConditions/Value Provider/ValueProviderConditions
+Signature: iDa0lstdztr5xdmRLsKI6zzHi4yzsDiCUkDoBGNxvbc=
+Modified: 637388005744107364
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\templates\FormsExtensions\Fields\HiddenField\Data\Default Value.yml
+ID: "1ce7da27-d096-493a-9768-72d8b6c6cd95"
+Parent: "98b259c7-1842-4174-8c89-cd89a2ec0556"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Modules/FormsExtensions/Fields/HiddenField/Data/Default Value
+Signature: VeGY4KKCme9FN0Abkw/qBcGx3SPGFlY3Fe5o/nLz4HQ=
+Modified: 637388005744367436
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\templates\FormsExtensions\ValueProviderConditions\Value Provider\Conditions.yml
+ID: "1d12ca3e-a9d1-4503-8196-d1406d49b32c"
+Parent: "023255fc-9dbd-4e83-b9e7-c66384070a1e"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Modules/FormsExtensions/ValueProviderConditions/Value Provider/Conditions
+Signature: PN8QWvWSFn4uKFapnQhKnBVz0hjCJVuyMxMmAhyZpb8=
+Modified: 637388005744327417
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\templates\FormsExtensions\Fields\RawHtmlField\Data\Html.yml
+ID: "318b47e2-a908-4aad-b595-9dbdeeffbcf3"
+Parent: "4a23036b-2d9d-4b54-9ad9-f3ec5a3aa727"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Modules/FormsExtensions/Fields/RawHtmlField/Data/Html
+Signature: M+bcZKgN2tKdF8RmfQdmK30EOYJ7j01xdVbwNm7gCwo=
+Modified: 637388005744347481
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\templates\FormsExtensions\Fields\RobotDetectionField\__Standard Values.yml
+ID: "029d6ca2-87fa-4134-981b-20dbc83fdf83"
+Parent: "93a474be-2557-4c0f-b85b-7feb90abd480"
+Template: "93a474be-2557-4c0f-b85b-7feb90abd480"
+Path: /sitecore/templates/Modules/FormsExtensions/Fields/RobotDetectionField/__Standard Values
+Signature: mHNoDBEDXK1h4UjHC7pzp3t7/ZbTqC/A5YeXK5V9Yic=
+Modified: 637388005744297363
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\templates\FormsExtensions\Fields\RawHtmlField\__Standard Values.yml
+ID: "35360d29-ffd5-48e3-9d71-a3eb7a32df27"
+Parent: "06510e4d-13dd-480a-909a-06392bdfa89e"
+Template: "06510e4d-13dd-480a-909a-06392bdfa89e"
+Path: /sitecore/templates/Modules/FormsExtensions/Fields/RawHtmlField/__Standard Values
+Signature: XRC5UWQoqEVZ4v03ybR7psdt5lc/L4I4Kosx26z/CFA=
+Modified: 637388005744207447
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\templates\FormsExtensions\ValueProviderConditions.yml
+ID: "b82e2c61-26c7-4009-82ff-b8dc5d769762"
+Parent: "04df0629-44e5-44dc-93c7-df11afba1d34"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Modules/FormsExtensions/ValueProviderConditions
+Signature: C8jneF3Nhibfpc7clSWp4JGOAZeKAhhhBAd6WQfmfOk=
+Modified: 637388005743831984
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\templates\FormsExtensions\Fields\HiddenField.yml
+ID: "5092afd5-45c0-4fb0-91b1-56b1b960ac7f"
+Parent: "aa65bd89-ec4b-4dd1-9342-d95069a0d429"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Modules/FormsExtensions/Fields/HiddenField
+Signature: hCikjocEfuOypkmnDPHhb68/q0ARklMgt1yr/xDbFY8=
+Modified: 637388005744007348
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\templates\FormsExtensions\ValueProviderConditions\Value Provider.yml
+ID: "023255fc-9dbd-4e83-b9e7-c66384070a1e"
+Parent: "b82e2c61-26c7-4009-82ff-b8dc5d769762"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Modules/FormsExtensions/ValueProviderConditions/Value Provider
+Signature: azULWg48XnFyqLYwCeog8NWIHDh0OO5pCvybeCnQpYA=
+Modified: 637388005744087397
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\templates\FormsExtensions\Fields\CaptchaField\__Standard Values.yml
+ID: "1366f51b-dacb-4f17-816c-92f98da8b152"
+Parent: "5a59c481-e3c3-4a03-a471-b5d1fb45181a"
+Template: "5a59c481-e3c3-4a03-a471-b5d1fb45181a"
+Path: /sitecore/templates/Modules/FormsExtensions/Fields/CaptchaField/__Standard Values
+Signature: ZLt/TrU9dAGLKdb9ryYB7u2Wwz2FEghNT71NzUDhXl8=
+Modified: 637388005744177368

@@ -1,0 +1,53 @@
+﻿---
+ID: "3888b62d-dfaf-47fc-8bf6-1ab94a16adad"
+Parent: "23bea0b5-3da7-4749-adb2-4a9a010db43e"
+Template: "4640f8f6-ff25-4615-8a40-fe9f0c87225e"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/SettingsForm/SendTo/Type
+SharedFields:
+- ID: "0b6b2d34-5308-4aa8-b59d-85ba47e8b8aa"
+  Hint: ValueFieldName
+  Value: Value
+- ID: "0cc7f24b-2013-46c6-8ae3-5233d094ff7c"
+  Hint: StaticData
+  Value: "{0582F46F-0B49-47BF-B00F-0132B337E7CC}"
+- ID: "3e079fc3-6b2d-41c9-9204-374a786fc761"
+  Hint: BindingConfiguration
+  Value: type=SelectedValue
+- ID: "ae95c662-af6a-4156-862d-82924ab52c42"
+  Hint: DisplayFieldName
+  Value: Text
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "e53dd72a-cc21-4771-a6b4-17762365e2b7"
+  Hint: IsRequired
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180320T105241Z
+    - ID: "3885a716-2eed-47ae-9132-32225f0458ff"
+      Hint: FormLabel
+      Value: Mail to
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9985017f-9317-4d85-b80b-9b93e4970863"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20180609T182344Z

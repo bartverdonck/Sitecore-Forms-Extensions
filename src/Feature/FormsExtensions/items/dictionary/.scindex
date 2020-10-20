@@ -1,0 +1,28 @@
+﻿# Do not commit this file to source control or modify it. It is safe to delete; it will recreate itself.
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\Dictionary\FormsExtensions.yml
+ID: "02fead49-da6c-4d0e-9277-6583018b96dd"
+Parent: "504ae189-9f36-4c62-9767-66d73d6c3084"
+Template: "267d9ac7-5d85-4e9d-af89-99ab296cc218"
+Path: /sitecore/system/Dictionary/FormsExtensions
+Signature: eKGAmaVjlvtzAEoV1Ms3nnepZhYyr65iZSfDIxIRoQ8=
+Modified: 637388009123558961
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\Dictionary\FormsExtensions\robotdetection-robotdetected.yml
+ID: "90d4ca6b-7d49-48c9-b1d6-4c40f7618079"
+Parent: "02fead49-da6c-4d0e-9277-6583018b96dd"
+Template: "6d1cd897-1936-4a3a-a511-289a94c2a7b1"
+Path: "/sitecore/system/Dictionary/FormsExtensions/robotdetection-robotdetected"
+Signature: NPgx/NmSbT0jdlimbzR6U8gOQP5FEhClzcxPEeFf1VM=
+Modified: 637388009123618979
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\Dictionary\FormsExtensions\captcha-required.yml
+ID: "7e8c120b-9ff2-4da2-887a-dbdd5004d91e"
+Parent: "02fead49-da6c-4d0e-9277-6583018b96dd"
+Template: "6d1cd897-1936-4a3a-a511-289a94c2a7b1"
+Path: "/sitecore/system/Dictionary/FormsExtensions/captcha-required"
+Signature: QkvNj27nH42BPr7hogfsGsXFSPJ8wYSNoGmk0PCqn1I=
+Modified: 637388009123598983

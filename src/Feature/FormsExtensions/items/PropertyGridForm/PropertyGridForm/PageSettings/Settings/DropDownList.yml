@@ -1,0 +1,23 @@
+﻿---
+ID: "16a82f1d-7755-48fd-a7fd-db94356620ff"
+Parent: "0e723521-4594-4785-aece-ceb7bb2fb4e0"
+Template: "72e58860-ac29-47e1-a1c5-8f9e492db999"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/DropDownList
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161017T123230Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "63b7b6a2-011a-429d-bce9-25af8c8f6e98"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20161017T123230Z

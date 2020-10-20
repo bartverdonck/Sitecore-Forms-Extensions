@@ -1,0 +1,42 @@
+﻿---
+ID: "ed698654-dd40-4f5a-9cfd-2e0c0cda75f0"
+Parent: "071f77e5-4a84-4f56-a694-ff8e897a6c21"
+Template: "dd74148e-e8fc-4774-8cba-bafdb76a4e47"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/SettingsForm/FixedAddressSection/FixedEmailAddress
+SharedFields:
+- ID: "3809b205-df9b-41bb-9f4c-29a35aa46f64"
+  Hint: InputType
+  Value: Text
+- ID: "3e079fc3-6b2d-41c9-9204-374a786fc761"
+  Hint: BindingConfiguration
+  Value: fixedEmailAddress=Value
+- ID: "772179bc-c937-4e9f-8bd4-aa8eee778440"
+  Hint: KeyboardType
+  Value: Email
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 550
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180606T185522Z
+    - ID: "3885a716-2eed-47ae-9132-32225f0458ff"
+      Hint: FormLabel
+      Value: Email
+    - ID: "85f7fb0c-b383-4d91-b42e-90247ea49acb"
+      Hint: HelpText
+      Value: Use a semicolon to specify multiple addresses
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bc7123aa-e244-49cd-a555-711c02c31473"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20180609T182549Z

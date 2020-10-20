@@ -1,0 +1,43 @@
+﻿---
+ID: "f3ac7a1a-3458-4385-bb65-860315313db3"
+Parent: "3f250ffd-1a4e-43c9-b336-e44e7f4953de"
+Template: "7370ea6c-e815-43e1-a2a2-68828904eb99"
+Path: /sitecore/system/Settings/Forms/Meta Data/Conditions/Operators/does not end with
+SharedFields:
+- ID: "92377481-aacb-4ead-b347-84b6441c5ebb"
+  Hint: Allowed Field Types
+  Value: |
+    {4EE89EA7-CEFE-4C8E-8532-467EF64591FC}
+    {A296A1C1-0DA0-4493-A92E-B8191F43AEC6}
+    {04C39CAC-8976-4910-BE0D-879ED3368429}
+    {DF74F55B-47E6-4D1C-92F8-B0D46A7B2704}
+    {B67C70C1-6776-4BCB-8529-AA28E02F6412}
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 700
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180220T101951Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5f73de89-b60f-471e-8858-ee86bf819570"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20191202T153538Z

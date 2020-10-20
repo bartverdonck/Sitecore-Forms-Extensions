@@ -3,15 +3,20 @@
 ARG BASE_IMAGE
 ARG TOOLING_IMAGE
 ARG SOLUTION_IMAGE
+ARG MANAGEMENT_SERVICES_IMAGE
 
 FROM ${SOLUTION_IMAGE} as solution
 FROM ${TOOLING_IMAGE} as tooling
+FROM ${MANAGEMENT_SERVICES_IMAGE} AS management_services
 FROM ${BASE_IMAGE}
 
 SHELL ["powershell", "-Command", "$ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue';"]
 
 # Copy development tools and entrypoint
 COPY --from=tooling \tools\ \tools\
+
+# Copy the Sitecore Management Services Module
+COPY --from=management_services C:\module\cm\content C:\inetpub\wwwroot
 
 # Set the default location for serialized items
 # This value is used in our Unicorn configuration

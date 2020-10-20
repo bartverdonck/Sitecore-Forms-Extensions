@@ -1,0 +1,30 @@
+﻿---
+ID: "8b814abd-e70e-4cc0-a93f-0119a384fad7"
+Parent: "ebe88153-3895-46f2-970b-ceea659c5220"
+Template: "8c5a9b1d-e03f-4fce-baec-13281d6e8cd6"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/DatePicker/Details/DatesManager
+SharedFields:
+- ID: "3e079fc3-6b2d-41c9-9204-374a786fc761"
+  Hint: BindingConfiguration
+  Value: min=StartDate&max=EndDate&value=SelectedDate
+- ID: "6d0c0ab0-bc40-4bd0-8acb-16612a180f14"
+  Hint: IsVisible
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170627T151535Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "226ac984-4f4d-4957-afe7-aee3995e9667"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20170629T113053Z

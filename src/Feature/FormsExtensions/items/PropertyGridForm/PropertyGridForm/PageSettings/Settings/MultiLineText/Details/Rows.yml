@@ -1,0 +1,42 @@
+﻿---
+ID: "8eb2ae05-cb72-4a46-af00-b6701a02c0ac"
+Parent: "3df3260c-c211-49e5-b3df-6321a2be65ca"
+Template: "dd74148e-e8fc-4774-8cba-bafdb76a4e47"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/MultiLineText/Details/Rows
+SharedFields:
+- ID: "3809b205-df9b-41bb-9f4c-29a35aa46f64"
+  Hint: InputType
+  Value: Text
+- ID: "3e079fc3-6b2d-41c9-9204-374a786fc761"
+  Hint: BindingConfiguration
+  Value: rows=Value
+- ID: "772179bc-c937-4e9f-8bd4-aa8eee778440"
+  Hint: KeyboardType
+  Value: Number
+- ID: "a176e7b0-1c0b-4f2e-a494-2df342a75c0e"
+  Hint: IsLabelOnTop
+  Value: 1
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160920T135117Z
+    - ID: "3885a716-2eed-47ae-9132-32225f0458ff"
+      Hint: FormLabel
+      Value: Number of rows
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "023f3d0a-c3ec-4146-b5de-1ebadc3b0e1b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20161208T114820Z
