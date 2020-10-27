@@ -2,15 +2,18 @@
 
 ![Sitecore Forms Extensions Logo](https://raw.githubusercontent.com/bartverdonck/Sitecore-Forms-Extensions/master/docs/Sitecore-Forms-Extensions-Logo.png)
 
+## Documentation (usage + install guide)
+
 > Extensive documentation for developers and content editors can be found on http://onelittlespark.bartverdonck.be/sitecoreformsextentions/
 
 > Check my blogposts on http://onelittlespark.bartverdonck.be/category/sitecore-forms-extensions/ for inspiration.
 
-## Download
+## Downloads
+### Install packages
 
-> [Downloads can be found here](https://github.com/bartverdonck/Sitecore-Forms-Extensions/tree/master/downloads)
+> [Sitecore install packages can be found here](https://github.com/bartverdonck/Sitecore-Forms-Extensions/tree/master/downloads)
 
-## Container Support
+### Container (image for container integration)
 
 If you use [containered development for Sitecore](https://containers.doc.sitecore.com/docs/intro), an assets image is available on Docker. https://hub.docker.com/r/bverdonck/sitecore-forms-extensions-assets
 
@@ -18,20 +21,66 @@ You can reference the image with bverdonck/sitecore-forms-extensions-assets
 
 More info can be found on my blog. http://onelittlespark.bartverdonck.be/container-support-for-sitecore-forms-extensions/
 
-## Nuget Support
+### Nuget
 
-Some feature like "Value Provider Store Back" and "Value Provider Conditions" can be further customized and extended upon. For this, a nuget package is now available.
+Some feature like "Value Provider Store Back" and "Value Provider Conditions" can be further customized and extended upon. For this, a nuget package is available.
 Please add a reference to *SitecoreFormsExtensions.Core* and *Sitecore.ExperienceForms* inside your .NET project. The package is hosted on nuget.org.
 
 Note that the nuget package only contains the Sitecore Forms Extensions codebase, it does not include the Sitecore items, razor files and javascripts. You still need to install the module in a conventional way (either download and install the package, or use the container asset image).
 
-## Why
+## Compatibility
 
-This module aims to add even more functionalities to the Sitecore Forms module that was released with Sitecore 9.
-
-- For Sitecore 9.3+ (include SC10) use version 3.0
+- For Sitecore 10 use version 3.0
+- For Sitecore 9.3+ use version 3.0
 - For Sitecore 9.1.x till 9.2.x use version 2.3.1
 - For Sitecore 9.0.x use version 1.8.3
+
+Older Sitecore versions are not supported.
+
+## Contributing
+
+Want to contribute to SFE? Great! This section will explain how to setup the project for modifications. Contributions are added via pull requests.
+
+### Initial setup 💻
+1. If your local IIS is listening on port 443, you'll need to stop it for now.
+    ```
+    iisreset /stop
+    ```
+
+2. Before you can run the solution, you will need to prepare the following
+   for the Sitecore container environment:
+   * A valid/trusted wildcard certificate for `*.sfe.localhost`
+   * Hosts file entries for
+     * cm.sfe.localhost
+     * id.sfe.localhost
+   * Add your `license.xml` to the `/docker/data/licence` folder
+   * Put your base64 license in the .env file. (For xp roles)
+
+   The provided `init.ps1` will take care of these requirements,
+   but **you should review its contents before running.**
+
+   > You must use an elevated/Administrator Windows PowerShell 5.1 prompt for
+   > this command, PowerShell 7 is not supported at this time.
+
+    ```ps1
+    .\init.ps1 -InitEnv -LicenseXmlPath "C:\path\to\license.xml" 
+    ```
+
+3. Spin up the environmont
+    ```ps1
+    docker-compose up -d
+    ```
+
+4. Deserialize content
+    ```ps1
+    dotnet tool restore
+    dotnet sitecore login
+    dotnet sitecore ser push
+    dotnet sitecore publish
+    ```
+
+### Testing new functionality
+When adding new functionality to the codebase, please add a test-form in the sitecore content tree (/sitecore/Forms). Also, add a page of the template `/sitecore/templates/Project/FormsExtensionsTester/Pages/ContentPage` in the test-website, referencing the form containing the test of the functionality.
 
 ## Changelog
 ### 3.0 (for Sitecore 9.3+) (This version is compatible with Sitecore 10)
@@ -134,37 +183,3 @@ This module aims to add even more functionalities to the Sitecore Forms module t
 ### 1.0
 - *Send Email to Fixed Address*, Custom Submit Action: With this submit action you can send a mail to an email address defined on the submit action. (So not to the contact filling in the form as the build-in mailing action does) The values from the form are passed to EXM as custom tokens and can be used in the email.
 - *Update Contact*, Custom Submit Action: This is an implementation of the [custom submit action walkthrough](https://doc.sitecore.net/sitecore_experience_platform/digital_marketing/sitecore_forms/setting_up_and_configuring/walkthrough_creating_a_custom_submit_action_that_updates_contact_details) in the Sitecore documentation. It allows you to update the contacts firstname, lastname and email based on the content of the form.
-
-## Compatibility
-The module was tested and found compatible with on Sitecore 9.0-u1, 9.0-u2, 9.1, 9.1.1, 9.2 and 9.3
-Older versions are not supported.
-
-## Installation
-Download the module under "downloads" and install as sitecore package.
-2 config files should be patched:
-- *Feature.FormsExtensions.Settings.config*
-  - GoogleCaptchaPublicKey
-  - GoogleCaptchaPrivateKey
-- *Feature.FormsExtensions.FileUploadStorageProviders.config* Enable one of the FileUploadStorageProviders and fill in the attributes.
-  - FileSystemFileUploadStorageProvider: Requires a path to store the files and an URL format to download the uploaded file afterwards.
-  - AzureBlobStorageFileUploadStorageProvider: Requires BlobStorage ConnectionString and name of the blobcontainer. The connection string can be found in Azure on the Storage Account resource under "Access Keys"
-
-
-## Usage
-> For detailed info, check my blogposts on http://onelittlespark.bartverdonck.be/category/sitecore-forms-extensions/
-
-### Send Email To Fixed Address
-- Create an automated message in EXM, you can use the token $formFields$ to render the entire form results or use $form_**fieldName**$ to add the fields individually
-- Create a sitecore form, add the send email to fixed address action to your submit button. Enter a fixed email adress to send the form to, and choose your email campaign to be send out.
-
-### Google Captcha Control
-Form Editors can just put this control on to their form. No additional configuration required.
-
-### File Upload Control
-Form Editors can just put this control on to their form. No additional configuration required. Files are stored according to the installed fileuploadstorageprovider. (see installation)
-
-### Content Type Validator
-This validator is linked to the file upload control and allows to enter a list of allowed content types. Files with other content types will be refused.
-
-### File Size Validtor
-This validator is linked to the file upload control and checks the file size. If the file is larger then the entered value, it will be refused.
