@@ -2,7 +2,7 @@
 ID: "3395c318-dea0-46cc-a934-69b9dad5a8e7"
 Parent: "2b888ad8-08c1-42d9-96a9-2a4dfebefc69"
 Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
-Path: "/sitecore/Forms/ListSubmit-1/Page/Submit/SubmitActions"
+Path: "/sitecore/Forms/submitactions/listsubscription-1/Page/Submit/SubmitActions"
 Languages:
 - Language: en
   Versions:

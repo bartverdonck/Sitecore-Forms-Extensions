@@ -734,6 +734,8 @@ Copyright (c) 2017-2020 Bart Verdonck</Readme>
         <x-item>/web/sitecore/templates/Modules/FormExtensions/Extended Value Provider Settings/Value Provider Settings/Store Binding Value/{ECD17630-5F51-45DB-B52F-B3DFAEC4FA1B}/invariant/0</x-item>
         <x-item>/master/sitecore/templates/System/Forms/Value Provider Settings/{50938E2F-E169-47C4-975A-3A97BC945538}/invariant/0</x-item>
         <x-item>/web/sitecore/templates/System/Forms/Value Provider Settings/{50938E2F-E169-47C4-975A-3A97BC945538}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Value Providers/URL Parameter - Query String/{ACF6ABAD-6B2C-4294-808B-02FED11552A2}/invariant/0</x-item>
+        <x-item>/web/sitecore/system/Settings/Forms/Value Providers/URL Parameter - Query String/{ACF6ABAD-6B2C-4294-808B-02FED11552A2}/invariant/0</x-item>
       </Entries>
       <SkipVersions>False</SkipVersions>
       <Converter>

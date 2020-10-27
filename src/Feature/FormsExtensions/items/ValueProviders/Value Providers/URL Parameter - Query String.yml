@@ -1,19 +1,15 @@
 ﻿---
-ID: "18dcb790-228b-471f-b14d-01f8367b156b"
-Parent: "3395c318-dea0-46cc-a934-69b9dad5a8e7"
-Template: "05fe45d4-b9c7-40de-b767-7c5abe7119f9"
-Path: "/sitecore/Forms/ListSubmit-1/Page/Submit/SubmitActions/Add To List"
+ID: "acf6abad-6b2c-4294-808b-02fed11552a2"
+Parent: "b18b9fd6-d43b-4a61-aac0-fc5e612d6bd4"
+Template: "60706220-93c4-4d8d-9267-06621a1c05f9"
+Path: "/sitecore/system/Settings/Forms/Value Providers/URL Parameter - Query String"
 SharedFields:
-- ID: "5c796924-3f06-4d1f-8510-8ad9a4244477"
-  Hint: Parameters
-  Value: |
-    {"listId":"095e2cb0-9dcb-460e-a74e-8f4425b5c4a3"}
-- ID: "abc57b6d-5542-4ab9-a889-106225a032e6"
-  Hint: Submit Action
-  Value: "{BAC17010-3F3B-49DD-9F93-6BD85E7672BD}"
+- ID: "6e0f73b7-a507-4318-8e57-e03b1666e958"
+  Hint: Model Type
+  Value: Feature.FormsExtensions.ValueProviders.QueryStringValueProvider, Feature.FormsExtensions
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 0
+  Value: "-100"
 Languages:
 - Language: en
   Versions:
@@ -21,22 +17,22 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20201019T104255Z
+      Value: 20190108T200522Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
-        sitecore\Admin
+        sitecore\admin
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\Admin
+        sitecore\admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c0affb1b-c7fd-43ac-b80f-b4a473f2cc06"
+      Value: "95b315e1-40fc-45a3-b710-9d9ec4bc9b7a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201020T130107Z
+      Value: 20201026T134308Z

@@ -6,14 +6,41 @@ ID: "110d559f-dea5-42ea-9c1c-8a5df7e70ef9"
 Parent: "0de95ae4-41ab-4d01-9eb0-67441b7c2450"
 Template: "7d13b4b2-3c4d-4639-8e16-6169e3e734c5"
 Path: /sitecore/content/Home
-Signature: h24OmBGnQ2kYNuaUJPl8urlT6X863spENHed0z5vKO8=
-Modified: 637388036933828863
+Signature: xWjUxl9x0TH4htcw4W27zfJYp33p/wYuHiecNbWrSyA=
+Modified: 637393806928387936
 ---
 File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\content\Home\sce65.yml
-ID: "58b902c0-ee2a-4e36-9c72-3966e1a42246"
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\content\Home\submitactions.yml
+ID: "a042a9a9-ccb8-484a-9d07-5da2aa333105"
 Parent: "110d559f-dea5-42ea-9c1c-8a5df7e70ef9"
 Template: "7d13b4b2-3c4d-4639-8e16-6169e3e734c5"
-Path: /sitecore/content/Home/sce65
-Signature: IOA73hHoPNyU1kXnN8BK+Hb5tJqQpH4x3lwh6CrzYXI=
-Modified: 637388036933848894
+Path: /sitecore/content/Home/submitactions
+Signature: lDUdMfKRgNwLoy1cD93P9gZXEiydFqxM8EsZZmzzt90=
+Modified: 637393807669811639
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\content\Home\valueproviders.yml
+ID: "07730484-3234-4d7f-a9bf-b5b452a20010"
+Parent: "110d559f-dea5-42ea-9c1c-8a5df7e70ef9"
+Template: "7d13b4b2-3c4d-4639-8e16-6169e3e734c5"
+Path: /sitecore/content/Home/valueproviders
+Signature: fP3pjVMFhnjXCeM4/3y4ipua0X30JLrcYiqVYCDWQ1s=
+Modified: 637393807669831662
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\content\Home\submitactions\listsubscription-1.yml
+ID: "58b902c0-ee2a-4e36-9c72-3966e1a42246"
+Parent: "a042a9a9-ccb8-484a-9d07-5da2aa333105"
+Template: "7d13b4b2-3c4d-4639-8e16-6169e3e734c5"
+Path: "/sitecore/content/Home/submitactions/listsubscription-1"
+Signature: oAiYqAC0DV0eMlBTa2Ev6Dko/pZvC6TLVakes6r85TA=
+Modified: 637393807669891655
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\content\Home\valueproviders\querystring-1.yml
+ID: "cfa1eacb-42b5-42e9-bc98-ed077b442644"
+Parent: "07730484-3234-4d7f-a9bf-b5b452a20010"
+Template: "7d13b4b2-3c4d-4639-8e16-6169e3e734c5"
+Path: "/sitecore/content/Home/valueproviders/querystring-1"
+Signature: YaCUzuk5o+LdhUTxLDUvgWZt6AL0DowTOt8FQSz7RNg=
+Modified: 637393809170779503

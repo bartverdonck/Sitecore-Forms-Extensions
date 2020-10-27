@@ -1,0 +1,27 @@
+﻿---
+ID: "96f8815c-9177-446e-8064-651605c56e7b"
+Parent: "72d7c334-b217-48ab-b696-c831e1ff1365"
+Template: "6abee1f2-4ab4-47f0-ad8b-bdb36f37f64c"
+Path: "/sitecore/Forms/valueproviders/querystring-1"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201027T072750Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "444168bb-2936-4fc1-90a5-c6631d9939ca"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201027T073001Z

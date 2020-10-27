@@ -10,11 +10,6 @@ SharedFields:
 - ID: "0c894aab-962b-4a84-b923-cb24b05e60d2"
   Hint: __Ribbon
   Value: 
-- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
-  Hint: __Masters
-  Value: |
-    {76036F5E-CBCE-46D1-AF0A-4143F9B557AA}
-    {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
 - ID: "56c15c6d-fd5a-40ca-bb37-64ceec6a9bd5"
   Hint: __Archive date
   Value: 
@@ -101,14 +96,14 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1e539f41-b02b-405a-a648-f5042710622a"
+      Value: "97818898-1f25-4c3f-a83a-5a9a5f6811a9"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\unicorn
+        sitecore\Admin
     - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
       Hint: __Valid from
       Value: 
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201019T093408Z
+      Value: 20201026T143431Z

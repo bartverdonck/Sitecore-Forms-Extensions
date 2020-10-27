@@ -1,12 +1,9 @@
 ﻿---
 ID: "58b902c0-ee2a-4e36-9c72-3966e1a42246"
-Parent: "110d559f-dea5-42ea-9c1c-8a5df7e70ef9"
+Parent: "a042a9a9-ccb8-484a-9d07-5da2aa333105"
 Template: "7d13b4b2-3c4d-4639-8e16-6169e3e734c5"
-Path: /sitecore/content/Home/sce65
+Path: "/sitecore/content/Home/submitactions/listsubscription-1"
 SharedFields:
-- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
-  Hint: __Icon
-  Value: Network/16x16/home.png
 - ID: "0c894aab-962b-4a84-b923-cb24b05e60d2"
   Hint: __Ribbon
   Value: 
@@ -102,7 +99,7 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6fc9b6d0-d440-4f61-9f4e-89e916cd79d2"
+      Value: "29d697f5-493c-4b5c-963f-95d00bf85547"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -112,4 +109,4 @@ Languages:
       Value: 
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201019T104007Z
+      Value: 20201026T143616Z

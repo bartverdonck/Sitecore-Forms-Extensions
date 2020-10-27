@@ -1,8 +1,8 @@
 ﻿---
 ID: "9d63f042-2f56-414d-b410-56984610f6b0"
-Parent: "b701850a-cb8a-4943-b2bc-dddb1238c103"
+Parent: "040c6742-3acd-4375-95ed-f648e92e4b50"
 Template: "6abee1f2-4ab4-47f0-ad8b-bdb36f37f64c"
-Path: "/sitecore/Forms/ListSubmit-1"
+Path: "/sitecore/Forms/submitactions/listsubscription-1"
 SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
@@ -17,11 +17,11 @@ Languages:
       Value: 20201019T103908Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "eb28d1c9-5a45-41b9-8318-a89b560369e0"
+      Value: "f768b5f9-8f1f-4597-9bc8-5d47089707a7"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201020T130107Z
+      Value: 20201027T073028Z

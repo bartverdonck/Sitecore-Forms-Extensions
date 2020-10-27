@@ -1,15 +1,6 @@
 ﻿# Do not commit this file to source control or modify it. It is safe to delete; it will recreate itself.
 ---
 File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\templates\FormsExtensionsTester\Pages\ContentPage.yml
-ID: "7d13b4b2-3c4d-4639-8e16-6169e3e734c5"
-Parent: "3a87d011-2d7f-4757-b0e2-e0f33627ad62"
-Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Project/FormsExtensionsTester/Pages/ContentPage
-Signature: wZ6EprDi4ydackukvd+PCN5A0/GgVhgqwDut7vZQ9Lg=
-Modified: 637388036933708851
----
-File: |
   C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\templates\FormsExtensionsTester.yml
 ID: "ec431968-3491-482c-bc47-7ac5ffaadd20"
 Parent: "825b30b4-b40b-422e-9920-23a1b6bda89c"
@@ -28,10 +19,19 @@ Signature: PEVdMCgSAKs2q0+bILjEiADmISNs0daj9xyjsizzzxA=
 Modified: 637388036933688860
 ---
 File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\templates\FormsExtensionsTester\Pages\ContentPage.yml
+ID: "7d13b4b2-3c4d-4639-8e16-6169e3e734c5"
+Parent: "3a87d011-2d7f-4757-b0e2-e0f33627ad62"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/FormsExtensionsTester/Pages/ContentPage
+Signature: wZ6EprDi4ydackukvd+PCN5A0/GgVhgqwDut7vZQ9Lg=
+Modified: 637388036933708851
+---
+File: |
   C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\templates\FormsExtensionsTester\Pages\ContentPage\__Standard Values.yml
 ID: "abb63b88-1b82-4c71-880d-aa5af51da20d"
 Parent: "7d13b4b2-3c4d-4639-8e16-6169e3e734c5"
 Template: "7d13b4b2-3c4d-4639-8e16-6169e3e734c5"
 Path: /sitecore/templates/Project/FormsExtensionsTester/Pages/ContentPage/__Standard Values
-Signature: hhly0DqypozsRpYr3CdmTv+eKh0gIdGg7X0b2UKiox4=
-Modified: 637388036933728851
+Signature: 4BBKs2nzNQRhoYSY+laPN6bOFej5rUmYLI4qYThts+E=
+Modified: 637393806928307939
