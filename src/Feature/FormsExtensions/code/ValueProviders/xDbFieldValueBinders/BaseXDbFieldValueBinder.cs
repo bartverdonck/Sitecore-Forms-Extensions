@@ -58,7 +58,8 @@ namespace Feature.FormsExtensions.ValueProviders.xDbFieldValueBinders
             if (!ValueProviderConditionsContext.ValueProviderConditionsMet)
                 return string.Empty;
             var bindingValue = GetBindingValue();
-            return bindingValue.HasValue() ? bindingValue.Value : string.Empty;
+            var value = bindingValue.HasValue() ? bindingValue.Value : string.Empty;
+            return ValueProviderListComponentSupport.MakeReturnListCompatible(value.ToString(), ValueProviderContext.FieldItem);
         }
 
         public FieldValueProviderContext ValueProviderContext { get; set; }

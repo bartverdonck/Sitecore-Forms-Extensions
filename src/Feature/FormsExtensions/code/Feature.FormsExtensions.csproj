@@ -255,6 +255,7 @@
     <Compile Include="ValueProviders\NoFieldValueBindingFoundResult.cs" />
     <Compile Include="ValueProviders\FieldValueBindingFoundResult.cs" />
     <Compile Include="ValueProviders\QueryStringValueProvider.cs" />
+    <Compile Include="ValueProviders\ValueProviderListComponentSupport.cs" />
     <Compile Include="ValueProviders\xDbFieldValueBinders\ContactAddress\XDbAddressLine1FieldValueBinder.cs" />
     <Compile Include="ValueProviders\xDbFieldValueBinders\BaseXDbFieldValueBinder.cs" />
     <Compile Include="ValueProviders\xDbFieldValueBinders\ContactAddress\PreferredAddressFieldValueBinder.cs" />

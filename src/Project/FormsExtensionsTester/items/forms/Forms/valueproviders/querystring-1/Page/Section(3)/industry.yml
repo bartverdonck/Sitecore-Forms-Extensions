@@ -1,22 +1,25 @@
 ﻿---
-ID: "8768c653-2184-4cf1-a179-97512002b603"
-Parent: "733328a6-f845-4f89-9e95-a3063a4550f5"
-Template: "94a46d66-b1b8-405d-aae4-7b5a9cd61c5e"
-Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Submit Button"
+ID: "bef6870e-2794-424c-b45b-427cba894fb3"
+Parent: "2c434b94-22c0-4b88-9488-d073c3896fca"
+Template: "9121d435-48b8-4649-9d13-03d680474fad"
+Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Section(3)/industry"
 SharedFields:
+- ID: "5d09f88a-0e2a-4f87-8151-af4a2aa26ec3"
+  Hint: Value Provider
+  Value: "{06A6EFDA-CE85-4277-88EB-25FE91EA0899}"
 - ID: "71c6de8e-4718-4977-b83e-b49552ee14b0"
   Hint: Conditions
   Value: |
     {"fieldConditions":[]}
 - ID: "7abaa3f6-6ec0-4b65-a463-7919bfae55aa"
   Hint: Css Class
-  Value: "btn btn-primary"
+  Value: "form-control"
 - ID: "84ece662-5034-40cb-9c60-744db64bb294"
   Hint: Field Key
-  Value: 8BBD650EA78C47289E89EBAB07B3DF8C
+  Value: 27AF96DFB41649D4A8A6A4757A4519F9
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 500
+  Value: 0
 Languages:
 - Language: en
   Versions:
@@ -24,17 +27,17 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20201027T072751Z
+      Value: 20201027T164044Z
     - ID: "71ffd7b2-8b09-4f7b-8a66-1e4cef653e8d"
       Hint: Title
-      Value: Send
+      Value: Industry
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "208e3372-e421-4441-ab60-ec776d6198d6"
+      Value: "5a79c9bf-7b96-49cd-80d1-3718ca978c02"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201027T164045Z
+      Value: 20201027T194807Z

@@ -1,0 +1,23 @@
+﻿---
+ID: "ade11d39-5ee3-4367-9342-b308a09a610f"
+Parent: "c6ecb74a-51c7-4810-8a85-ac21489c03f5"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Section(3)/industry/Settings/Datasource"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201027T164044Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "69e202fb-d2bd-46ff-95f0-83a0c99b61b8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201027T164044Z

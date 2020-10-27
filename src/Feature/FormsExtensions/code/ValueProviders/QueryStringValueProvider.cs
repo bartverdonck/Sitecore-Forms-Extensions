@@ -13,7 +13,7 @@ namespace Feature.FormsExtensions.ValueProviders
                 queryParam = ValueProviderContext.FieldItem.Name;
             }
             var value = HttpContext.Current.Request.QueryString[queryParam];
-            return value;
+            return ValueProviderListComponentSupport.MakeReturnListCompatible(value, ValueProviderContext.FieldItem);
         }
 
         public FieldValueProviderContext ValueProviderContext { get; set; }

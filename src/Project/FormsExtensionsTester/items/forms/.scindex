@@ -1,6 +1,78 @@
 ﻿# Do not commit this file to source control or modify it. It is safe to delete; it will recreate itself.
 ---
 File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page\Section(3)\industry\Settings.yml
+ID: "c6ecb74a-51c7-4810-8a85-ac21489c03f5"
+Parent: "bef6870e-2794-424c-b45b-427cba894fb3"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Section(3)/industry/Settings"
+Signature: BcwcbIzvXZzLnUoCglQi8QLKjER8VTfBPdW4mUvfd90=
+Modified: 637394136464653358
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page\Section(3)\Radio Button List\Settings.yml
+ID: "9b1feaa4-0bbc-4927-860c-3fc8ca7452e3"
+Parent: "4ae5563a-df43-4c72-ab0e-f836c988321f"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Section(3)/Radio Button List/Settings"
+Signature: /EbofJlOWTDbaIWnZWzO4ViuU1lUBiwZiIqeBMtXk1A=
+Modified: 637394157725055956
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page\Section(3)\Checkbox List\Settings\Datasource.yml
+ID: "09e7dbf5-7c4d-4eb1-bba9-ea48f55c7f4d"
+Parent: "b7d95ae2-7c4a-47f0-80e7-85156daf5863"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Section(3)/Checkbox List/Settings/Datasource"
+Signature: qgSRF4UnT9S+D18xLUrl5qxtOJJqHZgVIBgKKCzbXC8=
+Modified: 637394157417691036
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page\Section(3)\industry\Settings\Datasource.yml
+ID: "ade11d39-5ee3-4367-9342-b308a09a610f"
+Parent: "c6ecb74a-51c7-4810-8a85-ac21489c03f5"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Section(3)/industry/Settings/Datasource"
+Signature: BcwcbIzvXZzLnUoCglQi8QLKjER8VTfBPdW4mUvfd90=
+Modified: 637394136464673362
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page\Section(3)\Radio Button List\Settings\Datasource.yml
+ID: "58b4ed8a-7c8c-4507-8c5d-60e9e2b93e33"
+Parent: "9b1feaa4-0bbc-4927-860c-3fc8ca7452e3"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Section(3)/Radio Button List/Settings/Datasource"
+Signature: /EbofJlOWTDbaIWnZWzO4ViuU1lUBiwZiIqeBMtXk1A=
+Modified: 637394157725075933
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page\Section(3)\industry\Settings\Datasource\Healthcare.yml
+ID: "d7137fc0-9ee3-43fc-8f19-ecba43d5e709"
+Parent: "ade11d39-5ee3-4367-9342-b308a09a610f"
+Template: "b3bdfe59-6667-4432-b261-05d0e3f7fdf6"
+Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Section(3)/industry/Settings/Datasource/Healthcare"
+Signature: +2Rguy8QMyft8RfOPcPwKzHkr4ZCq7/bhovAJVJUA1k=
+Modified: 637394136464733346
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page\Section(3)\industry\Settings\Datasource\IT.yml
+ID: "03dd6a9d-3a3a-44ee-ab1a-bc029cf3ac87"
+Parent: "ade11d39-5ee3-4367-9342-b308a09a610f"
+Template: "b3bdfe59-6667-4432-b261-05d0e3f7fdf6"
+Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Section(3)/industry/Settings/Datasource/IT"
+Signature: RXeH9OYrWcjd9t0i9TbBSsojV3O6Tv5aa1mSfXh/2rw=
+Modified: 637394136464753354
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page\Section(3)\industry\Settings\Datasource\Transport.yml
+ID: "8d42265f-27a0-4dbf-b627-31859f398985"
+Parent: "ade11d39-5ee3-4367-9342-b308a09a610f"
+Template: "b3bdfe59-6667-4432-b261-05d0e3f7fdf6"
+Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Section(3)/industry/Settings/Datasource/Transport"
+Signature: QcZw5fjqGg3RiTu7Fr0XpCAB7EfxL2AJw48Fe0qJlj0=
+Modified: 637394136464763358
+---
+File: |
   C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms.yml
 ID: "b701850a-cb8a-4943-b2bc-dddb1238c103"
 Parent: "11111111-1111-1111-1111-111111111111"
@@ -8,87 +80,6 @@ Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
 Path: /sitecore/Forms
 Signature: cxahDXJdM/2n320xjUsshP82qWU8pyj+z05kSiFdF00=
 Modified: 637388085387495930
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page\Text(2).yml
-ID: "26239ddb-1074-45cb-b1dd-d3e693db5001"
-Parent: "733328a6-f845-4f89-9e95-a3063a4550f5"
-Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
-Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Text(2)"
-Signature: tC9eYeBsDzCuRs6/1+cHQfM/LbbEDcpV8rSY+k2hz/s=
-Modified: 637393809754305609
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page\Text.yml
-ID: "af6d045b-a8ff-4005-a2dc-75756a098393"
-Parent: "733328a6-f845-4f89-9e95-a3063a4550f5"
-Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
-Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Text"
-Signature: lbThCDbs3VMa//jKhprWJXxBShb+N4OIlEdc/efLhi4=
-Modified: 637393809754305609
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\listsubscription-1\Page\Section\FirstName.yml
-ID: "19fa3415-229d-4d25-a733-b9bc12c709a0"
-Parent: "b80fc482-9c55-4bbe-9cf3-85180624ecd0"
-Template: "0908030b-4564-42ea-a6fa-c7a5a2d921a8"
-Path: "/sitecore/Forms/submitactions/listsubscription-1/Page/Section/FirstName"
-Signature: kY7xcjdq0HBQUV/CgTPdnLzgIQJ71T0YtAJK0rl3PD4=
-Modified: 637393807670181672
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\listsubscription-1\Page\Text.yml
-ID: "dc0f389b-430d-411d-952e-8969602dccf5"
-Parent: "c13975c8-8ca4-4839-bc37-cbe7215fbe88"
-Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
-Path: "/sitecore/Forms/submitactions/listsubscription-1/Page/Text"
-Signature: Isn3+aGthoWUsWspmxPpbpRCDauLvnpjV1IKEnGsNGk=
-Modified: 637393807670051709
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page\Section\firstName.yml
-ID: "cc59df15-3e9c-4a35-8af7-3592398c727b"
-Parent: "e2632c8a-9a3b-4327-90ae-12163af1864d"
-Template: "0908030b-4564-42ea-a6fa-c7a5a2d921a8"
-Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Section/firstName"
-Signature: J8O1Aocd9DK5p/h3+wWbwjYEuxDbSs6C6j53aF6KK4Q=
-Modified: 637393809754305609
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\listsubscription-1\Page\Section(2)\JobTitle.yml
-ID: "e4e922c8-bc7f-4a7a-9229-34479fb47f06"
-Parent: "1f5194b4-29d3-457f-94f3-c2f1699507eb"
-Template: "0908030b-4564-42ea-a6fa-c7a5a2d921a8"
-Path: "/sitecore/Forms/submitactions/listsubscription-1/Page/Section(2)/JobTitle"
-Signature: pAIhv9wS/p2pR3BWKiwchaQUNqrStfK7xK3UrLvyRK0=
-Modified: 637393807670211677
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\listsubscription-1\Page\Submit\SubmitActions\Add To List.yml
-ID: "18dcb790-228b-471f-b14d-01f8367b156b"
-Parent: "3395c318-dea0-46cc-a934-69b9dad5a8e7"
-Template: "05fe45d4-b9c7-40de-b767-7c5abe7119f9"
-Path: "/sitecore/Forms/submitactions/listsubscription-1/Page/Submit/SubmitActions/Add To List"
-Signature: +YYDPI79tKHNOrB2npUYXJ7ckLchAwYJE/N368omhi4=
-Modified: 637393807670271673
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\listsubscription-1\Page\Submit\SubmitActions.yml
-ID: "3395c318-dea0-46cc-a934-69b9dad5a8e7"
-Parent: "2b888ad8-08c1-42d9-96a9-2a4dfebefc69"
-Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
-Path: "/sitecore/Forms/submitactions/listsubscription-1/Page/Submit/SubmitActions"
-Signature: G9EEHezXzj6gNZLSu2EqOZaCsLIWZ6V8Hdyt1DgCXro=
-Modified: 637393807670231679
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders.yml
-ID: "72d7c334-b217-48ab-b696-c831e1ff1365"
-Parent: "b701850a-cb8a-4943-b2bc-dddb1238c103"
-Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
-Path: /sitecore/Forms/valueproviders
-Signature: ABN76uPq6I2M6EX1bY5Ln39JV5B02+9brJFmQBgca1g=
-Modified: 637393807669941707
 ---
 File: |
   C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions.yml
@@ -100,6 +91,15 @@ Signature: gDbO52qqKqs6H4ufzsT+0oLkYuSiS4K+wYWJJqj17Pk=
 Modified: 637393807669931663
 ---
 File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders.yml
+ID: "72d7c334-b217-48ab-b696-c831e1ff1365"
+Parent: "b701850a-cb8a-4943-b2bc-dddb1238c103"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/Forms/valueproviders
+Signature: ABN76uPq6I2M6EX1bY5Ln39JV5B02+9brJFmQBgca1g=
+Modified: 637393807669941707
+---
+File: |
   C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\listsubscription-1.yml
 ID: "9d63f042-2f56-414d-b410-56984610f6b0"
 Parent: "040c6742-3acd-4375-95ed-f648e92e4b50"
@@ -107,33 +107,6 @@ Template: "6abee1f2-4ab4-47f0-ad8b-bdb36f37f64c"
 Path: "/sitecore/Forms/submitactions/listsubscription-1"
 Signature: y+ANJg+OWJyr9UJ1OpPRDAbdMlyt7FlCyKKDxnWqRZI=
 Modified: 637393807669961662
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page\Section(2)\lastName.yml
-ID: "fd6d6cb6-8e6e-498e-9134-266a40557a42"
-Parent: "4d6542a0-3b1d-4aeb-a47d-b76f5875fe28"
-Template: "0908030b-4564-42ea-a6fa-c7a5a2d921a8"
-Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Section(2)/lastName"
-Signature: IeL5IyK0yt5gIJnI8lxHxnhuE0ht5m4Qc3pORoePRdQ=
-Modified: 637393815771914897
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page\Section.yml
-ID: "e2632c8a-9a3b-4327-90ae-12163af1864d"
-Parent: "733328a6-f845-4f89-9e95-a3063a4550f5"
-Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
-Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Section"
-Signature: GQSYDuVdmFMa53XjZIeKgYWlqqwP4RwbZ50+ISF3UQ8=
-Modified: 637393809754305609
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page\Submit Button.yml
-ID: "8768c653-2184-4cf1-a179-97512002b603"
-Parent: "733328a6-f845-4f89-9e95-a3063a4550f5"
-Template: "94a46d66-b1b8-405d-aae4-7b5a9cd61c5e"
-Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Submit Button"
-Signature: FJ3d6JOqHIHdzn1UWtvbH1aKxrieBwfJlK3XwVfAIPo=
-Modified: 637393815771894614
 ---
 File: |
   C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1.yml
@@ -190,6 +163,15 @@ Signature: PSa69TeA8Le/48FUgvrEjHSMT+QppRFrHMOQJvEKIWU=
 Modified: 637393807670101753
 ---
 File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\listsubscription-1\Page\Text.yml
+ID: "dc0f389b-430d-411d-952e-8969602dccf5"
+Parent: "c13975c8-8ca4-4839-bc37-cbe7215fbe88"
+Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
+Path: "/sitecore/Forms/submitactions/listsubscription-1/Page/Text"
+Signature: Isn3+aGthoWUsWspmxPpbpRCDauLvnpjV1IKEnGsNGk=
+Modified: 637393807670051709
+---
+File: |
   C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page\Section(2).yml
 ID: "4d6542a0-3b1d-4aeb-a47d-b76f5875fe28"
 Parent: "733328a6-f845-4f89-9e95-a3063a4550f5"
@@ -197,3 +179,138 @@ Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
 Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Section(2)"
 Signature: 3jLJRujyB7/w4pDi0IDmldOl/WdzT8Y/TkY3/ym/o+w=
 Modified: 637393815771874614
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page\Section(3).yml
+ID: "2c434b94-22c0-4b88-9488-d073c3896fca"
+Parent: "733328a6-f845-4f89-9e95-a3063a4550f5"
+Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
+Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Section(3)"
+Signature: Yn15d/+MQyI7MNkbHCDKJ+OcmWGgSUKGLRFfiJf2uVo=
+Modified: 637394136464603343
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page\Section.yml
+ID: "e2632c8a-9a3b-4327-90ae-12163af1864d"
+Parent: "733328a6-f845-4f89-9e95-a3063a4550f5"
+Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
+Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Section"
+Signature: GQSYDuVdmFMa53XjZIeKgYWlqqwP4RwbZ50+ISF3UQ8=
+Modified: 637393809754305609
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page\Submit Button.yml
+ID: "8768c653-2184-4cf1-a179-97512002b603"
+Parent: "733328a6-f845-4f89-9e95-a3063a4550f5"
+Template: "94a46d66-b1b8-405d-aae4-7b5a9cd61c5e"
+Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Submit Button"
+Signature: d7pfwpcxP9ZYQERzyGFlWwdqzDL1uUhAIjMcvXH1rQo=
+Modified: 637394136464583375
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page\Text(2).yml
+ID: "26239ddb-1074-45cb-b1dd-d3e693db5001"
+Parent: "733328a6-f845-4f89-9e95-a3063a4550f5"
+Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
+Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Text(2)"
+Signature: tC9eYeBsDzCuRs6/1+cHQfM/LbbEDcpV8rSY+k2hz/s=
+Modified: 637393809754305609
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page\Text.yml
+ID: "af6d045b-a8ff-4005-a2dc-75756a098393"
+Parent: "733328a6-f845-4f89-9e95-a3063a4550f5"
+Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
+Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Text"
+Signature: lbThCDbs3VMa//jKhprWJXxBShb+N4OIlEdc/efLhi4=
+Modified: 637393809754305609
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\listsubscription-1\Page\Section\FirstName.yml
+ID: "19fa3415-229d-4d25-a733-b9bc12c709a0"
+Parent: "b80fc482-9c55-4bbe-9cf3-85180624ecd0"
+Template: "0908030b-4564-42ea-a6fa-c7a5a2d921a8"
+Path: "/sitecore/Forms/submitactions/listsubscription-1/Page/Section/FirstName"
+Signature: kY7xcjdq0HBQUV/CgTPdnLzgIQJ71T0YtAJK0rl3PD4=
+Modified: 637393807670181672
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\listsubscription-1\Page\Section(2)\JobTitle.yml
+ID: "e4e922c8-bc7f-4a7a-9229-34479fb47f06"
+Parent: "1f5194b4-29d3-457f-94f3-c2f1699507eb"
+Template: "0908030b-4564-42ea-a6fa-c7a5a2d921a8"
+Path: "/sitecore/Forms/submitactions/listsubscription-1/Page/Section(2)/JobTitle"
+Signature: pAIhv9wS/p2pR3BWKiwchaQUNqrStfK7xK3UrLvyRK0=
+Modified: 637393807670211677
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\listsubscription-1\Page\Submit\SubmitActions.yml
+ID: "3395c318-dea0-46cc-a934-69b9dad5a8e7"
+Parent: "2b888ad8-08c1-42d9-96a9-2a4dfebefc69"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: "/sitecore/Forms/submitactions/listsubscription-1/Page/Submit/SubmitActions"
+Signature: G9EEHezXzj6gNZLSu2EqOZaCsLIWZ6V8Hdyt1DgCXro=
+Modified: 637393807670231679
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page\Section\firstName.yml
+ID: "cc59df15-3e9c-4a35-8af7-3592398c727b"
+Parent: "e2632c8a-9a3b-4327-90ae-12163af1864d"
+Template: "0908030b-4564-42ea-a6fa-c7a5a2d921a8"
+Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Section/firstName"
+Signature: J8O1Aocd9DK5p/h3+wWbwjYEuxDbSs6C6j53aF6KK4Q=
+Modified: 637393809754305609
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page\Section(2)\lastName.yml
+ID: "fd6d6cb6-8e6e-498e-9134-266a40557a42"
+Parent: "4d6542a0-3b1d-4aeb-a47d-b76f5875fe28"
+Template: "0908030b-4564-42ea-a6fa-c7a5a2d921a8"
+Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Section(2)/lastName"
+Signature: ht5QHjK51I6s6mXq+iZegspkegJufAU9tBe7UXCtkcs=
+Modified: 637394248385595011
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page\Section(3)\Checkbox List.yml
+ID: "03af2ba3-4618-4299-a6a3-712757fcfc6f"
+Parent: "2c434b94-22c0-4b88-9488-d073c3896fca"
+Template: "5b672865-55d2-413e-b699-fdfc7e732ccf"
+Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Section(3)/Checkbox List"
+Signature: +J+Zvp1sihnwZq8fBVHsdUCi25ikFqzq3xAr5+ztRl8=
+Modified: 637394157417631052
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page\Section(3)\industry.yml
+ID: "bef6870e-2794-424c-b45b-427cba894fb3"
+Parent: "2c434b94-22c0-4b88-9488-d073c3896fca"
+Template: "9121d435-48b8-4649-9d13-03d680474fad"
+Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Section(3)/industry"
+Signature: JDcWORv0HnnkNvXX1ml9ZgxRiXgriZsdxC4Zo7wq8fc=
+Modified: 637394248893656136
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page\Section(3)\Radio Button List.yml
+ID: "4ae5563a-df43-4c72-ab0e-f836c988321f"
+Parent: "2c434b94-22c0-4b88-9488-d073c3896fca"
+Template: "5b672865-55d2-413e-b699-fdfc7e732ccf"
+Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Section(3)/Radio Button List"
+Signature: 565n2bGi85mORgK0k/ImTi25MN/P2CMtwRszTReIfH8=
+Modified: 637394157725035965
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\listsubscription-1\Page\Submit\SubmitActions\Add To List.yml
+ID: "18dcb790-228b-471f-b14d-01f8367b156b"
+Parent: "3395c318-dea0-46cc-a934-69b9dad5a8e7"
+Template: "05fe45d4-b9c7-40de-b767-7c5abe7119f9"
+Path: "/sitecore/Forms/submitactions/listsubscription-1/Page/Submit/SubmitActions/Add To List"
+Signature: +YYDPI79tKHNOrB2npUYXJ7ckLchAwYJE/N368omhi4=
+Modified: 637393807670271673
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page\Section(3)\Checkbox List\Settings.yml
+ID: "b7d95ae2-7c4a-47f0-80e7-85156daf5863"
+Parent: "03af2ba3-4618-4299-a6a3-712757fcfc6f"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Section(3)/Checkbox List/Settings"
+Signature: qgSRF4UnT9S+D18xLUrl5qxtOJJqHZgVIBgKKCzbXC8=
+Modified: 637394157417661063
