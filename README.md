@@ -2,13 +2,13 @@
 
 ![Sitecore Forms Extensions Logo](https://raw.githubusercontent.com/bartverdonck/Sitecore-Forms-Extensions/master/docs/Sitecore-Forms-Extensions-Logo.png)
 
-## Documentation (usage + install guide)
+## Documentation (usage + install guide) 📝
 
 > Extensive documentation for developers and content editors can be found on http://onelittlespark.bartverdonck.be/sitecoreformsextentions/
 
 > Check my blogposts on http://onelittlespark.bartverdonck.be/category/sitecore-forms-extensions/ for inspiration.
 
-## Downloads
+## Downloads ⬇️
 ### Install packages
 
 > [Sitecore install packages can be found here](https://github.com/bartverdonck/Sitecore-Forms-Extensions/tree/master/downloads)
@@ -28,7 +28,7 @@ Please add a reference to *SitecoreFormsExtensions.Core* and *Sitecore.Experienc
 
 Note that the nuget package only contains the Sitecore Forms Extensions codebase, it does not include the Sitecore items, razor files and javascripts. You still need to install the module in a conventional way (either download and install the package, or use the container asset image).
 
-## Compatibility
+## Compatibility 🧩
 
 - For Sitecore 10 use version 3.0
 - For Sitecore 9.3+ use version 3.0
@@ -37,7 +37,7 @@ Note that the nuget package only contains the Sitecore Forms Extensions codebase
 
 Older Sitecore versions are not supported.
 
-## Contributing
+## Contributing 💗
 
 Want to contribute to SFE? Great! This section will explain how to setup the project for modifications. Contributions are added via pull requests.
 
@@ -79,10 +79,10 @@ Want to contribute to SFE? Great! This section will explain how to setup the pro
     dotnet sitecore publish
     ```
 
-### Testing new functionality
+### Testing new functionality 🧪
 When adding new functionality to the codebase, please add a test-form in the sitecore content tree (/sitecore/Forms). Also, add a page of the template `/sitecore/templates/Project/FormsExtensionsTester/Pages/ContentPage` in the test-website, referencing the form containing the test of the functionality.
 
-## Changelog
+## Changelog 📜
 ### 3.0 (for Sitecore 9.3+) (This version is compatible with Sitecore 10)
 - *FileUpload Component*: Component removed in favour of build-in component
 - *AzureBlobStorageFileUploadStorageProvider*: Store the file uploads in Azure Blob Storage instead of SQL. (Disabled by default)
