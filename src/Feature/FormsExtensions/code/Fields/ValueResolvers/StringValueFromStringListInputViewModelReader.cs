@@ -11,7 +11,7 @@ namespace Feature.FormsExtensions.Fields.ValueResolvers
         {
             if (args.FieldViewModel is InputViewModel<List<string>> listStringInputViewModel)
             {
-                args.Value = listStringInputViewModel.Value.Aggregate("", (current, value) => current + ", " + value).Remove(0, 2);
+                args.Value = listStringInputViewModel.Value == null ? string.Empty : listStringInputViewModel.Value.Aggregate("", (current, value) => current + ", " + value).Remove(0, 2);
                 args.AbortPipeline();
             }
         }
