@@ -1,0 +1,129 @@
+﻿---
+ID: "d4af2dac-8bae-490e-bfb9-e9071eceb8cb"
+Parent: "4d261ae4-03a2-4daa-8b7b-f4e58168d4e6"
+Template: "3f12d78c-b7b7-4157-98fc-da3322ee1a5b"
+Path: /sitecore/content/Email/Messages/2020/10/28T16360204/CustomerMail/Message Root
+BranchID: "8c18055a-eb1e-4358-bc12-26b4e2568910"
+SharedFields:
+- ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
+  Hint: __Read Only
+  Value: 1
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{7AE92CCA-8C93-491E-92A0-F25222C9746B}">
+        <r
+          cac="1"
+          ds=""
+          id="{69EB7A6D-ACEF-4D06-A923-804918AA245E}"
+          par=""
+          ph="msg-html-title"
+          uid="{526AFB07-CE11-43CC-A8A1-4B906BC54FE6}"
+          vbd="1"
+          vbp="1" />
+        <r
+          cac="1"
+          ds="{EBF7A071-B908-445C-904B-AD9B6C81A680}"
+          id="{B86B69EC-4AF3-4F92-94F8-8DC2F06CB5FB}"
+          par="Background Color=%23fff&amp;Content Font Color=%23232323&amp;Link Color=%23232323&amp;Align=center&amp;Padding=30px%2020px%2030px"
+          ph="preview-area"
+          uid="{8D6B2B26-548A-4D35-B9DC-5A670DE2A453}"
+          vbd="1"
+          vbp="1" />
+        <r
+          cac="1"
+          ds="{EC52EB25-A0BD-41B0-B6D8-307F96BC3EF8}"
+          id="{027661AA-FEE2-4401-9D9A-207A3FCED8E8}"
+          par="Background Color=%23fff&amp;Content Font Color=%23232323&amp;Align=center&amp;Padding"
+          ph="header-area"
+          uid="{CA59D82D-DD99-48CF-8F07-A96D89F007BA}"
+          vbd="1"
+          vbp="1" />
+        <r
+          cac="1"
+          ds="{3865C54F-4AF9-4759-9C06-97EC532053B5}"
+          id="{DABFE2BE-8343-450D-85F4-0C05511ADF71}"
+          par="Background Color=%23fff&amp;Content Font Color=%23232323&amp;Heading Font Color=%23232323&amp;Align=center&amp;Padding=30px%2020px%2030px"
+          ph="header-area"
+          uid="{F12083E1-BEFB-4D1B-A208-BB6BD81CDFF9}"
+          vbd="1"
+          vbp="1" />
+        <r
+          cac="1"
+          ds="{644E3F9D-A69C-4A32-AC85-BDDDCECCB6E9}"
+          id="{7C38B48C-9107-41A0-A9C8-F45A89659C84}"
+          par="Background Color=%23fff&amp;Content Font Color=%23232323&amp;Heading Font Color=%23232323&amp;Align=center&amp;Padding=0px%2020px%2030px"
+          ph="body-area"
+          uid="{2FCB709E-E453-4BFE-9702-C0AC10A98ADE}"
+          vbd="1"
+          vbp="1" />
+        <r
+          cac="1"
+          ds="{37D871BE-DC28-4D80-9E78-91D8EF8FA3F6}"
+          id="{2A517EBD-B1B9-4887-9FE5-5D0773F7B2C7}"
+          par="Background Color=%23fff&amp;Content Font Color=%23232323&amp;Link Color=%23999&amp;Button Color=%23232323&amp;Align=center&amp;Padding=0px%2020px%2030px"
+          ph="body-area"
+          uid="{96190F2B-3E8D-4F33-9B09-E618E51C6C04}"
+          vbd="1"
+          vbp="1" />
+        <r
+          cac="1"
+          ds="{6EBD8402-B6D3-4621-BF6C-BC9FCC964160}"
+          id="{38788088-93B0-4FB6-A80A-F47BD8D37694}"
+          par="Background Color=%23232323&amp;Content Font Color=%23999&amp;Link Color=%23999&amp;Align=center&amp;Padding"
+          ph="footer-area"
+          uid="{62559094-DD97-405D-9E30-FAC362C0037E}"
+          vbd="1"
+          vbp="1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{FA2394B1-5E36-4CE6-961C-1C4C8241D89D}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{F12083E1-BEFB-4D1B-A208-BB6BD81CDFF9}">
+              <p:d />
+            </r>
+            <r
+              uid="{96190F2B-3E8D-4F33-9B09-E618E51C6C04}">
+              <p:d />
+            </r>
+            <r
+              uid="{62559094-DD97-405D-9E30-FAC362C0037E}"
+              p:after="*[1=2]" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201028T163602Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ace5afc1-97be-44a2-b341-1251b5ed32e6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c0bfd467-0b74-4efe-b7c9-1ecf7f0e5370"
+      Hint: Subject
+      Value: Customer Test
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201028T173547Z

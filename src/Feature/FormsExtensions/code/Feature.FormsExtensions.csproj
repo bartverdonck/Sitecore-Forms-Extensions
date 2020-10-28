@@ -104,6 +104,9 @@
     <Reference Include="Sitecore.ExperienceForms.Mvc, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.ExperienceForms.Mvc.9.3.0\lib\net471\Sitecore.ExperienceForms.Mvc.dll</HintPath>
     </Reference>
+    <Reference Include="Sitecore.Framework.Messaging.Abstractions, Version=4.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Sitecore.Framework.Messaging.Abstractions.4.1.0\lib\netstandard2.0\Sitecore.Framework.Messaging.Abstractions.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.Kernel, Version=14.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.Kernel.9.3.0\lib\net471\Sitecore.Kernel.dll</HintPath>
     </Reference>

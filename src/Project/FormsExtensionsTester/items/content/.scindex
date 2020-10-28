@@ -1,15 +1,6 @@
 ﻿# Do not commit this file to source control or modify it. It is safe to delete; it will recreate itself.
 ---
 File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\content\Home.yml
-ID: "110d559f-dea5-42ea-9c1c-8a5df7e70ef9"
-Parent: "0de95ae4-41ab-4d01-9eb0-67441b7c2450"
-Template: "7d13b4b2-3c4d-4639-8e16-6169e3e734c5"
-Path: /sitecore/content/Home
-Signature: xWjUxl9x0TH4htcw4W27zfJYp33p/wYuHiecNbWrSyA=
-Modified: 637393806928387936
----
-File: |
   C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\content\Home\submitactions.yml
 ID: "a042a9a9-ccb8-484a-9d07-5da2aa333105"
 Parent: "110d559f-dea5-42ea-9c1c-8a5df7e70ef9"
@@ -28,6 +19,15 @@ Signature: fP3pjVMFhnjXCeM4/3y4ipua0X30JLrcYiqVYCDWQ1s=
 Modified: 637393807669831662
 ---
 File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\content\Home.yml
+ID: "110d559f-dea5-42ea-9c1c-8a5df7e70ef9"
+Parent: "0de95ae4-41ab-4d01-9eb0-67441b7c2450"
+Template: "7d13b4b2-3c4d-4639-8e16-6169e3e734c5"
+Path: /sitecore/content/Home
+Signature: xWjUxl9x0TH4htcw4W27zfJYp33p/wYuHiecNbWrSyA=
+Modified: 637393806928387936
+---
+File: |
   C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\content\Home\submitactions\listsubscription-1.yml
 ID: "58b902c0-ee2a-4e36-9c72-3966e1a42246"
 Parent: "a042a9a9-ccb8-484a-9d07-5da2aa333105"
@@ -35,6 +35,15 @@ Template: "7d13b4b2-3c4d-4639-8e16-6169e3e734c5"
 Path: "/sitecore/content/Home/submitactions/listsubscription-1"
 Signature: oAiYqAC0DV0eMlBTa2Ev6Dko/pZvC6TLVakes6r85TA=
 Modified: 637393807669891655
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\content\Home\submitactions\sendmail-1.yml
+ID: "71166655-c3cc-493e-ac7b-246146a7a555"
+Parent: "a042a9a9-ccb8-484a-9d07-5da2aa333105"
+Template: "7d13b4b2-3c4d-4639-8e16-6169e3e734c5"
+Path: "/sitecore/content/Home/submitactions/sendmail-1"
+Signature: 8aJkv5eUWdU3vfGonCe1ZkQpoVCcaSfC6hGJ0/OUen4=
+Modified: 637395111199072128
 ---
 File: |
   C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\content\Home\valueproviders\querystring-1.yml

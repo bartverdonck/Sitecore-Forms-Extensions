@@ -1,0 +1,38 @@
+﻿---
+ID: "6b34b3a6-a4cc-4abe-924a-2db1c141425d"
+Parent: "1d94d49f-bb99-4368-9212-880e1b6ec974"
+Template: "54e7880d-2621-49ea-a417-982fcd372903"
+Path: /sitecore/content/Email/Message Types/Regular/Default
+BranchID: "f8fae92a-4f10-470c-ad5c-7ed9e6b636af"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {8C18055A-EB1E-4358-BC12-26B4E2568910}
+    {FD58C821-8FAA-4C51-B368-5FC25CA6AAE0}
+    {89F09F47-6ACA-41A9-ACC6-2E33A0334C0C}
+    {56246CDE-5320-4C15-87E9-28DF4A0133D1}
+    {F868C724-50D0-4347-9C9B-BABB8DB705FE}
+    {A0F3FEFA-D89D-4F5F-9406-E9D1FA7143DF}
+    {90A769C7-47DA-4042-9F49-413BABC66504}
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{DD157BCB-169C-438C-9036-C509E4FD4DAC}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201028T163527Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9899b490-c3ba-4d8a-90d1-d20d68817bd3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201028T163527Z

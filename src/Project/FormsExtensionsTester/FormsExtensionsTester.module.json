@@ -21,6 +21,10 @@
             {
                 "name": "forms",
                 "path": "/sitecore/Forms"
+            },
+            {
+                "name": "emails",
+                "path": "/sitecore/content/Email"
             }
         ]
     }

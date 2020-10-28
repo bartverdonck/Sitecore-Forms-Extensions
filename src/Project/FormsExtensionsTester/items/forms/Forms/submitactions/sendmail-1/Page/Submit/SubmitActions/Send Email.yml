@@ -1,0 +1,42 @@
+﻿---
+ID: "11efc1dc-2af2-4d19-ad04-fb139e2a857c"
+Parent: "0bcfc386-3354-42b5-9bad-d6729e49e8ae"
+Template: "05fe45d4-b9c7-40de-b767-7c5abe7119f9"
+Path: "/sitecore/Forms/submitactions/sendmail-1/Page/Submit/SubmitActions/Send Email"
+SharedFields:
+- ID: "5c796924-3f06-4d1f-8510-8ad9a4244477"
+  Hint: Parameters
+  Value: |
+    {"messageId":"4d261ae4-03a2-4daa-8b7b-f4e58168d4e6","type":"fieldValue","fixedEmailAddress":"","fieldEmailAddressId":"28a61639-33b5-4dbd-b89e-840bac95b52b","updateCurrentContact":false,"fileUploadFieldsToAttach":[],"fieldsTokens":{"firstName":"93e4e3c7-62dd-4dea-b951-44043fa862c3"},"generateAllFieldsToken":false}
+- ID: "abc57b6d-5542-4ab9-a889-106225a032e6"
+  Hint: Submit Action
+  Value: "{72CCAB13-E73F-4C75-8742-F2FFDF141E31}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201028T174439Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "306c0c2c-e73a-4242-be17-3e1493dd2c43"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201028T182925Z

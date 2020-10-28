@@ -1,0 +1,31 @@
+﻿---
+ID: "a96044b1-ecc9-43d1-80e6-89cc82a0481b"
+Parent: "d4af2dac-8bae-490e-bfb9-e9071eceb8cb"
+Template: "04057e52-81de-4ecc-806a-e783fd62c763"
+Path: /sitecore/content/Email/Messages/2020/10/28T16360204/CustomerMail/Message Root/Template Parameters
+BranchID: "8c18055a-eb1e-4358-bc12-26b4e2568910"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 700
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{8381F77A-C5B2-4D74-BD56-B5BEAABDEEA8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201028T163603Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c2285a5b-459d-4e26-a6cb-98f590a43a22"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201028T163603Z
