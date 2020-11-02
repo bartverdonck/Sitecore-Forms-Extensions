@@ -19,7 +19,7 @@ SharedFields:
   Value: 400
 - ID: "d842af43-e220-48d7-9714-6eb2381d2b0c"
   Hint: Navigation Step
-  Value: 0
+  Value: 1
 Languages:
 - Language: en
   Versions:
@@ -33,11 +33,11 @@ Languages:
       Value: Send
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2e4516a6-b6e8-4a96-83ac-df6685920ee8"
+      Value: "1a16bd73-0761-4541-bf4a-70d9baeb846a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201102T151115Z
+      Value: 20201102T164012Z
