@@ -24,9 +24,10 @@ namespace Feature.FormsExtensions.ValueProviders.xDbFieldValueBinders
 
         public IFieldValueBinderResult GetBindingValue()
         {
-            if (Tracker.Current?.Contact == null)
+            var currentContact = xDbService.GetCurrentContact();
+            if (currentContact == null)
                 return new NoFieldValueBindingFoundResult();
-            var xConnectFacet = Tracker.Current.Contact.GetFacet<IXConnectFacets>("XConnectFacets");
+            var xConnectFacet = currentContact.GetFacet<IXConnectFacets>("XConnectFacets");
             if (xConnectFacet == null)
             {
                 return new NoFieldValueBindingFoundResult();

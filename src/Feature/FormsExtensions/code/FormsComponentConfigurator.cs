@@ -18,9 +18,9 @@ namespace Feature.FormsExtensions
             serviceCollection.AddSingleton<IXDbService, XDbService>();
             serviceCollection.AddSingleton<IXDbContactRepository, XDbContactRepository>();
             serviceCollection.AddSingleton<IReCaptchaService, ReCaptchaService>(provider=>new ReCaptchaService(Sitecore.Configuration.Settings.GetSetting("GoogleCaptchaPrivateKey")));
-            serviceCollection.AddSingleton<CurrentContactContactIdentierHandler, CurrentContactContactIdentierHandler>();
-            serviceCollection.AddSingleton<FieldValueContactIdentierHandler, FieldValueContactIdentierHandler>();
-            serviceCollection.AddSingleton<FixedAddressContactIdentierHandler, FixedAddressContactIdentierHandler>();
+            serviceCollection.AddSingleton<CurrentContactContactIdentifierHandler, CurrentContactContactIdentifierHandler>();
+            serviceCollection.AddSingleton<FieldValueContactIdentifierHandler, FieldValueContactIdentifierHandler>();
+            serviceCollection.AddSingleton<FixedAddressContactIdentifierHandler, FixedAddressContactIdentifierHandler>();
             serviceCollection.AddSingleton<IFieldValueBinderMapFactory, FieldValueBinderMapFactory>();
             serviceCollection.AddSingleton<FileAttachmentTokenBuilder, FileAttachmentTokenBuilder>();
             serviceCollection.AddSingleton<IMailTokenBuilder, MailTokenBuilder>();

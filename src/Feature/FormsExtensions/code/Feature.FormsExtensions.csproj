@@ -318,10 +318,10 @@
     <Compile Include="SubmitActions\IdentifyContact\IdentifyContactData.cs" />
     <Compile Include="SubmitActions\SendEmail\FileAttachment\FileAttachmentTokenBuilder.cs" />
     <Compile Include="SubmitActions\SendEmail\SendEmailBase.cs" />
-    <Compile Include="SubmitActions\SendEmail\CurrentContactContactIdentierHandler.cs" />
-    <Compile Include="SubmitActions\SendEmail\FieldValueContactIdentierHandler.cs" />
-    <Compile Include="SubmitActions\SendEmail\FixedAddressContactIdentierHandler.cs" />
-    <Compile Include="SubmitActions\SendEmail\IExtractSendToContactIdentierHandler.cs" />
+    <Compile Include="SubmitActions\SendEmail\CurrentContactContactIdentifierHandler.cs" />
+    <Compile Include="SubmitActions\SendEmail\FieldValueContactIdentifierHandler.cs" />
+    <Compile Include="SubmitActions\SendEmail\FixedAddressContactIdentifierHandler.cs" />
+    <Compile Include="SubmitActions\SendEmail\IExtractSendToContactIdentifierHandler.cs" />
     <Compile Include="SubmitActions\SendEmail\SendEmailExtended.cs" />
     <Compile Include="SubmitActions\SendEmail\SendEmailExtendedData.cs" />
     <Compile Include="SubmitActions\ShowFormPage\ShowFormPageContext.cs" />

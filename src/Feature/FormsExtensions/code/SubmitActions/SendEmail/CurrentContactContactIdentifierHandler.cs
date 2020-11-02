@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
-using Sitecore.Analytics;
+using Feature.FormsExtensions.XDb;
 using Sitecore.Analytics.Model;
 using Sitecore.ExM.Framework.Diagnostics;
 using Sitecore.ExperienceForms.Processing;
@@ -8,13 +8,15 @@ using Sitecore.XConnect;
 
 namespace Feature.FormsExtensions.SubmitActions.SendEmail
 {
-    public class CurrentContactContactIdentierHandler : IExtractSendToContactIdentierHandler
+    public class CurrentContactContactIdentifierHandler : IExtractSendToContactIdentifierHandler
     {
         private readonly ILogger logger;
+        private readonly IXDbService xDbService;
 
-        public CurrentContactContactIdentierHandler(ILogger logger)
+        public CurrentContactContactIdentifierHandler(ILogger logger, IXDbService xDbService)
         {
             this.logger = logger;
+            this.xDbService = xDbService;
         }
 
         public IList<ContactIdentifier> GetContacts(SendEmailExtendedData data, FormSubmitContext formSubmitContext)
@@ -30,15 +32,15 @@ namespace Feature.FormsExtensions.SubmitActions.SendEmail
 
         private ContactIdentifier GetContactIdentifier()
         {
-            var tracker = Tracker.Current;
-            if (tracker == null)
+            var contact = xDbService.GetCurrentContact();
+            if (contact == null)
             {
-                logger.LogWarn("Tracker.Current is null");
+                logger.LogWarn("Current contact is null");
                 return null;
             }
-            var contact = tracker.Contact;
-            var contactIdentifier = contact?.Identifiers.FirstOrDefault(c => c.Type == ContactIdentificationLevel.Known);
+            var contactIdentifier = contact.Identifiers.FirstOrDefault(c => c.Type == ContactIdentificationLevel.Known);
             return contactIdentifier == null ? null : new ContactIdentifier(contactIdentifier.Source, contactIdentifier.Identifier, ContactIdentifierType.Known);
         }
+
     }
 }

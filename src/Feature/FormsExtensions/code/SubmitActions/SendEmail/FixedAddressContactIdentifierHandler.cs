@@ -7,13 +7,13 @@ using Sitecore.XConnect;
 
 namespace Feature.FormsExtensions.SubmitActions.SendEmail
 {
-    public class FixedAddressContactIdentierHandler : IExtractSendToContactIdentierHandler
+    public class FixedAddressContactIdentifierHandler : IExtractSendToContactIdentifierHandler
     {
         private readonly ILogger logger;
         private readonly IXDbService xDbService;
         private readonly IXDbContactFactory xDbContactFactory;
 
-        public FixedAddressContactIdentierHandler(ILogger logger, IXDbService xDbService, IXDbContactFactory xDbContactFactory)
+        public FixedAddressContactIdentifierHandler(ILogger logger, IXDbService xDbService, IXDbContactFactory xDbContactFactory)
         {
             this.logger = logger;
             this.xDbService = xDbService;

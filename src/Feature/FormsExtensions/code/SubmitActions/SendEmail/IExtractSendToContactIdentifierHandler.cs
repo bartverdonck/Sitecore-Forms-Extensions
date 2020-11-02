@@ -4,7 +4,7 @@ using Sitecore.XConnect;
 
 namespace Feature.FormsExtensions.SubmitActions.SendEmail
 {
-    public interface IExtractSendToContactIdentierHandler
+    public interface IExtractSendToContactIdentifierHandler
     {
         IList<ContactIdentifier> GetContacts(SendEmailExtendedData data, FormSubmitContext formSubmitContext);
     }

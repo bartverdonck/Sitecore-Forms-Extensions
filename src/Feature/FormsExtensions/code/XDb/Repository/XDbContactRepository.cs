@@ -55,7 +55,7 @@ namespace Feature.FormsExtensions.XDb.Repository
             if (CreateContactManager() is ContactManager manager)
             {
                 contact.ContactSaveMode = ContactSaveMode.AlwaysSave;
-                manager.SaveContactToCollectionDb(Tracker.Current.Contact);
+                manager.SaveContactToCollectionDb(contact);
             }
         }
         private static void MakeContactKnown(IXdbContext client, Contact contact)

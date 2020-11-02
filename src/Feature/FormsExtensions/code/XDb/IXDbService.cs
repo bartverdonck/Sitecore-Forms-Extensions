@@ -1,5 +1,6 @@
 ﻿using System;
 using Feature.FormsExtensions.XDb.Model;
+using Sitecore.Analytics.Tracking;
 using Facet = Sitecore.XConnect.Facet;
 
 namespace Feature.FormsExtensions.XDb
@@ -12,6 +13,7 @@ namespace Feature.FormsExtensions.XDb
         void UpdateCurrentContactFacet<T>(string facetKey, Action<T> updateFacet) where T : Facet, new();
         void UpdateCurrentContactFacet<T>(string facetKey, Action<T> updateFacets, Func<T> createFacet) where T : Facet;
         void ReloadContactDataIntoSession();
+        Contact GetCurrentContact();
     }
 
 }

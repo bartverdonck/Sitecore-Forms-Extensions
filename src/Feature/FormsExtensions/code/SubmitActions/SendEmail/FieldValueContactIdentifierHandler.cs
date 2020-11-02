@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Linq;
 using Feature.FormsExtensions.ValueProviders.xDbFieldValueBinders;
 using Feature.FormsExtensions.XDb;
-using Sitecore.Analytics;
 using Sitecore.ExperienceForms.Models;
 using Sitecore.ExperienceForms.Processing;
 using Sitecore.ExM.Framework.Diagnostics;
@@ -13,13 +12,13 @@ using Sitecore.XConnect.Collection.Model;
 
 namespace Feature.FormsExtensions.SubmitActions.SendEmail
 {
-    public class FieldValueContactIdentierHandler : IExtractSendToContactIdentierHandler
+    public class FieldValueContactIdentifierHandler : IExtractSendToContactIdentifierHandler
     {
         private readonly ILogger logger;
         private readonly IXDbService xDbService;
         private readonly IXDbContactFactory contactFactory;
 
-        public FieldValueContactIdentierHandler(ILogger logger, IXDbService xDbService, IXDbContactFactory contactFactory)
+        public FieldValueContactIdentifierHandler(ILogger logger, IXDbService xDbService, IXDbContactFactory contactFactory)
         {
             this.logger = logger;
             this.xDbService = xDbService;
@@ -51,11 +50,11 @@ namespace Feature.FormsExtensions.SubmitActions.SendEmail
 
         private ContactIdentifier UpdateEmailContact(string toAddress)
         {
-            if (Tracker.Current == null || Tracker.Current.Contact == null)
+            var currentContact = xDbService.GetCurrentContact();
+            if (currentContact == null)
                 return null;
             new PreferredEmailFieldValueBinder().StoreValue(toAddress);
-            return new ContactIdentifier(Sitecore.Analytics.XConnect.DataAccess.Constants.IdentifierSource,
-                Tracker.Current.Contact.ContactId.ToString("N"), ContactIdentifierType.Anonymous);
+            return new ContactIdentifier(Sitecore.Analytics.XConnect.DataAccess.Constants.IdentifierSource, currentContact.ContactId.ToString("N"), ContactIdentifierType.Anonymous);
         }
 
         protected EmailAddressList CreateFacet()
@@ -88,6 +87,7 @@ namespace Feature.FormsExtensions.SubmitActions.SendEmail
             }
             return new List<string> {valueObject.ToString()};
         }
+
 
     }
 }

@@ -16,9 +16,9 @@ namespace Feature.FormsExtensions.SubmitActions.SendEmail
 {
     public class SendEmailExtended : SendEmailBase<SendEmailExtendedData>
     {
-        private readonly FixedAddressContactIdentierHandler fixedAddressHandler;
-        private readonly FieldValueContactIdentierHandler fieldValueContactIdentierHandler;
-        private readonly CurrentContactContactIdentierHandler currentContactContactIdentierHandler;
+        private readonly FixedAddressContactIdentifierHandler fixedAddressHandler;
+        private readonly FieldValueContactIdentifierHandler fieldValueContactIdentifierHandler;
+        private readonly CurrentContactContactIdentifierHandler currentContactContactIdentifierHandler;
         private readonly FileAttachmentTokenBuilder fileAttachmentTokenBuilder;
         private readonly IMailTokenBuilder mailTokenBuilder;
 
@@ -26,9 +26,9 @@ namespace Feature.FormsExtensions.SubmitActions.SendEmail
             ServiceLocator.ServiceProvider.GetService<ILogger>(),
             ServiceLocator.ServiceProvider.GetService<IClientApiService>(),
             ServiceLocator.ServiceProvider.GetService<IMailTokenBuilder>(), 
-            ServiceLocator.ServiceProvider.GetService<FixedAddressContactIdentierHandler>(), 
-            ServiceLocator.ServiceProvider.GetService<FieldValueContactIdentierHandler>(),
-            ServiceLocator.ServiceProvider.GetService<CurrentContactContactIdentierHandler>(),
+            ServiceLocator.ServiceProvider.GetService<FixedAddressContactIdentifierHandler>(), 
+            ServiceLocator.ServiceProvider.GetService<FieldValueContactIdentifierHandler>(),
+            ServiceLocator.ServiceProvider.GetService<CurrentContactContactIdentifierHandler>(),
             ServiceLocator.ServiceProvider.GetService<FileAttachmentTokenBuilder>())
         {
             
@@ -38,14 +38,14 @@ namespace Feature.FormsExtensions.SubmitActions.SendEmail
             ILogger logger, 
             IClientApiService clientApiService, 
             IMailTokenBuilder mailTokenBuilder, 
-            FixedAddressContactIdentierHandler fixedAddressHandler, 
-            FieldValueContactIdentierHandler fieldValueContactIdentierHandler, 
-            CurrentContactContactIdentierHandler currentContactContactIdentierHandler,
+            FixedAddressContactIdentifierHandler fixedAddressHandler, 
+            FieldValueContactIdentifierHandler fieldValueContactIdentifierHandler, 
+            CurrentContactContactIdentifierHandler currentContactContactIdentifierHandler,
             FileAttachmentTokenBuilder fileAttachmentTokenBuilder) : base(submitActionData, logger, clientApiService, mailTokenBuilder)
         {
             this.fixedAddressHandler = fixedAddressHandler;
-            this.fieldValueContactIdentierHandler = fieldValueContactIdentierHandler;
-            this.currentContactContactIdentierHandler = currentContactContactIdentierHandler;
+            this.fieldValueContactIdentifierHandler = fieldValueContactIdentifierHandler;
+            this.currentContactContactIdentifierHandler = currentContactContactIdentifierHandler;
             this.fileAttachmentTokenBuilder = fileAttachmentTokenBuilder;
             this.mailTokenBuilder = mailTokenBuilder;
         }
@@ -56,13 +56,13 @@ namespace Feature.FormsExtensions.SubmitActions.SendEmail
             return handler.GetContacts(data, formSubmitContext);
         }
 
-        public IExtractSendToContactIdentierHandler GetExtractSendToContactIdentierHandler(string name)
+        public IExtractSendToContactIdentifierHandler GetExtractSendToContactIdentierHandler(string name)
         {
             switch (name)
             {
                 case "fixedAddress": return fixedAddressHandler;
-                case "currentContact": return currentContactContactIdentierHandler;
-                case "fieldValue": return fieldValueContactIdentierHandler;
+                case "currentContact": return currentContactContactIdentifierHandler;
+                case "fieldValue": return fieldValueContactIdentifierHandler;
             }
             throw new Exception($"Unknown sendToType: {name}");
         }

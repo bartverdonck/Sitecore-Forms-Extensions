@@ -3,6 +3,7 @@ using Feature.FormsExtensions.XDb.Model;
 using Feature.FormsExtensions.XDb.Repository;
 using Sitecore.Analytics;
 using Sitecore.XConnect;
+using Contact = Sitecore.Analytics.Tracking.Contact;
 using Facet = Sitecore.XConnect.Facet;
 
 namespace Feature.FormsExtensions.XDb
@@ -43,29 +44,46 @@ namespace Feature.FormsExtensions.XDb
 
         public void UpdateCurrentContactFacet<T>(string facetKey, Action<T> updateFacets, Func<T> createFacet) where T : Facet
         {
-            if (Tracker.Current == null || Tracker.Current.Contact == null)
+            var currentContact = this.GetCurrentContact();
+            if (currentContact == null)
                 return;
-            if (Tracker.Current.Contact.IsNew)
+            if (currentContact.IsNew)
             {
-                xDbContactRepository.SaveNewContactToCollectionDb(Tracker.Current.Contact);
+                xDbContactRepository.SaveNewContactToCollectionDb(currentContact);
             }
-            var trackerIdentifier = new IdentifiedContactReference(Sitecore.Analytics.XConnect.DataAccess.Constants.IdentifierSource, Sitecore.Analytics.Tracker.Current.Contact.ContactId.ToString("N"));
+            var trackerIdentifier = new IdentifiedContactReference(Sitecore.Analytics.XConnect.DataAccess.Constants.IdentifierSource, currentContact.ContactId.ToString("N"));
             xDbContactRepository.UpdateContactFacet(trackerIdentifier, new ContactExpandOptions(facetKey), updateFacets, createFacet);
         }
-
+        
         public Guid? GetCurrentContactId()
         {
-            if (Tracker.Current == null || Tracker.Current.Contact == null)
+            var currentContact = this.GetCurrentContact();
+            if (currentContact == null)
                 return null;
-            if (Tracker.Current.Contact.IsNew)
+            if (currentContact.IsNew)
             {
-                xDbContactRepository.SaveNewContactToCollectionDb(Tracker.Current.Contact);
+                xDbContactRepository.SaveNewContactToCollectionDb(currentContact);
             }
-            var trackerIdentifier = new IdentifiedContactReference(Sitecore.Analytics.XConnect.DataAccess.Constants.IdentifierSource, Sitecore.Analytics.Tracker.Current.Contact.ContactId.ToString("N"));
+            var trackerIdentifier = new IdentifiedContactReference(Sitecore.Analytics.XConnect.DataAccess.Constants.IdentifierSource, currentContact.ContactId.ToString("N"));
             return xDbContactRepository.GetContactId(trackerIdentifier);
         }
 
-        
+        public Contact GetCurrentContact()
+        {
+            InitializeTracker();
+            if (Tracker.Current == null || Tracker.Current.Contact == null)
+                return null;
+            return Tracker.Current.Contact;
+        }
+
+        private static void InitializeTracker()
+        {
+            if (Tracker.Current == null && Tracker.Enabled)
+            {
+                Tracker.StartTracking();
+            }
+        }
+
         private static void CheckIdentifier(IXDbContact contact)
         {
             if (string.IsNullOrEmpty(contact.IdentifierSource) || string.IsNullOrEmpty(contact.IdentifierValue))
