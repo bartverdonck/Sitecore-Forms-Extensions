@@ -3,6 +3,12 @@
     "items": {
         "includes": [
             {
+                "name": "TemplatesModuleFolder",
+                "path": "/sitecore/templates/Modules",
+                "scope": "singleItem",
+                "allowedPushOperations":"createOnly"
+            },
+            {
                 "name": "Templates",
                 "path": "/sitecore/templates/Modules/FormsExtensions"
             },
