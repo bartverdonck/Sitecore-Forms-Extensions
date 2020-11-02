@@ -11,3 +11,6 @@ This document describes the steps to take in order to release a new version of S
 ## Container Image
 
 ## Nuget
+- Update `src/feature/formsextensions/code/Feature.FormsExtensions.nuspec`
+- Run `nuget pack Feature.FormsExtensions.nuspec`
+- Push to nuget `nuget push SitecoreFormsExtensions.Core.[version].nupkg [secret]  -Source https://api.nuget.org/v3/index.json`

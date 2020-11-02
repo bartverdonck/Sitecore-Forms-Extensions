@@ -1,0 +1,271 @@
+﻿# Do not commit this file to source control or modify it. It is safe to delete; it will recreate itself.
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\emails\Email\Message Types\Automated.yml
+ID: "c18aec48-d7dc-4fdd-be2a-f18f1d3afb59"
+Parent: "1b020c2e-142a-4b61-ad15-4af4d328a9fb"
+Template: "9f353948-acc9-4db2-9033-ccd810ba9628"
+Path: /sitecore/content/Email/Message Types/Automated
+Signature: ktJDeyrlnLsjj863v/O695bUhig+K7DkirS+9G9LhrY=
+Modified: 637395117642747727
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\emails\Email\Messages\2020\10.yml
+ID: "289c3036-c265-4e29-985b-3e70a021d953"
+Parent: "b617b452-00ce-4be0-b4ea-9c9d30ecf954"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/Email/Messages/2020/10
+Signature: FP5waxzLPDMitwHnBVV3b/c/i/xKtOJBfN1euM01IyA=
+Modified: 637395117642887728
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\emails\Email\Messages\2020\10\28T16360204\CustomerMail\Message Root\Call To Action.yml
+ID: "37d871be-dc28-4d80-9e78-91d8ef8fa3f6"
+Parent: "d4af2dac-8bae-490e-bfb9-e9071eceb8cb"
+Template: "ff7f82ea-a147-4bc3-90d1-318c92aa8740"
+Path: /sitecore/content/Email/Messages/2020/10/28T16360204/CustomerMail/Message Root/Call To Action
+Signature: TZfVXWUjvonqcDqeoOC8+ZtQlIu4NmIWkQPGVS7Bm+w=
+Modified: 637395117643403166
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\emails\Email\Message Types.yml
+ID: "1b020c2e-142a-4b61-ad15-4af4d328a9fb"
+Parent: "97e19f5f-8a5a-4282-bdfd-bdfe2061ae73"
+Template: "fe8d604d-26f6-426d-a3e2-e4edff091b47"
+Path: /sitecore/content/Email/Message Types
+Signature: lnkHgRb25y/Mh8DmoaF917jYeAHZlBxDDUdifZUACtU=
+Modified: 637395117642682461
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\emails\Email\Message Types\Regular\Default.yml
+ID: "6b34b3a6-a4cc-4abe-924a-2db1c141425d"
+Parent: "1d94d49f-bb99-4368-9212-880e1b6ec974"
+Template: "54e7880d-2621-49ea-a417-982fcd372903"
+Path: /sitecore/content/Email/Message Types/Regular/Default
+Signature: hxurSZI7Uhz04AQflCee7YBc2jyrr7RtuxHhkgD07X4=
+Modified: 637395117642877795
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\emails\Email\Messages\2020\10\28T16360204\CustomerMail.yml
+ID: "4d261ae4-03a2-4daa-8b7b-f4e58168d4e6"
+Parent: "9d735825-e25e-4612-b78d-0362f9d8516d"
+Template: "078d8a76-f971-4891-b422-76c0bcf9fa03"
+Path: /sitecore/content/Email/Messages/2020/10/28T16360204/CustomerMail
+Signature: d0lEamvALAnVPB+RI2V2JX7zSr2ZpOsnyeDuHz5Ea2c=
+Modified: 637395117643193171
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\emails\Email\Messages\2020\10\28T16360204\CustomerMail\Message Root\Footer.yml
+ID: "6ebd8402-b6d3-4621-bf6c-bc9fcc964160"
+Parent: "d4af2dac-8bae-490e-bfb9-e9071eceb8cb"
+Template: "45fa579c-efe8-4a02-b3f0-9da81e6f7aa0"
+Path: /sitecore/content/Email/Messages/2020/10/28T16360204/CustomerMail/Message Root/Footer
+Signature: lLe7yDJNaC7ryYMhmzNjH6aVZ8AdpflOt+PwAeDFTlM=
+Modified: 637395117643433245
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\emails\Email\Messages.yml
+ID: "553abbfc-076c-480d-8729-045640ab2373"
+Parent: "97e19f5f-8a5a-4282-bdfd-bdfe2061ae73"
+Template: "d8ad4b81-9269-4868-949f-37d1c28687e5"
+Path: /sitecore/content/Email/Messages
+Signature: cjHoh32N6gHx4+pHSNyuUZH5MdX+IdSS9ZDvvM40Z98=
+Modified: 637395117642717786
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\emails\Email.yml
+ID: "97e19f5f-8a5a-4282-bdfd-bdfe2061ae73"
+Parent: "0de95ae4-41ab-4d01-9eb0-67441b7c2450"
+Template: "cf9c8a2a-2794-4fea-980a-ef8426f3d6c3"
+Path: /sitecore/content/Email
+Signature: kTu4ElbGczq3mzyg5CV6y1wjxrz2meUMPnnJvpr2ik4=
+Modified: 637395117642642487
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\emails\Email\Messages\Service Messages\Self-Service Subscription\Subscription Notification.yml
+ID: "bbe039d1-2b63-46df-b728-19cebd196bc3"
+Parent: "73697268-ac8b-4e22-bd2d-fc073bfa1271"
+Template: "ecf0a9c8-fe56-45d8-b750-6bde3a34a532"
+Path: "/sitecore/content/Email/Messages/Service Messages/Self-Service Subscription/Subscription Notification"
+Signature: zef1Iilp410A6MOMg+rOXHMDGNV3eSokz6hkQsFFyng=
+Modified: 637395117642997702
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\emails\Email\Messages\Service Messages\Self-Service Subscription\Subscription Confirmation.yml
+ID: "5f874f8b-3897-4297-86f5-db9c6a6117f0"
+Parent: "73697268-ac8b-4e22-bd2d-fc073bfa1271"
+Template: "ecf0a9c8-fe56-45d8-b750-6bde3a34a532"
+Path: "/sitecore/content/Email/Messages/Service Messages/Self-Service Subscription/Subscription Confirmation"
+Signature: +S0ukI79U9CrQP2CtiDJrrEIFi2fJyriF4ql5ye6NK8=
+Modified: 637395117642977741
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\emails\Email\Messages\2020\10\28T16360204\CustomerMail\Message Root\Body Text.yml
+ID: "644e3f9d-a69c-4a32-ac85-bdddceccb6e9"
+Parent: "d4af2dac-8bae-490e-bfb9-e9071eceb8cb"
+Template: "7dfbcf4b-4f57-4c02-bc5f-d87256e7c4a7"
+Path: /sitecore/content/Email/Messages/2020/10/28T16360204/CustomerMail/Message Root/Body Text
+Signature: xmCk/tTlpQvpzomMPTcuNV5J/6Y3w8Answ0IRTbLGUw=
+Modified: 637395117643353147
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\emails\Email\Messages\2020\10\28T16360204\CustomerMail\Message Root.yml
+ID: "d4af2dac-8bae-490e-bfb9-e9071eceb8cb"
+Parent: "4d261ae4-03a2-4daa-8b7b-f4e58168d4e6"
+Template: "3f12d78c-b7b7-4157-98fc-da3322ee1a5b"
+Path: /sitecore/content/Email/Messages/2020/10/28T16360204/CustomerMail/Message Root
+Signature: So1unytsx9fVNknwBNTVDCpbZTWrQdLSZQMP0S4rWMk=
+Modified: 637395117643273100
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\emails\Email\Messages\2020\10\28T16360204\CustomerMail\Message Root\Footer\Privacy Policy.yml
+ID: "16f858d2-f52a-4ab9-b653-d677d7432155"
+Parent: "6ebd8402-b6d3-4621-bf6c-bc9fcc964160"
+Template: "f0818351-eed1-453e-8325-684eeb1a827a"
+Path: /sitecore/content/Email/Messages/2020/10/28T16360204/CustomerMail/Message Root/Footer/Privacy Policy
+Signature: /hDmatmKb1WA8gkwPJERMOYADyHRwCArDSlpwFzyQvw=
+Modified: 637395117643493094
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\emails\Email\Messages\2020\10\28T16360204\CustomerMail\Message Root\Template Parameters.yml
+ID: "a96044b1-ecc9-43d1-80e6-89cc82a0481b"
+Parent: "d4af2dac-8bae-490e-bfb9-e9071eceb8cb"
+Template: "04057e52-81de-4ecc-806a-e783fd62c763"
+Path: /sitecore/content/Email/Messages/2020/10/28T16360204/CustomerMail/Message Root/Template Parameters
+Signature: 5k/D5bQpRU3c8jm54YKvrgu415sRbAeSqavTBNhXsIg=
+Modified: 637395117643473156
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\emails\Email\Messages\2020.yml
+ID: "b617b452-00ce-4be0-b4ea-9c9d30ecf954"
+Parent: "553abbfc-076c-480d-8729-045640ab2373"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/Email/Messages/2020
+Signature: /m4HVZkfHydcTgJQPCdJLKrGJaDqYLE2rM+mO1sUZsw=
+Modified: 637395117642797714
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\emails\Email\Messages\Service Messages\Status Messages.yml
+ID: "4d6fedfb-f192-4f83-ad45-9b53d49f4d7e"
+Parent: "8e4fff4e-568a-4d7e-880d-8bdbbd5fa0ba"
+Template: "69474581-3668-4fed-b0f0-0b88c2532cae"
+Path: /sitecore/content/Email/Messages/Service Messages/Status Messages
+Signature: bX6rHF1sMuMlAFMa4VApbmeV3IJmDTKoDs3r8fcbISw=
+Modified: 637395117642927739
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\emails\Email\Messages\Service Messages.yml
+ID: "8e4fff4e-568a-4d7e-880d-8bdbbd5fa0ba"
+Parent: "553abbfc-076c-480d-8729-045640ab2373"
+Template: "69474581-3668-4fed-b0f0-0b88c2532cae"
+Path: /sitecore/content/Email/Messages/Service Messages
+Signature: zTL542RHib7bsFDhrO+MQk+O0OQ44REv7Hm7bdsDi9g=
+Modified: 637395117642827740
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\emails\Email\Messages\Service Messages\Self-Service Subscription\Unsubscribe Notification.yml
+ID: "bdd76f9d-ea58-4920-9d8d-ba716d7a4162"
+Parent: "73697268-ac8b-4e22-bd2d-fc073bfa1271"
+Template: "ecf0a9c8-fe56-45d8-b750-6bde3a34a532"
+Path: "/sitecore/content/Email/Messages/Service Messages/Self-Service Subscription/Unsubscribe Notification"
+Signature: 3ZmFcurLeIH00tFsxcsHYrRHps3B9HaoPR4bTjzUvbI=
+Modified: 637395117643027766
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\emails\Email\Messages\2020\10\28T16360204\CustomerMail\Message Root\Header.yml
+ID: "3865c54f-4af9-4759-9c06-97ec532053b5"
+Parent: "d4af2dac-8bae-490e-bfb9-e9071eceb8cb"
+Template: "783c9239-41c4-4d84-afe5-1060f582b617"
+Path: /sitecore/content/Email/Messages/2020/10/28T16360204/CustomerMail/Message Root/Header
+Signature: D2ujCLvCYbJL9KPNgc8LPlo6dutbVWAodhgZ9uePd28=
+Modified: 637395117643323157
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\emails\Email\Message Types\Automated\Default.yml
+ID: "3c5a2531-fdf3-43bf-af45-474383a50a3d"
+Parent: "c18aec48-d7dc-4fdd-be2a-f18f1d3afb59"
+Template: "9795c562-98d9-4a9e-bc9c-c6b7a079fdf4"
+Path: /sitecore/content/Email/Message Types/Automated/Default
+Signature: cb7wiZUZHtFVrhc6INBlcMHiuoXUGriYqqxX29kxXFI=
+Modified: 637395117642847714
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\emails\Email\Messages\Service Messages\Self-Service Subscription.yml
+ID: "73697268-ac8b-4e22-bd2d-fc073bfa1271"
+Parent: "8e4fff4e-568a-4d7e-880d-8bdbbd5fa0ba"
+Template: "69474581-3668-4fed-b0f0-0b88c2532cae"
+Path: "/sitecore/content/Email/Messages/Service Messages/Self-Service Subscription"
+Signature: tpyK/gQ3LjkkcKNNbCeYfYEJTrJWJ1cClClzxVsjJ4c=
+Modified: 637395117642907810
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\emails\Email\Messages\Service Messages\Status Messages\Dispatch Completed.yml
+ID: "e2d9fa14-db8f-45be-a999-0197bcb4a750"
+Parent: "4d6fedfb-f192-4f83-ad45-9b53d49f4d7e"
+Template: "ecf0a9c8-fe56-45d8-b750-6bde3a34a532"
+Path: /sitecore/content/Email/Messages/Service Messages/Status Messages/Dispatch Completed
+Signature: k/SiWjd7+BDj9WpDz4ej/DWMCQonho9uvB3oGiJYF+A=
+Modified: 637395117643067765
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\emails\Email\Messages\2020\10\28T16360204\CustomerMail\Message Root\Main Image.yml
+ID: "ec52eb25-a0bd-41b0-b6d8-307f96bc3ef8"
+Parent: "d4af2dac-8bae-490e-bfb9-e9071eceb8cb"
+Template: "0f849f10-b19a-4b65-bc57-306ea6d2c9fb"
+Path: /sitecore/content/Email/Messages/2020/10/28T16360204/CustomerMail/Message Root/Main Image
+Signature: 8RnP7IMVhE/y6X1WoQGinMraJNkiavskUFEb/ZHVW7g=
+Modified: 637395117643413159
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\emails\Email\Messages\2020\10\28T16360204\CustomerMail\Message Root\Footer\Unsubscribe.yml
+ID: "59d63cc8-5ffd-49f9-9f8b-293e8f9509ca"
+Parent: "6ebd8402-b6d3-4621-bf6c-bc9fcc964160"
+Template: "f0818351-eed1-453e-8325-684eeb1a827a"
+Path: /sitecore/content/Email/Messages/2020/10/28T16360204/CustomerMail/Message Root/Footer/Unsubscribe
+Signature: FNckv20pBJnokZrXY19fcjn/98JvZzOL2pKAde98PgU=
+Modified: 637395117643513109
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\emails\Email\Message Types\Regular.yml
+ID: "1d94d49f-bb99-4368-9212-880e1b6ec974"
+Parent: "1b020c2e-142a-4b61-ad15-4af4d328a9fb"
+Template: "fa257176-aa15-4999-91c5-c03f3bda5027"
+Path: /sitecore/content/Email/Message Types/Regular
+Signature: V8IJ22YAgWggBJxHSMsfg1eWLeVLleK7EUIOZsz5Uo4=
+Modified: 637395117642767714
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\emails\Email\Messages\2020\10\28T16360204.yml
+ID: "9d735825-e25e-4612-b78d-0362f9d8516d"
+Parent: "289c3036-c265-4e29-985b-3e70a021d953"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/Email/Messages/2020/10/28T16360204
+Signature: OA/8yUSOAA/bywNkcRjahgHU9MCsswc7XuF7d7n2fAI=
+Modified: 637395117642937709
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\emails\Email\Messages\Service Messages\Status Messages\Automated Notification.yml
+ID: "9c2be930-5f31-4a0a-ac52-b05d6b145105"
+Parent: "4d6fedfb-f192-4f83-ad45-9b53d49f4d7e"
+Template: "ecf0a9c8-fe56-45d8-b750-6bde3a34a532"
+Path: /sitecore/content/Email/Messages/Service Messages/Status Messages/Automated Notification
+Signature: CvZkYQfV6Cy8u0R83+F9K4Tvghuo5yQBILkkHBjJt+c=
+Modified: 637395117643047750
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\emails\Email\Messages\2020\10\28T16360204\CustomerMail\Message Root\Preview.yml
+ID: "ebf7a071-b908-445c-904b-ad9b6c81a680"
+Parent: "d4af2dac-8bae-490e-bfb9-e9071eceb8cb"
+Template: "37fdae00-3647-421e-88e2-6ca1ef2b5249"
+Path: /sitecore/content/Email/Messages/2020/10/28T16360204/CustomerMail/Message Root/Preview
+Signature: 6J85sfTXTGFN349s/66vjx3biRdj3weVRagX6kj8wyM=
+Modified: 637395117643303149
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\emails\Email\Messages\2020\10\28T16360204\CustomerMail\Message Root\Footer\Update your preferences.yml
+ID: "9da06b56-2f38-4b58-a183-83bb1a589d03"
+Parent: "6ebd8402-b6d3-4621-bf6c-bc9fcc964160"
+Template: "f0818351-eed1-453e-8325-684eeb1a827a"
+Path: /sitecore/content/Email/Messages/2020/10/28T16360204/CustomerMail/Message Root/Footer/Update your preferences
+Signature: KWxHSLG7NrXKlmJGbKHav/iTeCl3RBH2dchlo5joAnY=
+Modified: 637395117643533102
