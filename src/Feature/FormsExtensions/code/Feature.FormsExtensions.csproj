@@ -233,6 +233,7 @@
     <Compile Include="Fields\Bindings\DropDownWithBindingsViewModel.cs" />
     <Compile Include="Fields\Bindings\ListBoxWithBindingsViewModel.cs" />
     <Compile Include="Fields\Bindings\ListWithBindingsViewModel.cs" />
+    <Compile Include="Fields\JavascriptLoader.cs" />
     <Compile Include="Fields\RobotDetection\RobotDetectionModel.cs" />
     <Compile Include="Fields\RobotDetection\RobotDetectionValidationAttribute.cs" />
     <Compile Include="Fields\ValueResolvers\FormsFieldValueResolver.cs" />
@@ -253,7 +254,6 @@
     <Compile Include="ValueProviders\FieldValueBinderMapFactory.cs" />
     <Compile Include="ValueProviders\IFieldValueBinderMapFactory.cs" />
     <Compile Include="FileStorageProviders\AzureBlobStorageFileStorageProvider.cs" />
-    <Compile Include="ScriptStore.cs" />
     <Compile Include="ValueProviders\IFieldValueBinderResult.cs" />
     <Compile Include="ValueProviders\NoFieldValueBindingFoundResult.cs" />
     <Compile Include="ValueProviders\FieldValueBindingFoundResult.cs" />
