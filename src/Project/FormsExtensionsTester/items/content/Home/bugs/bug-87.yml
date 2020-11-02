@@ -1,0 +1,42 @@
+﻿---
+ID: "bc5e18b1-98f1-4615-bf03-1a3fba2f4d8f"
+Parent: "5f4797d3-e4f3-4245-aa39-ac09e6ff2f53"
+Template: "7d13b4b2-3c4d-4639-8e16-6169e3e734c5"
+Path: "/sitecore/content/Home/bugs/bug-87"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{9CEBCC20-74D0-42A4-817D-05B329F9D3D7}"
+              s:ds="{70714B93-1A76-4A54-ADDA-73C570C95964}"
+              s:id="{6B5B0FE6-5C85-4487-BA7E-F8C2ECC186A8}"
+              s:par=""
+              s:ph="sfe-main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201026T143455Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dacbc2f8-cb2b-450e-9a18-f52afb2fdfb2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201102T164747Z

@@ -1,0 +1,23 @@
+﻿---
+ID: "b1a780ae-bf95-4115-b84b-0215a6c2706e"
+Parent: "a53640e7-b523-4d84-a8c4-e7549219b831"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: "/sitecore/Forms/bugs/bug-87/Page(2)/Submit Button(2)/SubmitActions"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201102T164638Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2e2216bd-b395-45c4-95bb-a84c74d4563a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201102T164638Z

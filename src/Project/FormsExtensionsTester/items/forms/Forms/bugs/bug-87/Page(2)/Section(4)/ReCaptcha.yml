@@ -1,0 +1,37 @@
+﻿---
+ID: "5abdcf29-90ab-457c-a7fd-e22739b8d85f"
+Parent: "6beb5ac6-7240-4d12-825f-021719bcd4f5"
+Template: "5a59c481-e3c3-4a03-a471-b5d1fb45181a"
+Path: "/sitecore/Forms/bugs/bug-87/Page(2)/Section(4)/ReCaptcha"
+SharedFields:
+- ID: "589a7ade-81d4-4a60-b9e2-7eaf6ae8a563"
+  Hint: Field Type
+  Value: "{E383BDE2-BC88-4278-83EF-832A15C9E94A}"
+- ID: "71c6de8e-4718-4977-b83e-b49552ee14b0"
+  Hint: Conditions
+  Value: |
+    {"fieldConditions":[]}
+- ID: "84ece662-5034-40cb-9c60-744db64bb294"
+  Hint: Field Key
+  Value: FE4CB743A9C947E09E90D59D9C54ECD6
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201102T164638Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "708c450e-99a9-491c-a428-ab08ee29a8c9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201102T164638Z
