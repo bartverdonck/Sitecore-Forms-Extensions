@@ -1,0 +1,29 @@
+﻿---
+ID: "42da0d7c-ba93-4ada-978b-1273a671743a"
+Parent: "510c64e4-f446-4b37-b3bd-fa907590ae77"
+Template: "b75eae98-d21e-46c6-998e-8437c5e3239b"
+Path: /sitecore/content/Data/Markets/EMEA
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201103T132141Z
+    - ID: "780a420f-6dd2-4d84-9c72-271c022e3b22"
+      Hint: MarketEmail
+      Value: emea@test.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8be9cf43-db57-4cb1-a1a2-cab574b992db"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201103T132158Z
+    - ID: "e5ca475a-9eec-4971-8975-e4dc27aefd84"
+      Hint: Market Name
+      Value: Europe, Middle East and Asia

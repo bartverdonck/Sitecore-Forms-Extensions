@@ -12,5 +12,6 @@ namespace Feature.FormsExtensions.SubmitActions.SendEmail
         public string FixedEmailAddress { get; set; }
         public IList<Guid> FileUploadFieldsToAttach { get; set; }
         public bool GenerateAllFieldsToken { get; set; }
+        public string EmailFieldInDynamicDatasource { get; set; }
     }
 }

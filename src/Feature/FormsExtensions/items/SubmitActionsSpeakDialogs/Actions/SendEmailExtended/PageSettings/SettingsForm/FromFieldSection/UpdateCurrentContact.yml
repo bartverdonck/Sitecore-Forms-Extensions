@@ -12,7 +12,7 @@ SharedFields:
   Value: updateCurrentContact=IsChecked
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 450
+  Value: 300
 Languages:
 - Language: en
   Fields:
@@ -33,11 +33,11 @@ Languages:
       Value: If selected, the preffered email value of the current tracked contact will be updated. The mail will be send to this current contact. When not selected, a separate service contact will be used.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "56a175df-8108-4f70-90f8-e9275d5adaf4"
+      Value: "2411d705-7369-406f-bd82-b36a9f44801c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20181211T121124Z
+      Value: 20201103T090943Z

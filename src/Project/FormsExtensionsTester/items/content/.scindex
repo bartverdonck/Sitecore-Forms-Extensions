@@ -73,6 +73,15 @@ Signature: 8aJkv5eUWdU3vfGonCe1ZkQpoVCcaSfC6hGJ0/OUen4=
 Modified: 637395111199072128
 ---
 File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\content\Home\submitactions\sendmail-dynamicdatasource-1.yml
+ID: "23628996-3439-44af-a615-bc190caede26"
+Parent: "a042a9a9-ccb8-484a-9d07-5da2aa333105"
+Template: "7d13b4b2-3c4d-4639-8e16-6169e3e734c5"
+Path: "/sitecore/content/Home/submitactions/sendmail-dynamicdatasource-1"
+Signature: sFdDSnAqLQHBJNV8sATdWul92EAnCXFkmMf2UZoBx9s=
+Modified: 637400068040893232
+---
+File: |
   C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\content\Home\valueproviders\querystring-1.yml
 ID: "cfa1eacb-42b5-42e9-bc98-ed077b442644"
 Parent: "07730484-3234-4d7f-a9bf-b5b452a20010"

@@ -1,0 +1,29 @@
+﻿---
+ID: "0141b39f-5bbe-4128-9b8e-2007c826b458"
+Parent: "510c64e4-f446-4b37-b3bd-fa907590ae77"
+Template: "b75eae98-d21e-46c6-998e-8437c5e3239b"
+Path: /sitecore/content/Data/Markets/APAC
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201103T132207Z
+    - ID: "780a420f-6dd2-4d84-9c72-271c022e3b22"
+      Hint: MarketEmail
+      Value: apac@test.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "abd4f28c-783c-458c-96ab-49d84c6704db"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201103T132234Z
+    - ID: "e5ca475a-9eec-4971-8975-e4dc27aefd84"
+      Hint: Market Name
+      Value: Azia Pacific

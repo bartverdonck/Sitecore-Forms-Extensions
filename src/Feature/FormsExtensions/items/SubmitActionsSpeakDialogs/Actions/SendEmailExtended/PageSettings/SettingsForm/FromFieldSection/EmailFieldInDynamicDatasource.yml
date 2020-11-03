@@ -1,21 +1,30 @@
 ﻿---
-ID: "c1156508-99d5-4ec0-9257-b95d10e935a0"
+ID: "3bd249e2-5dcc-4c57-b5c1-a9f8e0ed5d9e"
 Parent: "45184b8b-c57b-4aa5-aafd-b87191f7055d"
 Template: "4640f8f6-ff25-4615-8a40-fe9f0c87225e"
-Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/SettingsForm/FromFieldSection/FieldEmailAddressId
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/SettingsForm/FromFieldSection/EmailFieldInDynamicDatasource
 SharedFields:
 - ID: "0b6b2d34-5308-4aa8-b59d-85ba47e8b8aa"
   Hint: ValueFieldName
-  Value: itemId
+  Value: value
+- ID: "39c4902e-9960-4469-aeef-e878e9c8218f"
+  Hint: __Hidden
+  Value: 
 - ID: "3e079fc3-6b2d-41c9-9204-374a786fc761"
   Hint: BindingConfiguration
-  Value: fieldEmailAddressId=SelectedValue
+  Value: emailFieldInDynamicDatasource=SelectedValue
+- ID: "6d0c0ab0-bc40-4bd0-8acb-16612a180f14"
+  Hint: IsVisible
+  Value: 1
+- ID: "a176e7b0-1c0b-4f2e-a494-2df342a75c0e"
+  Hint: IsLabelOnTop
+  Value: 
 - ID: "ae95c662-af6a-4156-862d-82924ab52c42"
   Hint: DisplayFieldName
   Value: name
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 0
+  Value: 100
 - ID: "e53dd72a-cc21-4771-a6b4-17762365e2b7"
   Hint: IsRequired
   Value: 
@@ -29,7 +38,7 @@ Languages:
       Value: 20180606T190003Z
     - ID: "3885a716-2eed-47ae-9132-32225f0458ff"
       Hint: FormLabel
-      Value: Email Field
+      Value: Item Field
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -38,13 +47,16 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\admin
+    - ID: "85f7fb0c-b383-4d91-b42e-90247ea49acb"
+      Hint: HelpText
+      Value: You have selected a component with a dynamic datasource. Please select the field containing the email address on the selected item.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "43948e38-cce9-4673-ae06-f1ff8adb9c63"
+      Value: "2c083863-7132-4f63-8901-4bf4cdf82059"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201103T090942Z
+      Value: 20201103T091034Z

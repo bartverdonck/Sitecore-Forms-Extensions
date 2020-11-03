@@ -7,7 +7,7 @@ SharedFields:
 - ID: "5c796924-3f06-4d1f-8510-8ad9a4244477"
   Hint: Parameters
   Value: |
-    {"messageId":"4d261ae4-03a2-4daa-8b7b-f4e58168d4e6","type":"fieldValue","fixedEmailAddress":"","fieldEmailAddressId":"681b2062-92dd-489e-b5fe-bab03f9eae8c","updateCurrentContact":true,"fileUploadFieldsToAttach":[],"fieldsTokens":{},"generateAllFieldsToken":false}
+    {"messageId":"4d261ae4-03a2-4daa-8b7b-f4e58168d4e6","type":"fieldValue","fixedEmailAddress":"","fieldEmailAddressId":"681b2062-92dd-489e-b5fe-bab03f9eae8c","updateCurrentContact":false,"fileUploadFieldsToAttach":[],"fieldsTokens":{},"generateAllFieldsToken":false,"emailFieldInDynamicDatasource":"InternalEmail"}
 - ID: "abc57b6d-5542-4ab9-a889-106225a032e6"
   Hint: Submit Action
   Value: "{72CCAB13-E73F-4C75-8742-F2FFDF141E31}"
@@ -32,11 +32,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "21d5adae-def2-4733-a9f4-4a0a05f62830"
+      Value: "b4bff73f-51c7-4964-97b4-fcdc98cd8237"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201103T085233Z
+      Value: 20201103T150235Z
