@@ -1,0 +1,23 @@
+﻿---
+ID: "a2ce1814-4edb-4e1a-a59b-8b935da356d5"
+Parent: "1c12adef-91a0-4936-bde4-e4214711debc"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: "/sitecore/Forms/submitactions/sendmail-dynamicdatasource-1/Page/submit/SubmitActions"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201103T085233Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7b2b7bb8-03dc-45fd-9243-11436805c783"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201103T085233Z

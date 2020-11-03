@@ -1,0 +1,29 @@
+﻿---
+ID: "5b6d5454-d4dc-4da8-a477-4abd0936a155"
+Parent: "a4af2217-c2ab-4b2f-b924-eaf56d5bf554"
+Template: "5de1e18f-9488-46f8-ad17-336313086a18"
+Path: /sitecore/content/Data/Business Units/Procurement
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201103T083828Z
+    - ID: "4122317e-089c-4165-98ed-3094907a3891"
+      Hint: InternalEmail
+      Value: procurement@test.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "aaf232b9-5d05-4d0a-8c19-39f708d10053"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201103T083841Z
+    - ID: "f4ec2bef-ef4d-4b28-a736-409266b57976"
+      Hint: Name
+      Value: Procurement

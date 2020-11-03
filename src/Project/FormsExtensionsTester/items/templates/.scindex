@@ -1,6 +1,42 @@
 ﻿# Do not commit this file to source control or modify it. It is safe to delete; it will recreate itself.
 ---
 File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\templates\FormsExtensionsTester\BusinessUnit\General Info\Name.yml
+ID: "f4ec2bef-ef4d-4b28-a736-409266b57976"
+Parent: "42d9d646-860d-4497-bae9-6423909e2806"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/FormsExtensionsTester/BusinessUnit/General Info/Name
+Signature: RqWC9kVl5zcySnkMFF5hIbARPJI1onbdG+KnaOZRIZA=
+Modified: 637399889818083125
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\templates\FormsExtensionsTester\Pages\ContentPage\__Standard Values.yml
+ID: "abb63b88-1b82-4c71-880d-aa5af51da20d"
+Parent: "7d13b4b2-3c4d-4639-8e16-6169e3e734c5"
+Template: "7d13b4b2-3c4d-4639-8e16-6169e3e734c5"
+Path: /sitecore/templates/Project/FormsExtensionsTester/Pages/ContentPage/__Standard Values
+Signature: 4BBKs2nzNQRhoYSY+laPN6bOFej5rUmYLI4qYThts+E=
+Modified: 637393806928307939
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\templates\FormsExtensionsTester\Pages\ContentPage.yml
+ID: "7d13b4b2-3c4d-4639-8e16-6169e3e734c5"
+Parent: "3a87d011-2d7f-4757-b0e2-e0f33627ad62"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/FormsExtensionsTester/Pages/ContentPage
+Signature: wZ6EprDi4ydackukvd+PCN5A0/GgVhgqwDut7vZQ9Lg=
+Modified: 637388036933708851
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\templates\FormsExtensionsTester\BusinessUnit.yml
+ID: "5de1e18f-9488-46f8-ad17-336313086a18"
+Parent: "ec431968-3491-482c-bc47-7ac5ffaadd20"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/FormsExtensionsTester/BusinessUnit
+Signature: tIux8mzeCFVhuiG7fOaUolrwt5AR4WAT/VooGyhv7fk=
+Modified: 637399890140706488
+---
+File: |
   C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\templates\FormsExtensionsTester.yml
 ID: "ec431968-3491-482c-bc47-7ac5ffaadd20"
 Parent: "825b30b4-b40b-422e-9920-23a1b6bda89c"
@@ -19,19 +55,37 @@ Signature: PEVdMCgSAKs2q0+bILjEiADmISNs0daj9xyjsizzzxA=
 Modified: 637388036933688860
 ---
 File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\templates\FormsExtensionsTester\Pages\ContentPage.yml
-ID: "7d13b4b2-3c4d-4639-8e16-6169e3e734c5"
-Parent: "3a87d011-2d7f-4757-b0e2-e0f33627ad62"
-Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Project/FormsExtensionsTester/Pages/ContentPage
-Signature: wZ6EprDi4ydackukvd+PCN5A0/GgVhgqwDut7vZQ9Lg=
-Modified: 637388036933708851
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\templates\FormsExtensionsTester\BusinessUnit\Contact\InternalEmail.yml
+ID: "4122317e-089c-4165-98ed-3094907a3891"
+Parent: "cb26724b-9cd0-4753-ae8e-d8d7ab341ae0"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/FormsExtensionsTester/BusinessUnit/Contact/InternalEmail
+Signature: IB1Mq2lKzGibNgKuU5nZqe7Mpi2k7Y8lQhDRqPm2BCI=
+Modified: 637399889651002107
 ---
 File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\templates\FormsExtensionsTester\Pages\ContentPage\__Standard Values.yml
-ID: "abb63b88-1b82-4c71-880d-aa5af51da20d"
-Parent: "7d13b4b2-3c4d-4639-8e16-6169e3e734c5"
-Template: "7d13b4b2-3c4d-4639-8e16-6169e3e734c5"
-Path: /sitecore/templates/Project/FormsExtensionsTester/Pages/ContentPage/__Standard Values
-Signature: 4BBKs2nzNQRhoYSY+laPN6bOFej5rUmYLI4qYThts+E=
-Modified: 637393806928307939
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\templates\FormsExtensionsTester\BusinessUnit\Contact.yml
+ID: "cb26724b-9cd0-4753-ae8e-d8d7ab341ae0"
+Parent: "5de1e18f-9488-46f8-ad17-336313086a18"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/FormsExtensionsTester/BusinessUnit/Contact
+Signature: qknJbg5wKNs6fpxTgHGroPlVWHw9ND02vqpPgFM/tzk=
+Modified: 637399889650972094
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\templates\FormsExtensionsTester\BusinessUnit\General Info.yml
+ID: "42d9d646-860d-4497-bae9-6423909e2806"
+Parent: "5de1e18f-9488-46f8-ad17-336313086a18"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/FormsExtensionsTester/BusinessUnit/General Info
+Signature: Vp6vhrcdwl2YllH+LG7RbTeVeG2+FzZqqDrOIIKrgVc=
+Modified: 637399894761006497
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\templates\FormsExtensionsTester\BusinessUnit\__Standard Values.yml
+ID: "7219589f-71c7-466a-9197-a8b029f4be8c"
+Parent: "5de1e18f-9488-46f8-ad17-336313086a18"
+Template: "5de1e18f-9488-46f8-ad17-336313086a18"
+Path: /sitecore/templates/Project/FormsExtensionsTester/BusinessUnit/__Standard Values
+Signature: mF/fN6wnxYZtK/Be57KhGsXliQjgdr/CcIu4UrFVRbs=
+Modified: 637399895332323154

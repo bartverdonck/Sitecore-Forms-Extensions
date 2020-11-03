@@ -1,0 +1,41 @@
+﻿---
+ID: "7219589f-71c7-466a-9197-a8b029f4be8c"
+Parent: "5de1e18f-9488-46f8-ad17-336313086a18"
+Template: "5de1e18f-9488-46f8-ad17-336313086a18"
+Path: /sitecore/templates/Project/FormsExtensionsTester/BusinessUnit/__Standard Values
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/office_building.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201103T083010Z
+    - ID: "4122317e-089c-4165-98ed-3094907a3891"
+      Hint: InternalEmail
+      Value: $name@test.com
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1d63c555-75c9-469e-b566-180d0da21a2c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201103T083852Z
+    - ID: "f4ec2bef-ef4d-4b28-a736-409266b57976"
+      Hint: Name
+      Value: $name

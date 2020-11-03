@@ -19,6 +19,10 @@
                 "path": "/sitecore/content/Home"
             },
             {
+                "name": "data",
+                "path": "/sitecore/content/data"
+            },
+            {
                 "name": "forms",
                 "path": "/sitecore/Forms"
             },
