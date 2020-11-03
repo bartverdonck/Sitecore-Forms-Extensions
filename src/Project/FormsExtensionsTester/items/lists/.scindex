@@ -1,0 +1,28 @@
+﻿# Do not commit this file to source control or modify it. It is safe to delete; it will recreate itself.
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\lists\SFE.yml
+ID: "e7c2ddfb-4647-4e34-859f-c3a258adb259"
+Parent: "3c94f086-453b-48fc-9f1b-2b00bc0a55c7"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/system/Marketing Control Panel/Contact Lists/SFE
+Signature: 3YwvN0GwAguhDxZEwW2YzUA6MEmeMole4GVkbv3P5Qo=
+Modified: 637400169657961208
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\lists\SFE\Weekly Newsletter-631476f0-836c-4336-dbb7-65ddec456d1d.yml
+ID: "631476f0-836c-4336-dbb7-65ddec456d1d"
+Parent: "e7c2ddfb-4647-4e34-859f-c3a258adb259"
+Template: "3f557952-b2bb-45eb-b625-e29698b2a165"
+Path: "/sitecore/system/Marketing Control Panel/Contact Lists/SFE/Weekly Newsletter-631476f0-836c-4336-dbb7-65ddec456d1d"
+Signature: O2pE7YExyZFR+4ybRcOrQ7A1ERnazeNnpX/SHOyqHbU=
+Modified: 637400169658001180
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\lists\SFE\Promotions-15413ad8-c6ea-499a-e03c-34d4c93a2660.yml
+ID: "15413ad8-c6ea-499a-e03c-34d4c93a2660"
+Parent: "e7c2ddfb-4647-4e34-859f-c3a258adb259"
+Template: "3f557952-b2bb-45eb-b625-e29698b2a165"
+Path: "/sitecore/system/Marketing Control Panel/Contact Lists/SFE/Promotions-15413ad8-c6ea-499a-e03c-34d4c93a2660"
+Signature: FsFbtAluvByupaNHITeI5AClQxwoI/TH3mbF+pCgdUk=
+Modified: 637400169657991162

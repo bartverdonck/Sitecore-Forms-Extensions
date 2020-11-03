@@ -1,8 +1,8 @@
 ﻿---
-ID: "2741b350-a801-45a8-b6b3-22d411f69d9e"
+ID: "f028a457-432c-4d00-8b04-0f5040f927a3"
 Parent: "d51e60bc-cf8f-474e-bf0e-8bef520f0967"
 Template: "4640f8f6-ff25-4615-8a40-fe9f0c87225e"
-Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SubscribeToList/PageSettings/Form/ListId
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SubscribeToList/PageSettings/Form/CheckedRequirementFieldId
 SharedFields:
 - ID: "0b6b2d34-5308-4aa8-b59d-85ba47e8b8aa"
   Hint: ValueFieldName
@@ -21,7 +21,7 @@ SharedFields:
   Value: name
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 0
+  Value: 100
 Languages:
 - Language: en
   Versions:
@@ -32,7 +32,7 @@ Languages:
       Value: 20180910T094641Z
     - ID: "3885a716-2eed-47ae-9132-32225f0458ff"
       Hint: FormLabel
-      Value: List to subscribe to
+      Value: "Only add to list if ... is checked [Optional]"
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -41,13 +41,16 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\admin
+    - ID: "85f7fb0c-b383-4d91-b42e-90247ea49acb"
+      Hint: HelpText
+      Value: This list contains the checkboxes on the form. When one of the checkboxes is selected, the contact will only be added to the list if the contact checked the chosen checkbox.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2e500e2b-9d52-498a-897d-047e254f4ce2"
+      Value: "57659eb2-8104-4ad4-b2d5-cea77b4a0142"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201103T154902Z
+      Value: 20201103T155649Z

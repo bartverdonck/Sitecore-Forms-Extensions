@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
 using Feature.FormsExtensions.XDb;
 using Microsoft.Extensions.DependencyInjection;
 using Sitecore.DependencyInjection;
@@ -41,10 +43,29 @@ namespace Feature.FormsExtensions.SubmitActions.SubscribeToList
                 return false;
             }
 
+            if (data.CheckedRequirementFieldId.HasValue)
+            {
+                var checkedRequirementField = GetFieldById(data.CheckedRequirementFieldId.Value, formSubmitContext.Fields);
+                if(!IsChecked(checkedRequirementField))
+                {
+                    return true;
+                }
+            }
+
             var subscriptionService = ServiceLocator.ServiceProvider.GetService<ISubscriptionService>();
             subscriptionService.Subscribe(data.ListId, contactId.Value);
 
             return true;
+        }
+
+        private static IViewModel GetFieldById(Guid id, IEnumerable<IViewModel> fields)
+        {
+            return fields.FirstOrDefault(f => Guid.Parse(f.ItemId) == id);
+        }
+
+        private static bool IsChecked(object field)
+        {
+            return (bool) field?.GetType().GetProperty("Value")?.GetValue(field, null);
         }
 
     }

@@ -1,19 +1,19 @@
 ﻿---
-ID: "18dcb790-228b-471f-b14d-01f8367b156b"
+ID: "77b2f27d-dcbf-4878-978b-04880c1c1903"
 Parent: "3395c318-dea0-46cc-a934-69b9dad5a8e7"
 Template: "05fe45d4-b9c7-40de-b767-7c5abe7119f9"
-Path: "/sitecore/Forms/submitactions/listsubscription-1/Page/Submit/SubmitActions/Add To List"
+Path: "/sitecore/Forms/submitactions/listsubscription-1/Page/Submit/SubmitActions/Subscribe To List"
 SharedFields:
 - ID: "5c796924-3f06-4d1f-8510-8ad9a4244477"
   Hint: Parameters
   Value: |
-    {"listId":"631476f0-836c-4336-dbb7-65ddec456d1d","checkedRequirementFieldId":"80451dd4-3f84-47fc-bcd5-754af6355905"}
+    {"listId":"15413ad8-c6ea-499a-e03c-34d4c93a2660","checkedRequirementFieldId":""}
 - ID: "abc57b6d-5542-4ab9-a889-106225a032e6"
   Hint: Submit Action
   Value: "{BAC17010-3F3B-49DD-9F93-6BD85E7672BD}"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 0
+  Value: 100
 Languages:
 - Language: en
   Versions:
@@ -21,7 +21,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20201019T104255Z
+      Value: 20201103T161706Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -32,11 +32,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f1a2ba42-7cac-4fcf-98ec-a03f0c8f148b"
+      Value: "636885af-1b47-4cae-9152-b672b445df2d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201103T170250Z
+      Value: 20201103T161706Z

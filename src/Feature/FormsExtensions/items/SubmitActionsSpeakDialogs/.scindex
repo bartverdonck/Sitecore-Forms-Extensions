@@ -1,6 +1,15 @@
 ﻿# Do not commit this file to source control or modify it. It is safe to delete; it will recreate itself.
 ---
 File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions.yml
+ID: "a3e5e09f-1422-4050-9414-dc959aa60d7b"
+Parent: "02e48132-df0d-4300-a05d-a908d1db13c0"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions
+Signature: 2EJvB42LC676MISx1LMWEokkMs605Bg58UPj+RZZOSc=
+Modified: 637388014148941818
+---
+File: |
   C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\IdentifyContact.yml
 ID: "8d885e46-c631-411a-a37f-1d5b99fe8878"
 Parent: "a3e5e09f-1422-4050-9414-dc959aa60d7b"
@@ -8,96 +17,6 @@ Template: "5f2c442f-2554-4c80-b1d9-2195fa6168b1"
 Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact
 Signature: yKPHmobLLDy2UL0Ja2ANhIKgZD540sdbMpan4ON5Fhg=
 Modified: 637388014149131831
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\IdentifyContact\PageSettings\Stylesheet.yml
-ID: "9f27a46d-4b0e-4379-bbf2-73da342477a2"
-Parent: "f91a0696-976f-4564-8813-f011225970cc"
-Template: "27c78269-cef0-483f-9e7a-af27ed04ce5d"
-Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/PageSettings/Stylesheet
-Signature: SMtuS4Cpn//l4IcHHSYBEBT8c/6+veAsPflbJ2VVHsM=
-Modified: 637388014149421805
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\IdentifyContact\PageSettings\ValueNotInListText.yml
-ID: "f9e8fa8a-d861-4b4b-a3d6-19398b521ea5"
-Parent: "f91a0696-976f-4564-8813-f011225970cc"
-Template: "46efcf7f-6ebb-4059-b9bf-8ef47c4f5e20"
-Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/PageSettings/ValueNotInListText
-Signature: Ong0UYw5zLXmM7DjiqCLpjaCY0mLoddue+p6EyYxVEo=
-Modified: 637388014149561806
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\SendEmailExtended\PageSettings\SettingsForm\FixedAddressSection.yml
-ID: "071f77e5-4a84-4f56-a694-ff8e897a6c21"
-Parent: "55d5e421-58de-4ed2-b79e-8417190d63bf"
-Template: "b751a653-89bd-4320-8d5a-2eb82f12a4c1"
-Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/SettingsForm/FixedAddressSection
-Signature: 1wHec5aPY9ymYuI1ZcikuVxxJFpfL44/3Dh+GB28pkM=
-Modified: 637388014149931815
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\SendEmailExtended\PageSettings\SettingsForm\FromFieldSection\UpdateCurrentContact.yml
-ID: "eef59573-bd1f-4ed0-8cc1-25c2ce1a775a"
-Parent: "45184b8b-c57b-4aa5-aafd-b87191f7055d"
-Template: "ad75c314-f983-4c56-81d5-dc10d5ccf4ef"
-Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/SettingsForm/FromFieldSection/UpdateCurrentContact
-Signature: v6KjjrsNRVGha16HSUQ2jJECTZKRJNbCVF6sAtdiVx4=
-Modified: 637399913846597690
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\SendEmailExtended\PageSettings\SettingsForm\SendTo\Type.yml
-ID: "3888b62d-dfaf-47fc-8bf6-1ab94a16adad"
-Parent: "23bea0b5-3da7-4749-adb2-4a9a010db43e"
-Template: "4640f8f6-ff25-4615-8a40-fe9f0c87225e"
-Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/SettingsForm/SendTo/Type
-Signature: ROYWhg0bZoXpq/iqPl9ouZwAGTz+oHgj2gIjXy2SHwk=
-Modified: 637388014150031811
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\SendEmailExtended\PageSettings\SettingsForm\Tokens\CustomTokensForm.yml
-ID: "8df84e01-cabf-4060-b050-1a9f95a3232b"
-Parent: "ed4c9c70-6584-4977-a3ec-979d37b70358"
-Template: "1745113a-b5ad-4f85-9db3-f99bf967bdfb"
-Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/SettingsForm/Tokens/CustomTokensForm
-Signature: MuDVT+ikDXPao5APch6cxwG3ZLL+vQPLZwDIM3OsEcw=
-Modified: 637388014150141794
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\SendEmailExtended\PageSettings\SettingsForm\Tokens\GenerateAllFieldsToken.yml
-ID: "e32d1ac1-57c2-43f3-9de4-dd8dc51715c9"
-Parent: "ed4c9c70-6584-4977-a3ec-979d37b70358"
-Template: "ad75c314-f983-4c56-81d5-dc10d5ccf4ef"
-Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/SettingsForm/Tokens/GenerateAllFieldsToken
-Signature: J4pjJiqysJz/wM0x4P+zkCx+F5Ulg8+zxH8BsOypKLw=
-Modified: 637388014150134186
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\SendEmailExtended\PageSettings\MessagesDataSource.yml
-ID: "a95568a9-f362-450b-b847-3950cdd4563e"
-Parent: "f724d664-ce92-4fbf-b944-00a26004eb39"
-Template: "22255d1f-f5a1-44c7-ba38-ee01dd89e156"
-Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/MessagesDataSource
-Signature: N0cLdtMy+7yatbbHWNbC346Nb50BtT5Boj0SYorRnwk=
-Modified: 637388014149721856
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\SendEmailExtended\PageSettings\ValueNotInListText.yml
-ID: "9260eb36-1773-4801-9c67-d935402a0f9d"
-Parent: "f724d664-ce92-4fbf-b944-00a26004eb39"
-Template: "46efcf7f-6ebb-4059-b9bf-8ef47c4f5e20"
-Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/ValueNotInListText
-Signature: Ong0UYw5zLXmM7DjiqCLpjaCY0mLoddue+p6EyYxVEo=
-Modified: 637388014149781863
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\SendEmailExtended\CustomTokensForm-FormParameters.yml
-ID: "1745113a-b5ad-4f85-9db3-f99bf967bdfb"
-Parent: "e08f03e2-ea3c-4cc6-9921-51e2b902f931"
-Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: "/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/CustomTokensForm-FormParameters"
-Signature: m+3De2l3vxWKxQGDm9TrXQA0kOAf+RmDJf0o0qePRmk=
-Modified: 637388014149281809
 ---
 File: |
   C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\SendEmailExtended.yml
@@ -109,33 +28,6 @@ Signature: a5sme6myv1f4uUnzGuRfN/1WypiMOMjCh7xggKzeXtE=
 Modified: 637388014149204397
 ---
 File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\SendEmailExtended\PageSettings\SettingsForm\SendTo.yml
-ID: "23bea0b5-3da7-4749-adb2-4a9a010db43e"
-Parent: "55d5e421-58de-4ed2-b79e-8417190d63bf"
-Template: "b751a653-89bd-4320-8d5a-2eb82f12a4c1"
-Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/SettingsForm/SendTo
-Signature: hN9KPGlklc1ZVEhjgBn+H0O85RLMPNpgY3HvIN0L7jQ=
-Modified: 637388014149921812
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\SendEmailExtended\PageSettings.yml
-ID: "f724d664-ce92-4fbf-b944-00a26004eb39"
-Parent: "e08f03e2-ea3c-4cc6-9921-51e2b902f931"
-Template: "e35eaa2d-edea-431c-a9e6-488272b53782"
-Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings
-Signature: 9Zti7Gfmg5+UJXDUUDo2hneYEtchd/QfzVM687y7Elo=
-Modified: 637388014149301801
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions.yml
-ID: "a3e5e09f-1422-4050-9414-dc959aa60d7b"
-Parent: "02e48132-df0d-4300-a05d-a908d1db13c0"
-Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
-Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions
-Signature: 2EJvB42LC676MISx1LMWEokkMs605Bg58UPj+RZZOSc=
-Modified: 637388014148941818
----
-File: |
   C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\ShowFormPage.yml
 ID: "3b088f2a-5df9-4c15-9ef8-1ff79a4e46fe"
 Parent: "a3e5e09f-1422-4050-9414-dc959aa60d7b"
@@ -143,33 +35,6 @@ Template: "5f2c442f-2554-4c80-b1d9-2195fa6168b1"
 Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/ShowFormPage
 Signature: R/DAzdL6E4pUN7JMK1Ab+Z77L3M/0Y4XjGuUhR9u3lk=
 Modified: 637388014148971827
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\SendEmailExtended\PageSettings\SettingsForm\Tokens.yml
-ID: "ed4c9c70-6584-4977-a3ec-979d37b70358"
-Parent: "55d5e421-58de-4ed2-b79e-8417190d63bf"
-Template: "b751a653-89bd-4320-8d5a-2eb82f12a4c1"
-Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/SettingsForm/Tokens
-Signature: SibwZxzGW/NJLAojGdV6LcuYumOsfFLFf+WS/4cdyLc=
-Modified: 637388014149981857
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\ShowFormPage\PageSettings.yml
-ID: "c6bd2aaf-0144-47c5-a657-4af58e365d2b"
-Parent: "3b088f2a-5df9-4c15-9ef8-1ff79a4e46fe"
-Template: "e35eaa2d-edea-431c-a9e6-488272b53782"
-Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/ShowFormPage/PageSettings
-Signature: 2zDf4sG2jXRsmHo+AUKe4Efdx1HoWGoycApZjX8+hkE=
-Modified: 637388014149221820
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\SendEmailExtended\PageSettings\SettingsForm\FromFieldSection.yml
-ID: "45184b8b-c57b-4aa5-aafd-b87191f7055d"
-Parent: "55d5e421-58de-4ed2-b79e-8417190d63bf"
-Template: "b751a653-89bd-4320-8d5a-2eb82f12a4c1"
-Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/SettingsForm/FromFieldSection
-Signature: QNTwFQL/ExYfbvKklJpPLTzcTLq2hzboYqTIBj1zY+A=
-Modified: 637388014149951799
 ---
 File: |
   C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\SubscribeToList.yml
@@ -181,15 +46,6 @@ Signature: ft5fuJezOF73uI5Rv24NnPpvtlMq2+AB1nJSu6AEUs0=
 Modified: 637388014148991859
 ---
 File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\SubscribeToList\PageSettings.yml
-ID: "be61a097-e0d5-40c5-98ec-08fd386045cb"
-Parent: "96e25afb-4320-4ecb-b8c5-15d89565b2d2"
-Template: "e35eaa2d-edea-431c-a9e6-488272b53782"
-Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SubscribeToList/PageSettings
-Signature: 2zDf4sG2jXRsmHo+AUKe4Efdx1HoWGoycApZjX8+hkE=
-Modified: 637388014149231840
----
-File: |
   C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\IdentifyContact\PageSettings.yml
 ID: "f91a0696-976f-4564-8813-f011225970cc"
 Parent: "8d885e46-c631-411a-a37f-1d5b99fe8878"
@@ -197,6 +53,42 @@ Template: "e35eaa2d-edea-431c-a9e6-488272b53782"
 Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/PageSettings
 Signature: 9Zti7Gfmg5+UJXDUUDo2hneYEtchd/QfzVM687y7Elo=
 Modified: 637388014149261807
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\SendEmailExtended\CustomTokensForm-FormParameters.yml
+ID: "1745113a-b5ad-4f85-9db3-f99bf967bdfb"
+Parent: "e08f03e2-ea3c-4cc6-9921-51e2b902f931"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: "/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/CustomTokensForm-FormParameters"
+Signature: m+3De2l3vxWKxQGDm9TrXQA0kOAf+RmDJf0o0qePRmk=
+Modified: 637388014149281809
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\SendEmailExtended\PageSettings.yml
+ID: "f724d664-ce92-4fbf-b944-00a26004eb39"
+Parent: "e08f03e2-ea3c-4cc6-9921-51e2b902f931"
+Template: "e35eaa2d-edea-431c-a9e6-488272b53782"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings
+Signature: 9Zti7Gfmg5+UJXDUUDo2hneYEtchd/QfzVM687y7Elo=
+Modified: 637388014149301801
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\ShowFormPage\PageSettings.yml
+ID: "c6bd2aaf-0144-47c5-a657-4af58e365d2b"
+Parent: "3b088f2a-5df9-4c15-9ef8-1ff79a4e46fe"
+Template: "e35eaa2d-edea-431c-a9e6-488272b53782"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/ShowFormPage/PageSettings
+Signature: 2zDf4sG2jXRsmHo+AUKe4Efdx1HoWGoycApZjX8+hkE=
+Modified: 637388014149221820
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\SubscribeToList\PageSettings.yml
+ID: "be61a097-e0d5-40c5-98ec-08fd386045cb"
+Parent: "96e25afb-4320-4ecb-b8c5-15d89565b2d2"
+Template: "e35eaa2d-edea-431c-a9e6-488272b53782"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SubscribeToList/PageSettings
+Signature: 2zDf4sG2jXRsmHo+AUKe4Efdx1HoWGoycApZjX8+hkE=
+Modified: 637388014149231840
 ---
 File: |
   C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\IdentifyContact\PageSettings\GenericErrorMessage.yml
@@ -208,15 +100,6 @@ Signature: 0xemg6oHCp5pKfUNgfOR+7zi/ErSfdM1h+hEuaZeyB4=
 Modified: 637388014149441797
 ---
 File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\IdentifyContact\PageSettings\SettingsForm.yml
-ID: "b956c08e-595e-4d52-b405-30bce60f4f69"
-Parent: "f91a0696-976f-4564-8813-f011225970cc"
-Template: "72e58860-ac29-47e1-a1c5-8f9e492db999"
-Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/PageSettings/SettingsForm
-Signature: HN4rUrrv6bpNrLqQNXpCBweyHywMpPFRMDl6Vtf6qqk=
-Modified: 637388014149521796
----
-File: |
   C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\IdentifyContact\PageSettings\HeaderSubtitle.yml
 ID: "c4893536-ecca-4f0f-b57b-28f02be0d81b"
 Parent: "f91a0696-976f-4564-8813-f011225970cc"
@@ -224,15 +107,6 @@ Template: "46efcf7f-6ebb-4059-b9bf-8ef47c4f5e20"
 Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/PageSettings/HeaderSubtitle
 Signature: JRzJ4NZeN7PDyxJD2srMDhTA1TDprID5b6wI1ia4/04=
 Modified: 637388014149481883
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\IdentifyContact\PageSettings\UnauthorizedErrorMessage.yml
-ID: "b7c62ccd-d3e2-457e-8850-81175c0c4aec"
-Parent: "f91a0696-976f-4564-8813-f011225970cc"
-Template: "46efcf7f-6ebb-4059-b9bf-8ef47c4f5e20"
-Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/PageSettings/UnauthorizedErrorMessage
-Signature: UjQlU+HnSzD02aSYYeT8dK26fcpHc95c2HgyudF0uqI=
-Modified: 637388014149551794
 ---
 File: |
   C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\IdentifyContact\PageSettings\HeaderTitle.yml
@@ -244,6 +118,42 @@ Signature: +zzAiKhVwY4qKb4/PTZ4OQc5hR5pcjvPjSInj8Mhp1k=
 Modified: 637388014149501822
 ---
 File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\IdentifyContact\PageSettings\SettingsForm.yml
+ID: "b956c08e-595e-4d52-b405-30bce60f4f69"
+Parent: "f91a0696-976f-4564-8813-f011225970cc"
+Template: "72e58860-ac29-47e1-a1c5-8f9e492db999"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/PageSettings/SettingsForm
+Signature: HN4rUrrv6bpNrLqQNXpCBweyHywMpPFRMDl6Vtf6qqk=
+Modified: 637388014149521796
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\IdentifyContact\PageSettings\Stylesheet.yml
+ID: "9f27a46d-4b0e-4379-bbf2-73da342477a2"
+Parent: "f91a0696-976f-4564-8813-f011225970cc"
+Template: "27c78269-cef0-483f-9e7a-af27ed04ce5d"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/PageSettings/Stylesheet
+Signature: SMtuS4Cpn//l4IcHHSYBEBT8c/6+veAsPflbJ2VVHsM=
+Modified: 637388014149421805
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\IdentifyContact\PageSettings\UnauthorizedErrorMessage.yml
+ID: "b7c62ccd-d3e2-457e-8850-81175c0c4aec"
+Parent: "f91a0696-976f-4564-8813-f011225970cc"
+Template: "46efcf7f-6ebb-4059-b9bf-8ef47c4f5e20"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/PageSettings/UnauthorizedErrorMessage
+Signature: UjQlU+HnSzD02aSYYeT8dK26fcpHc95c2HgyudF0uqI=
+Modified: 637388014149551794
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\IdentifyContact\PageSettings\ValueNotInListText.yml
+ID: "f9e8fa8a-d861-4b4b-a3d6-19398b521ea5"
+Parent: "f91a0696-976f-4564-8813-f011225970cc"
+Template: "46efcf7f-6ebb-4059-b9bf-8ef47c4f5e20"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/PageSettings/ValueNotInListText
+Signature: Ong0UYw5zLXmM7DjiqCLpjaCY0mLoddue+p6EyYxVEo=
+Modified: 637388014149561806
+---
+File: |
   C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\SendEmailExtended\CustomTokensForm-FormParameters\__Standard Values.yml
 ID: "cbb25901-52de-447a-bdbe-f1e45e19d45a"
 Parent: "1745113a-b5ad-4f85-9db3-f99bf967bdfb"
@@ -251,15 +161,6 @@ Template: "1745113a-b5ad-4f85-9db3-f99bf967bdfb"
 Path: "/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/CustomTokensForm-FormParameters/__Standard Values"
 Signature: z8HuK8Y6CXJU9yKUZV85iw1YS/Of50WI20iZWUreNqA=
 Modified: 637388014149591782
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\IdentifyContact\PageSettings\MessagesDataSource.yml
-ID: "108889ba-b6e0-41f6-b0b6-6237c21e40ab"
-Parent: "f91a0696-976f-4564-8813-f011225970cc"
-Template: "22255d1f-f5a1-44c7-ba38-ee01dd89e156"
-Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/PageSettings/MessagesDataSource
-Signature: N0cLdtMy+7yatbbHWNbC346Nb50BtT5Boj0SYorRnwk=
-Modified: 637388014149511812
 ---
 File: |
   C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\SendEmailExtended\PageSettings\GenericErrorMessage.yml
@@ -271,15 +172,6 @@ Signature: 0xemg6oHCp5pKfUNgfOR+7zi/ErSfdM1h+hEuaZeyB4=
 Modified: 637388014149661809
 ---
 File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\ShowFormPage\PageSettings\Form\FormPageId.yml
-ID: "d44d0329-f4d7-4aae-a05c-3a8cecf4db48"
-Parent: "bc499e27-2cbb-4b5c-b7d9-eaa0c0b757a8"
-Template: "4640f8f6-ff25-4615-8a40-fe9f0c87225e"
-Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/ShowFormPage/PageSettings/Form/FormPageId
-Signature: H6/N6bZdD7uzCAjQVWyqWJF0ccp8rZ3pwix8BHxQM7k=
-Modified: 637388014149801807
----
-File: |
   C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\SendEmailExtended\PageSettings\HeaderSubtitle.yml
 ID: "f22cf91f-1f6b-4920-a0c9-05008635500d"
 Parent: "f724d664-ce92-4fbf-b944-00a26004eb39"
@@ -287,15 +179,6 @@ Template: "46efcf7f-6ebb-4059-b9bf-8ef47c4f5e20"
 Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/HeaderSubtitle
 Signature: ZQMCps86naVX1mD2TgYXcuwg6kGcgHi0fTADGZEoYXg=
 Modified: 637388014149681801
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\SubscribeToList\PageSettings\Form\ListId.yml
-ID: "2741b350-a801-45a8-b6b3-22d411f69d9e"
-Parent: "d51e60bc-cf8f-474e-bf0e-8bef520f0967"
-Template: "4640f8f6-ff25-4615-8a40-fe9f0c87225e"
-Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SubscribeToList/PageSettings/Form/ListId
-Signature: uYIKXxlSdJMwwWSwbj/WEeA7nFecD0fmTmOBmnliU2o=
-Modified: 637388014149821809
 ---
 File: |
   C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\SendEmailExtended\PageSettings\HeaderTitle.yml
@@ -307,13 +190,13 @@ Signature: TkUbjCcttvGEgmigskUiD/kE52V9A/RE5MR3PK7jPjc=
 Modified: 637388014149701805
 ---
 File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\SendEmailExtended\PageSettings\SettingsForm\Attachments\FileUploadFieldsToAttach.yml
-ID: "d874d897-0bdb-4967-adda-e0a53aac6caa"
-Parent: "e1fe3efd-d97a-43c6-9fbd-10c19a2a063b"
-Template: "29d2dd2d-5cda-472d-821d-6d47508655f2"
-Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/SettingsForm/Attachments/FileUploadFieldsToAttach
-Signature: be9saH/4qHohVXb0LUCMYSDdrsTegXgwo8hlnIXf4aw=
-Modified: 637388014150101796
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\SendEmailExtended\PageSettings\MessagesDataSource.yml
+ID: "a95568a9-f362-450b-b847-3950cdd4563e"
+Parent: "f724d664-ce92-4fbf-b944-00a26004eb39"
+Template: "22255d1f-f5a1-44c7-ba38-ee01dd89e156"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/MessagesDataSource
+Signature: N0cLdtMy+7yatbbHWNbC346Nb50BtT5Boj0SYorRnwk=
+Modified: 637388014149721856
 ---
 File: |
   C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\SendEmailExtended\PageSettings\SendToTypes.yml
@@ -323,15 +206,6 @@ Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
 Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/SendToTypes
 Signature: /dAohEnpzsQdcaqj+UoF+jR+/p1q0HylrR871ms1HPA=
 Modified: 637388014149631807
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\SendEmailExtended\PageSettings\SettingsForm\Campaign\Message.yml
-ID: "880cb619-ad27-4eec-a5cd-85ac140e38e1"
-Parent: "075c34a8-87ca-4875-85dd-ca6488c49c56"
-Template: "4640f8f6-ff25-4615-8a40-fe9f0c87225e"
-Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/SettingsForm/Campaign/Message
-Signature: 7XwXxypOKeTxm99Wk3csIdGXozFi1gyIapY1AS3w1T0=
-Modified: 637388014150001828
 ---
 File: |
   C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\SendEmailExtended\PageSettings\SettingsForm.yml
@@ -359,6 +233,15 @@ Template: "46efcf7f-6ebb-4059-b9bf-8ef47c4f5e20"
 Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/UnauthorizedErrorMessage
 Signature: UjQlU+HnSzD02aSYYeT8dK26fcpHc95c2HgyudF0uqI=
 Modified: 637388014149761814
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\SendEmailExtended\PageSettings\ValueNotInListText.yml
+ID: "9260eb36-1773-4801-9c67-d935402a0f9d"
+Parent: "f724d664-ce92-4fbf-b944-00a26004eb39"
+Template: "46efcf7f-6ebb-4059-b9bf-8ef47c4f5e20"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/ValueNotInListText
+Signature: Ong0UYw5zLXmM7DjiqCLpjaCY0mLoddue+p6EyYxVEo=
+Modified: 637388014149781863
 ---
 File: |
   C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\ShowFormPage\PageSettings\Form.yml
@@ -487,6 +370,123 @@ Signature: ITYVYzNEpiFi/PRzZeGRkivdl1SIdTXot4UTbSnWzIU=
 Modified: 637388014149911776
 ---
 File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\SendEmailExtended\PageSettings\SettingsForm\FixedAddressSection.yml
+ID: "071f77e5-4a84-4f56-a694-ff8e897a6c21"
+Parent: "55d5e421-58de-4ed2-b79e-8417190d63bf"
+Template: "b751a653-89bd-4320-8d5a-2eb82f12a4c1"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/SettingsForm/FixedAddressSection
+Signature: 1wHec5aPY9ymYuI1ZcikuVxxJFpfL44/3Dh+GB28pkM=
+Modified: 637388014149931815
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\SendEmailExtended\PageSettings\SettingsForm\FromFieldSection.yml
+ID: "45184b8b-c57b-4aa5-aafd-b87191f7055d"
+Parent: "55d5e421-58de-4ed2-b79e-8417190d63bf"
+Template: "b751a653-89bd-4320-8d5a-2eb82f12a4c1"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/SettingsForm/FromFieldSection
+Signature: QNTwFQL/ExYfbvKklJpPLTzcTLq2hzboYqTIBj1zY+A=
+Modified: 637388014149951799
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\SendEmailExtended\PageSettings\SettingsForm\SendTo.yml
+ID: "23bea0b5-3da7-4749-adb2-4a9a010db43e"
+Parent: "55d5e421-58de-4ed2-b79e-8417190d63bf"
+Template: "b751a653-89bd-4320-8d5a-2eb82f12a4c1"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/SettingsForm/SendTo
+Signature: hN9KPGlklc1ZVEhjgBn+H0O85RLMPNpgY3HvIN0L7jQ=
+Modified: 637388014149921812
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\SendEmailExtended\PageSettings\SettingsForm\Tokens.yml
+ID: "ed4c9c70-6584-4977-a3ec-979d37b70358"
+Parent: "55d5e421-58de-4ed2-b79e-8417190d63bf"
+Template: "b751a653-89bd-4320-8d5a-2eb82f12a4c1"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/SettingsForm/Tokens
+Signature: SibwZxzGW/NJLAojGdV6LcuYumOsfFLFf+WS/4cdyLc=
+Modified: 637388014149981857
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\ShowFormPage\PageSettings\Form\FormPageId.yml
+ID: "d44d0329-f4d7-4aae-a05c-3a8cecf4db48"
+Parent: "bc499e27-2cbb-4b5c-b7d9-eaa0c0b757a8"
+Template: "4640f8f6-ff25-4615-8a40-fe9f0c87225e"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/ShowFormPage/PageSettings/Form/FormPageId
+Signature: H6/N6bZdD7uzCAjQVWyqWJF0ccp8rZ3pwix8BHxQM7k=
+Modified: 637388014149801807
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\SubscribeToList\PageSettings\Form\CheckedRequirementFieldId.yml
+ID: "f028a457-432c-4d00-8b04-0f5040f927a3"
+Parent: "d51e60bc-cf8f-474e-bf0e-8bef520f0967"
+Template: "4640f8f6-ff25-4615-8a40-fe9f0c87225e"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SubscribeToList/PageSettings/Form/CheckedRequirementFieldId
+Signature: M/kbe3FdicRjM7Aa3C5o0g0lKVsZus1oTfmQlskAzmU=
+Modified: 637400160403961518
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\IdentifyContact\PageSettings\MessagesDataSource.yml
+ID: "108889ba-b6e0-41f6-b0b6-6237c21e40ab"
+Parent: "f91a0696-976f-4564-8813-f011225970cc"
+Template: "22255d1f-f5a1-44c7-ba38-ee01dd89e156"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/PageSettings/MessagesDataSource
+Signature: N0cLdtMy+7yatbbHWNbC346Nb50BtT5Boj0SYorRnwk=
+Modified: 637388014149511812
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\SendEmailExtended\PageSettings\SettingsForm\SendTo\Type.yml
+ID: "3888b62d-dfaf-47fc-8bf6-1ab94a16adad"
+Parent: "23bea0b5-3da7-4749-adb2-4a9a010db43e"
+Template: "4640f8f6-ff25-4615-8a40-fe9f0c87225e"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/SettingsForm/SendTo/Type
+Signature: ROYWhg0bZoXpq/iqPl9ouZwAGTz+oHgj2gIjXy2SHwk=
+Modified: 637388014150031811
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\SubscribeToList\PageSettings\Form\ListId.yml
+ID: "2741b350-a801-45a8-b6b3-22d411f69d9e"
+Parent: "d51e60bc-cf8f-474e-bf0e-8bef520f0967"
+Template: "4640f8f6-ff25-4615-8a40-fe9f0c87225e"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SubscribeToList/PageSettings/Form/ListId
+Signature: +xbIoAFfGnh5RMW19UCBT8IVmhtPAuSgrx3A4pe8gI8=
+Modified: 637400153447229782
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\SendEmailExtended\PageSettings\SettingsForm\Tokens\CustomTokensForm.yml
+ID: "8df84e01-cabf-4060-b050-1a9f95a3232b"
+Parent: "ed4c9c70-6584-4977-a3ec-979d37b70358"
+Template: "1745113a-b5ad-4f85-9db3-f99bf967bdfb"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/SettingsForm/Tokens/CustomTokensForm
+Signature: MuDVT+ikDXPao5APch6cxwG3ZLL+vQPLZwDIM3OsEcw=
+Modified: 637388014150141794
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\SendEmailExtended\PageSettings\SettingsForm\Attachments\FileUploadFieldsToAttach.yml
+ID: "d874d897-0bdb-4967-adda-e0a53aac6caa"
+Parent: "e1fe3efd-d97a-43c6-9fbd-10c19a2a063b"
+Template: "29d2dd2d-5cda-472d-821d-6d47508655f2"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/SettingsForm/Attachments/FileUploadFieldsToAttach
+Signature: be9saH/4qHohVXb0LUCMYSDdrsTegXgwo8hlnIXf4aw=
+Modified: 637388014150101796
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\SendEmailExtended\PageSettings\SettingsForm\Tokens\GenerateAllFieldsToken.yml
+ID: "e32d1ac1-57c2-43f3-9de4-dd8dc51715c9"
+Parent: "ed4c9c70-6584-4977-a3ec-979d37b70358"
+Template: "ad75c314-f983-4c56-81d5-dc10d5ccf4ef"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/SettingsForm/Tokens/GenerateAllFieldsToken
+Signature: J4pjJiqysJz/wM0x4P+zkCx+F5Ulg8+zxH8BsOypKLw=
+Modified: 637388014150134186
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\SendEmailExtended\PageSettings\SettingsForm\Campaign\Message.yml
+ID: "880cb619-ad27-4eec-a5cd-85ac140e38e1"
+Parent: "075c34a8-87ca-4875-85dd-ca6488c49c56"
+Template: "4640f8f6-ff25-4615-8a40-fe9f0c87225e"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/SettingsForm/Campaign/Message
+Signature: 7XwXxypOKeTxm99Wk3csIdGXozFi1gyIapY1AS3w1T0=
+Modified: 637388014150001828
+---
+File: |
   C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\SendEmailExtended\PageSettings\SettingsForm\FixedAddressSection\FixedEmailAddress.yml
 ID: "ed698654-dd40-4f5a-9cfd-2e0c0cda75f0"
 Parent: "071f77e5-4a84-4f56-a694-ff8e897a6c21"
@@ -494,15 +494,6 @@ Template: "dd74148e-e8fc-4774-8cba-bafdb76a4e47"
 Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/SettingsForm/FixedAddressSection/FixedEmailAddress
 Signature: xN6Plb0yR0pIlFpOK9grQedHQETnsmgbCimEBIxQZrQ=
 Modified: 637388014150051803
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\SendEmailExtended\PageSettings\SettingsForm\FromFieldSection\Border Parameters.yml
-ID: "a22cb29f-10c7-42e4-ac6c-3873a1659abe"
-Parent: "45184b8b-c57b-4aa5-aafd-b87191f7055d"
-Template: "82c9a712-b590-4f6a-8f3e-b5d86daf49f9"
-Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/SettingsForm/FromFieldSection/Border Parameters
-Signature: ikQHhetGMu8kArgS9nXJlDS07EEUhj9M4tegjlaKt4s=
-Modified: 637399991128875098
 ---
 File: |
   C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\SendEmailExtended\PageSettings\SettingsForm\FromFieldSection\EmailFieldInDynamicDatasource.yml
@@ -521,3 +512,12 @@ Template: "4640f8f6-ff25-4615-8a40-fe9f0c87225e"
 Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/SettingsForm/FromFieldSection/FieldEmailAddressId
 Signature: ilwuR768LXKPS0sgQOTb53FD0021f2abASGAJjiNRC8=
 Modified: 637399913846537676
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\SubmitActionsSpeakDialogs\Actions\SendEmailExtended\PageSettings\SettingsForm\FromFieldSection\UpdateCurrentContact.yml
+ID: "eef59573-bd1f-4ed0-8cc1-25c2ce1a775a"
+Parent: "45184b8b-c57b-4aa5-aafd-b87191f7055d"
+Template: "ad75c314-f983-4c56-81d5-dc10d5ccf4ef"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/SettingsForm/FromFieldSection/UpdateCurrentContact
+Signature: v6KjjrsNRVGha16HSUQ2jJECTZKRJNbCVF6sAtdiVx4=
+Modified: 637399913846597690

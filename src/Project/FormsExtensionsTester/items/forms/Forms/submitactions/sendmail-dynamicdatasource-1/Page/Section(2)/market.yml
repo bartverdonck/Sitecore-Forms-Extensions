@@ -1,0 +1,55 @@
+﻿---
+ID: "2ce08bd8-3d1b-4f19-b363-aeadf219fd06"
+Parent: "affc3340-d167-47cf-ac23-740a64e6bc44"
+Template: "5b672865-55d2-413e-b699-fdfc7e732ccf"
+Path: "/sitecore/Forms/submitactions/sendmail-dynamicdatasource-1/Page/Section(2)/market"
+SharedFields:
+- ID: "467c22b4-b1a2-4620-b8bb-74c2d8b369fc"
+  Hint: Label Css Class
+  Value: "form-label"
+- ID: "492361e0-72d8-4847-82ba-ebfc235cf57b"
+  Hint: Display Field Name
+  Value: Market Name
+- ID: "54424e06-0e7a-47a7-8cb2-7383d700472f"
+  Hint: Is Dynamic
+  Value: 1
+- ID: "589a7ade-81d4-4a60-b9e2-7eaf6ae8a563"
+  Hint: Field Type
+  Value: "{D86A361A-D4FF-46B2-9E97-A37FC5B1FE1A}"
+- ID: "5be76442-950f-4c1f-a797-bebd71101abb"
+  Hint: Datasource
+  Value: "{510C64E4-F446-4B37-B3BD-FA907590AE77}"
+- ID: "71c6de8e-4718-4977-b83e-b49552ee14b0"
+  Hint: Conditions
+  Value: |
+    {"fieldConditions":[]}
+- ID: "78778432-6327-4cea-a28b-e190e3541d28"
+  Hint: Value Field Name
+  Value: __ID
+- ID: "84ece662-5034-40cb-9c60-744db64bb294"
+  Hint: Field Key
+  Value: 77B88240C2BB496C873E78FE88B7B27B
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201103T143220Z
+    - ID: "71ffd7b2-8b09-4f7b-8a66-1e4cef653e8d"
+      Hint: Title
+      Value: Market
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b259d80a-b8df-4de2-b988-5c1099e869b1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201103T150235Z

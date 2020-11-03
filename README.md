@@ -83,7 +83,20 @@ Want to contribute to SFE? Great! This section will explain how to setup the pro
 When adding new functionality to the codebase, please add a test-form in the sitecore content tree (/sitecore/Forms). Also, add a page of the template `/sitecore/templates/Project/FormsExtensionsTester/Pages/ContentPage` in the test-website, referencing the form containing the test of the functionality.
 
 ## Changelog 📜
-### 3.0 (for Sitecore 9.3+) (This version is compatible with Sitecore 10)
+### 3.1 (for Sitecore 9.3 and Sitecore 10)
+- *Subscribe to list*: New submit action, to add the current contact to a selectable list. Possible to limit action on a checkbox in the form that needs to be checked.
+- *Send Email*: 
+  - When binding the email source to a list component with a dynamic list of Sitecore items, it is now possible to use a different field from that item that stores the email-address. Thus, the list of possible email addresses are no longer send to the enduser and can remain private/internal.
+  - Added fallback support for sending emails on cm environment when the exm client service api is unavailable.
+- *Value Providers List Compatibility*: Made list components compatible with the value providers offered by SFE.
+- *Query String Value Provider*: New value provider to prefill form fields with data from the querystring.
+- *Recaptcha*: Fix for cases where the captcha is not on page 1 of the form.
+- *Next/Preview Buttons*: Added fix to value providers in case of using submit buttons with the "next/previous" navigation set. A manual initialization of the Tracker.Current is now handled by the library.
+- Test cases and content included in the project
+- Transformed project to run on Docker containers
+- Switched from Unicorn to Sitecore Serialization
+
+### 3.0 (for Sitecore 9.3 and Sitecore 10)
 - *FileUpload Component*: Component removed in favour of build-in component
 - *AzureBlobStorageFileUploadStorageProvider*: Store the file uploads in Azure Blob Storage instead of SQL. (Disabled by default)
 - *RobotDetection*: NEW component to give the user feedback when his session was marked as a robot.

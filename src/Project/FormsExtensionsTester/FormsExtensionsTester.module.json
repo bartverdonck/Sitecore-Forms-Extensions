@@ -29,6 +29,10 @@
             {
                 "name": "emails",
                 "path": "/sitecore/content/Email"
+            },
+            {
+                "name": "lists",
+                "path": "/sitecore/system/Marketing Control Panel/Contact Lists/SFE"
             }
         ]
     }

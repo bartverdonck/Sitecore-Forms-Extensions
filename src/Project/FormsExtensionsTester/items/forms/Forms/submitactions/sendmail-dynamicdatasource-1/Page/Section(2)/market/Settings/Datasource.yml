@@ -1,0 +1,23 @@
+﻿---
+ID: "5cba6809-ffd0-49a2-a743-7ce1f3f3ae6e"
+Parent: "5270dff3-85dd-42f3-98e4-f24393036b32"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: "/sitecore/Forms/submitactions/sendmail-dynamicdatasource-1/Page/Section(2)/market/Settings/Datasource"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201103T143220Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "14ffda00-0940-4fe1-be3a-eb18a82f1a8b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201103T143220Z
