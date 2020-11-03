@@ -1,0 +1,51 @@
+﻿---
+ID: "02515973-3b01-4468-bbcb-7514a74c5aa9"
+Parent: "f949b762-2015-43df-93b0-5b2ad65e114c"
+Template: "1536b089-2e60-4904-931d-8aa5e1d7306b"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/RedirectToUrl/PageSettings/FormClientApi
+SharedFields:
+- ID: "4fc17c8f-d3b6-49c6-92f9-0517089d568c"
+  Hint: Format
+  Value: itemId=itemId&name=name
+- ID: "f72b86a2-0b9e-4bd8-bb1d-6994ac499ee9"
+  Hint: IncludedFieldTypeIds
+  Value: |
+    {4EE89EA7-CEFE-4C8E-8532-467EF64591FC}
+    {A296A1C1-0DA0-4493-A92E-B8191F43AEC6}
+    {5B153FC0-FC3F-474F-8CB8-233FB1BEF292}
+    {04C39CAC-8976-4910-BE0D-879ED3368429}
+    {DF74F55B-47E6-4D1C-92F8-B0D46A7B2704}
+    {4DA85E8A-3B48-4BC6-9565-8C1F5F36DD1B}
+    {38137D30-7B2A-47D5-BBD8-133252C01B28}
+    {E0CFADEE-1AC0-471D-A820-2E70D1547B4B}
+    {222A2121-D370-4C6F-80A3-03C930B718BF}
+    {D86A361A-D4FF-46B2-9E97-A37FC5B1FE1A}
+    {EDBD38A8-1AE9-42EC-8CCD-F5B0E2998B4F}
+    {72B22999-8509-49A1-BD0C-04D68A9131CD}
+    {B67C70C1-6776-4BCB-8529-AA28E02F6412}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190617T100539Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "83acebf6-b37f-4d6d-a178-9b83f7b34df1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201103T181150Z

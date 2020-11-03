@@ -1,0 +1,27 @@
+﻿---
+ID: "593f48c4-c5cc-4589-ac63-87004931838f"
+Parent: "110d559f-dea5-42ea-9c1c-8a5df7e70ef9"
+Template: "7d13b4b2-3c4d-4639-8e16-6169e3e734c5"
+Path: /sitecore/content/Home/issues
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201103T182041Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c0f6c375-a17d-4ffd-aff9-c8aa253da44a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201103T182041Z

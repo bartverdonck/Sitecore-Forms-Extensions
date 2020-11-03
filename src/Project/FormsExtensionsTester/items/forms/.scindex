@@ -1,292 +1,13 @@
 ﻿# Do not commit this file to source control or modify it. It is safe to delete; it will recreate itself.
 ---
 File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs.yml
-ID: "fd160e01-c290-425a-a822-988373f96c4c"
-Parent: "b701850a-cb8a-4943-b2bc-dddb1238c103"
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms.yml
+ID: "b701850a-cb8a-4943-b2bc-dddb1238c103"
+Parent: "11111111-1111-1111-1111-111111111111"
 Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
-Path: /sitecore/Forms/bugs
-Signature: SMiNQvsU0Wfw6Kn4P1l1dCYM1v2Z9DdGBaQep3IZHC8=
-Modified: 637399198710056797
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-87.yml
-ID: "70714b93-1a76-4a54-adda-73c570c95964"
-Parent: "fd160e01-c290-425a-a822-988373f96c4c"
-Template: "6abee1f2-4ab4-47f0-ad8b-bdb36f37f64c"
-Path: "/sitecore/Forms/bugs/bug-87"
-Signature: WwfV640BgZ6wFmY4DMY0Vibevj0mgTCTNh0U18HiwPc=
-Modified: 637399322326291076
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-dynamicdatasource-1.yml
-ID: "5ea2c521-ce2f-460a-a6b0-a78ad70c376b"
-Parent: "040c6742-3acd-4375-95ed-f648e92e4b50"
-Template: "6abee1f2-4ab4-47f0-ad8b-bdb36f37f64c"
-Path: "/sitecore/Forms/submitactions/sendmail-dynamicdatasource-1"
-Signature: +9LWkDvaMBFgDDFkMv5HyGhFSWYcxNdpoEIkH1fGzu4=
-Modified: 637399899782110220
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-87\Page(3).yml
-ID: "70bbaa3e-53ff-4565-8a4b-98b7473e352f"
-Parent: "70714b93-1a76-4a54-adda-73c570c95964"
-Template: "cfee7b51-8505-45ce-b843-9358f827df87"
-Path: "/sitecore/Forms/bugs/bug-87/Page(3)"
-Signature: HsfCsB2qPSFhihtzIJjV0kFR9NBNXFeJqNh/1DApePE=
-Modified: 637399324000223162
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-1\Page(2).yml
-ID: "639600bf-86db-4190-b3b2-1939b2c3eef6"
-Parent: "9d656420-7948-4267-8279-692f823001da"
-Template: "cfee7b51-8505-45ce-b843-9358f827df87"
-Path: "/sitecore/Forms/submitactions/sendmail-1/Page(2)"
-Signature: fJ5Vut3eYJTvt3Hxa1WOR3JW862AjiAjL/6D7V3QFLk=
-Modified: 637395111199122124
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-87\Page.yml
-ID: "9914e916-273a-468b-aa2f-9b50e68c1f84"
-Parent: "70714b93-1a76-4a54-adda-73c570c95964"
-Template: "cfee7b51-8505-45ce-b843-9358f827df87"
-Path: "/sitecore/Forms/bugs/bug-87/Page"
-Signature: D9WvoWiAuwlqC9Ret7tPjLgfc8onzhAeV09KDRWqzdo=
-Modified: 637399322326321053
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-dynamicdatasource-1\Page(2).yml
-ID: "03156d6a-f701-46ac-a364-b2fade3e4848"
-Parent: "5ea2c521-ce2f-460a-a6b0-a78ad70c376b"
-Template: "cfee7b51-8505-45ce-b843-9358f827df87"
-Path: "/sitecore/Forms/submitactions/sendmail-dynamicdatasource-1/Page(2)"
-Signature: K35XiDs9TpBU079cJWJanVO+IGZRyeERKC5ewtgAGbA=
-Modified: 637399899803523776
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-89\Page(2).yml
-ID: "ea1b4119-bd7e-4e36-be71-84c6fbd4a4c8"
-Parent: "ffcca125-dd49-49a1-8c77-341087188680"
-Template: "cfee7b51-8505-45ce-b843-9358f827df87"
-Path: "/sitecore/Forms/bugs/bug-89/Page(2)"
-Signature: kSK1OirhHldDpu4NBWky1VHHvMBvVWbqwFFsznN5xlI=
-Modified: 637399198774955286
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-dynamicdatasource-1\Page.yml
-ID: "39e48c83-7de4-4950-a9bb-79d0d43afbf0"
-Parent: "5ea2c521-ce2f-460a-a6b0-a78ad70c376b"
-Template: "cfee7b51-8505-45ce-b843-9358f827df87"
-Path: "/sitecore/Forms/submitactions/sendmail-dynamicdatasource-1/Page"
-Signature: EYz/DFghMQtrYxnd+qElp+gi6OV0fe0++KTzUIz6Mf8=
-Modified: 637399899782140307
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-87\Page(2)\Submit Button(2).yml
-ID: "a53640e7-b523-4d84-a8c4-e7549219b831"
-Parent: "d863821b-7491-4f9a-8d43-b85e3c25e221"
-Template: "94a46d66-b1b8-405d-aae4-7b5a9cd61c5e"
-Path: "/sitecore/Forms/bugs/bug-87/Page(2)/Submit Button(2)"
-Signature: iOEWJmEJ7MALi0ox68Mhpw6goaRoEtnqalIzYyNCjaU=
-Modified: 637399889249129957
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-87\Page(3)\Text(7).yml
-ID: "4c50cf7c-e59c-4c58-9fb8-c2497e446034"
-Parent: "70bbaa3e-53ff-4565-8a4b-98b7473e352f"
-Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
-Path: "/sitecore/Forms/bugs/bug-87/Page(3)/Text(7)"
-Signature: j9rp5y0HidUkrXyBzuz6Z8GqbeF9Y6KPVkian4oH+2E=
-Modified: 637399324000783234
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-87\Page(2)\Text(4).yml
-ID: "647d8946-6cc7-4fa5-98b7-151fecf736de"
-Parent: "d863821b-7491-4f9a-8d43-b85e3c25e221"
-Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
-Path: "/sitecore/Forms/bugs/bug-87/Page(2)/Text(4)"
-Signature: aPhcUSOo4OqHufx0VUgpSbHyNJp2J9PnvEiiPqrMjk8=
-Modified: 637399324000283140
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\listsubscription-1\Page\Submit.yml
-ID: "2b888ad8-08c1-42d9-96a9-2a4dfebefc69"
-Parent: "c13975c8-8ca4-4839-bc37-cbe7215fbe88"
-Template: "94a46d66-b1b8-405d-aae4-7b5a9cd61c5e"
-Path: "/sitecore/Forms/submitactions/listsubscription-1/Page/Submit"
-Signature: 6vVtp6E36s4apCmcaos5Ji5DsUTb3kDn8RXVPsHE/yc=
-Modified: 637400173185147013
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-87\Page(3)\Text(5).yml
-ID: "646930a1-1a13-42c0-84b6-23bf4f123c0e"
-Parent: "70bbaa3e-53ff-4565-8a4b-98b7473e352f"
-Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
-Path: "/sitecore/Forms/bugs/bug-87/Page(3)/Text(5)"
-Signature: Onvc8QuuvE/r56vCY75UqgSGVQlb6tM0O9juTdHbDY0=
-Modified: 637399324000763228
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-dynamicdatasource-1\Page\Section.yml
-ID: "8d5a9e10-65c8-42d3-aae9-d30062a0cb30"
-Parent: "39e48c83-7de4-4950-a9bb-79d0d43afbf0"
-Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
-Path: "/sitecore/Forms/submitactions/sendmail-dynamicdatasource-1/Page/Section"
-Signature: 085TnbW/m9GkI1fxeb5Xdd+weF5fTGLvew6xTOtuAQU=
-Modified: 637399899803603733
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-87\Page(3)\Text(6).yml
-ID: "b19d4c5a-6ca9-4173-ba45-89f2cdc21043"
-Parent: "70bbaa3e-53ff-4565-8a4b-98b7473e352f"
-Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
-Path: "/sitecore/Forms/bugs/bug-87/Page(3)/Text(6)"
-Signature: i1/L57eeUc48NdAjlfuQyIJ57OI3er3xPQOaQxwtKOI=
-Modified: 637399324000773254
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-dynamicdatasource-1\Page\Section(2)\market.yml
-ID: "2ce08bd8-3d1b-4f19-b363-aeadf219fd06"
-Parent: "affc3340-d167-47cf-ac23-740a64e6bc44"
-Template: "5b672865-55d2-413e-b699-fdfc7e732ccf"
-Path: "/sitecore/Forms/submitactions/sendmail-dynamicdatasource-1/Page/Section(2)/market"
-Signature: 3vbP67g41IoWOEKA8ZDEZZ/qQPccSINN3hhKVXLmBj0=
-Modified: 637400165054651294
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-89\Page\Section(2).yml
-ID: "290577e1-8bf3-4b1a-ba72-12b2dcf1b040"
-Parent: "5994526d-91f4-446b-b786-6d71e3a8a525"
-Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
-Path: "/sitecore/Forms/bugs/bug-89/Page/Section(2)"
-Signature: zABYMhPWn8PV1QnFa58hPUatQry6oRlW10P/rssrbmE=
-Modified: 637399198774975300
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-dynamicdatasource-1\Page\Section(3)\businessunit.yml
-ID: "681b2062-92dd-489e-b5fe-bab03f9eae8c"
-Parent: "9740b1b4-7535-4575-9d9e-30d21617343d"
-Template: "9121d435-48b8-4649-9d13-03d680474fad"
-Path: "/sitecore/Forms/submitactions/sendmail-dynamicdatasource-1/Page/Section(3)/businessunit"
-Signature: qVcISNL6ZOdW9uRevHJ/3bhgqSxH1u0YNZpt5BneK8w=
-Modified: 637399899803663766
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-89\Page\Section.yml
-ID: "bff583d1-90de-4231-8bd5-88aa4ef5f8e9"
-Parent: "5994526d-91f4-446b-b786-6d71e3a8a525"
-Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
-Path: "/sitecore/Forms/bugs/bug-89/Page/Section"
-Signature: YcVgK044p/ZNTdfkFlwbfy9KNWliIhAM68Gka1mOEPk=
-Modified: 637399198774975300
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-dynamicdatasource-1\Page\submit\SubmitActions\Send Email.yml
-ID: "534d3c3d-c5d2-40e5-8726-2f1dd6b03da4"
-Parent: "a2ce1814-4edb-4e1a-a59b-8b935da356d5"
-Template: "05fe45d4-b9c7-40de-b767-7c5abe7119f9"
-Path: "/sitecore/Forms/submitactions/sendmail-dynamicdatasource-1/Page/submit/SubmitActions/Send Email"
-Signature: XZh2E6/kL/5jcWZK74FdpFfENl/lx8QjUYVVdLW8jXw=
-Modified: 637400125999055658
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\listsubscription-1\Page\Text.yml
-ID: "dc0f389b-430d-411d-952e-8969602dccf5"
-Parent: "c13975c8-8ca4-4839-bc37-cbe7215fbe88"
-Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
-Path: "/sitecore/Forms/submitactions/listsubscription-1/Page/Text"
-Signature: Isn3+aGthoWUsWspmxPpbpRCDauLvnpjV1IKEnGsNGk=
-Modified: 637393807670051709
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\templates\form-template\Page\Section(3)\industry\Settings.yml
-ID: "3e85fb76-5c12-40ad-866e-e86cdcba2ed6"
-Parent: "6ca51a94-76be-4a3a-9b60-c100c8bc91d7"
-Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
-Path: "/sitecore/Forms/templates/form-template/Page/Section(3)/industry/Settings"
-Signature: IOksw74Om1nVMI7fa8x2gfRTvXe5Z1f10ubMKgiz+bE=
-Modified: 637399895796579656
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-1\Page\Section(2).yml
-ID: "e25520f4-6035-4276-b7ee-e2b4e056d239"
-Parent: "363c9492-6f3b-40fb-9140-c4e6c9f90db7"
-Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
-Path: "/sitecore/Forms/submitactions/sendmail-1/Page/Section(2)"
-Signature: yqnxFAVc2D+ZYpqTjzwd+zDORH212sG5aPa2d9l2AzQ=
-Modified: 637395111199182109
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page\Section(3)\industry\Settings.yml
-ID: "c6ecb74a-51c7-4810-8a85-ac21489c03f5"
-Parent: "bef6870e-2794-424c-b45b-427cba894fb3"
-Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
-Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Section(3)/industry/Settings"
-Signature: BcwcbIzvXZzLnUoCglQi8QLKjER8VTfBPdW4mUvfd90=
-Modified: 637394136464653358
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-dynamicdatasource-1\Page\submit\SubmitActions.yml
-ID: "a2ce1814-4edb-4e1a-a59b-8b935da356d5"
-Parent: "1c12adef-91a0-4936-bde4-e4214711debc"
-Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
-Path: "/sitecore/Forms/submitactions/sendmail-dynamicdatasource-1/Page/submit/SubmitActions"
-Signature: J8FuYECJk0usqwYp6M5RA/CClQ1/wZOI6fjGrQapoS4=
-Modified: 637399903541863188
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-dynamicdatasource-1\Page\Section(2)\market\Settings\Datasource.yml
-ID: "5cba6809-ffd0-49a2-a743-7ce1f3f3ae6e"
-Parent: "5270dff3-85dd-42f3-98e4-f24393036b32"
-Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
-Path: "/sitecore/Forms/submitactions/sendmail-dynamicdatasource-1/Page/Section(2)/market/Settings/Datasource"
-Signature: rd6d5VYlOUl8RNSR3QyvuEia3vORYG7GBabs7PpXx24=
-Modified: 637400165054766421
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\templates\form-template\Page\Section\firstName.yml
-ID: "b0a8cc89-dced-4894-a8fe-ba419cc72dcd"
-Parent: "61872ff2-6d1a-490e-8ad7-67d30cdc3f7a"
-Template: "0908030b-4564-42ea-a6fa-c7a5a2d921a8"
-Path: "/sitecore/Forms/templates/form-template/Page/Section/firstName"
-Signature: FEP8C3BdKXoZmy7gvK/tCrLMtcX240C4PCLNhvODLAg=
-Modified: 637399895796579656
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\templates.yml
-ID: "aa7f5c81-69d6-4783-a85a-28d10b892f4e"
-Parent: "b701850a-cb8a-4943-b2bc-dddb1238c103"
-Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
-Path: /sitecore/Forms/templates
-Signature: gXaFsshOoMzzpladmjZYK2u7jLVs8TOMaPiFgIQ5GJ8=
-Modified: 637399895729499691
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions.yml
-ID: "040c6742-3acd-4375-95ed-f648e92e4b50"
-Parent: "b701850a-cb8a-4943-b2bc-dddb1238c103"
-Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
-Path: /sitecore/Forms/submitactions
-Signature: gDbO52qqKqs6H4ufzsT+0oLkYuSiS4K+wYWJJqj17Pk=
-Modified: 637393807669931663
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-89\Page\Text(2).yml
-ID: "da1d1459-db11-4cc5-9b6e-6040744c30d8"
-Parent: "5994526d-91f4-446b-b786-6d71e3a8a525"
-Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
-Path: "/sitecore/Forms/bugs/bug-89/Page/Text(2)"
-Signature: hau1lyUQ+LXwXDzfLq5JkjMJM3TrO7QFT8Tpmx7te2A=
-Modified: 637399198774965276
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-89.yml
-ID: "ffcca125-dd49-49a1-8c77-341087188680"
-Parent: "fd160e01-c290-425a-a822-988373f96c4c"
-Template: "6abee1f2-4ab4-47f0-ad8b-bdb36f37f64c"
-Path: "/sitecore/Forms/bugs/bug-89"
-Signature: +BI2e2BFOu56oeS4JDMGMbiU7EtfJWOq4oynloGS33M=
-Modified: 637399198774955286
+Path: /sitecore/Forms
+Signature: cxahDXJdM/2n320xjUsshP82qWU8pyj+z05kSiFdF00=
+Modified: 637388085387495930
 ---
 File: |
   C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders.yml
@@ -298,6 +19,15 @@ Signature: ABN76uPq6I2M6EX1bY5Ln39JV5B02+9brJFmQBgca1g=
 Modified: 637393807669941707
 ---
 File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\issues\issue-83.yml
+ID: "de99a68b-9a10-4f85-baa0-a253f8b82f66"
+Parent: "6941a6ee-3a46-4cbf-9ca2-babadb159f92"
+Template: "6abee1f2-4ab4-47f0-ad8b-bdb36f37f64c"
+Path: "/sitecore/Forms/issues/issue-83"
+Signature: Tyt348IVXm3yNLWJVK+rosbOR0stVXKXJ2AWjBVxEjs=
+Modified: 637400244275811383
+---
+File: |
   C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1.yml
 ID: "96f8815c-9177-446e-8064-651605c56e7b"
 Parent: "72d7c334-b217-48ab-b696-c831e1ff1365"
@@ -307,166 +37,31 @@ Signature: ObB7HzlFYzeQ4mDF6IZ6CNQSivbKjIzUjtgBmioQ7Dw=
 Modified: 637393809754305609
 ---
 File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\templates\form-template.yml
-ID: "fa722cfa-bc4c-440f-9bb3-94e0a1f221de"
-Parent: "aa7f5c81-69d6-4783-a85a-28d10b892f4e"
-Template: "6abee1f2-4ab4-47f0-ad8b-bdb36f37f64c"
-Path: "/sitecore/Forms/templates/form-template"
-Signature: U5FFThiL2P57pCYLIzhaHpmysv9gy86m4t3MN0VbC7g=
-Modified: 637399895796559654
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-1\Page\Section.yml
-ID: "7d5c6476-1054-45cb-aef7-f5a4ee72e718"
-Parent: "363c9492-6f3b-40fb-9140-c4e6c9f90db7"
-Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
-Path: "/sitecore/Forms/submitactions/sendmail-1/Page/Section"
-Signature: koDS87DFiu+qYF0sjpEQIF9CEyGR8bqg/2bP8FWuuNA=
-Modified: 637395111199172152
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\listsubscription-1.yml
-ID: "9d63f042-2f56-414d-b410-56984610f6b0"
-Parent: "040c6742-3acd-4375-95ed-f648e92e4b50"
-Template: "6abee1f2-4ab4-47f0-ad8b-bdb36f37f64c"
-Path: "/sitecore/Forms/submitactions/listsubscription-1"
-Signature: y+ANJg+OWJyr9UJ1OpPRDAbdMlyt7FlCyKKDxnWqRZI=
-Modified: 637393807669961662
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\templates\form-template\Page.yml
-ID: "efc5ebbc-3096-49fe-a2be-19a51fb1f98f"
-Parent: "fa722cfa-bc4c-440f-9bb3-94e0a1f221de"
-Template: "cfee7b51-8505-45ce-b843-9358f827df87"
-Path: "/sitecore/Forms/templates/form-template/Page"
-Signature: oqyqx1SjlMHsg743Nli0sBIRXwG7jFHYMjKhzFOCbcs=
-Modified: 637399895796509702
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-87\Page(2).yml
-ID: "d863821b-7491-4f9a-8d43-b85e3c25e221"
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-87\Page.yml
+ID: "9914e916-273a-468b-aa2f-9b50e68c1f84"
 Parent: "70714b93-1a76-4a54-adda-73c570c95964"
 Template: "cfee7b51-8505-45ce-b843-9358f827df87"
-Path: "/sitecore/Forms/bugs/bug-87/Page(2)"
-Signature: Xn5AYaC8CslQVSrPKpnIEI7Co9pbc2a3H9WLS+N6NlQ=
-Modified: 637399324000203192
+Path: "/sitecore/Forms/bugs/bug-87/Page"
+Signature: D9WvoWiAuwlqC9Ret7tPjLgfc8onzhAeV09KDRWqzdo=
+Modified: 637399322326321053
 ---
 File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-1\Page.yml
-ID: "363c9492-6f3b-40fb-9140-c4e6c9f90db7"
-Parent: "9d656420-7948-4267-8279-692f823001da"
-Template: "cfee7b51-8505-45ce-b843-9358f827df87"
-Path: "/sitecore/Forms/submitactions/sendmail-1/Page"
-Signature: Qo2SgIjhrolh51eR+kptzA6Q2PKEY87OiCYEgYbBMjU=
-Modified: 637395111199112126
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-1\Page\Submit.yml
-ID: "da9a14ef-3045-4f71-a28b-b97df31e9119"
-Parent: "363c9492-6f3b-40fb-9140-c4e6c9f90db7"
-Template: "94a46d66-b1b8-405d-aae4-7b5a9cd61c5e"
-Path: "/sitecore/Forms/submitactions/sendmail-1/Page/Submit"
-Signature: YwWDCRBpkaKf6konLzyg5oHKjyqLoMlE6kukdnQqLsM=
-Modified: 637395111199192121
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-89\Page.yml
-ID: "5994526d-91f4-446b-b786-6d71e3a8a525"
-Parent: "ffcca125-dd49-49a1-8c77-341087188680"
-Template: "cfee7b51-8505-45ce-b843-9358f827df87"
-Path: "/sitecore/Forms/bugs/bug-89/Page"
-Signature: 7OwhI9xm3CxWw0GnEBvzxjyfwbnYmaCdVoearY8r0K4=
-Modified: 637399198774955286
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-89\Page\Submit Button.yml
-ID: "6a6e3387-692c-4e9b-9848-5861c96d7006"
-Parent: "5994526d-91f4-446b-b786-6d71e3a8a525"
-Template: "94a46d66-b1b8-405d-aae4-7b5a9cd61c5e"
-Path: "/sitecore/Forms/bugs/bug-89/Page/Submit Button"
-Signature: WNotSh6y4f+b5tb94yM8AD5OnRpSmVn+fAEMvMyf8us=
-Modified: 637399320424159461
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page.yml
-ID: "733328a6-f845-4f89-9e95-a3063a4550f5"
-Parent: "96f8815c-9177-446e-8064-651605c56e7b"
-Template: "cfee7b51-8505-45ce-b843-9358f827df87"
-Path: "/sitecore/Forms/valueproviders/querystring-1/Page"
-Signature: 8hWQFCuIO+vHk9iLvWpdi7J+52GKdJcSMUOqOUB8MlU=
-Modified: 637393809754305609
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\listsubscription-1\Page\Section(3).yml
-ID: "bd3dd1d7-f1c9-4918-91df-c0aa354705f7"
-Parent: "c13975c8-8ca4-4839-bc37-cbe7215fbe88"
-Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
-Path: "/sitecore/Forms/submitactions/listsubscription-1/Page/Section(3)"
-Signature: IXIwz8JZCt0QcZJU3POEPiaTlCU35EpAD2q+JvgfgWE=
-Modified: 637400173185167021
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-1\Page\Text.yml
-ID: "92bff9ed-5762-4c50-b618-cf09723c7887"
-Parent: "363c9492-6f3b-40fb-9140-c4e6c9f90db7"
-Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
-Path: "/sitecore/Forms/submitactions/sendmail-1/Page/Text"
-Signature: RXS8M2oYG06RavKb6RhohZtkoDNbYzM4Y/9AMkJDV9w=
-Modified: 637395111199142120
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\templates\form-template\Page\Section(2)\lastName.yml
-ID: "30c48185-a50d-47ee-91c8-7baa56934bd5"
-Parent: "448d6cfd-cd48-4132-aabd-29182013f893"
-Template: "0908030b-4564-42ea-a6fa-c7a5a2d921a8"
-Path: "/sitecore/Forms/templates/form-template/Page/Section(2)/lastName"
-Signature: o3NF3mNEqA0FXJk/pn3UqYJrAGZchc6sgvI3mfJJm0Q=
-Modified: 637399895796549653
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-89\Page\Text.yml
-ID: "dfdba239-5017-4b2a-9f86-cbe4758bf0fe"
-Parent: "5994526d-91f4-446b-b786-6d71e3a8a525"
-Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
-Path: "/sitecore/Forms/bugs/bug-89/Page/Text"
-Signature: oEXjefzemndZCd8hR0+53ebECpg8zRq39Uxk4iNxR8k=
-Modified: 637399198775045399
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-87\Page\Section.yml
-ID: "30b82655-df51-4273-aee6-efa023a3724b"
-Parent: "9914e916-273a-468b-aa2f-9b50e68c1f84"
-Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
-Path: "/sitecore/Forms/bugs/bug-87/Page/Section"
-Signature: mfs6HEAfyHhnPyfWC/9A4QVZwAzGaNhFKElyMM0iLtQ=
-Modified: 637399322326351055
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\templates\form-template\Page\Section(3)\industry\Settings\Datasource\Healthcare.yml
-ID: "72a2539c-e59f-4623-aa81-866aac179511"
-Parent: "d7041b62-245f-49ea-b78c-8e3b901d255c"
-Template: "b3bdfe59-6667-4432-b261-05d0e3f7fdf6"
-Path: "/sitecore/Forms/templates/form-template/Page/Section(3)/industry/Settings/Datasource/Healthcare"
-Signature: +2Rguy8QMyft8RfOPcPwKzHkr4ZCq7/bhovAJVJUA1k=
-Modified: 637399895796629765
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-dynamicdatasource-1\Page\Section(3)\businessunit\Settings\Datasource.yml
-ID: "7f85ee6d-6b61-494d-874e-033b687a9fa5"
-Parent: "333fbb1a-540d-4eff-abd2-4ff689007e44"
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\templates.yml
+ID: "aa7f5c81-69d6-4783-a85a-28d10b892f4e"
+Parent: "b701850a-cb8a-4943-b2bc-dddb1238c103"
 Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
-Path: "/sitecore/Forms/submitactions/sendmail-dynamicdatasource-1/Page/Section(3)/businessunit/Settings/Datasource"
-Signature: i7tdg8dyI6ipcrJHJkC8on8Brev2bJb6+DR0P5sLWCQ=
-Modified: 637399899803713739
+Path: /sitecore/Forms/templates
+Signature: gXaFsshOoMzzpladmjZYK2u7jLVs8TOMaPiFgIQ5GJ8=
+Modified: 637399895729499691
 ---
 File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\templates\form-template\Page\Section(3)\industry.yml
-ID: "6ca51a94-76be-4a3a-9b60-c100c8bc91d7"
-Parent: "7bf727f5-7e30-4b4a-80e1-a9d11a5b7dce"
-Template: "9121d435-48b8-4649-9d13-03d680474fad"
-Path: "/sitecore/Forms/templates/form-template/Page/Section(3)/industry"
-Signature: z6j3wUooae4k/Xvc4w34+JuCnJNZZ+BlYUWmdJve01E=
-Modified: 637399895796559654
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-dynamicdatasource-1\Page.yml
+ID: "39e48c83-7de4-4950-a9bb-79d0d43afbf0"
+Parent: "5ea2c521-ce2f-460a-a6b0-a78ad70c376b"
+Template: "cfee7b51-8505-45ce-b843-9358f827df87"
+Path: "/sitecore/Forms/submitactions/sendmail-dynamicdatasource-1/Page"
+Signature: EYz/DFghMQtrYxnd+qElp+gi6OV0fe0++KTzUIz6Mf8=
+Modified: 637399899782140307
 ---
 File: |
   C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-89\Page(2)\Text(3).yml
@@ -478,157 +73,40 @@ Signature: FZ6u3sn84uafxe7shPHji7yDcLtg7Zhkfz6l2khORrc=
 Modified: 637399198774975300
 ---
 File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-87\Page\Submit Button.yml
-ID: "a5664444-f341-495b-b080-f368c9b63556"
-Parent: "9914e916-273a-468b-aa2f-9b50e68c1f84"
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\templates\form-template.yml
+ID: "fa722cfa-bc4c-440f-9bb3-94e0a1f221de"
+Parent: "aa7f5c81-69d6-4783-a85a-28d10b892f4e"
+Template: "6abee1f2-4ab4-47f0-ad8b-bdb36f37f64c"
+Path: "/sitecore/Forms/templates/form-template"
+Signature: U5FFThiL2P57pCYLIzhaHpmysv9gy86m4t3MN0VbC7g=
+Modified: 637399895796559654
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-89\Page\Submit Button.yml
+ID: "6a6e3387-692c-4e9b-9848-5861c96d7006"
+Parent: "5994526d-91f4-446b-b786-6d71e3a8a525"
 Template: "94a46d66-b1b8-405d-aae4-7b5a9cd61c5e"
-Path: "/sitecore/Forms/bugs/bug-87/Page/Submit Button"
-Signature: ergXviZUyq4xQnrb0XZaH1bUUiLmTrzg6lKuDZgkMSE=
-Modified: 637399324000243185
+Path: "/sitecore/Forms/bugs/bug-89/Page/Submit Button"
+Signature: WNotSh6y4f+b5tb94yM8AD5OnRpSmVn+fAEMvMyf8us=
+Modified: 637399320424159461
 ---
 File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\templates\form-template\Page\Section(3)\industry\Settings\Datasource\IT.yml
-ID: "87909690-0d85-4a47-9a22-f494f93e81eb"
-Parent: "d7041b62-245f-49ea-b78c-8e3b901d255c"
-Template: "b3bdfe59-6667-4432-b261-05d0e3f7fdf6"
-Path: "/sitecore/Forms/templates/form-template/Page/Section(3)/industry/Settings/Datasource/IT"
-Signature: RXeH9OYrWcjd9t0i9TbBSsojV3O6Tv5aa1mSfXh/2rw=
-Modified: 637399895796629765
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\issues\issue-83\Page\Hidden.yml
+ID: "d5927b23-62a7-4c50-aa4e-16ef5d65a30d"
+Parent: "d825dd21-29db-4beb-befe-d5c897d6fa67"
+Template: "5092afd5-45c0-4fb0-91b1-56b1b960ac7f"
+Path: "/sitecore/Forms/issues/issue-83/Page/Hidden"
+Signature: HKFOSAOYMTfz37cQnuJe0yNXDbz+iqjjIxC6ZcplQOM=
+Modified: 637400244275811383
 ---
 File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\templates\form-template\Page\Section(3)\industry\Settings\Datasource.yml
-ID: "d7041b62-245f-49ea-b78c-8e3b901d255c"
-Parent: "3e85fb76-5c12-40ad-866e-e86cdcba2ed6"
-Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
-Path: "/sitecore/Forms/templates/form-template/Page/Section(3)/industry/Settings/Datasource"
-Signature: IOksw74Om1nVMI7fa8x2gfRTvXe5Z1f10ubMKgiz+bE=
-Modified: 637399895796579656
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-1\Page\Text(2).yml
-ID: "bc34c3fc-ae9c-4d08-b77c-5abf598a1a7d"
-Parent: "363c9492-6f3b-40fb-9140-c4e6c9f90db7"
-Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
-Path: "/sitecore/Forms/submitactions/sendmail-1/Page/Text(2)"
-Signature: jwS5wLIDrd/FBaVaQi5K5y2Mt6nJC/kpqbD3HfWZCUc=
-Modified: 637395111199152121
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-87\Page\Text(2).yml
-ID: "7a4a6ced-8723-4416-9c6d-e61ee1bf7c7d"
-Parent: "9914e916-273a-468b-aa2f-9b50e68c1f84"
-Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
-Path: "/sitecore/Forms/bugs/bug-87/Page/Text(2)"
-Signature: fEgHx9M6zBL7WVDEmSa0LgT9jhJnaxRfbvkw1oCR2ZU=
-Modified: 637399322326341049
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\templates\form-template\Page\Section(3)\industry\Settings\Datasource\Transport.yml
-ID: "7c4e536d-ff38-4601-b09b-978b4e1d93b3"
-Parent: "d7041b62-245f-49ea-b78c-8e3b901d255c"
-Template: "b3bdfe59-6667-4432-b261-05d0e3f7fdf6"
-Path: "/sitecore/Forms/templates/form-template/Page/Section(3)/industry/Settings/Datasource/Transport"
-Signature: QcZw5fjqGg3RiTu7Fr0XpCAB7EfxL2AJw48Fe0qJlj0=
-Modified: 637399895796629765
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page\Section(3)\industry\Settings\Datasource.yml
-ID: "ade11d39-5ee3-4367-9342-b308a09a610f"
-Parent: "c6ecb74a-51c7-4810-8a85-ac21489c03f5"
-Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
-Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Section(3)/industry/Settings/Datasource"
-Signature: BcwcbIzvXZzLnUoCglQi8QLKjER8VTfBPdW4mUvfd90=
-Modified: 637394136464673362
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-1\Page(2)\Text(3).yml
-ID: "1c1a7565-42c1-4b35-9460-7f5d103418e9"
-Parent: "639600bf-86db-4190-b3b2-1939b2c3eef6"
-Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
-Path: "/sitecore/Forms/submitactions/sendmail-1/Page(2)/Text(3)"
-Signature: jIET3CmiNbXmhlqITE7Opx8m7fCaTb6IqQo5shs1/hY=
-Modified: 637395111199212106
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-87\Page\Text.yml
-ID: "bd7f7b78-630f-432c-b59a-4c1d104212d7"
-Parent: "9914e916-273a-468b-aa2f-9b50e68c1f84"
-Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
-Path: "/sitecore/Forms/bugs/bug-87/Page/Text"
-Signature: XjQR2AlFmLi9U7BhBhr8l8rhBOU1BRKT7krN4g+iHA0=
-Modified: 637399322326331035
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page\Section(3)\industry\Settings\Datasource\Healthcare.yml
-ID: "d7137fc0-9ee3-43fc-8f19-ecba43d5e709"
-Parent: "ade11d39-5ee3-4367-9342-b308a09a610f"
-Template: "b3bdfe59-6667-4432-b261-05d0e3f7fdf6"
-Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Section(3)/industry/Settings/Datasource/Healthcare"
-Signature: +2Rguy8QMyft8RfOPcPwKzHkr4ZCq7/bhovAJVJUA1k=
-Modified: 637394136464733346
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-1\Page(2)\Text(4).yml
-ID: "b8cba46b-38d3-4702-a3ac-9dc3c3a9b7a6"
-Parent: "639600bf-86db-4190-b3b2-1939b2c3eef6"
-Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
-Path: "/sitecore/Forms/submitactions/sendmail-1/Page(2)/Text(4)"
-Signature: qBgyRcztd8oI12bNmh3JAe/zt1/8+/NPAHdRaIFOff4=
-Modified: 637395111199222157
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-87\Page(2)\Section(2).yml
-ID: "baaceb9a-a15d-4b79-a76b-224bfdd8e8cd"
-Parent: "d863821b-7491-4f9a-8d43-b85e3c25e221"
-Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
-Path: "/sitecore/Forms/bugs/bug-87/Page(2)/Section(2)"
-Signature: C+jj8bAzPABnmkjmf2xGapaLoXUODWsYWJ06xN0c56Y=
-Modified: 637399324000713201
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-dynamicdatasource-1\Page\Section(2).yml
-ID: "affc3340-d167-47cf-ac23-740a64e6bc44"
-Parent: "39e48c83-7de4-4950-a9bb-79d0d43afbf0"
-Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
-Path: "/sitecore/Forms/submitactions/sendmail-dynamicdatasource-1/Page/Section(2)"
-Signature: oGi0G+MP8ZCGuPYfNhcIHsBF3cP6433bg9w5LkoUMm8=
-Modified: 637400066777986310
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-87\Page(2)\Section(4).yml
-ID: "6beb5ac6-7240-4d12-825f-021719bcd4f5"
-Parent: "d863821b-7491-4f9a-8d43-b85e3c25e221"
-Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
-Path: "/sitecore/Forms/bugs/bug-87/Page(2)/Section(4)"
-Signature: qJyWe4sy/FtgFvfOoLaVAGy/5dP9ERB8E0Uk5nQTQmA=
-Modified: 637399324000733239
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-1\Page\Submit\SubmitActions.yml
-ID: "0bcfc386-3354-42b5-9bad-d6729e49e8ae"
-Parent: "da9a14ef-3045-4f71-a28b-b97df31e9119"
-Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
-Path: "/sitecore/Forms/submitactions/sendmail-1/Page/Submit/SubmitActions"
-Signature: G9EEHezXzj6gNZLSu2EqOZaCsLIWZ6V8Hdyt1DgCXro=
-Modified: 637395111199262094
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-89\Page(2)\Text(4).yml
-ID: "072a2d20-7b5c-4104-ad45-d4acd72aef94"
-Parent: "ea1b4119-bd7e-4e36-be71-84c6fbd4a4c8"
-Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
-Path: "/sitecore/Forms/bugs/bug-89/Page(2)/Text(4)"
-Signature: 7Sg17KC7QA3LhLFNYzOFUvPZPbfoI9ohQYp7nbXKHRA=
-Modified: 637399198774995309
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-dynamicdatasource-1\Page\Section\firstName.yml
-ID: "e8fdcde6-2bc8-4c39-9a05-302611430bed"
-Parent: "8d5a9e10-65c8-42d3-aae9-d30062a0cb30"
-Template: "0908030b-4564-42ea-a6fa-c7a5a2d921a8"
-Path: "/sitecore/Forms/submitactions/sendmail-dynamicdatasource-1/Page/Section/firstName"
-Signature: PxCckGumiDABA1R8iKIjj/UOUyj7hLYpy0BP/qd76/4=
-Modified: 637399899803673732
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-1\Page.yml
+ID: "363c9492-6f3b-40fb-9140-c4e6c9f90db7"
+Parent: "9d656420-7948-4267-8279-692f823001da"
+Template: "cfee7b51-8505-45ce-b843-9358f827df87"
+Path: "/sitecore/Forms/submitactions/sendmail-1/Page"
+Signature: Qo2SgIjhrolh51eR+kptzA6Q2PKEY87OiCYEgYbBMjU=
+Modified: 637395111199112126
 ---
 File: |
   C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\listsubscription-1\Page\Section(2).yml
@@ -640,6 +118,87 @@ Signature: AGwtDtcJTKw43xIqMToaPbZaoXi6dSn9nMFk4v+fWZ0=
 Modified: 637393807670081661
 ---
 File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-1\Page(2)\Text(4).yml
+ID: "b8cba46b-38d3-4702-a3ac-9dc3c3a9b7a6"
+Parent: "639600bf-86db-4190-b3b2-1939b2c3eef6"
+Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
+Path: "/sitecore/Forms/submitactions/sendmail-1/Page(2)/Text(4)"
+Signature: qBgyRcztd8oI12bNmh3JAe/zt1/8+/NPAHdRaIFOff4=
+Modified: 637395111199222157
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-89\Page\Section(2).yml
+ID: "290577e1-8bf3-4b1a-ba72-12b2dcf1b040"
+Parent: "5994526d-91f4-446b-b786-6d71e3a8a525"
+Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
+Path: "/sitecore/Forms/bugs/bug-89/Page/Section(2)"
+Signature: zABYMhPWn8PV1QnFa58hPUatQry6oRlW10P/rssrbmE=
+Modified: 637399198774975300
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-1\Page\Text.yml
+ID: "92bff9ed-5762-4c50-b618-cf09723c7887"
+Parent: "363c9492-6f3b-40fb-9140-c4e6c9f90db7"
+Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
+Path: "/sitecore/Forms/submitactions/sendmail-1/Page/Text"
+Signature: RXS8M2oYG06RavKb6RhohZtkoDNbYzM4Y/9AMkJDV9w=
+Modified: 637395111199142120
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\templates\form-template\Page\Section.yml
+ID: "61872ff2-6d1a-490e-8ad7-67d30cdc3f7a"
+Parent: "efc5ebbc-3096-49fe-a2be-19a51fb1f98f"
+Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
+Path: "/sitecore/Forms/templates/form-template/Page/Section"
+Signature: k53Ot3cizSviak/cVAJVTX3NQRHQYXr68Gk3LjErfSQ=
+Modified: 637399895796529669
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-89\Page\Section.yml
+ID: "bff583d1-90de-4231-8bd5-88aa4ef5f8e9"
+Parent: "5994526d-91f4-446b-b786-6d71e3a8a525"
+Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
+Path: "/sitecore/Forms/bugs/bug-89/Page/Section"
+Signature: YcVgK044p/ZNTdfkFlwbfy9KNWliIhAM68Gka1mOEPk=
+Modified: 637399198774975300
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-1\Page(2)\Text(3).yml
+ID: "1c1a7565-42c1-4b35-9460-7f5d103418e9"
+Parent: "639600bf-86db-4190-b3b2-1939b2c3eef6"
+Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
+Path: "/sitecore/Forms/submitactions/sendmail-1/Page(2)/Text(3)"
+Signature: jIET3CmiNbXmhlqITE7Opx8m7fCaTb6IqQo5shs1/hY=
+Modified: 637395111199212106
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-dynamicdatasource-1\Page\Section(2)\market.yml
+ID: "2ce08bd8-3d1b-4f19-b363-aeadf219fd06"
+Parent: "affc3340-d167-47cf-ac23-740a64e6bc44"
+Template: "5b672865-55d2-413e-b699-fdfc7e732ccf"
+Path: "/sitecore/Forms/submitactions/sendmail-dynamicdatasource-1/Page/Section(2)/market"
+Signature: 3vbP67g41IoWOEKA8ZDEZZ/qQPccSINN3hhKVXLmBj0=
+Modified: 637400165054651294
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\issues\issue-83\Page\Text.yml
+ID: "77593010-7078-4afc-ad30-9a513b8d0b40"
+Parent: "d825dd21-29db-4beb-befe-d5c897d6fa67"
+Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
+Path: "/sitecore/Forms/issues/issue-83/Page/Text"
+Signature: fWfLpEvowAWvwHstNK4Yr085s0A8ZRU12cRwfxonsxA=
+Modified: 637400244275821419
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-dynamicdatasource-1\Page\Section(2).yml
+ID: "affc3340-d167-47cf-ac23-740a64e6bc44"
+Parent: "39e48c83-7de4-4950-a9bb-79d0d43afbf0"
+Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
+Path: "/sitecore/Forms/submitactions/sendmail-dynamicdatasource-1/Page/Section(2)"
+Signature: oGi0G+MP8ZCGuPYfNhcIHsBF3cP6433bg9w5LkoUMm8=
+Modified: 637400066777986310
+---
+File: |
   C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-dynamicdatasource-1\Page\Section(2)\market\Settings.yml
 ID: "5270dff3-85dd-42f3-98e4-f24393036b32"
 Parent: "2ce08bd8-3d1b-4f19-b363-aeadf219fd06"
@@ -649,13 +208,22 @@ Signature: rd6d5VYlOUl8RNSR3QyvuEia3vORYG7GBabs7PpXx24=
 Modified: 637400165054746415
 ---
 File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page\Section\firstName.yml
-ID: "cc59df15-3e9c-4a35-8af7-3592398c727b"
-Parent: "e2632c8a-9a3b-4327-90ae-12163af1864d"
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\listsubscription-1\Page\Section\FirstName.yml
+ID: "19fa3415-229d-4d25-a733-b9bc12c709a0"
+Parent: "b80fc482-9c55-4bbe-9cf3-85180624ecd0"
 Template: "0908030b-4564-42ea-a6fa-c7a5a2d921a8"
-Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Section/firstName"
-Signature: J8O1Aocd9DK5p/h3+wWbwjYEuxDbSs6C6j53aF6KK4Q=
-Modified: 637393809754305609
+Path: "/sitecore/Forms/submitactions/listsubscription-1/Page/Section/FirstName"
+Signature: kY7xcjdq0HBQUV/CgTPdnLzgIQJ71T0YtAJK0rl3PD4=
+Modified: 637393807670181672
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-dynamicdatasource-1\Page\Section(3).yml
+ID: "9740b1b4-7535-4575-9d9e-30d21617343d"
+Parent: "39e48c83-7de4-4950-a9bb-79d0d43afbf0"
+Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
+Path: "/sitecore/Forms/submitactions/sendmail-dynamicdatasource-1/Page/Section(3)"
+Signature: oFbb1nYRC+BcO6kyTi4q0VwHMjT4iJuBJLW29cht61U=
+Modified: 637399899803553776
 ---
 File: |
   C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-dynamicdatasource-1\Page\Section(3)\businessunit\Settings.yml
@@ -667,112 +235,22 @@ Signature: i7tdg8dyI6ipcrJHJkC8on8Brev2bJb6+DR0P5sLWCQ=
 Modified: 637399899803693784
 ---
 File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page\Section(2)\lastName.yml
-ID: "fd6d6cb6-8e6e-498e-9134-266a40557a42"
-Parent: "4d6542a0-3b1d-4aeb-a47d-b76f5875fe28"
-Template: "0908030b-4564-42ea-a6fa-c7a5a2d921a8"
-Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Section(2)/lastName"
-Signature: ht5QHjK51I6s6mXq+iZegspkegJufAU9tBe7UXCtkcs=
-Modified: 637394248385595011
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page\Section(3)\industry\Settings\Datasource\IT.yml
-ID: "03dd6a9d-3a3a-44ee-ab1a-bc029cf3ac87"
-Parent: "ade11d39-5ee3-4367-9342-b308a09a610f"
-Template: "b3bdfe59-6667-4432-b261-05d0e3f7fdf6"
-Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Section(3)/industry/Settings/Datasource/IT"
-Signature: RXeH9OYrWcjd9t0i9TbBSsojV3O6Tv5aa1mSfXh/2rw=
-Modified: 637394136464753354
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page\Section(3)\industry.yml
-ID: "bef6870e-2794-424c-b45b-427cba894fb3"
-Parent: "2c434b94-22c0-4b88-9488-d073c3896fca"
-Template: "9121d435-48b8-4649-9d13-03d680474fad"
-Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Section(3)/industry"
-Signature: JDcWORv0HnnkNvXX1ml9ZgxRiXgriZsdxC4Zo7wq8fc=
-Modified: 637394248893656136
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page\Section(3)\industry\Settings\Datasource\Transport.yml
-ID: "8d42265f-27a0-4dbf-b627-31859f398985"
-Parent: "ade11d39-5ee3-4367-9342-b308a09a610f"
-Template: "b3bdfe59-6667-4432-b261-05d0e3f7fdf6"
-Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Section(3)/industry/Settings/Datasource/Transport"
-Signature: QcZw5fjqGg3RiTu7Fr0XpCAB7EfxL2AJw48Fe0qJlj0=
-Modified: 637394136464763358
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-87\Page(2)\Submit Button(2)\SubmitActions\Save Data.yml
-ID: "c475438e-1f9f-4478-a328-2b6fcdc04ee0"
-Parent: "b1a780ae-bf95-4115-b84b-0215a6c2706e"
-Template: "05fe45d4-b9c7-40de-b767-7c5abe7119f9"
-Path: "/sitecore/Forms/bugs/bug-87/Page(2)/Submit Button(2)/SubmitActions/Save Data"
-Signature: Q7if4FhT2qHvULi5jSdZXeOtPNiJZ8DL+1zf80c7qLw=
-Modified: 637399324000833138
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms.yml
-ID: "b701850a-cb8a-4943-b2bc-dddb1238c103"
-Parent: "11111111-1111-1111-1111-111111111111"
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-dynamicdatasource-1\Page\submit\SubmitActions.yml
+ID: "a2ce1814-4edb-4e1a-a59b-8b935da356d5"
+Parent: "1c12adef-91a0-4936-bde4-e4214711debc"
 Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
-Path: /sitecore/Forms
-Signature: cxahDXJdM/2n320xjUsshP82qWU8pyj+z05kSiFdF00=
-Modified: 637388085387495930
+Path: "/sitecore/Forms/submitactions/sendmail-dynamicdatasource-1/Page/submit/SubmitActions"
+Signature: J8FuYECJk0usqwYp6M5RA/CClQ1/wZOI6fjGrQapoS4=
+Modified: 637399903541863188
 ---
 File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-1.yml
-ID: "9d656420-7948-4267-8279-692f823001da"
-Parent: "040c6742-3acd-4375-95ed-f648e92e4b50"
-Template: "6abee1f2-4ab4-47f0-ad8b-bdb36f37f64c"
-Path: "/sitecore/Forms/submitactions/sendmail-1"
-Signature: y+ANJg+OWJyr9UJ1OpPRDAbdMlyt7FlCyKKDxnWqRZI=
-Modified: 637395111199092120
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\listsubscription-1\Page.yml
-ID: "c13975c8-8ca4-4839-bc37-cbe7215fbe88"
-Parent: "9d63f042-2f56-414d-b410-56984610f6b0"
-Template: "cfee7b51-8505-45ce-b843-9358f827df87"
-Path: "/sitecore/Forms/submitactions/listsubscription-1/Page"
-Signature: Qo2SgIjhrolh51eR+kptzA6Q2PKEY87OiCYEgYbBMjU=
-Modified: 637393807669991677
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-87\Page(2)\Text(3).yml
-ID: "34401a15-efe5-4e3c-8f0b-bd87fa084235"
-Parent: "d863821b-7491-4f9a-8d43-b85e3c25e221"
-Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
-Path: "/sitecore/Forms/bugs/bug-87/Page(2)/Text(3)"
-Signature: JxWZ9r/MEEjxzT85lVUJz5YK4Yb9dD3Q8zYYeObEAxk=
-Modified: 637399324000263234
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\listsubscription-1\Page\Section(4).yml
-ID: "b6c8c851-83c0-4dbd-8b97-476c4db6637d"
-Parent: "c13975c8-8ca4-4839-bc37-cbe7215fbe88"
-Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
-Path: "/sitecore/Forms/submitactions/listsubscription-1/Page/Section(4)"
-Signature: 2BmrSjzhyKdsb3jwonBPPDUvvoiBlJgNF5klSU+ypK4=
-Modified: 637400173185187023
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\listsubscription-1\Page\Section.yml
-ID: "b80fc482-9c55-4bbe-9cf3-85180624ecd0"
-Parent: "c13975c8-8ca4-4839-bc37-cbe7215fbe88"
-Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
-Path: "/sitecore/Forms/submitactions/listsubscription-1/Page/Section"
-Signature: RYdicIIHW7W1MyKBDQPWE5egKZgm8A9SpYajlIBKIoY=
-Modified: 637393807670073638
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-dynamicdatasource-1\Page\Section(3).yml
-ID: "9740b1b4-7535-4575-9d9e-30d21617343d"
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-dynamicdatasource-1\Page\Section.yml
+ID: "8d5a9e10-65c8-42d3-aae9-d30062a0cb30"
 Parent: "39e48c83-7de4-4950-a9bb-79d0d43afbf0"
 Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
-Path: "/sitecore/Forms/submitactions/sendmail-dynamicdatasource-1/Page/Section(3)"
-Signature: oFbb1nYRC+BcO6kyTi4q0VwHMjT4iJuBJLW29cht61U=
-Modified: 637399899803553776
+Path: "/sitecore/Forms/submitactions/sendmail-dynamicdatasource-1/Page/Section"
+Signature: 085TnbW/m9GkI1fxeb5Xdd+weF5fTGLvew6xTOtuAQU=
+Modified: 637399899803603733
 ---
 File: |
   C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-dynamicdatasource-1\Page\submit.yml
@@ -811,6 +289,150 @@ Signature: r3Bveo/AsOCWyO0zsWOqouhpFSj66CwfXbNYF/GUE/E=
 Modified: 637399899803623764
 ---
 File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-87\Page(2)\Section(2)\lastName.yml
+ID: "5f933097-95bc-4a33-9971-318b6275eb2c"
+Parent: "baaceb9a-a15d-4b79-a76b-224bfdd8e8cd"
+Template: "0908030b-4564-42ea-a6fa-c7a5a2d921a8"
+Path: "/sitecore/Forms/bugs/bug-87/Page(2)/Section(2)/lastName"
+Signature: EGT0bh88/MNaJtk7zMGtcOF2j/IFgos+QwK9SS7i8Gw=
+Modified: 637399324000643197
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-87\Page(2)\Section(4)\ReCaptcha.yml
+ID: "5abdcf29-90ab-457c-a7fd-e22739b8d85f"
+Parent: "6beb5ac6-7240-4d12-825f-021719bcd4f5"
+Template: "5a59c481-e3c3-4a03-a471-b5d1fb45181a"
+Path: "/sitecore/Forms/bugs/bug-87/Page(2)/Section(4)/ReCaptcha"
+Signature: 4ucTw4IcD/5FSf4khkPOEO3IHVpdT0R63NycZ/Af+2Q=
+Modified: 637399324000803230
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-1\Page\Section\FirstName.yml
+ID: "93e4e3c7-62dd-4dea-b951-44043fa862c3"
+Parent: "7d5c6476-1054-45cb-aef7-f5a4ee72e718"
+Template: "0908030b-4564-42ea-a6fa-c7a5a2d921a8"
+Path: "/sitecore/Forms/submitactions/sendmail-1/Page/Section/FirstName"
+Signature: kY7xcjdq0HBQUV/CgTPdnLzgIQJ71T0YtAJK0rl3PD4=
+Modified: 637395111199242110
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-1\Page\Section(2)\Email.yml
+ID: "28a61639-33b5-4dbd-b89e-840bac95b52b"
+Parent: "e25520f4-6035-4276-b7ee-e2b4e056d239"
+Template: "886adec1-abf8-40e1-9926-d9189c4e8e1b"
+Path: "/sitecore/Forms/submitactions/sendmail-1/Page/Section(2)/Email"
+Signature: EC6r+jdzbDEN2DFI3qLeXj65BuFB9gxItnt+4Ce52Fk=
+Modified: 637395111199252108
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\issues\issue-83\Page\Submit Button\SubmitActions\Redirect to Url.yml
+ID: "ccb54b56-4de1-4346-85da-f1c86f25dde5"
+Parent: "93684f0a-f8b4-42e2-a4c8-c2b1a869c37e"
+Template: "05fe45d4-b9c7-40de-b767-7c5abe7119f9"
+Path: "/sitecore/Forms/issues/issue-83/Page/Submit Button/SubmitActions/Redirect to Url"
+Signature: Bmcr9Hjj6itusGhar2i+0sHDiNYyzxl/xgDD2jYKcrE=
+Modified: 637400244275841394
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\listsubscription-1\Page\Submit\SubmitActions\Add To List.yml
+ID: "18dcb790-228b-471f-b14d-01f8367b156b"
+Parent: "3395c318-dea0-46cc-a934-69b9dad5a8e7"
+Template: "05fe45d4-b9c7-40de-b767-7c5abe7119f9"
+Path: "/sitecore/Forms/submitactions/listsubscription-1/Page/Submit/SubmitActions/Add To List"
+Signature: n4AyVQJdQ12IzGkuHncMFA4PqcgZ1XsALcYUqTNcPss=
+Modified: 637400197724310283
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page\Section(3)\industry\Settings\Datasource\Transport.yml
+ID: "8d42265f-27a0-4dbf-b627-31859f398985"
+Parent: "ade11d39-5ee3-4367-9342-b308a09a610f"
+Template: "b3bdfe59-6667-4432-b261-05d0e3f7fdf6"
+Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Section(3)/industry/Settings/Datasource/Transport"
+Signature: QcZw5fjqGg3RiTu7Fr0XpCAB7EfxL2AJw48Fe0qJlj0=
+Modified: 637394136464763358
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-89.yml
+ID: "ffcca125-dd49-49a1-8c77-341087188680"
+Parent: "fd160e01-c290-425a-a822-988373f96c4c"
+Template: "6abee1f2-4ab4-47f0-ad8b-bdb36f37f64c"
+Path: "/sitecore/Forms/bugs/bug-89"
+Signature: +BI2e2BFOu56oeS4JDMGMbiU7EtfJWOq4oynloGS33M=
+Modified: 637399198774955286
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-87\Page(3).yml
+ID: "70bbaa3e-53ff-4565-8a4b-98b7473e352f"
+Parent: "70714b93-1a76-4a54-adda-73c570c95964"
+Template: "cfee7b51-8505-45ce-b843-9358f827df87"
+Path: "/sitecore/Forms/bugs/bug-87/Page(3)"
+Signature: HsfCsB2qPSFhihtzIJjV0kFR9NBNXFeJqNh/1DApePE=
+Modified: 637399324000223162
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-89\Page(2).yml
+ID: "ea1b4119-bd7e-4e36-be71-84c6fbd4a4c8"
+Parent: "ffcca125-dd49-49a1-8c77-341087188680"
+Template: "cfee7b51-8505-45ce-b843-9358f827df87"
+Path: "/sitecore/Forms/bugs/bug-89/Page(2)"
+Signature: kSK1OirhHldDpu4NBWky1VHHvMBvVWbqwFFsznN5xlI=
+Modified: 637399198774955286
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-89\Page.yml
+ID: "5994526d-91f4-446b-b786-6d71e3a8a525"
+Parent: "ffcca125-dd49-49a1-8c77-341087188680"
+Template: "cfee7b51-8505-45ce-b843-9358f827df87"
+Path: "/sitecore/Forms/bugs/bug-89/Page"
+Signature: 7OwhI9xm3CxWw0GnEBvzxjyfwbnYmaCdVoearY8r0K4=
+Modified: 637399198774955286
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\issues\issue-83\Page.yml
+ID: "d825dd21-29db-4beb-befe-d5c897d6fa67"
+Parent: "de99a68b-9a10-4f85-baa0-a253f8b82f66"
+Template: "cfee7b51-8505-45ce-b843-9358f827df87"
+Path: "/sitecore/Forms/issues/issue-83/Page"
+Signature: yBxwLrshwecOz4A59fwOtf/pMNFaafIrZ2tZmlGeUz8=
+Modified: 637400244275821419
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\listsubscription-1\Page\Section(4).yml
+ID: "b6c8c851-83c0-4dbd-8b97-476c4db6637d"
+Parent: "c13975c8-8ca4-4839-bc37-cbe7215fbe88"
+Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
+Path: "/sitecore/Forms/submitactions/listsubscription-1/Page/Section(4)"
+Signature: 2BmrSjzhyKdsb3jwonBPPDUvvoiBlJgNF5klSU+ypK4=
+Modified: 637400173185187023
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\listsubscription-1\Page\Submit.yml
+ID: "2b888ad8-08c1-42d9-96a9-2a4dfebefc69"
+Parent: "c13975c8-8ca4-4839-bc37-cbe7215fbe88"
+Template: "94a46d66-b1b8-405d-aae4-7b5a9cd61c5e"
+Path: "/sitecore/Forms/submitactions/listsubscription-1/Page/Submit"
+Signature: 6vVtp6E36s4apCmcaos5Ji5DsUTb3kDn8RXVPsHE/yc=
+Modified: 637400173185147013
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-1\Page\Section(2).yml
+ID: "e25520f4-6035-4276-b7ee-e2b4e056d239"
+Parent: "363c9492-6f3b-40fb-9140-c4e6c9f90db7"
+Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
+Path: "/sitecore/Forms/submitactions/sendmail-1/Page/Section(2)"
+Signature: yqnxFAVc2D+ZYpqTjzwd+zDORH212sG5aPa2d9l2AzQ=
+Modified: 637395111199182109
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-1\Page\Section.yml
+ID: "7d5c6476-1054-45cb-aef7-f5a4ee72e718"
+Parent: "363c9492-6f3b-40fb-9140-c4e6c9f90db7"
+Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
+Path: "/sitecore/Forms/submitactions/sendmail-1/Page/Section"
+Signature: koDS87DFiu+qYF0sjpEQIF9CEyGR8bqg/2bP8FWuuNA=
+Modified: 637395111199172152
+---
+File: |
   C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-dynamicdatasource-1\Page\Text.yml
 ID: "8a7ff3df-9761-48bb-9011-74aa72c0ae92"
 Parent: "39e48c83-7de4-4950-a9bb-79d0d43afbf0"
@@ -829,15 +451,6 @@ Signature: aeXm/KVAxFS44ZfsUXbSkFua921pPYSgrQvYQrighps=
 Modified: 637399899803643763
 ---
 File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-dynamicdatasource-1\Page(2)\Text(6).yml
-ID: "65fdd1cb-2e68-4c47-83e5-7a574557212e"
-Parent: "03156d6a-f701-46ac-a364-b2fade3e4848"
-Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
-Path: "/sitecore/Forms/submitactions/sendmail-dynamicdatasource-1/Page(2)/Text(6)"
-Signature: tekJD8Ht7fEBZTNAW+NVJqcrCJZUYCL0AfAHi9kQkaY=
-Modified: 637399899803633757
----
-File: |
   C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\templates\form-template\Page\Section(2).yml
 ID: "448d6cfd-cd48-4132-aabd-29182013f893"
 Parent: "efc5ebbc-3096-49fe-a2be-19a51fb1f98f"
@@ -854,15 +467,6 @@ Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
 Path: "/sitecore/Forms/templates/form-template/Page/Section(3)"
 Signature: 6ee6BTXeHxeX4zEZZyOpsFsURXIASCFe24K5THHaPhc=
 Modified: 637399895796549653
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\templates\form-template\Page\Section.yml
-ID: "61872ff2-6d1a-490e-8ad7-67d30cdc3f7a"
-Parent: "efc5ebbc-3096-49fe-a2be-19a51fb1f98f"
-Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
-Path: "/sitecore/Forms/templates/form-template/Page/Section"
-Signature: k53Ot3cizSviak/cVAJVTX3NQRHQYXr68Gk3LjErfSQ=
-Modified: 637399895796529669
 ---
 File: |
   C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\templates\form-template\Page\Submit Button.yml
@@ -937,40 +541,112 @@ Signature: tC9eYeBsDzCuRs6/1+cHQfM/LbbEDcpV8rSY+k2hz/s=
 Modified: 637393809754305609
 ---
 File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page\Text.yml
-ID: "af6d045b-a8ff-4005-a2dc-75756a098393"
-Parent: "733328a6-f845-4f89-9e95-a3063a4550f5"
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\listsubscription-1\Page\Section(2)\JobTitle.yml
+ID: "e4e922c8-bc7f-4a7a-9229-34479fb47f06"
+Parent: "1f5194b4-29d3-457f-94f3-c2f1699507eb"
+Template: "0908030b-4564-42ea-a6fa-c7a5a2d921a8"
+Path: "/sitecore/Forms/submitactions/listsubscription-1/Page/Section(2)/JobTitle"
+Signature: pAIhv9wS/p2pR3BWKiwchaQUNqrStfK7xK3UrLvyRK0=
+Modified: 637393807670211677
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\listsubscription-1\Page\Section(3)\newsletterOptIn.yml
+ID: "80451dd4-3f84-47fc-bcd5-754af6355905"
+Parent: "bd3dd1d7-f1c9-4918-91df-c0aa354705f7"
+Template: "2f07293c-077f-456c-b715-fdb791acb367"
+Path: "/sitecore/Forms/submitactions/listsubscription-1/Page/Section(3)/newsletterOptIn"
+Signature: 3EiRmCQcfsXEyGfPS2dLkQaVTRg3MOCgjAFus7HPAro=
+Modified: 637400165054726450
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\templates\form-template\Page\Section\firstName.yml
+ID: "b0a8cc89-dced-4894-a8fe-ba419cc72dcd"
+Parent: "61872ff2-6d1a-490e-8ad7-67d30cdc3f7a"
+Template: "0908030b-4564-42ea-a6fa-c7a5a2d921a8"
+Path: "/sitecore/Forms/templates/form-template/Page/Section/firstName"
+Signature: FEP8C3BdKXoZmy7gvK/tCrLMtcX240C4PCLNhvODLAg=
+Modified: 637399895796579656
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-87.yml
+ID: "70714b93-1a76-4a54-adda-73c570c95964"
+Parent: "fd160e01-c290-425a-a822-988373f96c4c"
+Template: "6abee1f2-4ab4-47f0-ad8b-bdb36f37f64c"
+Path: "/sitecore/Forms/bugs/bug-87"
+Signature: WwfV640BgZ6wFmY4DMY0Vibevj0mgTCTNh0U18HiwPc=
+Modified: 637399322326291076
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\templates\form-template\Page\Section(2)\lastName.yml
+ID: "30c48185-a50d-47ee-91c8-7baa56934bd5"
+Parent: "448d6cfd-cd48-4132-aabd-29182013f893"
+Template: "0908030b-4564-42ea-a6fa-c7a5a2d921a8"
+Path: "/sitecore/Forms/templates/form-template/Page/Section(2)/lastName"
+Signature: o3NF3mNEqA0FXJk/pn3UqYJrAGZchc6sgvI3mfJJm0Q=
+Modified: 637399895796549653
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-87\Page(2).yml
+ID: "d863821b-7491-4f9a-8d43-b85e3c25e221"
+Parent: "70714b93-1a76-4a54-adda-73c570c95964"
+Template: "cfee7b51-8505-45ce-b843-9358f827df87"
+Path: "/sitecore/Forms/bugs/bug-87/Page(2)"
+Signature: Xn5AYaC8CslQVSrPKpnIEI7Co9pbc2a3H9WLS+N6NlQ=
+Modified: 637399324000203192
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\templates\form-template\Page\Section(3)\industry.yml
+ID: "6ca51a94-76be-4a3a-9b60-c100c8bc91d7"
+Parent: "7bf727f5-7e30-4b4a-80e1-a9d11a5b7dce"
+Template: "9121d435-48b8-4649-9d13-03d680474fad"
+Path: "/sitecore/Forms/templates/form-template/Page/Section(3)/industry"
+Signature: z6j3wUooae4k/Xvc4w34+JuCnJNZZ+BlYUWmdJve01E=
+Modified: 637399895796559654
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-89\Page\Text(2).yml
+ID: "da1d1459-db11-4cc5-9b6e-6040744c30d8"
+Parent: "5994526d-91f4-446b-b786-6d71e3a8a525"
 Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
-Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Text"
-Signature: lbThCDbs3VMa//jKhprWJXxBShb+N4OIlEdc/efLhi4=
+Path: "/sitecore/Forms/bugs/bug-89/Page/Text(2)"
+Signature: hau1lyUQ+LXwXDzfLq5JkjMJM3TrO7QFT8Tpmx7te2A=
+Modified: 637399198774965276
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page\Section\firstName.yml
+ID: "cc59df15-3e9c-4a35-8af7-3592398c727b"
+Parent: "e2632c8a-9a3b-4327-90ae-12163af1864d"
+Template: "0908030b-4564-42ea-a6fa-c7a5a2d921a8"
+Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Section/firstName"
+Signature: J8O1Aocd9DK5p/h3+wWbwjYEuxDbSs6C6j53aF6KK4Q=
 Modified: 637393809754305609
 ---
 File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-87\Page\Section\firstName.yml
-ID: "ad071c21-c158-4038-adce-a3e67d5e7827"
-Parent: "30b82655-df51-4273-aee6-efa023a3724b"
-Template: "0908030b-4564-42ea-a6fa-c7a5a2d921a8"
-Path: "/sitecore/Forms/bugs/bug-87/Page/Section/firstName"
-Signature: CGjYXFsCAhzbGFxM8Mb6rZaWl1YPd4WNJF6yqjz+eoM=
-Modified: 637399322326401055
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-89\Page\Text.yml
+ID: "dfdba239-5017-4b2a-9f86-cbe4758bf0fe"
+Parent: "5994526d-91f4-446b-b786-6d71e3a8a525"
+Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
+Path: "/sitecore/Forms/bugs/bug-89/Page/Text"
+Signature: oEXjefzemndZCd8hR0+53ebECpg8zRq39Uxk4iNxR8k=
+Modified: 637399198775045399
 ---
 File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-87\Page(2)\Section(2)\lastName.yml
-ID: "5f933097-95bc-4a33-9971-318b6275eb2c"
-Parent: "baaceb9a-a15d-4b79-a76b-224bfdd8e8cd"
-Template: "0908030b-4564-42ea-a6fa-c7a5a2d921a8"
-Path: "/sitecore/Forms/bugs/bug-87/Page(2)/Section(2)/lastName"
-Signature: EGT0bh88/MNaJtk7zMGtcOF2j/IFgos+QwK9SS7i8Gw=
-Modified: 637399324000643197
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\listsubscription-1\Page\Section(3).yml
+ID: "bd3dd1d7-f1c9-4918-91df-c0aa354705f7"
+Parent: "c13975c8-8ca4-4839-bc37-cbe7215fbe88"
+Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
+Path: "/sitecore/Forms/submitactions/listsubscription-1/Page/Section(3)"
+Signature: IXIwz8JZCt0QcZJU3POEPiaTlCU35EpAD2q+JvgfgWE=
+Modified: 637400173185167021
 ---
 File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-87\Page(2)\Section(4)\ReCaptcha.yml
-ID: "5abdcf29-90ab-457c-a7fd-e22739b8d85f"
-Parent: "6beb5ac6-7240-4d12-825f-021719bcd4f5"
-Template: "5a59c481-e3c3-4a03-a471-b5d1fb45181a"
-Path: "/sitecore/Forms/bugs/bug-87/Page(2)/Section(4)/ReCaptcha"
-Signature: 4ucTw4IcD/5FSf4khkPOEO3IHVpdT0R63NycZ/Af+2Q=
-Modified: 637399324000803230
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-dynamicdatasource-1\Page(2)\Text(6).yml
+ID: "65fdd1cb-2e68-4c47-83e5-7a574557212e"
+Parent: "03156d6a-f701-46ac-a364-b2fade3e4848"
+Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
+Path: "/sitecore/Forms/submitactions/sendmail-dynamicdatasource-1/Page(2)/Text(6)"
+Signature: tekJD8Ht7fEBZTNAW+NVJqcrCJZUYCL0AfAHi9kQkaY=
+Modified: 637399899803633757
 ---
 File: |
   C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-87\Page(2)\Submit Button(2)\SubmitActions.yml
@@ -1009,31 +685,130 @@ Signature: ylHjBdZl1I8BKBSPPSHw9elivabTqeci08Bg/jOtC70=
 Modified: 637399198775035353
 ---
 File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\listsubscription-1\Page\Section\FirstName.yml
-ID: "19fa3415-229d-4d25-a733-b9bc12c709a0"
-Parent: "b80fc482-9c55-4bbe-9cf3-85180624ecd0"
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\issues\issue-83\Page\Section\firstName.yml
+ID: "c59ee3b7-79f6-4533-8cf1-419424aae41c"
+Parent: "c1cdfc2f-f7ad-4a49-8adc-c882a5a05eb9"
 Template: "0908030b-4564-42ea-a6fa-c7a5a2d921a8"
-Path: "/sitecore/Forms/submitactions/listsubscription-1/Page/Section/FirstName"
-Signature: kY7xcjdq0HBQUV/CgTPdnLzgIQJ71T0YtAJK0rl3PD4=
-Modified: 637393807670181672
+Path: "/sitecore/Forms/issues/issue-83/Page/Section/firstName"
+Signature: fBYC7VeWyTQvNDMAwkNTVDp27ZhwaVHuG6S088o4N2o=
+Modified: 637400244275821419
 ---
 File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\listsubscription-1\Page\Section(2)\JobTitle.yml
-ID: "e4e922c8-bc7f-4a7a-9229-34479fb47f06"
-Parent: "1f5194b4-29d3-457f-94f3-c2f1699507eb"
-Template: "0908030b-4564-42ea-a6fa-c7a5a2d921a8"
-Path: "/sitecore/Forms/submitactions/listsubscription-1/Page/Section(2)/JobTitle"
-Signature: pAIhv9wS/p2pR3BWKiwchaQUNqrStfK7xK3UrLvyRK0=
-Modified: 637393807670211677
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\issues\issue-83\Page\Submit Button\SubmitActions.yml
+ID: "93684f0a-f8b4-42e2-a4c8-c2b1a869c37e"
+Parent: "c5a4686d-db05-4670-aa1f-7a961f50b83f"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: "/sitecore/Forms/issues/issue-83/Page/Submit Button/SubmitActions"
+Signature: Z6CeIaA3XyhHDrgiY35gCqEflduPTWervvy6VZm+XX8=
+Modified: 637400244275831393
 ---
 File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\listsubscription-1\Page\Section(3)\newsletterOptIn.yml
-ID: "80451dd4-3f84-47fc-bcd5-754af6355905"
-Parent: "bd3dd1d7-f1c9-4918-91df-c0aa354705f7"
-Template: "2f07293c-077f-456c-b715-fdb791acb367"
-Path: "/sitecore/Forms/submitactions/listsubscription-1/Page/Section(3)/newsletterOptIn"
-Signature: 3EiRmCQcfsXEyGfPS2dLkQaVTRg3MOCgjAFus7HPAro=
-Modified: 637400165054726450
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page\Section(2)\lastName.yml
+ID: "fd6d6cb6-8e6e-498e-9134-266a40557a42"
+Parent: "4d6542a0-3b1d-4aeb-a47d-b76f5875fe28"
+Template: "0908030b-4564-42ea-a6fa-c7a5a2d921a8"
+Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Section(2)/lastName"
+Signature: ht5QHjK51I6s6mXq+iZegspkegJufAU9tBe7UXCtkcs=
+Modified: 637394248385595011
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page\Section(3)\industry.yml
+ID: "bef6870e-2794-424c-b45b-427cba894fb3"
+Parent: "2c434b94-22c0-4b88-9488-d073c3896fca"
+Template: "9121d435-48b8-4649-9d13-03d680474fad"
+Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Section(3)/industry"
+Signature: JDcWORv0HnnkNvXX1ml9ZgxRiXgriZsdxC4Zo7wq8fc=
+Modified: 637394248893656136
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\issues.yml
+ID: "6941a6ee-3a46-4cbf-9ca2-babadb159f92"
+Parent: "b701850a-cb8a-4943-b2bc-dddb1238c103"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/Forms/issues
+Signature: rJaqqU89wQ846vwwtnO+vmqy8xr4WqAaeY8qWed+5nI=
+Modified: 637400244190495168
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-1.yml
+ID: "9d656420-7948-4267-8279-692f823001da"
+Parent: "040c6742-3acd-4375-95ed-f648e92e4b50"
+Template: "6abee1f2-4ab4-47f0-ad8b-bdb36f37f64c"
+Path: "/sitecore/Forms/submitactions/sendmail-1"
+Signature: y+ANJg+OWJyr9UJ1OpPRDAbdMlyt7FlCyKKDxnWqRZI=
+Modified: 637395111199092120
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\listsubscription-1\Page.yml
+ID: "c13975c8-8ca4-4839-bc37-cbe7215fbe88"
+Parent: "9d63f042-2f56-414d-b410-56984610f6b0"
+Template: "cfee7b51-8505-45ce-b843-9358f827df87"
+Path: "/sitecore/Forms/submitactions/listsubscription-1/Page"
+Signature: Qo2SgIjhrolh51eR+kptzA6Q2PKEY87OiCYEgYbBMjU=
+Modified: 637393807669991677
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-87\Page(3)\Text(5).yml
+ID: "646930a1-1a13-42c0-84b6-23bf4f123c0e"
+Parent: "70bbaa3e-53ff-4565-8a4b-98b7473e352f"
+Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
+Path: "/sitecore/Forms/bugs/bug-87/Page(3)/Text(5)"
+Signature: Onvc8QuuvE/r56vCY75UqgSGVQlb6tM0O9juTdHbDY0=
+Modified: 637399324000763228
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-87\Page(3)\Text(6).yml
+ID: "b19d4c5a-6ca9-4173-ba45-89f2cdc21043"
+Parent: "70bbaa3e-53ff-4565-8a4b-98b7473e352f"
+Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
+Path: "/sitecore/Forms/bugs/bug-87/Page(3)/Text(6)"
+Signature: i1/L57eeUc48NdAjlfuQyIJ57OI3er3xPQOaQxwtKOI=
+Modified: 637399324000773254
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-87\Page(3)\Text(7).yml
+ID: "4c50cf7c-e59c-4c58-9fb8-c2497e446034"
+Parent: "70bbaa3e-53ff-4565-8a4b-98b7473e352f"
+Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
+Path: "/sitecore/Forms/bugs/bug-87/Page(3)/Text(7)"
+Signature: j9rp5y0HidUkrXyBzuz6Z8GqbeF9Y6KPVkian4oH+2E=
+Modified: 637399324000783234
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\issues\issue-83\Page\Text(2).yml
+ID: "3dabf1be-9f69-4f02-9120-34c28862480e"
+Parent: "d825dd21-29db-4beb-befe-d5c897d6fa67"
+Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
+Path: "/sitecore/Forms/issues/issue-83/Page/Text(2)"
+Signature: tTZBj5J43pfBPzCzIBGShwYwUHyhZNwwuLaiimipAn4=
+Modified: 637400244275811383
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\listsubscription-1\Page\Text.yml
+ID: "dc0f389b-430d-411d-952e-8969602dccf5"
+Parent: "c13975c8-8ca4-4839-bc37-cbe7215fbe88"
+Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
+Path: "/sitecore/Forms/submitactions/listsubscription-1/Page/Text"
+Signature: Isn3+aGthoWUsWspmxPpbpRCDauLvnpjV1IKEnGsNGk=
+Modified: 637393807670051709
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page\Text.yml
+ID: "af6d045b-a8ff-4005-a2dc-75756a098393"
+Parent: "733328a6-f845-4f89-9e95-a3063a4550f5"
+Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
+Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Text"
+Signature: lbThCDbs3VMa//jKhprWJXxBShb+N4OIlEdc/efLhi4=
+Modified: 637393809754305609
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-87\Page\Section\firstName.yml
+ID: "ad071c21-c158-4038-adce-a3e67d5e7827"
+Parent: "30b82655-df51-4273-aee6-efa023a3724b"
+Template: "0908030b-4564-42ea-a6fa-c7a5a2d921a8"
+Path: "/sitecore/Forms/bugs/bug-87/Page/Section/firstName"
+Signature: CGjYXFsCAhzbGFxM8Mb6rZaWl1YPd4WNJF6yqjz+eoM=
+Modified: 637399322326401055
 ---
 File: |
   C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\listsubscription-1\Page\Section(4)\email.yml
@@ -1054,22 +829,13 @@ Signature: G9EEHezXzj6gNZLSu2EqOZaCsLIWZ6V8Hdyt1DgCXro=
 Modified: 637393807670231679
 ---
 File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-1\Page\Section\FirstName.yml
-ID: "93e4e3c7-62dd-4dea-b951-44043fa862c3"
-Parent: "7d5c6476-1054-45cb-aef7-f5a4ee72e718"
-Template: "0908030b-4564-42ea-a6fa-c7a5a2d921a8"
-Path: "/sitecore/Forms/submitactions/sendmail-1/Page/Section/FirstName"
-Signature: kY7xcjdq0HBQUV/CgTPdnLzgIQJ71T0YtAJK0rl3PD4=
-Modified: 637395111199242110
----
-File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-1\Page\Section(2)\Email.yml
-ID: "28a61639-33b5-4dbd-b89e-840bac95b52b"
-Parent: "e25520f4-6035-4276-b7ee-e2b4e056d239"
-Template: "886adec1-abf8-40e1-9926-d9189c4e8e1b"
-Path: "/sitecore/Forms/submitactions/sendmail-1/Page/Section(2)/Email"
-Signature: EC6r+jdzbDEN2DFI3qLeXj65BuFB9gxItnt+4Ce52Fk=
-Modified: 637395111199252108
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-87\Page(2)\Submit Button(2)\SubmitActions\Save Data.yml
+ID: "c475438e-1f9f-4478-a328-2b6fcdc04ee0"
+Parent: "b1a780ae-bf95-4115-b84b-0215a6c2706e"
+Template: "05fe45d4-b9c7-40de-b767-7c5abe7119f9"
+Path: "/sitecore/Forms/bugs/bug-87/Page(2)/Submit Button(2)/SubmitActions/Save Data"
+Signature: Q7if4FhT2qHvULi5jSdZXeOtPNiJZ8DL+1zf80c7qLw=
+Modified: 637399324000833138
 ---
 File: |
   C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-89\Page\Submit Button\SubmitActions\Identify Contact.yml
@@ -1081,13 +847,328 @@ Signature: HNRGbvzwlk37U4DgjuPhlq/IGmRP3WwMkBpMZOLsxwg=
 Modified: 637399320424179470
 ---
 File: |
-  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\listsubscription-1\Page\Submit\SubmitActions\Add To List.yml
-ID: "18dcb790-228b-471f-b14d-01f8367b156b"
-Parent: "3395c318-dea0-46cc-a934-69b9dad5a8e7"
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs.yml
+ID: "fd160e01-c290-425a-a822-988373f96c4c"
+Parent: "b701850a-cb8a-4943-b2bc-dddb1238c103"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/Forms/bugs
+Signature: SMiNQvsU0Wfw6Kn4P1l1dCYM1v2Z9DdGBaQep3IZHC8=
+Modified: 637399198710056797
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\listsubscription-1.yml
+ID: "9d63f042-2f56-414d-b410-56984610f6b0"
+Parent: "040c6742-3acd-4375-95ed-f648e92e4b50"
+Template: "6abee1f2-4ab4-47f0-ad8b-bdb36f37f64c"
+Path: "/sitecore/Forms/submitactions/listsubscription-1"
+Signature: y+ANJg+OWJyr9UJ1OpPRDAbdMlyt7FlCyKKDxnWqRZI=
+Modified: 637393807669961662
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-87\Page\Text(2).yml
+ID: "7a4a6ced-8723-4416-9c6d-e61ee1bf7c7d"
+Parent: "9914e916-273a-468b-aa2f-9b50e68c1f84"
+Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
+Path: "/sitecore/Forms/bugs/bug-87/Page/Text(2)"
+Signature: fEgHx9M6zBL7WVDEmSa0LgT9jhJnaxRfbvkw1oCR2ZU=
+Modified: 637399322326341049
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-89\Page(2)\Text(4).yml
+ID: "072a2d20-7b5c-4104-ad45-d4acd72aef94"
+Parent: "ea1b4119-bd7e-4e36-be71-84c6fbd4a4c8"
+Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
+Path: "/sitecore/Forms/bugs/bug-89/Page(2)/Text(4)"
+Signature: 7Sg17KC7QA3LhLFNYzOFUvPZPbfoI9ohQYp7nbXKHRA=
+Modified: 637399198774995309
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\listsubscription-1\Page\Section.yml
+ID: "b80fc482-9c55-4bbe-9cf3-85180624ecd0"
+Parent: "c13975c8-8ca4-4839-bc37-cbe7215fbe88"
+Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
+Path: "/sitecore/Forms/submitactions/listsubscription-1/Page/Section"
+Signature: RYdicIIHW7W1MyKBDQPWE5egKZgm8A9SpYajlIBKIoY=
+Modified: 637393807670073638
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-dynamicdatasource-1\Page\Section(3)\businessunit.yml
+ID: "681b2062-92dd-489e-b5fe-bab03f9eae8c"
+Parent: "9740b1b4-7535-4575-9d9e-30d21617343d"
+Template: "9121d435-48b8-4649-9d13-03d680474fad"
+Path: "/sitecore/Forms/submitactions/sendmail-dynamicdatasource-1/Page/Section(3)/businessunit"
+Signature: qVcISNL6ZOdW9uRevHJ/3bhgqSxH1u0YNZpt5BneK8w=
+Modified: 637399899803663766
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-dynamicdatasource-1\Page\submit\SubmitActions\Send Email.yml
+ID: "534d3c3d-c5d2-40e5-8726-2f1dd6b03da4"
+Parent: "a2ce1814-4edb-4e1a-a59b-8b935da356d5"
 Template: "05fe45d4-b9c7-40de-b767-7c5abe7119f9"
-Path: "/sitecore/Forms/submitactions/listsubscription-1/Page/Submit/SubmitActions/Add To List"
-Signature: n4AyVQJdQ12IzGkuHncMFA4PqcgZ1XsALcYUqTNcPss=
-Modified: 637400197724310283
+Path: "/sitecore/Forms/submitactions/sendmail-dynamicdatasource-1/Page/submit/SubmitActions/Send Email"
+Signature: XZh2E6/kL/5jcWZK74FdpFfENl/lx8QjUYVVdLW8jXw=
+Modified: 637400125999055658
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\templates\form-template\Page\Section(3)\industry\Settings.yml
+ID: "3e85fb76-5c12-40ad-866e-e86cdcba2ed6"
+Parent: "6ca51a94-76be-4a3a-9b60-c100c8bc91d7"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: "/sitecore/Forms/templates/form-template/Page/Section(3)/industry/Settings"
+Signature: IOksw74Om1nVMI7fa8x2gfRTvXe5Z1f10ubMKgiz+bE=
+Modified: 637399895796579656
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page\Section(3)\industry\Settings.yml
+ID: "c6ecb74a-51c7-4810-8a85-ac21489c03f5"
+Parent: "bef6870e-2794-424c-b45b-427cba894fb3"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Section(3)/industry/Settings"
+Signature: BcwcbIzvXZzLnUoCglQi8QLKjER8VTfBPdW4mUvfd90=
+Modified: 637394136464653358
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-dynamicdatasource-1\Page\Section(2)\market\Settings\Datasource.yml
+ID: "5cba6809-ffd0-49a2-a743-7ce1f3f3ae6e"
+Parent: "5270dff3-85dd-42f3-98e4-f24393036b32"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: "/sitecore/Forms/submitactions/sendmail-dynamicdatasource-1/Page/Section(2)/market/Settings/Datasource"
+Signature: rd6d5VYlOUl8RNSR3QyvuEia3vORYG7GBabs7PpXx24=
+Modified: 637400165054766421
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-dynamicdatasource-1\Page\Section(3)\businessunit\Settings\Datasource.yml
+ID: "7f85ee6d-6b61-494d-874e-033b687a9fa5"
+Parent: "333fbb1a-540d-4eff-abd2-4ff689007e44"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: "/sitecore/Forms/submitactions/sendmail-dynamicdatasource-1/Page/Section(3)/businessunit/Settings/Datasource"
+Signature: i7tdg8dyI6ipcrJHJkC8on8Brev2bJb6+DR0P5sLWCQ=
+Modified: 637399899803713739
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\templates\form-template\Page\Section(3)\industry\Settings\Datasource.yml
+ID: "d7041b62-245f-49ea-b78c-8e3b901d255c"
+Parent: "3e85fb76-5c12-40ad-866e-e86cdcba2ed6"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: "/sitecore/Forms/templates/form-template/Page/Section(3)/industry/Settings/Datasource"
+Signature: IOksw74Om1nVMI7fa8x2gfRTvXe5Z1f10ubMKgiz+bE=
+Modified: 637399895796579656
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page\Section(3)\industry\Settings\Datasource.yml
+ID: "ade11d39-5ee3-4367-9342-b308a09a610f"
+Parent: "c6ecb74a-51c7-4810-8a85-ac21489c03f5"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Section(3)/industry/Settings/Datasource"
+Signature: BcwcbIzvXZzLnUoCglQi8QLKjER8VTfBPdW4mUvfd90=
+Modified: 637394136464673362
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\templates\form-template\Page\Section(3)\industry\Settings\Datasource\Healthcare.yml
+ID: "72a2539c-e59f-4623-aa81-866aac179511"
+Parent: "d7041b62-245f-49ea-b78c-8e3b901d255c"
+Template: "b3bdfe59-6667-4432-b261-05d0e3f7fdf6"
+Path: "/sitecore/Forms/templates/form-template/Page/Section(3)/industry/Settings/Datasource/Healthcare"
+Signature: +2Rguy8QMyft8RfOPcPwKzHkr4ZCq7/bhovAJVJUA1k=
+Modified: 637399895796629765
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\templates\form-template\Page\Section(3)\industry\Settings\Datasource\IT.yml
+ID: "87909690-0d85-4a47-9a22-f494f93e81eb"
+Parent: "d7041b62-245f-49ea-b78c-8e3b901d255c"
+Template: "b3bdfe59-6667-4432-b261-05d0e3f7fdf6"
+Path: "/sitecore/Forms/templates/form-template/Page/Section(3)/industry/Settings/Datasource/IT"
+Signature: RXeH9OYrWcjd9t0i9TbBSsojV3O6Tv5aa1mSfXh/2rw=
+Modified: 637399895796629765
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\templates\form-template\Page\Section(3)\industry\Settings\Datasource\Transport.yml
+ID: "7c4e536d-ff38-4601-b09b-978b4e1d93b3"
+Parent: "d7041b62-245f-49ea-b78c-8e3b901d255c"
+Template: "b3bdfe59-6667-4432-b261-05d0e3f7fdf6"
+Path: "/sitecore/Forms/templates/form-template/Page/Section(3)/industry/Settings/Datasource/Transport"
+Signature: QcZw5fjqGg3RiTu7Fr0XpCAB7EfxL2AJw48Fe0qJlj0=
+Modified: 637399895796629765
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions.yml
+ID: "040c6742-3acd-4375-95ed-f648e92e4b50"
+Parent: "b701850a-cb8a-4943-b2bc-dddb1238c103"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/Forms/submitactions
+Signature: gDbO52qqKqs6H4ufzsT+0oLkYuSiS4K+wYWJJqj17Pk=
+Modified: 637393807669931663
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-dynamicdatasource-1.yml
+ID: "5ea2c521-ce2f-460a-a6b0-a78ad70c376b"
+Parent: "040c6742-3acd-4375-95ed-f648e92e4b50"
+Template: "6abee1f2-4ab4-47f0-ad8b-bdb36f37f64c"
+Path: "/sitecore/Forms/submitactions/sendmail-dynamicdatasource-1"
+Signature: +9LWkDvaMBFgDDFkMv5HyGhFSWYcxNdpoEIkH1fGzu4=
+Modified: 637399899782110220
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-1\Page(2).yml
+ID: "639600bf-86db-4190-b3b2-1939b2c3eef6"
+Parent: "9d656420-7948-4267-8279-692f823001da"
+Template: "cfee7b51-8505-45ce-b843-9358f827df87"
+Path: "/sitecore/Forms/submitactions/sendmail-1/Page(2)"
+Signature: fJ5Vut3eYJTvt3Hxa1WOR3JW862AjiAjL/6D7V3QFLk=
+Modified: 637395111199122124
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-dynamicdatasource-1\Page(2).yml
+ID: "03156d6a-f701-46ac-a364-b2fade3e4848"
+Parent: "5ea2c521-ce2f-460a-a6b0-a78ad70c376b"
+Template: "cfee7b51-8505-45ce-b843-9358f827df87"
+Path: "/sitecore/Forms/submitactions/sendmail-dynamicdatasource-1/Page(2)"
+Signature: K35XiDs9TpBU079cJWJanVO+IGZRyeERKC5ewtgAGbA=
+Modified: 637399899803523776
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\templates\form-template\Page.yml
+ID: "efc5ebbc-3096-49fe-a2be-19a51fb1f98f"
+Parent: "fa722cfa-bc4c-440f-9bb3-94e0a1f221de"
+Template: "cfee7b51-8505-45ce-b843-9358f827df87"
+Path: "/sitecore/Forms/templates/form-template/Page"
+Signature: oqyqx1SjlMHsg743Nli0sBIRXwG7jFHYMjKhzFOCbcs=
+Modified: 637399895796509702
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page.yml
+ID: "733328a6-f845-4f89-9e95-a3063a4550f5"
+Parent: "96f8815c-9177-446e-8064-651605c56e7b"
+Template: "cfee7b51-8505-45ce-b843-9358f827df87"
+Path: "/sitecore/Forms/valueproviders/querystring-1/Page"
+Signature: 8hWQFCuIO+vHk9iLvWpdi7J+52GKdJcSMUOqOUB8MlU=
+Modified: 637393809754305609
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-87\Page\Section.yml
+ID: "30b82655-df51-4273-aee6-efa023a3724b"
+Parent: "9914e916-273a-468b-aa2f-9b50e68c1f84"
+Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
+Path: "/sitecore/Forms/bugs/bug-87/Page/Section"
+Signature: mfs6HEAfyHhnPyfWC/9A4QVZwAzGaNhFKElyMM0iLtQ=
+Modified: 637399322326351055
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-87\Page\Submit Button.yml
+ID: "a5664444-f341-495b-b080-f368c9b63556"
+Parent: "9914e916-273a-468b-aa2f-9b50e68c1f84"
+Template: "94a46d66-b1b8-405d-aae4-7b5a9cd61c5e"
+Path: "/sitecore/Forms/bugs/bug-87/Page/Submit Button"
+Signature: ergXviZUyq4xQnrb0XZaH1bUUiLmTrzg6lKuDZgkMSE=
+Modified: 637399324000243185
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-87\Page\Text.yml
+ID: "bd7f7b78-630f-432c-b59a-4c1d104212d7"
+Parent: "9914e916-273a-468b-aa2f-9b50e68c1f84"
+Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
+Path: "/sitecore/Forms/bugs/bug-87/Page/Text"
+Signature: XjQR2AlFmLi9U7BhBhr8l8rhBOU1BRKT7krN4g+iHA0=
+Modified: 637399322326331035
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-87\Page(2)\Section(2).yml
+ID: "baaceb9a-a15d-4b79-a76b-224bfdd8e8cd"
+Parent: "d863821b-7491-4f9a-8d43-b85e3c25e221"
+Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
+Path: "/sitecore/Forms/bugs/bug-87/Page(2)/Section(2)"
+Signature: C+jj8bAzPABnmkjmf2xGapaLoXUODWsYWJ06xN0c56Y=
+Modified: 637399324000713201
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-87\Page(2)\Section(4).yml
+ID: "6beb5ac6-7240-4d12-825f-021719bcd4f5"
+Parent: "d863821b-7491-4f9a-8d43-b85e3c25e221"
+Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
+Path: "/sitecore/Forms/bugs/bug-87/Page(2)/Section(4)"
+Signature: qJyWe4sy/FtgFvfOoLaVAGy/5dP9ERB8E0Uk5nQTQmA=
+Modified: 637399324000733239
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-87\Page(2)\Submit Button(2).yml
+ID: "a53640e7-b523-4d84-a8c4-e7549219b831"
+Parent: "d863821b-7491-4f9a-8d43-b85e3c25e221"
+Template: "94a46d66-b1b8-405d-aae4-7b5a9cd61c5e"
+Path: "/sitecore/Forms/bugs/bug-87/Page(2)/Submit Button(2)"
+Signature: iOEWJmEJ7MALi0ox68Mhpw6goaRoEtnqalIzYyNCjaU=
+Modified: 637399889249129957
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-87\Page(2)\Text(3).yml
+ID: "34401a15-efe5-4e3c-8f0b-bd87fa084235"
+Parent: "d863821b-7491-4f9a-8d43-b85e3c25e221"
+Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
+Path: "/sitecore/Forms/bugs/bug-87/Page(2)/Text(3)"
+Signature: JxWZ9r/MEEjxzT85lVUJz5YK4Yb9dD3Q8zYYeObEAxk=
+Modified: 637399324000263234
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\bugs\bug-87\Page(2)\Text(4).yml
+ID: "647d8946-6cc7-4fa5-98b7-151fecf736de"
+Parent: "d863821b-7491-4f9a-8d43-b85e3c25e221"
+Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
+Path: "/sitecore/Forms/bugs/bug-87/Page(2)/Text(4)"
+Signature: aPhcUSOo4OqHufx0VUgpSbHyNJp2J9PnvEiiPqrMjk8=
+Modified: 637399324000283140
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\issues\issue-83\Page\Section.yml
+ID: "c1cdfc2f-f7ad-4a49-8adc-c882a5a05eb9"
+Parent: "d825dd21-29db-4beb-befe-d5c897d6fa67"
+Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
+Path: "/sitecore/Forms/issues/issue-83/Page/Section"
+Signature: 9di0tRKBvpZCTRyrNSg0Vzs30wQ023H2xjIXF79rZ3Q=
+Modified: 637400244275831393
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\issues\issue-83\Page\Submit Button.yml
+ID: "c5a4686d-db05-4670-aa1f-7a961f50b83f"
+Parent: "d825dd21-29db-4beb-befe-d5c897d6fa67"
+Template: "94a46d66-b1b8-405d-aae4-7b5a9cd61c5e"
+Path: "/sitecore/Forms/issues/issue-83/Page/Submit Button"
+Signature: LuGu8WCMXkWPNSaRP/fJndLdaKNwJzg3jcLSsamVh3g=
+Modified: 637400244275821419
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-1\Page\Submit.yml
+ID: "da9a14ef-3045-4f71-a28b-b97df31e9119"
+Parent: "363c9492-6f3b-40fb-9140-c4e6c9f90db7"
+Template: "94a46d66-b1b8-405d-aae4-7b5a9cd61c5e"
+Path: "/sitecore/Forms/submitactions/sendmail-1/Page/Submit"
+Signature: YwWDCRBpkaKf6konLzyg5oHKjyqLoMlE6kukdnQqLsM=
+Modified: 637395111199192121
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-1\Page\Text(2).yml
+ID: "bc34c3fc-ae9c-4d08-b77c-5abf598a1a7d"
+Parent: "363c9492-6f3b-40fb-9140-c4e6c9f90db7"
+Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
+Path: "/sitecore/Forms/submitactions/sendmail-1/Page/Text(2)"
+Signature: jwS5wLIDrd/FBaVaQi5K5y2Mt6nJC/kpqbD3HfWZCUc=
+Modified: 637395111199152121
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-1\Page\Submit\SubmitActions.yml
+ID: "0bcfc386-3354-42b5-9bad-d6729e49e8ae"
+Parent: "da9a14ef-3045-4f71-a28b-b97df31e9119"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: "/sitecore/Forms/submitactions/sendmail-1/Page/Submit/SubmitActions"
+Signature: G9EEHezXzj6gNZLSu2EqOZaCsLIWZ6V8Hdyt1DgCXro=
+Modified: 637395111199262094
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\sendmail-dynamicdatasource-1\Page\Section\firstName.yml
+ID: "e8fdcde6-2bc8-4c39-9a05-302611430bed"
+Parent: "8d5a9e10-65c8-42d3-aae9-d30062a0cb30"
+Template: "0908030b-4564-42ea-a6fa-c7a5a2d921a8"
+Path: "/sitecore/Forms/submitactions/sendmail-dynamicdatasource-1/Page/Section/firstName"
+Signature: PxCckGumiDABA1R8iKIjj/UOUyj7hLYpy0BP/qd76/4=
+Modified: 637399899803673732
 ---
 File: |
   C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\submitactions\listsubscription-1\Page\Submit\SubmitActions\Subscribe To List.yml
@@ -1106,3 +1187,21 @@ Template: "05fe45d4-b9c7-40de-b767-7c5abe7119f9"
 Path: "/sitecore/Forms/submitactions/sendmail-1/Page/Submit/SubmitActions/Send Email"
 Signature: jLOfC10kZdtl5f2jS8ha4byEq18D7kdFRXZ0gQh+nKQ=
 Modified: 637395111199272109
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page\Section(3)\industry\Settings\Datasource\Healthcare.yml
+ID: "d7137fc0-9ee3-43fc-8f19-ecba43d5e709"
+Parent: "ade11d39-5ee3-4367-9342-b308a09a610f"
+Template: "b3bdfe59-6667-4432-b261-05d0e3f7fdf6"
+Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Section(3)/industry/Settings/Datasource/Healthcare"
+Signature: +2Rguy8QMyft8RfOPcPwKzHkr4ZCq7/bhovAJVJUA1k=
+Modified: 637394136464733346
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Project\FormsExtensionsTester\items\forms\Forms\valueproviders\querystring-1\Page\Section(3)\industry\Settings\Datasource\IT.yml
+ID: "03dd6a9d-3a3a-44ee-ab1a-bc029cf3ac87"
+Parent: "ade11d39-5ee3-4367-9342-b308a09a610f"
+Template: "b3bdfe59-6667-4432-b261-05d0e3f7fdf6"
+Path: "/sitecore/Forms/valueproviders/querystring-1/Page/Section(3)/industry/Settings/Datasource/IT"
+Signature: RXeH9OYrWcjd9t0i9TbBSsojV3O6Tv5aa1mSfXh/2rw=
+Modified: 637394136464753354

@@ -1,0 +1,45 @@
+﻿---
+ID: "ccb54b56-4de1-4346-85da-f1c86f25dde5"
+Parent: "93684f0a-f8b4-42e2-a4c8-c2b1a869c37e"
+Template: "05fe45d4-b9c7-40de-b767-7c5abe7119f9"
+Path: "/sitecore/Forms/issues/issue-83/Page/Submit Button/SubmitActions/Redirect to Url"
+SharedFields:
+- ID: "5c796924-3f06-4d1f-8510-8ad9a4244477"
+  Hint: Parameters
+  Value: |
+    {"url":"https://www.google.com","parameters":[{"parameter":"test","value":"d5927b23-62a7-4c50-aa4e-16ef5d65a30d"}]}
+- ID: "abc57b6d-5542-4ab9-a889-106225a032e6"
+  Hint: Submit Action
+  Value: "{848EE3CD-5B4F-473D-B438-56B137035C62}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201103T180944Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8251a6fa-2e61-4e01-8832-8d99c69869b5"
+      Hint: Description
+      Value: "https://www.google.com"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fb9198d6-ae86-44ae-8f4d-ccd190ed863f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201103T181944Z

@@ -1,9 +1,9 @@
 <project>
   <Metadata>
     <metadata>
-      <PackageName>Sitecore Forms Extensions for Sitecore 9.3</PackageName>
+      <PackageName>Sitecore Forms Extensions for SC9.3 and SC10</PackageName>
       <Author>Bart Verdonck</Author>
-      <Version>3.1-alpha</Version>
+      <Version>3.1</Version>
       <Revision />
       <License />
       <Comment />
@@ -856,6 +856,7 @@ Copyright (c) 2017-2020 Bart Verdonck</Readme>
         <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SubscribeToList/PageSettings/Stylesheet/{A2786146-6A36-4140-9A68-10010D4F4909}/invariant/0</x-item>
         <x-item>/master/sitecore/system/Settings/Forms/Submit Actions/Subscribe To List/{BAC17010-3F3B-49DD-9F93-6BD85E7672BD}/invariant/0</x-item>
         <x-item>/web/sitecore/system/Settings/Forms/Submit Actions/Subscribe To List/{BAC17010-3F3B-49DD-9F93-6BD85E7672BD}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SubscribeToList/PageSettings/Form/CheckedRequirementFieldId/{F028A457-432C-4D00-8B04-0F5040F927A3}/invariant/0</x-item>
       </Entries>
       <SkipVersions>False</SkipVersions>
       <Converter>

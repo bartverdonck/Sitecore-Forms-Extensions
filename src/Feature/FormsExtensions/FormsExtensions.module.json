@@ -60,6 +60,11 @@
                 "database": "core"
             },
             {
+                "name": "RedirectUrlFieldTypes",
+                "path": "/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/RedirectToUrl/PageSettings/FormClientApi",
+                "database": "core"
+            },
+            {
                 "name": "ValueProviders",
                 "path": "/sitecore/system/Settings/Forms/Value Providers"
             },

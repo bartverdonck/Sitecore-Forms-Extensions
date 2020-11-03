@@ -1,0 +1,10 @@
+﻿# Do not commit this file to source control or modify it. It is safe to delete; it will recreate itself.
+---
+File: |
+  C:\Projects\Sitecore-Forms-Extensions\src\Feature\FormsExtensions\items\RedirectUrlFieldTypes\FormClientApi.yml
+ID: "02515973-3b01-4468-bbcb-7514a74c5aa9"
+Parent: "f949b762-2015-43df-93b0-5b2ad65e114c"
+Template: "1536b089-2e60-4904-931d-8aa5e1d7306b"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/RedirectToUrl/PageSettings/FormClientApi
+Signature: c3k2Uuk4h62BiOmtHy+m6vj7wv8NEctyHFVeDmQVZAg=
+Modified: 637400240062528016

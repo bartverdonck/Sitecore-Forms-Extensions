@@ -7,7 +7,6 @@
 @model Feature.FormsExtensions.Fields.ReCaptcha.ReCaptchaModel
 @{
   var fieldId = Html.IdFor(m => Model.CaptchaValue);
-  Html.AddScript(ScriptStore.ValidateScriptKey, new MvcHtmlString("<script src=\"/sitecore%20modules/Web/ExperienceForms/scripts/formsextensions.validate.js\"></script>"));
 }
 
 <div id="@(fieldId)_wrapper"></div>
