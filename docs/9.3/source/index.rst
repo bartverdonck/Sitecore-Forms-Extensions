@@ -1,10 +1,10 @@
-==============================================
-Sitecore Forms Extensions 3.0 for Sitecore 9.3
-==============================================
+==============================================================
+Sitecore Forms Extensions 3.1 for Sitecore 9.3 and Sitecore 10
+==============================================================
 
-Welcome, happy to see your are (considering) using the Sitecore Forms Extensions module to give your Sitecore 9 forms a feature boost!
+Welcome, happy to see your are (considering) using the Sitecore Forms Extensions module to give your Sitecore forms a feature boost!
 
-`Looking for the downloads? Find them on GitHub. <https://github.com/bartverdonck/Sitecore-Forms-Extensions/tree/master/downloads/Sitecore%209.3.x>`_
+`Looking for the downloads? Find them on GitHub. <https://github.com/bartverdonck/Sitecore-Forms-Extensions/tree/master/downloads/Sitecore%209.3%20-%20Sitecore%2010>`_
 
 `Looking for another version? <http://onelittlespark.bartverdonck.be/sitecoreformsextentions/>`_
 

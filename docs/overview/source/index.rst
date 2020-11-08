@@ -11,7 +11,7 @@ Availabe Versions
 
 Please pick a version to continue.
 
-`Sitecore Forms Extensions 3.0 for Sitecore 9.3 <http://onelittlespark.bartverdonck.be/sitecoreformsextentions/3.0/>`_
+`Sitecore Forms Extensions 3.1 for Sitecore 9.3 and Sitecore 10 <http://onelittlespark.bartverdonck.be/sitecoreformsextentions/3.1/>`_
 
 `Sitecore Forms Extensions 2.3 for Sitecore 9.1 and 9.2 <http://onelittlespark.bartverdonck.be/sitecoreformsextentions/2.3/>`_
 
