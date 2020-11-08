@@ -4,7 +4,6 @@ This document describes the steps to take in order to release a new version of S
 
 ## Solution
 - Update AssemblyInfo.cs and set version numbers.
-- 
 
 ## Package Creation
 - Open the package designer in Sitecore
@@ -23,9 +22,13 @@ This document describes the steps to take in order to release a new version of S
 - Run `docker-compose build module`
 - Lookup image id and run `docker tag [id] bverdonck/sitecore-forms-extensions-assets:[version]`
 - Login to docker `docker login --username=bverdonck` (Password in KeePass)
-- Docker push `bverdonck/sitecore-forms-extensions-assets:[version]`
+- Docker push `bverdonck/sitecore-forms-extensions-assets`
 
 ## Nuget
 - Update `src/feature/formsextensions/code/Feature.FormsExtensions.nuspec`
 - Run `nuget pack Feature.FormsExtensions.nuspec`
 - Push to nuget `nuget push SitecoreFormsExtensions.Core.[version].nupkg [secret]  -Source https://api.nuget.org/v3/index.json`
+
+## Documentation
+- Update documentation in docs folder (To rund the make.bat files, sphinx must be installed `pip install -U sphinx`)
+- Execute `make.bat html`

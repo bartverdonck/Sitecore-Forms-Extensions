@@ -38,6 +38,7 @@ Have fun with the module!
    contenteditordoc/sendmail
    contenteditordoc/valueproviderconditions
    contenteditordoc/jumptopage
+   contenteditordoc/subscribelist
    
 .. toctree::
    :hidden:

@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Sitecore Forms Extensions'
-copyright = '2018-2019, Bart Verdonck'
+copyright = '2018-2020, Bart Verdonck'
 author = 'Bart Verdonck'
 
 # The short X.Y version
