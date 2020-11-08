@@ -30,8 +30,8 @@ Note that the nuget package only contains the Sitecore Forms Extensions codebase
 
 ## Compatibility 🧩
 
-- For Sitecore 10 use version 3.0
-- For Sitecore 9.3+ use version 3.0
+- For Sitecore 10 use version 3.1
+- For Sitecore 9.3+ use version 3.1
 - For Sitecore 9.1.x till 9.2.x use version 2.3.1
 - For Sitecore 9.0.x use version 1.8.3
 
