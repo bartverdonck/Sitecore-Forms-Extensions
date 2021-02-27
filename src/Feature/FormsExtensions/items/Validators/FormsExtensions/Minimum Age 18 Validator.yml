@@ -7,7 +7,7 @@ SharedFields:
 - ID: "0c58c584-7d0c-42e8-a6b9-17d9cfa74299"
   Hint: Parameters
   Value: |
-    {"unit":"years","minvalue":"18"}
+    {"unit":"years","minvalue":"18","validationType":"tsminagedate"}
 - ID: "0cfa025b-c124-41de-9dc5-2cd5841553fe"
   Hint: Type
   Value: Feature.FormsExtensions.Fields.Date.TimeSpanValidation,Feature.FormsExtensions
@@ -96,14 +96,14 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7b21aff6-1a58-4562-a4c7-a317934a9cf5"
+      Value: "ea0dbccd-3e91-42fe-ab4f-62424d5cb1b5"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\admin
+        sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20180907T142958Z
+      Value: 20210227T141334Z
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

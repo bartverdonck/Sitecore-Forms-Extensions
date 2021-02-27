@@ -1,0 +1,34 @@
+﻿---
+ID: "08b8e632-4473-43c6-98a5-4816a72787f7"
+Parent: "4aca56c1-03ef-48b2-a1d6-a02b3d9b85cc"
+Template: "cfee7b51-8505-45ce-b843-9358f827df87"
+Path: "/sitecore/Forms/bugs/bug-105/Page"
+SharedFields:
+- ID: "71c6de8e-4718-4977-b83e-b49552ee14b0"
+  Hint: Conditions
+  Value: |
+    {"fieldConditions":[]}
+- ID: "84ece662-5034-40cb-9c60-744db64bb294"
+  Hint: Field Key
+  Value: CE03061349464817B5281DE632F78493
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210227T131804Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a181867d-086b-4b2d-a4c0-b0d5cc556ed1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210227T141505Z

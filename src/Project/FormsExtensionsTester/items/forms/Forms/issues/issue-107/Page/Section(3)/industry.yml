@@ -1,0 +1,58 @@
+﻿---
+ID: "69ba253a-9bd5-4d33-8440-16be590d79cb"
+Parent: "d0a079d9-43ca-4530-bbcf-c6e0a4dff9bf"
+Template: "9121d435-48b8-4649-9d13-03d680474fad"
+Path: "/sitecore/Forms/issues/issue-107/Page/Section(3)/industry"
+SharedFields:
+- ID: "492361e0-72d8-4847-82ba-ebfc235cf57b"
+  Hint: Display Field Name
+  Value: __ItemName
+- ID: "54424e06-0e7a-47a7-8cb2-7383d700472f"
+  Hint: Is Dynamic
+  Value: 1
+- ID: "5be76442-950f-4c1f-a797-bebd71101abb"
+  Hint: Datasource
+  Value: "{A4AF2217-C2AB-4B2F-B924-EAF56D5BF554}"
+- ID: "5d09f88a-0e2a-4f87-8151-af4a2aa26ec3"
+  Hint: Value Provider
+  Value: "{BD5EAE10-17E3-4E67-91AF-3DECBF0263D7}"
+- ID: "71c6de8e-4718-4977-b83e-b49552ee14b0"
+  Hint: Conditions
+  Value: |
+    {"fieldConditions":[]}
+- ID: "78778432-6327-4cea-a28b-e190e3541d28"
+  Hint: Value Field Name
+  Value: __ID
+- ID: "7abaa3f6-6ec0-4b65-a463-7919bfae55aa"
+  Hint: Css Class
+  Value: "form-control"
+- ID: "84ece662-5034-40cb-9c60-744db64bb294"
+  Hint: Field Key
+  Value: 27AF96DFB41649D4A8A6A4757A4519F9
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "ecd17630-5f51-45db-b52f-b3dfaec4fa1b"
+  Hint: Store Binding Value
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210227T151027Z
+    - ID: "71ffd7b2-8b09-4f7b-8a66-1e4cef653e8d"
+      Hint: Title
+      Value: Industry
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cec774d0-0dcf-4cb9-8594-4e22234b3312"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210227T153425Z
