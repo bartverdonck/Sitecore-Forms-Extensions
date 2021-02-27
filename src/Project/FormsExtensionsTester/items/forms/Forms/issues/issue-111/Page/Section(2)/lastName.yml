@@ -1,0 +1,49 @@
+﻿---
+ID: "2a02d9f3-a8e5-49f3-a392-2d1b9982e4f9"
+Parent: "f097f990-9304-484d-93ed-a07e05c94f15"
+Template: "0908030b-4564-42ea-a6fa-c7a5a2d921a8"
+Path: "/sitecore/Forms/issues/issue-111/Page/Section(2)/lastName"
+SharedFields:
+- ID: "5d09f88a-0e2a-4f87-8151-af4a2aa26ec3"
+  Hint: Value Provider
+  Value: "{06A6EFDA-CE85-4277-88EB-25FE91EA0899}"
+- ID: "71c6de8e-4718-4977-b83e-b49552ee14b0"
+  Hint: Conditions
+  Value: |
+    {"fieldConditions":[]}
+- ID: "7abaa3f6-6ec0-4b65-a463-7919bfae55aa"
+  Hint: Css Class
+  Value: "form-control"
+- ID: "84ece662-5034-40cb-9c60-744db64bb294"
+  Hint: Field Key
+  Value: 43FEA37DC2FB4C069DD1AD967754DAA7
+- ID: "9f7da002-7b86-436b-8dda-7efe5837b88e"
+  Hint: Min Length
+  Value: 0
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "ecd17630-5f51-45db-b52f-b3dfaec4fa1b"
+  Hint: Store Binding Value
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210227T174731Z
+    - ID: "71ffd7b2-8b09-4f7b-8a66-1e4cef653e8d"
+      Hint: Title
+      Value: Last Name
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c3a30c6d-185f-4e56-89dc-4437d8ba7b09"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210227T181613Z

@@ -1,0 +1,34 @@
+﻿---
+ID: "a9f893ee-168a-429a-9c5e-d1a33be8d98e"
+Parent: "d9d0b6ee-6b4c-42a4-bd8c-4811b90a1896"
+Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
+Path: "/sitecore/Forms/issues/issue-111/Page/Text(2)"
+SharedFields:
+- ID: "71c6de8e-4718-4977-b83e-b49552ee14b0"
+  Hint: Conditions
+  Value: |
+    {"fieldConditions":[]}
+- ID: "84ece662-5034-40cb-9c60-744db64bb294"
+  Hint: Field Key
+  Value: 3B29B31DF947448097403A7D934C8BBC
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210227T174730Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7193cbc3-b8fd-4e39-87cd-f26243136aea"
+    - ID: "9666782b-21bb-40ce-b38f-8f6c53fa5070"
+      Hint: Text
+      Value: In Sitecore 9.2 we have added forms to pages, along with other content. Some of the forms are rather lengthy. We are using the Show Form Page submit action to show a thank you message to the user after submitting the form. The thank you page is much shorter than the form itself. The scenario we are seeing is that when you click submit the thank you page is indeed shown but the user has to scroll back up the page to see it. It appears that the page is keeping the scroll position the same after submission and reload, but because the thank you page is so much smaller than the form itself it is bringing all the content from further down the page into view.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210227T181613Z
