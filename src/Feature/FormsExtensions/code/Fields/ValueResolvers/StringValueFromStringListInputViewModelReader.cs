@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using Sitecore.ExperienceForms.Mvc.Models.Fields;
 using Sitecore.Mvc.Pipelines;
 
@@ -11,7 +10,7 @@ namespace Feature.FormsExtensions.Fields.ValueResolvers
         {
             if (args.FieldViewModel is InputViewModel<List<string>> listStringInputViewModel)
             {
-                args.Value = listStringInputViewModel.Value == null ? string.Empty : listStringInputViewModel.Value.Aggregate("", (current, value) => current + ", " + value).Remove(0, 2);
+                args.Value = listStringInputViewModel.Value == null ? string.Empty : string.Join(", ", listStringInputViewModel.Value);
                 args.AbortPipeline();
             }
         }
