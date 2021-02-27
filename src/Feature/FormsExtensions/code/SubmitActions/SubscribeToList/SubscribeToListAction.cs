@@ -4,7 +4,7 @@ using System.Linq;
 using Feature.FormsExtensions.XDb;
 using Microsoft.Extensions.DependencyInjection;
 using Sitecore.DependencyInjection;
-using Sitecore.ExM.Framework.Diagnostics;
+using Sitecore.ExperienceForms.Diagnostics;
 using Sitecore.ExperienceForms.Models;
 using Sitecore.ExperienceForms.Processing;
 using Sitecore.ExperienceForms.Processing.Actions;
@@ -16,30 +16,38 @@ namespace Feature.FormsExtensions.SubmitActions.SubscribeToList
     {
         private readonly ILogger logger;
         private readonly IXDbService xDbService;
+        private readonly ISubscriptionService subscriptionService;
 
         public SubscribeToListAction(ISubmitActionData submitActionData) : this(submitActionData,
-            ServiceLocator.ServiceProvider.GetService<ILogger>(), ServiceLocator.ServiceProvider.GetService<IXDbService>())
+            ServiceLocator.ServiceProvider.GetService<ILogger>(), ServiceLocator.ServiceProvider.GetService<IXDbService>(), ServiceLocator.ServiceProvider.GetService<ISubscriptionService>())
         {
         }
 
-        public SubscribeToListAction(ISubmitActionData submitActionData, ILogger logger, IXDbService xDbService) : base(submitActionData)
+        public SubscribeToListAction(ISubmitActionData submitActionData, ILogger logger, IXDbService xDbService, ISubscriptionService subscriptionService) : base(submitActionData)
         {
             this.logger = logger;
             this.xDbService = xDbService;
+            this.subscriptionService = subscriptionService;
         }
 
         protected override bool Execute(SubscribeToListData data, FormSubmitContext formSubmitContext)
         {
+            if (data == null)
+            {
+                logger.LogError("Subscribe To List action is missing configuration.");
+                return true;
+            }
+
             if (data.ListId == Guid.Empty)
             {
-                logger.LogWarn("No list was configured.");
+                logger.Warn("No list was configured.");
                 return true; //we will not crash on this
             }            
             
             var contactId = xDbService.GetCurrentContactId();
             if (contactId == null)
             {
-                logger.LogDebug("The current contact is not yet identified and present in xDB. Please use the identify contact action first.");
+                logger.Debug("The current contact is not yet identified and present in xDB. Please use the identify contact action first.");
                 return false;
             }
 
@@ -52,7 +60,12 @@ namespace Feature.FormsExtensions.SubmitActions.SubscribeToList
                 }
             }
 
-            var subscriptionService = ServiceLocator.ServiceProvider.GetService<ISubscriptionService>();
+            if (subscriptionService == null)
+            {
+                logger.LogError("Couldn't resolve ISubscriptionService.");
+                return true;
+            }
+
             subscriptionService.Subscribe(data.ListId, contactId.Value);
 
             return true;
@@ -65,7 +78,7 @@ namespace Feature.FormsExtensions.SubmitActions.SubscribeToList
 
         private static bool IsChecked(object field)
         {
-            return (bool) field?.GetType().GetProperty("Value")?.GetValue(field, null);
+            return (bool) (field?.GetType().GetProperty("Value")?.GetValue(field, null) ?? false);
         }
 
     }
