@@ -123,6 +123,10 @@
                 "path": "/sitecore/system/Settings/Forms/Field Types/Security/RobotDetection"
             },
             {
+                "name": "FieldTypeLists",
+                "path": "/sitecore/system/Settings/Forms/Field Types/Lists"
+            },
+            {
                 "name": "MetaDataActionTypes",
                 "path": "/sitecore/system/Settings/Forms/Meta Data/Conditions/Action Types",
                 "allowedPushOperations": "createAndUpdate"
