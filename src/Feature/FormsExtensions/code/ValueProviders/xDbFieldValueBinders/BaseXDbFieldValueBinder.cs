@@ -60,7 +60,7 @@ namespace Feature.FormsExtensions.ValueProviders.xDbFieldValueBinders
                 return string.Empty;
             var bindingValue = GetBindingValue();
             var value = bindingValue.HasValue() ? bindingValue.Value : string.Empty;
-            return ValueProviderListComponentSupport.MakeReturnListCompatible(value.ToString(), ValueProviderContext.FieldItem);
+            return ValueProviderListComponentSupport.MakeReturnListCompatible(value, ValueProviderContext.FieldItem);
         }
 
         public FieldValueProviderContext ValueProviderContext { get; set; }

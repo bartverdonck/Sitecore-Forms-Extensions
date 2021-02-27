@@ -15,7 +15,7 @@ namespace Feature.FormsExtensions.ValueProviders.xDbFieldValueBinders.ContactPer
         {
             if (newValue is System.DateTime birthDate)
             {
-                UpdateFacet(x=>x.Birthdate=birthDate);
+                UpdateFacet(x=>x.Birthdate=birthDate.ToLocalTime());
             }
         }
         
