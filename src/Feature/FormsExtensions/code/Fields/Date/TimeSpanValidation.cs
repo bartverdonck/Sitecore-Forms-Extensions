@@ -34,7 +34,7 @@ namespace Feature.FormsExtensions.Fields.Date
                 var rule = new ModelClientValidationRule
                 {
                     ErrorMessage = FormatMessage(),
-                    ValidationType = "timespan"
+                    ValidationType = Parameters.ValidationType?? "timespan"
                 };
 
                 if (Parameters.MinValue.HasValue)
@@ -49,7 +49,6 @@ namespace Feature.FormsExtensions.Fields.Date
             }
         }
 
-       
         private ValidationResult IsValidDate(DateTime date)
         {            
             var valueToValidate = 0;
