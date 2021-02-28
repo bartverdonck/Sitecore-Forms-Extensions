@@ -57,45 +57,53 @@ $.validator.addMethod("filesize", function (value, element, maxfilesize) {
 });
 
 // Date Time Span Validator
+["timespan", "tsminagedate", "tsfuturedate", "tspastdate"].forEach(validationType =>{
+  $.validator.unobtrusive.adapters.add(validationType, ['min', 'max', 'unit'], function(options) {
+    options.rules[validationType] = [options.params.min, options.params.max, options.params.unit];
+    options.messages[validationType] = options.message;
+  });
+  
+  $.validator.addMethod(validationType, function (value, element, params) {
+    if (!this.optional(element)) {
+      var unit = params[2];
+      var minvalue = params[0];
+      var maxvalue = params[1];
+  
+      var valueToValidate = 0;
+  
+      switch (unit) {
+        case 'days':
+          valueToValidate = getDays(value);
+          break;
+        case 'months':
+          valueToValidate = getMonths(value);
+          break;
+        case 'years':
+          valueToValidate = getYears(value);
+          break;
+      }
+  
+      var isValid = true;
+  
+      if (typeof minvalue !== 'undefined' && valueToValidate < minvalue)
+        isValid = false;
+  
+      if (typeof maxvalue !== 'undefined' && valueToValidate > maxvalue)
+        isValid = false;
+  
+      return isValid;
+    }
+    return true;
+  });
+})
 
+/*
 $.validator.unobtrusive.adapters.add('timespan', ['min', 'max', 'unit'], function(options) {
   options.rules['timespan'] = [options.params.min, options.params.max, options.params.unit];
   options.messages['timespan'] = options.message;
 });
 
-
-$.validator.addMethod("timespan", function (value, element, params) {
-  if (!this.optional(element)) {
-    var unit = params[2];
-    var minvalue = params[0];
-    var maxvalue = params[1];
-
-    var valueToValidate = 0;
-
-    switch (unit) {
-      case 'days':
-        valueToValidate = getDays(value);
-        break;
-      case 'months':
-        valueToValidate = getMonths(value);
-        break;
-      case 'years':
-        valueToValidate = getYears(value);
-        break;
-    }
-
-    var isValid = true;
-
-    if (typeof minvalue !== 'undefined' && valueToValidate < minvalue)
-      isValid = false;
-
-    if (typeof maxvalue !== 'undefined' && valueToValidate > maxvalue)
-      isValid = false;
-
-    return isValid;
-  }
-  return true;
-});
+$.validator.addMethod("timespan", timespanValidatorFunction);*/
 
 function getDays(date) {
   var today = new Date();

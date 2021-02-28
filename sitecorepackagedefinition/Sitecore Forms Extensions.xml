@@ -1,15 +1,15 @@
 <project>
   <Metadata>
     <metadata>
-      <PackageName>Sitecore Forms Extensions for SC9.3 and SC10</PackageName>
+      <PackageName>Sitecore Forms Extensions for SC10.1</PackageName>
       <Author>Bart Verdonck</Author>
-      <Version>3.1</Version>
+      <Version>4.0</Version>
       <Revision />
       <License />
       <Comment />
       <Attributes />
       <Readme>Sitecore Forms Extensions is an add-on to Sitecore Forms.
-This packages is compatible with Sitecore 9.3 and Sitecore 10
+This packages is compatible with Sitecore 10.1
 
 Documentation on http://onelittlespark.bartverdonck.be/sitecoreformsextentions/
 
@@ -31,7 +31,7 @@ The package includes:
 * Value Provider store back
 * Value Provider conditions
 
-Copyright (c) 2017-2020 Bart Verdonck</Readme>
+Copyright (c) 2017-2021 Bart Verdonck</Readme>
       <Publisher>The Reference</Publisher>
       <PostStep />
       <PackageID />
@@ -108,9 +108,9 @@ Copyright (c) 2017-2020 Bart Verdonck</Readme>
         <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/Stylesheet/{D4944051-0432-4A13-8E11-0960DA061FA8}/invariant/0</x-item>
         <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/UnauthorizedErrorMessage/{15605AA1-BBFE-4717-A9F5-8BB0B0208431}/invariant/0</x-item>
         <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/ValueNotInListText/{9260EB36-1773-4801-9C67-D935402A0F9D}/invariant/0</x-item>
-        <x-item>/master/sitecore/system/Settings/Forms/Submit Actions/Send Email/{72CCAB13-E73F-4C75-8742-F2FFDF141E31}/invariant/0</x-item>
-        <x-item>/web/sitecore/system/Settings/Forms/Submit Actions/Send Email/{72CCAB13-E73F-4C75-8742-F2FFDF141E31}/invariant/0</x-item>
         <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmailExtended/PageSettings/SettingsForm/FromFieldSection/EmailFieldInDynamicDatasource/{3BD249E2-5DCC-4C57-B5C1-A9F8E0ED5D9E}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Submit Actions/Send Email With Exm/{72CCAB13-E73F-4C75-8742-F2FFDF141E31}/invariant/0</x-item>
+        <x-item>/web/sitecore/system/Settings/Forms/Submit Actions/Send Email With Exm/{72CCAB13-E73F-4C75-8742-F2FFDF141E31}/invariant/0</x-item>
       </Entries>
       <SkipVersions>False</SkipVersions>
       <Converter>
