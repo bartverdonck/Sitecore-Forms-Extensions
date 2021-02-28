@@ -2,7 +2,7 @@
 ID: "72ccab13-e73f-4c75-8742-f2ffdf141e31"
 Parent: "891e7268-fa3e-4e74-b4b1-c16b206f2165"
 Template: "c2d1d114-3cfe-4558-a9e3-d1a1ec0fcab7"
-Path: /sitecore/system/Settings/Forms/Submit Actions/Send Email
+Path: /sitecore/system/Settings/Forms/Submit Actions/Send Email With Exm
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
@@ -34,11 +34,11 @@ Languages:
         sitecore\admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "83beaa05-c246-468c-8e7d-ced7800e3381"
+      Value: "b0de0659-f968-4851-b166-e2db472a2134"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\admin
+        sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20180609T204342Z
+      Value: 20210228T165915Z

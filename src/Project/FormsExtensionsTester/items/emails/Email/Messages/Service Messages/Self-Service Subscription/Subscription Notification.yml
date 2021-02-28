@@ -3,7 +3,6 @@ ID: "bbe039d1-2b63-46df-b728-19cebd196bc3"
 Parent: "73697268-ac8b-4e22-bd2d-fc073bfa1271"
 Template: "ecf0a9c8-fe56-45d8-b750-6bde3a34a532"
 Path: "/sitecore/content/Email/Messages/Service Messages/Self-Service Subscription/Subscription Notification"
-BranchID: "f8fae92a-4f10-470c-ad5c-7ed9e6b636af"
 SharedFields:
 - ID: "0934bec4-325a-427b-95bb-46f78cea9591"
   Hint: Message Type
@@ -62,6 +61,14 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20201028T163528Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
     - ID: "89b7628a-3564-4c9a-8116-dcb15f692573"
       Hint: Body
       Value: |

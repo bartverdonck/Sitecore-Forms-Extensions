@@ -6,7 +6,7 @@ Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGrid
 SharedFields:
 - ID: "00fdab55-3a4a-4376-b786-7ea959bb0057"
   Hint: ControlDefinitions
-  Value: "{F2BAB943-AECB-4B62-8E7E-1D3FC8B993F5}"
+  Value: "{98FB361E-3A7F-49F9-8789-8C169FB95B61}"
 - ID: "91194d47-8df3-43e3-8310-67b718ce2c93"
   Hint: ConfigurationItem
   Value: "{05946781-641F-42D2-B981-9FC823DA1FEF}"
@@ -23,11 +23,11 @@ Languages:
       Value: 20160921T074435Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5fbc5a14-4c3a-4862-9cc0-3089e1c45316"
+      Value: "1dceb9c5-c35d-458f-80a0-f3f853086881"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20161014T132834Z
+      Value: 20210228T165426Z

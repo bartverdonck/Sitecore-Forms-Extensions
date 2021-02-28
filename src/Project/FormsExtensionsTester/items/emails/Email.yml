@@ -3,7 +3,6 @@ ID: "97e19f5f-8a5a-4282-bdfd-bdfe2061ae73"
 Parent: "0de95ae4-41ab-4d01-9eb0-67441b7c2450"
 Template: "cf9c8a2a-2794-4fea-980a-ef8426f3d6c3"
 Path: /sitecore/content/Email
-BranchID: "f8fae92a-4f10-470c-ad5c-7ed9e6b636af"
 SharedFields:
 - ID: "52d572ad-9678-423f-96e2-477528418ba1"
   Hint: "Global Opt-out List"
@@ -30,6 +29,14 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20201028T163523Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
     - ID: "69aad409-ca36-4767-b945-abb77f3611fd"
       Hint: From Name
       Value: Test

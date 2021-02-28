@@ -116,7 +116,7 @@ Languages:
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Send email
+    Value: SendEmailWithExm
   Versions:
   - Version: 1
     Fields:
@@ -136,14 +136,14 @@ Languages:
       Value: Send email
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e04faf7c-953a-43ff-96a9-eb93af853436"
+      Value: "3fc99501-399a-4d8a-8c30-0944ceeb02ad"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\admin
+        sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20180606T212135Z
+      Value: 20210228T165710Z
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

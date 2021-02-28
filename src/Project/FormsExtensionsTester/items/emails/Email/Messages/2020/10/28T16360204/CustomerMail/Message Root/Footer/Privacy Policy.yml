@@ -3,7 +3,6 @@ ID: "16f858d2-f52a-4ab9-b653-d677d7432155"
 Parent: "6ebd8402-b6d3-4621-bf6c-bc9fcc964160"
 Template: "f0818351-eed1-453e-8325-684eeb1a827a"
 Path: /sitecore/content/Email/Messages/2020/10/28T16360204/CustomerMail/Message Root/Footer/Privacy Policy
-BranchID: "8c18055a-eb1e-4358-bc12-26b4e2568910"
 SharedFields:
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
@@ -18,6 +17,10 @@ Languages:
       Value: 20201028T163602Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
       Value: |
         sitecore\Admin
     - ID: "7c79ff2c-9e24-4055-bcd2-f1e72093409f"

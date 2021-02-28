@@ -3,7 +3,6 @@ ID: "6b34b3a6-a4cc-4abe-924a-2db1c141425d"
 Parent: "1d94d49f-bb99-4368-9212-880e1b6ec974"
 Template: "54e7880d-2621-49ea-a417-982fcd372903"
 Path: /sitecore/content/Email/Message Types/Regular/Default
-BranchID: "f8fae92a-4f10-470c-ad5c-7ed9e6b636af"
 SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters
@@ -26,6 +25,14 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20201028T163527Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "9899b490-c3ba-4d8a-90d1-d20d68817bd3"

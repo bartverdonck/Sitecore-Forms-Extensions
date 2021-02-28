@@ -1,39 +1,39 @@
 ﻿---
-ID: "34471672-7e8b-42ff-85d7-73759bd5c49a"
+ID: "121b9875-2f7d-4d62-bd0f-35a7b909ece8"
 Parent: "26138300-e1ed-4e77-a8a1-df7f2ffd9ed9"
-Template: "dd74148e-e8fc-4774-8cba-bafdb76a4e47"
+Template: "769b5247-e1e6-496f-8b4a-51232f170e43"
 Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Styling/LabelCssClass
 SharedFields:
-- ID: "3809b205-df9b-41bb-9f4c-29a35aa46f64"
-  Hint: InputType
-  Value: Text
+- ID: "0b6b2d34-5308-4aa8-b59d-85ba47e8b8aa"
+  Hint: ValueFieldName
+  Value: itemId
 - ID: "3e079fc3-6b2d-41c9-9204-374a786fc761"
   Hint: BindingConfiguration
-  Value: labelCssClass=Value
-- ID: "a176e7b0-1c0b-4f2e-a494-2df342a75c0e"
-  Hint: IsLabelOnTop
-  Value: 1
-- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
-  Hint: __Sortorder
-  Value: 0
+  Value: labelCssClassAutocompleteOptions=DynamicData&labelCssClassSettings_cssClassOptions=SelectedItems&labelCssClassSettings_manualCssClasses=ManualValues
+- ID: "ae95c662-af6a-4156-862d-82924ab52c42"
+  Hint: DisplayFieldName
+  Value: displayName
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
+    - ID: "0e3cddee-f966-4604-94e2-b83c45ad8943"
+      Hint: Watermark
+      Value: Enter CSS class ...
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20160921T081552Z
+      Value: 20200721T111001Z
     - ID: "3885a716-2eed-47ae-9132-32225f0458ff"
       Hint: FormLabel
       Value: CSS class for label
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0c1504c6-c1ad-487a-af63-474e208bbcad"
+      Value: "f923650d-9291-4348-8a43-bdb6165c4074"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\Admin
+        sitecore\admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20170601T094841Z
+      Value: 20200721T113152Z

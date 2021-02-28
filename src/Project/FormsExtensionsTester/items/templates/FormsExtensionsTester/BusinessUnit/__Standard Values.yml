@@ -15,9 +15,6 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20201103T083010Z
-    - ID: "4122317e-089c-4165-98ed-3094907a3891"
-      Hint: InternalEmail
-      Value: $name@test.com
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -36,6 +33,3 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20201103T083852Z
-    - ID: "f4ec2bef-ef4d-4b28-a736-409266b57976"
-      Hint: Name
-      Value: $name
