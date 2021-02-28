@@ -1,9 +1,9 @@
 <project>
   <Metadata>
     <metadata>
-      <PackageName>Sitecore Forms Extensions for SC9.3 and SC10</PackageName>
+      <PackageName>Sitecore Forms Extensions for SC9.3 and SC10.0</PackageName>
       <Author>Bart Verdonck</Author>
-      <Version>3.1</Version>
+      <Version>3.2</Version>
       <Revision />
       <License />
       <Comment />

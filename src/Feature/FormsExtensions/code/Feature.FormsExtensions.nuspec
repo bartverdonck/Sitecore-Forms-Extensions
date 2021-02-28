@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>SitecoreFormsExtensions.Core</id>
-    <version>3.1.0</version>
+    <version>3.2.0</version>
     <title>$title$</title>
     <authors>Bart Verdonck</authors>
     <owners>$author$</owners>
@@ -11,7 +11,7 @@
     <projectUrl>https://github.com/bartverdonck/Sitecore-Forms-Extensions/</projectUrl>
     <description>Sitecore Forms Extensions is a module to enrich the default Sitecore Forms module. This library does not intall the module, it only provides the classes and interfaces to extends on Sitecore Forms Extentions.</description>
     <releaseNotes>Initial Verion</releaseNotes>
-    <copyright>Copyright 2020</copyright>
+    <copyright>Copyright 2021</copyright>
     <tags>sitecore forms</tags>
 	<icon>images\icon.png</icon>
 	<iconUrl>https://raw.githubusercontent.com/bartverdonck/Sitecore-Forms-Extensions/master/docs/Sitecore-Forms-Extensions-Logo.png</iconUrl>	

@@ -30,8 +30,8 @@ Note that the nuget package only contains the Sitecore Forms Extensions codebase
 
 ## Compatibility 🧩
 
-- For Sitecore 10 use version 3.1
-- For Sitecore 9.3+ use version 3.1
+- For Sitecore 10 use version 3.2
+- For Sitecore 9.3 use version 3.2
 - For Sitecore 9.1.x till 9.2.x use version 2.3.1
 - For Sitecore 9.0.x use version 1.8.3
 
@@ -83,6 +83,12 @@ Want to contribute to SFE? Great! This section will explain how to setup the pro
 When adding new functionality to the codebase, please add a test-form in the sitecore content tree (/sitecore/Forms). Also, add a page of the template `/sitecore/templates/Project/FormsExtensionsTester/Pages/ContentPage` in the test-website, referencing the form containing the test of the functionality.
 
 ## Changelog 📜
+### 3.2 (for Sitecore 9.3 and Sitecore 10)
+- Fix: Store back checkbox on certain field types was missing.
+- Fix: Null check in StringValueFromStringListInputViewModelReader
+- Fix: Combining multiple date validators caused error
+- Fix: Model types on list components was incorrect
+
 ### 3.1 (for Sitecore 9.3 and Sitecore 10)
 - *Subscribe to list*: New submit action, to add the current contact to a selectable list. Possible to limit action on a checkbox in the form that needs to be checked.
 - *Send Email*: 
