@@ -1,7 +1,10 @@
 ﻿using System;
 using Feature.FormsExtensions.XDb.Model;
 using Feature.FormsExtensions.XDb.Repository;
+using Microsoft.Extensions.DependencyInjection;
 using Sitecore.Analytics;
+using Sitecore.Analytics.Tracking.Identification;
+using Sitecore.DependencyInjection;
 using Sitecore.XConnect;
 using Contact = Sitecore.Analytics.Tracking.Contact;
 using Facet = Sitecore.XConnect.Facet;
@@ -21,8 +24,9 @@ namespace Feature.FormsExtensions.XDb
         {
             CheckIdentifier(contact);
             if (Tracker.Current?.Session != null)
-            { 
-                Tracker.Current.Session.IdentifyAs(contact.IdentifierSource, contact.IdentifierValue);
+            {
+                var identificationManager = ServiceLocator.ServiceProvider.GetRequiredService<IContactIdentificationManager>();
+                identificationManager.IdentifyAs(new KnownContactIdentifier(contact.IdentifierSource, contact.IdentifierValue));
             }
         }
 
