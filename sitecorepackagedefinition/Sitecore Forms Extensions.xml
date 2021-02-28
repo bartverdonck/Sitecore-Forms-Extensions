@@ -449,8 +449,6 @@ Copyright (c) 2017-2020 Bart Verdonck</Readme>
         <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Sections/SubmitActionsExpander/{67784A3F-BD80-4172-8745-89F5FD3E6F65}/invariant/0</x-item>
         <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Sections/ValidationExpander/{D5E30763-0423-405B-910C-5CFE3D3CD738}/invariant/0</x-item>
         <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Styling/{26138300-E1ED-4E77-A8A1-DF7F2FFD9ED9}/invariant/0</x-item>
-        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Styling/CssClass/{F2BAB943-AECB-4B62-8E7E-1D3FC8B993F5}/invariant/0</x-item>
-        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Styling/LabelCssClass/{34471672-7E8B-42FF-85D7-73759BD5C49A}/invariant/0</x-item>
         <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Validation/{9A08BB97-6036-4D6E-931B-99B563EE1CA3}/invariant/0</x-item>
         <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Validation/FieldImportance/{28A726CF-E532-4020-8FEF-F4329978210F}/invariant/0</x-item>
         <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Common/Validation/FieldValidation/{44763D7A-90F1-4759-8F88-B0D70603CB81}/invariant/0</x-item>

@@ -85,7 +85,7 @@
                         "scope": "itemAndDescendants"
                     },
                     {
-                        "path": "/Send Email",
+                        "path": "/Send Email With Exm",
                         "scope": "itemAndDescendants"
                     },
                     {
