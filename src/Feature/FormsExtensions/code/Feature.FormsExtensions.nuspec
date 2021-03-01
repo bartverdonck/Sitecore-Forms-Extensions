@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>SitecoreFormsExtensions.Core</id>
-    <version>3.2.0</version>
+    <version>4.0.0</version>
     <title>$title$</title>
     <authors>Bart Verdonck</authors>
     <owners>$author$</owners>
@@ -16,12 +16,12 @@
 	<icon>images\icon.png</icon>
 	<iconUrl>https://raw.githubusercontent.com/bartverdonck/Sitecore-Forms-Extensions/master/docs/Sitecore-Forms-Extensions-Logo.png</iconUrl>	
 	<dependencies>
-		<!--      <group targetFramework=".NETFramework4.7.1" />-->
+		<!--      <group targetFramework=".NETFramework4.8" />-->
 		<!--<dependency id="Sitecore.ExperienceForms" version="4.0.0.0" />-->
     </dependencies>
   </metadata>  
   <files>	
 	<file src="icon.png" target="images\" />
-	<file src="obj/Release/Feature.FormsExtensions.dll" target="lib/net471" />
+	<file src="obj/Release/Feature.FormsExtensions.dll" target="lib/net48" />
   </files>
 </package>
