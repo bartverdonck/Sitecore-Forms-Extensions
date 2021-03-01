@@ -115,6 +115,10 @@
                 "path": "/sitecore/system/Settings/Forms/Field Types/Basic/Hidden"
             },
             {
+                "name": "FieldTypeNumber",
+                "path": "/sitecore/system/Settings/Forms/Field Types/Basic/Number"
+            },
+            {
                 "name": "FieldTypeReCaptcha",
                 "path": "/sitecore/system/Settings/Forms/Field Types/Security/ReCaptcha"
             },

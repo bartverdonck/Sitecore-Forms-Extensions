@@ -823,6 +823,10 @@ Copyright (c) 2017-2021 Bart Verdonck</Readme>
         <x-item>/web/sitecore/system/Settings/Forms/Meta Data/Conditions/Operators/is less than/{8FE41E53-AD87-4D24-B50F-EA0F6BDF739F}/invariant/0</x-item>
         <x-item>/web/sitecore/system/Settings/Forms/Meta Data/Conditions/Operators/is not equal to/{49F47E77-E8C5-46F9-BF39-78D6B0D40B48}/invariant/0</x-item>
         <x-item>/web/sitecore/system/Settings/Forms/Meta Data/Conditions/Operators/starts with/{FD10F291-3C2E-4AE7-8A67-2F8271CB3DF2}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Meta Data/Conditions/Action Types/hide/{7F58C8DD-D7C0-4FB7-BB44-8EC6B5E1C3D9}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Meta Data/Conditions/Action Types/show/{AAE07A52-46A4-49EF-98B0-C2595BAC2382}/invariant/0</x-item>
+        <x-item>/web/sitecore/system/Settings/Forms/Meta Data/Conditions/Action Types/hide/{7F58C8DD-D7C0-4FB7-BB44-8EC6B5E1C3D9}/invariant/0</x-item>
+        <x-item>/web/sitecore/system/Settings/Forms/Meta Data/Conditions/Action Types/show/{AAE07A52-46A4-49EF-98B0-C2595BAC2382}/invariant/0</x-item>
       </Entries>
       <SkipVersions>False</SkipVersions>
       <Converter>
