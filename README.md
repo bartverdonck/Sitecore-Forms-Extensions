@@ -88,6 +88,7 @@ When adding new functionality to the codebase, please add a test-form in the sit
 - Updated compatibility with SC10.1
 
 ### 3.2 (for Sitecore 9.3 and Sitecore 10)
+- Improvements: SubscribeToListActions improvements for CD server (Credits to @ReoKzK )
 - Fix: Store back checkbox on certain field types was missing.
 - Fix: Null check in StringValueFromStringListInputViewModelReader
 - Fix: Combining multiple date validators caused error
