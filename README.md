@@ -84,6 +84,12 @@ Want to contribute to SFE? Great! This section will explain how to setup the pro
 When adding new functionality to the codebase, please add a test-form in the sitecore content tree (/sitecore/Forms). Also, add a page of the template `/sitecore/templates/Project/FormsExtensionsTester/Pages/ContentPage` in the test-website, referencing the form containing the test of the functionality.
 
 ## Changelog 📜
+### 4.0.1 (for Sitecore 10.1)
+- Fix: Issue 114, checkboxlist field contained wrong class
+
+### 3.2.1 (for Sitecore 9.3 and Sitecore 10)
+- Fix: Issue 114, checkboxlist field contained wrong class
+
 ### 4.0 (for Sitecore 10.1)
 - Updated compatibility with SC10.1
 
