@@ -1,9 +1,11 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Sitecore.Data.Items;
 using Sitecore.ExperienceForms.Mvc.Models.Fields;
 
 namespace Feature.FormsExtensions.Fields.Bindings
 {
+    [Serializable]
     public class CheckBoxListWithBindingsViewModel : CheckBoxListViewModel, IBindingSettings
     {
         public bool StoreBindingValue { get; set; }
