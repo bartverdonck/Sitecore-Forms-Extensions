@@ -85,6 +85,9 @@ When adding new functionality to the codebase, please add a test-form in the sit
 
 ## Changelog 📜
 ### 4.0.1 (for Sitecore 10.1)
+- Fix: Issue 115, serialization annotation added on list component viewmodels
+
+### 4.0.1 (for Sitecore 10.1)
 - Fix: Issue 114, checkboxlist field contained wrong class
 
 ### 3.2.1 (for Sitecore 9.3 and Sitecore 10)
