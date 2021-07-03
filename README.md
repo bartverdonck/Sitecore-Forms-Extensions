@@ -64,7 +64,7 @@ Want to contribute to SFE? Great! This section will explain how to setup the pro
    > this command, PowerShell 7 is not supported at this time.
 
     ```ps1
-    .\init.ps1 -InitEnv -LicenseXmlPath "C:\path\to\license.xml" 
+    .\init.ps1 -LicenseXmlPath "C:\path\to\license.xml" 
     ```
 
 3. Spin up the environmont
