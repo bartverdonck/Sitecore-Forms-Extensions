@@ -40,7 +40,7 @@ namespace Feature.FormsExtensions.SubmitActions.IdentifyContact
             }
 
             var field = GetFieldById(data.FieldIdentifyContactId.Value, formSubmitContext.Fields);
-            var contact = xDbContactFactory.CreateContact(GetValue(field));
+            var contact = xDbContactFactory.CreateContact(GetValue(field), data.IdentifierSource);
             if (string.IsNullOrEmpty(contact.IdentifierValue))
                 return true;
             xDbService.IdentifyCurrent(contact);

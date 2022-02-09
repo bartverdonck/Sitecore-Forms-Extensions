@@ -4,8 +4,8 @@ namespace Feature.FormsExtensions.XDb
 {
     public interface IXDbContactFactory
     {
-        IXDbContact CreateContact(string identifierValue);
+        IXDbContact CreateContact(string identifierValue, string identifierSource = null);
 
-        IXDbContactWithEmail CreateContactWithEmail(string email);
+        IXDbContactWithEmail CreateContactWithEmail(string email, string identifierSource = null);
     }
 }

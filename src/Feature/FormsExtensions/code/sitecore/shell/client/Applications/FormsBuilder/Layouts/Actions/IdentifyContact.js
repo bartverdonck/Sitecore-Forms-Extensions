@@ -26,10 +26,12 @@
     speak.pageCode(["underscore"],
         function (_) {
             return {
+                identifierSourceList: [{ itemId: "email", name: "email" }, { itemId: "ListManager", name: "ListManager" } ],
                 initialized: function () {
                     this.on({ "loaded": this.loadDone }, this);
                     this.Fields = getFields();
                     this.SettingsForm.FieldIdentifyContactId.on("change:SelectedItem", this.validate, this);
+                    this.SettingsForm.IdentifierSource.on("change:SelectedItem", this.validate, this);
 
                     if (parentApp) {
                         parentApp.loadDone(this, this.HeaderTitle.Text, this.HeaderSubtitle.Text);
@@ -38,6 +40,9 @@
                 validate: function () {
                     parentApp.setSelectability(this, false);
                     if (this.SettingsForm.FieldIdentifyContactId.SelectedValue != "") {
+                        parentApp.setSelectability(this, true);
+                    }
+                    if (this.SettingsForm.IdentifierSource.SelectedValue != "") {
                         parentApp.setSelectability(this, true);
                     }
                 },
@@ -56,14 +61,31 @@
                         listComponent.SelectedValue = currentValue;
                     }
                 },
+                setIdentifierSourceData: function (listComponent, data, currentValue) {
+                    var items = data.slice(0);
+                    if (currentValue && !_.findWhere(items, { itemId: currentValue })) {
+                        var currentField = {
+                            itemId: currentValue,
+                            name: currentValue + " - value not in the selection list"
+                        };
+                        items.splice(1, 0, currentField);
+                        listComponent.DynamicData = items;
+                        $(listComponent.el).find('option').eq(1).css("font-style", "italic");
+                    } else {
+                        listComponent.DynamicData = items;
+                        listComponent.SelectedValue = currentValue;
+                    }
+                },
                 loadDone: function (parameters) {
                     this.Parameters = parameters || {};
                     this.SettingsForm.setFormData(this.Parameters);
                     this.setEmailFieldData(this.SettingsForm.FieldIdentifyContactId, getFields(), this.Parameters["fieldIdentifyContactId"]);
+                    this.setIdentifierSourceData(this.SettingsForm.IdentifierSource, this.identifierSourceList, this.Parameters["identifierSource"]);
                     this.validate();
                 },
                 getData: function () {
                     this.Parameters["fieldIdentifyContactId"] = this.SettingsForm.FieldIdentifyContactId.SelectedValue;
+                    this.Parameters["identifierSource"] = this.SettingsForm.IdentifierSource.SelectedValue;
                     return this.Parameters;
                 }
             };
