@@ -26,7 +26,7 @@
     speak.pageCode(["underscore"],
         function (_) {
             return {
-                identifierSourceList: [{ itemId: "email", name: "email" }, { itemId: "ListManager", name: "ListManager" } ],
+                identifierSourceList: [{ name: "email", value: "email" }, { name: "ListManager", value: "ListManager" } ],
                 initialized: function () {
                     this.on({ "loaded": this.loadDone }, this);
                     this.Fields = getFields();
@@ -65,7 +65,7 @@
                     var items = data.slice(0);
                     if (currentValue && !_.findWhere(items, { itemId: currentValue })) {
                         var currentField = {
-                            itemId: currentValue,
+                            value: currentValue,
                             name: currentValue + " - value not in the selection list"
                         };
                         items.splice(1, 0, currentField);
