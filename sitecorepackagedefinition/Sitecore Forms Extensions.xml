@@ -242,6 +242,7 @@ Copyright (c) 2017-2019 Bart Verdonck</Readme>
         <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/PageSettings/MessagesDataSource/{108889BA-B6E0-41F6-B0B6-6237C21E40AB}/invariant/0</x-item>
         <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/PageSettings/SettingsForm/{B956C08E-595E-4D52-B405-30BCE60F4F69}/invariant/0</x-item>
         <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/PageSettings/SettingsForm/FieldIdentifyContactId/{3834D277-EAB8-4C5A-BADF-1C44390C7D60}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/PageSettings/SettingsForm/IdentifierSource/{E542EC0E-D42B-41E6-ACCF-03920B23C997}/invariant/0</x-item>
         <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/PageSettings/Stylesheet/{9F27A46D-4B0E-4379-BBF2-73DA342477A2}/invariant/0</x-item>
         <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/PageSettings/UnauthorizedErrorMessage/{B7C62CCD-D3E2-457E-8850-81175C0C4AEC}/invariant/0</x-item>
         <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/PageSettings/ValueNotInListText/{F9E8FA8A-D861-4B4B-A3D6-19398B521EA5}/invariant/0</x-item>
