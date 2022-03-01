@@ -26,7 +26,7 @@
     speak.pageCode(["underscore"],
         function (_) {
             return {
-                identifierSourceList: [{ name: "email", value: "email" }, { name: "ListManager", value: "ListManager" } ],
+                identifierSourceList: [{ name: "email", value: "email" }, { name: "ListManager", value: "ListManager" }, { name: "xDB.Tracker", value: "xDB.Tracker" } ],
                 initialized: function () {
                     this.on({ "loaded": this.loadDone }, this);
                     this.Fields = getFields();
