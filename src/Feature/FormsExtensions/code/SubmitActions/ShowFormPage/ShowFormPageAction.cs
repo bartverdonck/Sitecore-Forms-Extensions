@@ -24,6 +24,11 @@ namespace Feature.FormsExtensions.SubmitActions.ShowFormPage
 
         protected override bool Execute(ShowFormPageData data, FormSubmitContext formSubmitContext)
         {
+            if (formSubmitContext.HasErrors)
+            {
+                // Something else has failed we should not continue
+                return false;
+            }
             if (data.FormPageId == null || data.FormPageId == Guid.Empty)
             {
                 logger.LogWarn("Empty FormPageId");
